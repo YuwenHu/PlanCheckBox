@@ -429,6 +429,17 @@
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
+                },
+                {
+                  "id": "M2-20261117-02",
+                  "title": "求导法则：复合、隐函数、参数方程、对数求导（续）",
+                  "topic": "一元微分学",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
                 }
               ]
             },
@@ -559,7 +570,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 85,
+                  "minutes": 80,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -570,7 +581,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 5,
+                  "minutes": 10,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -834,7 +845,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 65,
+                  "minutes": 60,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -845,7 +856,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 55,
+                  "minutes": 60,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -996,7 +1007,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 65,
+                  "minutes": 60,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -1007,7 +1018,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 55,
+                  "minutes": 60,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -1186,7 +1197,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 60,
+                  "minutes": 55,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -1197,7 +1208,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 60,
+                  "minutes": 65,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -1303,7 +1314,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 35,
+                  "minutes": 30,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -1314,7 +1325,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 55,
+                  "minutes": 60,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -1766,7 +1777,7 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 35,
+                  "minutes": 40,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -2104,7 +2115,7 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 55,
+                  "minutes": 50,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -2115,7 +2126,7 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 65,
+                  "minutes": 70,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -2370,7 +2381,7 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 15,
+                  "minutes": 10,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -2381,7 +2392,7 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 15,
+                  "minutes": 20,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -2744,7 +2755,7 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 105,
+                  "minutes": 100,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -2755,7 +2766,7 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 15,
+                  "minutes": 20,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -2949,7 +2960,7 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 100,
+                  "minutes": 95,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -2960,7 +2971,7 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 20,
+                  "minutes": 25,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -2999,7 +3010,7 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 35,
+                  "minutes": 40,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -3270,7 +3281,7 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 20,
+                  "minutes": 10,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -3281,7 +3292,7 @@
                   "topic": "矩阵",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 70,
+                  "minutes": 80,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -3581,7 +3592,18 @@
                   "topic": "矩阵",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 20,
+                  "minutes": 10,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270313-03",
+                  "title": "行列式：性质、展开与计算技巧",
+                  "topic": "行列式",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 10,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -3594,7 +3616,7 @@
               "tasks": [
                 {
                   "id": "M2-20270314-01",
-                  "title": "行列式：性质、展开与计算技巧",
+                  "title": "行列式：性质、展开与计算技巧（续）",
                   "topic": "行列式",
                   "kind": "study",
                   "priority": "P1",
@@ -3609,7 +3631,7 @@
                   "topic": "行列式",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 35,
+                  "minutes": 40,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -3781,7 +3803,7 @@
                   "topic": "行列式",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 115,
+                  "minutes": 100,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -3792,7 +3814,7 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 5,
+                  "minutes": 20,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -3941,7 +3963,18 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 10,
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270326-03",
+                  "title": "题型专练：中值定理证明",
+                  "topic": "一元微分学",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -3965,28 +3998,17 @@
                 },
                 {
                   "id": "M2-20270327-02",
-                  "title": "反常积分与敛散性（续）",
-                  "topic": "一元积分学",
+                  "title": "题型专练：中值定理证明（续）",
+                  "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 10,
+                  "minutes": 75,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "M2-20270327-03",
-                  "title": "题型专练：中值定理证明",
-                  "topic": "一元微分学",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 65,
-                  "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20270327-04",
                   "title": "题型专练：中值定理证明（续）",
                   "topic": "一元微分学",
                   "kind": "study",
@@ -4258,7 +4280,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 30,
+                  "minutes": 15,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -4269,7 +4291,7 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 60,
+                  "minutes": 75,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -4509,7 +4531,7 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 75,
+                  "minutes": 60,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -4520,7 +4542,7 @@
                   "topic": "综合复盘",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 15,
+                  "minutes": 30,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -4742,7 +4764,18 @@
                   "topic": "综合复盘",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 10,
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270422-03",
+                  "title": "题型专练：导数应用（单调/极值/根）",
+                  "topic": "一元微分学",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -4755,28 +4788,17 @@
               "tasks": [
                 {
                   "id": "M2-20270423-01",
-                  "title": "高数（一元）阶段复盘：错题与框架（续）",
-                  "topic": "综合复盘",
+                  "title": "题型专练：导数应用（单调/极值/根）（续）",
+                  "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 10,
+                  "minutes": 90,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "M2-20270423-02",
-                  "title": "题型专练：导数应用（单调/极值/根）",
-                  "topic": "一元微分学",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 80,
-                  "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20270423-03",
                   "title": "题型专练：导数应用（单调/极值/根）（续）",
                   "topic": "一元微分学",
                   "kind": "study",
@@ -4941,7 +4963,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 5,
+                  "minutes": 10,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -5167,6 +5189,17 @@
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
+                },
+                {
+                  "id": "M2-20270506-02",
+                  "title": "线性方程组：解的结构与含参讨论（续）",
+                  "topic": "向量与方程组",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
                 }
               ]
             },
@@ -5305,6 +5338,17 @@
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
+                },
+                {
+                  "id": "M2-20270511-02",
+                  "title": "线性方程组：解的结构与含参讨论（续）",
+                  "topic": "向量与方程组",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
                 }
               ]
             },
@@ -5333,6 +5377,17 @@
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
+                },
+                {
+                  "id": "M2-20270512-03",
+                  "title": "线性方程组：解的结构与含参讨论（续）",
+                  "topic": "向量与方程组",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
                 }
               ]
             },
@@ -5353,8 +5408,8 @@
                 },
                 {
                   "id": "M2-20270513-02",
-                  "title": "线性方程组：解的结构与含参讨论（续）",
-                  "topic": "向量与方程组",
+                  "title": "特征值与特征向量、相似对角化",
+                  "topic": "特征值与二次型",
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 10,
@@ -5370,28 +5425,17 @@
               "tasks": [
                 {
                   "id": "M2-20270514-01",
-                  "title": "线性方程组：解的结构与含参讨论（续）",
-                  "topic": "向量与方程组",
+                  "title": "特征值与特征向量、相似对角化（续）",
+                  "topic": "特征值与二次型",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 5,
+                  "minutes": 90,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "M2-20270514-02",
-                  "title": "特征值与特征向量、相似对角化",
-                  "topic": "特征值与二次型",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 85,
-                  "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20270514-03",
                   "title": "特征值与特征向量、相似对角化（续）",
                   "topic": "特征值与二次型",
                   "kind": "study",
@@ -5661,7 +5705,7 @@
                   "topic": "特征值与二次型",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 80,
+                  "minutes": 65,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -5672,7 +5716,7 @@
                   "topic": "特征值与二次型",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 10,
+                  "minutes": 25,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -6023,7 +6067,7 @@
                   "topic": "特征值与二次型",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 50,
+                  "minutes": 35,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -6034,7 +6078,7 @@
                   "topic": "多元微分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 70,
+                  "minutes": 85,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -6339,7 +6383,7 @@
                   "topic": "多元微分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 75,
+                  "minutes": 60,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -6350,7 +6394,7 @@
                   "topic": "二重积分",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 15,
+                  "minutes": 30,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -6710,7 +6754,7 @@
                   "topic": "二重积分",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 75,
+                  "minutes": 60,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -6721,7 +6765,7 @@
                   "topic": "向量与方程组",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 15,
+                  "minutes": 30,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -7022,7 +7066,7 @@
                   "topic": "向量与方程组",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 55,
+                  "minutes": 40,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -7033,7 +7077,7 @@
                   "topic": "微分方程",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 65,
+                  "minutes": 80,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -7227,7 +7271,7 @@
                   "topic": "微分方程",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 50,
+                  "minutes": 35,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -7238,7 +7282,7 @@
                   "topic": "微分方程",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 25,
+                  "minutes": 40,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -7449,7 +7493,18 @@
                   "topic": "微分方程",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 20,
+                  "minutes": 5,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270725-02",
+                  "title": "线代一轮复盘：题型与易错点",
+                  "topic": "综合复盘",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 15,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -7471,7 +7526,7 @@
               "tasks": [
                 {
                   "id": "M2-20270726-01",
-                  "title": "线代一轮复盘：题型与易错点",
+                  "title": "线代一轮复盘：题型与易错点（续）",
                   "topic": "综合复盘",
                   "kind": "study",
                   "priority": "P1",
@@ -7837,7 +7892,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 55,
+                  "minutes": 60,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -8014,7 +8069,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 15,
+                  "minutes": 10,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -8025,7 +8080,7 @@
                   "topic": "向量与方程组",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 5,
+                  "minutes": 10,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -8269,7 +8324,7 @@
                   "topic": "向量与方程组",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 55,
+                  "minutes": 60,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -8357,7 +8412,7 @@
                   "topic": "向量与方程组",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 30,
+                  "minutes": 20,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -8368,7 +8423,7 @@
                   "topic": "综合复盘",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 60,
+                  "minutes": 70,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -8463,7 +8518,7 @@
                   "topic": "综合复盘",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 55,
+                  "minutes": 60,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -8512,7 +8567,7 @@
                   "topic": "综合复盘",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 50,
+                  "minutes": 35,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -8523,7 +8578,7 @@
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 40,
+                  "minutes": 55,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -8846,7 +8901,7 @@
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 55,
+                  "minutes": 60,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -9002,7 +9057,7 @@
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 30,
+                  "minutes": 10,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -9013,7 +9068,7 @@
                   "topic": "二重积分",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 60,
+                  "minutes": 80,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -9052,7 +9107,7 @@
                   "topic": "二重积分",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 55,
+                  "minutes": 60,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -9213,7 +9268,7 @@
                   "topic": "二重积分",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 50,
+                  "minutes": 25,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -9224,7 +9279,7 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 10,
+                  "minutes": 35,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -9433,28 +9488,17 @@
               "tasks": [
                 {
                   "id": "M2-20271003-01",
-                  "title": "强化：反常积分与定积分不等式（续）",
-                  "topic": "一元积分学",
+                  "title": "高数错题回炉：题型归类",
+                  "topic": "综合复盘",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 25,
+                  "minutes": 90,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "M2-20271003-02",
-                  "title": "高数错题回炉：题型归类",
-                  "topic": "综合复盘",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 65,
-                  "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20271003-03",
                   "title": "高数错题回炉：题型归类（续）",
                   "topic": "综合复盘",
                   "kind": "study",
@@ -9647,7 +9691,7 @@
                   "topic": "综合复盘",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 50,
+                  "minutes": 25,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -9658,7 +9702,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 25,
+                  "minutes": 50,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -9669,7 +9713,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 55,
+                  "minutes": 60,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -10407,7 +10451,7 @@
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 45,
+                  "minutes": 50,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -10506,7 +10550,7 @@
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 90,
+                  "minutes": 85,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -10514,6 +10558,17 @@
                 {
                   "id": "M2-20271110-02",
                   "title": "冲刺：公式手册、错题本与高频题型默写",
+                  "topic": "冲刺",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20271110-03",
+                  "title": "冲刺：公式手册、错题本与高频题型默写（续）",
                   "topic": "冲刺",
                   "kind": "study",
                   "priority": "P0",
@@ -10734,7 +10789,7 @@
                   "topic": "冲刺",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 90,
+                  "minutes": 85,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -10742,6 +10797,17 @@
                 {
                   "id": "M2-20271119-02",
                   "title": "早年真题 2016-2017：选 2 套练手",
+                  "topic": "真题",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20271119-03",
+                  "title": "早年真题 2016-2017：选 2 套练手（续）",
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P1",
@@ -10941,22 +11007,11 @@
                 },
                 {
                   "id": "M2-20271127-02",
-                  "title": "早年真题 2016-2017：选 2 套练手（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 5,
-                  "slot": "下午",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20271127-03",
                   "title": "模拟卷 3 套（限时 + 复盘）",
                   "topic": "冲刺",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 40,
+                  "minutes": 50,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -11289,7 +11344,7 @@
                   "topic": "冲刺",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 45,
+                  "minutes": 35,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -11300,7 +11355,7 @@
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 45,
+                  "minutes": 55,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -11511,7 +11566,7 @@
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 45,
+                  "minutes": 50,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
