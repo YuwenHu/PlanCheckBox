@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>考研任务进度追踪</title>
+<title>选择任务 · 任务进度追踪</title>
 <style>
 /* ===== 基础 ===== */
 *{box-sizing:border-box}
@@ -25,9 +25,10 @@ h2{font-size:17px;margin:0}
 .brand::before{content:"";width:10px;height:10px;border-radius:3px;background:linear-gradient(135deg,#5b7cfa,#9b5bfa)}
 .crumbs{display:flex;align-items:center;gap:4px;flex:1;font-size:12.5px;flex-wrap:wrap}
 .crumb{background:none;border:0;padding:2px 5px;color:#7c8494;cursor:pointer;border-radius:6px}
-.crumb:hover{color:#3d4bff;background:#f2f3fb}
+.crumb:hover{color:#3d4bff;background:#f2f3fb;text-decoration:underline}
+.crumb:focus-visible{outline:2px solid #3d4bff;outline-offset:1px}
 .crumb-sep{color:#c6cbd8}
-.crumb-current{color:#1a1d24;font-weight:600;padding:2px 5px}
+.crumb-current{color:#1a1d24;font-weight:600;padding:2px 5px;cursor:default}
 .top-actions{display:flex;gap:8px;flex-wrap:wrap}
 /* ===== 按钮 ===== */
 .btn{
@@ -63,28 +64,31 @@ h2{font-size:17px;margin:0}
 .file-row.is-error .file-sub{color:#c93b3f}
 .page-actions{display:flex;justify-content:flex-end;gap:10px;margin-top:22px}
 .empty-state{padding:22px;text-align:center;color:#8b93a6;border:1px dashed #e2e6f2;border-radius:12px;background:#fafbfe}
-/* ===== 第 2 页 组卡片 ===== */
-.group-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(272px,1fr));gap:16px}
+/* ===== 第 2 页 组横条（一列一行） ===== */
+.group-grid{display:flex;flex-direction:column;gap:12px}
 .group-card{
   position:relative;background:#fff;border:1px solid #e9ebf2;border-left:4px solid var(--gc);
-  border-radius:16px;padding:18px 18px 16px;cursor:pointer;transition:.18s;
-  box-shadow:0 1px 2px rgba(20,26,50,.04);display:flex;flex-direction:column;min-height:214px;
+  border-radius:16px;padding:16px 20px;cursor:pointer;transition:.18s;
+  box-shadow:0 1px 2px rgba(20,26,50,.04);width:100%;
+  display:grid;grid-template-columns:minmax(150px,200px) minmax(0,1fr) minmax(240px,320px);
+  align-items:center;gap:20px;min-height:0;
 }
-.group-card::after{content:"";position:absolute;inset:0;border-radius:15px;background:radial-gradient(120% 80% at 0% 0%,var(--gc-soft),transparent 62%);opacity:.75;pointer-events:none}
+.group-card::after{content:"";position:absolute;inset:0;border-radius:15px;background:radial-gradient(80% 160% at 0% 50%,var(--gc-soft),transparent 62%);opacity:.6;pointer-events:none}
 .group-card>*{position:relative;z-index:1}
-.group-card:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(20,26,50,.1)}
+.group-card:hover{transform:translateY(-1px);box-shadow:0 10px 26px rgba(20,26,50,.08)}
 .group-card:focus-visible{outline:2px solid var(--gc);outline-offset:2px}
-.group-head{display:flex;align-items:center;justify-content:space-between;gap:8px}
-.group-name{font-size:30px;font-weight:800;letter-spacing:.5px;color:var(--gc);line-height:1.12}
-.kind-tag{font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;white-space:nowrap}
+.group-head{display:flex;align-items:center;justify-content:space-between;gap:8px;min-width:0}
+.group-head>div{min-width:0}
+.group-name{font-size:26px;font-weight:800;letter-spacing:.5px;color:var(--gc);line-height:1.12;overflow-wrap:anywhere}
+.kind-tag{font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;white-space:nowrap;flex:none}
 .kind-study{background:#eef1ff;color:#3d4bff}
 .kind-fitness{background:#fff2dd;color:#b9700d}
 .group-sub{font-size:12px;color:#8b93a6;margin-top:2px}
-.topic-list{margin:12px 0 14px;display:flex;flex-wrap:wrap;gap:6px 7px;flex:1;align-content:flex-start}
-.topic-item{font-size:12.5px;color:#8a91a1;background:#f6f7fb;border-radius:7px;padding:3px 8px;max-width:100%;display:inline-flex;flex-wrap:wrap;align-items:baseline;column-gap:4px;line-height:1.5}
+.topic-list{margin:0;display:flex;flex-wrap:wrap;gap:5px 6px;min-width:0;align-content:center}
+.topic-item{font-size:12px;color:#8a91a1;background:#f6f7fb;border-radius:7px;padding:2px 7px;max-width:100%;display:inline-flex;flex-wrap:wrap;align-items:baseline;column-gap:4px;line-height:1.5}
 .topic-item .ym{white-space:nowrap}
 .topic-item b{color:#555e73;font-weight:600;margin-right:3px}
-.card-progress{margin-top:auto}
+.card-progress{margin-top:0;min-width:0}
 .stat-head{display:flex;align-items:baseline;justify-content:space-between;gap:8px;font-size:12.5px;color:#69718a;margin-bottom:6px}
 .stat-label{font-weight:700;color:#293040;font-size:13px}
 .stat-nums{font-variant-numeric:tabular-nums;color:#69718a}
@@ -99,19 +103,24 @@ h2{font-size:17px;margin:0}
 .chip{border:1px solid #e2e5ef;background:#fff;border-radius:999px;padding:6px 14px;font-size:13px;cursor:pointer;color:#5b6478}
 .chip:hover{border-color:#c7cde0}
 .chip.is-active{background:#1a1d24;border-color:#1a1d24;color:#fff;font-weight:600}
-.stat-panel{padding:16px 18px;display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-bottom:18px}
+.stat-panel{padding:16px 18px;display:grid;grid-template-columns:1fr;gap:14px;margin-bottom:18px}
 .stat-scope{grid-column:1/-1;font-size:12.5px;color:#8b93a6;margin-top:-4px}
 .month-list{display:flex;flex-direction:column;gap:14px}
 .month-card{padding:16px 18px;cursor:pointer;transition:.16s}
+.month-card.is-complete{opacity:.62;background:#fbfcfe}
+.month-card.is-complete:hover{opacity:.82}
 .month-card:hover{box-shadow:0 10px 26px rgba(20,26,50,.08);border-color:#dfe3ee}
 .month-card:focus-visible{outline:2px solid #3d4bff;outline-offset:2px}
 .month-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
 .month-head h2{font-size:18px}
+.month-done-tag{font-size:11px;font-weight:700;color:#7a8396;background:#eef0f5;border-radius:999px;padding:2px 8px;margin-left:8px;vertical-align:2px;white-space:nowrap}
 .chev{color:#9aa2b4;font-size:12.5px;white-space:nowrap;margin-top:2px}
 .task-list{list-style:none;margin:12px 0 0;padding:0;display:flex;flex-direction:column;gap:1px}
 .task-line{display:flex;align-items:center;gap:10px;padding:7px 2px;border-top:1px dashed #eff1f6;font-size:13px}
 .task-line:first-child{border-top:1px solid #eff1f6}
 .task-line .task-title{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.task-line.is-done .task-title{color:#8b93a6;text-decoration:line-through;text-decoration-color:#c3cad9}
+.task-line.is-done .task-meta{opacity:.75}
 .task-meta{color:#8b93a6;font-size:12px;white-space:nowrap;display:flex;align-items:center;gap:7px}
 .prio{display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:.3px;padding:1px 6px;border-radius:5px;line-height:1.6}
 .prio--P0{background:#fdeaea;color:#c62828}
@@ -152,10 +161,74 @@ h2{font-size:17px;margin:0}
 .task-body{flex:1;min-width:0}
 .task-row .task-title{display:block;font-size:13.5px;color:#232833;line-height:1.4}
 .task-row.is-done .task-title{color:#8b93a6;text-decoration:line-through;text-decoration-color:#c3cad9}
+.task-row.is-done{background:#f7f8fb;border-left-color:#c9d0dd}
+.task-row.is-done .task-meta{color:#a5acba}
 .task-row .task-meta{margin-top:3px;flex-wrap:wrap}
 .task-time{font-size:11.5px;color:#8b93a6;white-space:nowrap;padding-top:2px}
 .task-time.is-done{color:#2f8f5b}
 .task-was{font-size:11px;color:#a0a7b8}
+/* ===== 自动写盘状态 ===== */
+.autosave{margin-top:18px;padding:14px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.autosave-main{flex:1;min-width:220px}
+.autosave-title{font-weight:800;font-size:13px;color:#293040;margin-right:8px}
+.autosave-status{font-size:12.5px;color:#69718a;word-break:break-word}
+.autosave-status.is-error{color:#b3261e}
+.autosave-note{font-size:12px;color:#8b93a6;margin-top:3px}
+.autosave-actions{display:flex;gap:8px;flex-wrap:wrap}
+/* ===== 第 2 页 年度热力图 ===== */
+.heat-card{padding:16px 18px;margin-bottom:16px}
+.heat-head{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:10px}
+.heat-title{font-weight:800;font-size:14px;color:#293040}
+.heat-years{display:flex;gap:6px;flex-wrap:wrap}
+.heat-year{border:1px solid #e2e5ef;background:#fff;border-radius:999px;padding:3px 10px;font-size:12px;cursor:pointer;color:#5b6478}
+.heat-year.is-active{background:#1a1d24;border-color:#1a1d24;color:#fff;font-weight:700}
+.heat-scroll{overflow-x:auto;padding-bottom:2px}
+.heat-inner{min-width:max-content}
+.heat-months{display:flex;gap:3px;margin-bottom:4px;height:14px;overflow:hidden}
+.heat-month{font-size:10px;color:#7c8494;white-space:nowrap;overflow:hidden}
+.heat-grid{display:grid;grid-auto-flow:column;grid-template-rows:repeat(7,12px);gap:3px;width:max-content}
+.heat-cell{width:12px;height:12px;border-radius:3px;background:#ebedf0;border:0;padding:0;cursor:pointer;display:block}
+.heat-cell:hover{outline:1px solid #9aa2b4}
+.heat-cell.lv1{background:#9be9a8}
+.heat-cell.lv2{background:#40c463}
+.heat-cell.lv3{background:#216e39}
+.heat-cell.is-out{opacity:0;pointer-events:none}
+.heat-cell.is-active{outline:2px solid #1a1d24;outline-offset:1px}
+.heat-foot{margin-top:10px;font-size:12.5px;color:#69718a;display:flex;gap:14px;flex-wrap:wrap;align-items:baseline}
+.heat-tip{font-size:12px;color:#5b6478}
+.heat-empty{margin-top:2px;font-size:12.5px;color:#8b93a6}
+/* ===== 第 3 页 月历 ===== */
+.month-cal{margin-bottom:18px;padding:14px 16px}
+.cal-head{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin-bottom:10px;flex-wrap:wrap}
+.cal-title{font-weight:800;font-size:13.5px;color:#293040}
+.cal-note{font-size:12px;color:#8b93a6}
+.cal-scroll{overflow-x:auto}
+.calendar{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:6px;min-width:660px}
+.cal-weekday{font-size:11px;font-weight:700;color:#9aa2b4;text-align:center;padding-bottom:2px}
+.cal-cell{border:1px solid #edf0f6;border-radius:10px;min-height:86px;padding:5px 6px 6px;background:#fff;display:flex;flex-direction:column;gap:3px;cursor:pointer;text-align:left;font:inherit;color:inherit}
+.cal-cell:hover{border-color:#cfd5e6;background:#fbfcff}
+.cal-cell.is-empty{background:#fafbfd;border-style:dashed;color:#aab1bf;cursor:default;min-height:86px}
+.cal-cell.is-empty:hover{background:#fafbfd;border-color:#edf0f6}
+.cal-day{font-size:11px;font-weight:800;color:#5b6478;display:flex;justify-content:space-between;gap:4px}
+.cal-day em{font-style:normal;font-weight:600;color:#9aa2b4}
+.cal-task{font-size:10.5px;line-height:1.4;padding:1px 4px;border-radius:4px;border-left:3px solid #dbe2f0;background:#f6f7fb;color:#3f4759;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cal-task--P0{background:#fdeaea;border-left-color:#c62828;color:#8e1f1f;font-weight:700}
+.cal-task--P1{background:#fff3e0;border-left-color:#d68a1e;color:#7d5200}
+.cal-task--P2{background:#eef0f6;border-left-color:#98a2b6;color:#4f586b}
+.cal-task--fitness{background:#e9f7ef;border-left-color:#2f8f5b;color:#24724a;font-weight:700}
+.cal-task.is-done{background:#f3f4f8;border-left-color:#c7ccd8;color:#98a0b0;font-weight:400;text-decoration:line-through;text-decoration-color:#c3cad9}
+.cal-min{margin-top:auto;font-size:10px;color:#9aa2b4}
+.cal-detail{position:fixed;inset:0;background:rgba(15,20,35,.38);display:flex;align-items:center;justify-content:center;z-index:40;padding:20px}
+.cal-modal{background:#fff;border-radius:16px;width:100%;max-width:540px;max-height:82vh;overflow:auto;padding:18px 20px;box-shadow:0 24px 60px rgba(10,15,30,.28)}
+.cal-modal-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:8px}
+.cal-modal h3{font-size:17px}
+.cal-modal-sub{font-size:12.5px;color:#8b93a6;margin-top:2px}
+.cal-day-list{list-style:none;margin:8px 0 0;padding:0;display:flex;flex-direction:column;gap:2px}
+.cal-day-row{display:flex;align-items:center;gap:9px;padding:7px 2px;border-top:1px dashed #eff1f6;font-size:13px}
+.cal-day-row:first-child{border-top:1px solid #eff1f6}
+.cal-day-row .task-title{flex:1;min-width:0}
+.cal-day-row.is-done .task-title{color:#8b93a6;text-decoration:line-through;text-decoration-color:#c3cad9}
+.cal-day-row .task-meta{color:#8b93a6;font-size:12px;display:flex;gap:8px;align-items:center}
 /* ===== 提示条 ===== */
 .toast{
   position:fixed;left:50%;bottom:28px;transform:translate(-50%,18px);opacity:0;pointer-events:none;
@@ -168,7 +241,10 @@ h2{font-size:17px;margin:0}
   .app{padding:20px 16px 52px}
   .topbar-inner{padding:10px 16px}
   .stat-panel{grid-template-columns:1fr;gap:14px}
-  .group-name{font-size:26px}
+  .group-grid{gap:10px}
+  .group-card{grid-template-columns:1fr;gap:10px;padding:14px 16px}
+  .group-name{font-size:24px}
+  .topic-list{justify-content:flex-start}
   .task-line{flex-wrap:wrap}
   .task-line .task-title{white-space:normal}
   .page-actions{flex-direction:column-reverse}
@@ -540,6 +616,63 @@ var Model = (function () {
       return prioRank(a) - prioRank(b) || a.dateObj - b.dateObj || (a.id < b.id ? -1 : a.id > b.id ? 1 : 0);
     });
   }
+  /* 展示排序：未完成在前、已完成沉底；同组内仍按 P0→P1→P2，同级按日期 */
+  function sortForDisplay(tasks) {
+    return tasks.slice().sort(function (a, b) {
+      return (a.done ? 1 : 0) - (b.done ? 1 : 0) ||
+        prioRank(a) - prioRank(b) || a.dateObj - b.dateObj ||
+        (a.id < b.id ? -1 : a.id > b.id ? 1 : 0);
+    });
+  }
+  function allDone(tasks) {
+    return tasks.length > 0 && tasks.every(function (t) { return t.done; });
+  }
+  /* 月历格内排序：未完成在前、已完成沉底；未完成按 P0→P1→P2，同级按时间段 */
+  function slotRank(t) {
+    var s = String(t.slot || '');
+    if (/早|上午/.test(s)) return 0;
+    if (/中|午/.test(s)) return 1;
+    if (/下午/.test(s)) return 2;
+    if (/晚/.test(s)) return 3;
+    return 9;
+  }
+  function sortCalendar(tasks) {
+    return tasks.slice().sort(function (a, b) {
+      return (a.done ? 1 : 0) - (b.done ? 1 : 0) ||
+        prioRank(a) - prioRank(b) || slotRank(a) - slotRank(b) ||
+        (a.id < b.id ? -1 : a.id > b.id ? 1 : 0);
+    });
+  }
+  /* 按完成日期（doneAt 本地日）统计每日完成条数；跨组按 task id 去重 */
+  function completionByDay(groups) {
+    var map = Object.create(null), seen = Object.create(null);
+    groups.forEach(function (g) {
+      g.tasks.forEach(function (t) {
+        if (seen[t.id]) return;
+        seen[t.id] = 1;
+        if (!t.done) return;
+        var d = t.doneAt ? new Date(t.doneAt) : null;
+        if (!d || isNaN(d.getTime())) d = t.dateObj;
+        if (!d || isNaN(d.getTime())) return;
+        var key = d.getFullYear() + '-' + pad2(d.getMonth() + 1) + '-' + pad2(d.getDate());
+        map[key] = (map[key] || 0) + 1;
+      });
+    });
+    return map;
+  }
+  function pad2(n) { return n < 10 ? '0' + n : '' + n; }
+  function uniqueTaskStats(groups) {
+    var seen = Object.create(null), total = 0, done = 0;
+    groups.forEach(function (g) {
+      g.tasks.forEach(function (t) {
+        if (seen[t.id]) return;
+        seen[t.id] = 1;
+        total++;
+        if (t.done) done++;
+      });
+    });
+    return { total: total, done: done };
+  }
   function sortByDate(tasks) {
     return tasks.slice().sort(function (a, b) {
       return a.dateObj - b.dateObj || prioRank(a) - prioRank(b);
@@ -547,10 +680,11 @@ var Model = (function () {
   }
   function groupByDay(tasks) {
     var map = Object.create(null), out = [];
-    sortByDate(tasks).forEach(function (t) {
+    tasks.slice().sort(function (a, b) { return a.dateObj - b.dateObj; }).forEach(function (t) {
       if (!map[t.date]) { map[t.date] = { date: t.date, dateObj: t.dateObj, tasks: [] }; out.push(map[t.date]); }
       map[t.date].tasks.push(t);
     });
+    out.forEach(function (d) { d.tasks = sortForDisplay(d.tasks); });
     return out;
   }
   function monthRange(month) {
@@ -820,6 +954,8 @@ var Model = (function () {
     tasksInRange: tasksInRange, studyInRange: studyInRange, fitnessInRange: fitnessInRange,
     tasksInMonth: tasksInMonth, fitnessInMonth: fitnessInMonth,
     weekTasks: weekTasks, stats: stats, sortByPriority: sortByPriority, sortByDate: sortByDate,
+    sortForDisplay: sortForDisplay, allDone: allDone,
+    sortCalendar: sortCalendar, completionByDay: completionByDay, uniqueTaskStats: uniqueTaskStats,
     groupByDay: groupByDay, monthRange: monthRange, monthEntries: monthEntries,
     topicSummaries: topicSummaries, groupColor: groupColor, predict: predict,
     applyProgress: applyProgress, buildExport: buildExport, collectImportRecords: collectImportRecords
@@ -931,6 +1067,12 @@ var Store = (function () {
     session = null;
     try { window.localStorage.removeItem(K_SESSION); } catch (e) { /* 忽略 */ }
   }
+  function loadPrefs() {
+    var raw = safeGet('kyn.autosave.v1');
+    if (!raw) return null;
+    try { var o = JSON.parse(raw); return U.isObj(o) ? o : null; } catch (e) { return null; }
+  }
+  function savePrefs(o) { return safeSet('kyn.autosave.v1', JSON.stringify(o)); }
 
   return {
     loadRecords: loadRecords,
@@ -940,9 +1082,434 @@ var Store = (function () {
     loadSession: loadSession,
     saveSession: saveSession,
     clearSession: clearSession,
+    loadPrefs: loadPrefs,
+    savePrefs: savePrefs,
     readFileText: readFileText,
     download: download,
     storageOK: function () { return storageOK; }
+  };
+})();
+
+/* =============================================================================
+ * 模块 3.5  文件系统与自动写盘  FS / AutoSave
+ * File System Access API：目录选择、IndexedDB 句柄持久化、权限查询、摘要比对、静默写回
+ * 只写回被勾选的组 JSON，保留原结构与键序，只改 done / doneAt / history（及原文件已有的 progress 段）
+ * ========================================================================== */
+var FS = (function () {
+  var DB_NAME = 'kyn.fs.v1';
+  var STORE = 'handles';
+  var dbPromise = null;
+
+  function supported() {
+    return typeof window.showDirectoryPicker === 'function';
+  }
+  function openDB() {
+    if (typeof window.indexedDB === 'undefined') return Promise.reject(new Error('浏览器不支持 IndexedDB'));
+    if (dbPromise) return dbPromise;
+    dbPromise = new Promise(function (resolve, reject) {
+      var req = window.indexedDB.open(DB_NAME, 1);
+      req.onupgradeneeded = function () {
+        var db = req.result;
+        if (!db.objectStoreNames.contains(STORE)) db.createObjectStore(STORE);
+      };
+      req.onsuccess = function () { resolve(req.result); };
+      req.onerror = function () { reject(req.error || new Error('IndexedDB 打开失败')); };
+    });
+    return dbPromise;
+  }
+  function idbSet(key, value) {
+    return openDB().then(function (db) {
+      return new Promise(function (resolve, reject) {
+        var tx = db.transaction(STORE, 'readwrite');
+        tx.objectStore(STORE).put(value, key);
+        tx.oncomplete = function () { resolve(true); };
+        tx.onerror = function () { reject(tx.error); };
+        tx.onabort = function () { reject(tx.error); };
+      });
+    });
+  }
+  function idbGet(key) {
+    return openDB().then(function (db) {
+      return new Promise(function (resolve, reject) {
+        var tx = db.transaction(STORE, 'readonly');
+        var req = tx.objectStore(STORE).get(key);
+        req.onsuccess = function () { resolve(req.result || null); };
+        req.onerror = function () { reject(req.error); };
+      });
+    });
+  }
+
+  function pickDirectory() {
+    if (!supported()) return Promise.reject(new Error('当前浏览器不支持 showDirectoryPicker'));
+    return window.showDirectoryPicker({ mode: 'readwrite', id: 'kyn-autosave' });
+  }
+  function permission(handle) {
+    if (!handle || typeof handle.queryPermission !== 'function') return Promise.resolve('granted');
+    return Promise.resolve(handle.queryPermission({ mode: 'readwrite' })).then(null, function () { return 'denied'; });
+  }
+  function requestPermission(handle) {
+    if (!handle || typeof handle.requestPermission !== 'function') return Promise.resolve('granted');
+    return Promise.resolve(handle.requestPermission({ mode: 'readwrite' })).then(null, function () { return 'denied'; });
+  }
+
+  /* FNV-1a 32 位摘要：用于检测文件是否被外部修改，不追求加密强度 */
+  function digest(text) {
+    var h = 0x811c9dc5;
+    for (var i = 0; i < text.length; i++) {
+      h = Math.imul(h ^ text.charCodeAt(i), 16777619) >>> 0;
+    }
+    return ('0000000' + h.toString(16)).slice(-8);
+  }
+  function defaultFormat() { return { indent: '  ', crlf: false, trailing: true }; }
+  /* 探测原文件的缩进、换行与结尾换行，写回时尽量保持原格式 */
+  function detectFormat(text) {
+    var crlf = text.indexOf('\r\n') >= 0;
+    var indent = '  ';
+    var m = /\n([ \t]+)"/.exec(text);
+    if (m) indent = m[1];
+    var trailing = /(\r\n|\n)$/.test(text);
+    return { indent: indent, crlf: crlf, trailing: trailing };
+  }
+  function serialize(raw, fmt) {
+    fmt = fmt || defaultFormat();
+    var out = JSON.stringify(raw, null, fmt.indent);
+    if (fmt.crlf) out = out.replace(/\n/g, '\r\n');
+    if (fmt.trailing) out += fmt.crlf ? '\r\n' : '\n';
+    return out;
+  }
+  function writeText(fileHandle, text) {
+    return Promise.resolve(fileHandle.createWritable()).then(function (w) {
+      return Promise.resolve(w.write(text)).then(function () { return w.close(); });
+    });
+  }
+  function errorText(e) {
+    if (!e) return '未知错误';
+    if (e.name === 'NotFoundError') return '目录中找不到该文件';
+    if (e.name === 'NotAllowedError') return '没有写入权限（可能被拒绝或授权已过期）';
+    if (e.name === 'AbortError') return '操作已取消';
+    if (e.name === 'SecurityError') return '当前环境不允许文件系统访问';
+    return e.message || e.name || '未知错误';
+  }
+
+  return {
+    supported: supported,
+    pickDirectory: pickDirectory,
+    permission: permission,
+    requestPermission: requestPermission,
+    digest: digest,
+    defaultFormat: defaultFormat,
+    detectFormat: detectFormat,
+    serialize: serialize,
+    writeText: writeText,
+    errorText: errorText,
+    idbSet: idbSet,
+    idbGet: idbGet
+  };
+})();
+
+var AutoSave = (function () {
+  var WRITE_DELAY = 1000;
+  var state = {
+    supported: FS.supported(),
+    enabled: false,
+    handle: null,
+    dirName: '',
+    needAuth: false,
+    authFailed: false,
+    lastAt: null,
+    error: '',
+    status: '未关联目录'
+  };
+  var timers = Object.create(null);
+  var pending = Object.create(null);
+
+  function clockText(iso) {
+    var d = new Date(iso);
+    if (isNaN(d.getTime())) return '';
+    return U.pad2(d.getHours()) + ':' + U.pad2(d.getMinutes()) + ':' + U.pad2(d.getSeconds());
+  }
+  function refreshStatus() {
+    if (!state.supported) {
+      state.status = '当前浏览器不支持 File System Access API，自动写盘不可用；勾选仍保存在本机，可继续导出';
+      return state.status;
+    }
+    if (state.error) { state.status = state.error; return state.status; }
+    if (!state.handle) { state.status = '未关联目录'; return state.status; }
+    var base = '已关联到「' + (state.dirName || '已选目录') + '」';
+    if (state.needAuth) { state.status = base + ' · 需要重新授权'; return state.status; }
+    if (!state.enabled) { state.status = base + ' · 自动写盘已暂停'; return state.status; }
+    state.status = base + (state.lastAt ? ' · 上次写回 ' + clockText(state.lastAt) : ' · 等待首次写回');
+    return state.status;
+  }
+  /* 只刷新状态行，避免写回成功后整页重绘打断用户操作 */
+  function paint() {
+    refreshStatus();
+    var el = document.getElementById('autosaveStatus');
+    if (!el) return;
+    el.textContent = state.status;
+    el.className = 'autosave-status' + (state.error ? ' is-error' : '');
+  }
+  function fail(msg) {
+    state.error = msg;
+    paint();
+  }
+  function persistPrefs() {
+    Store.savePrefs({ enabled: !!state.enabled, dirName: state.dirName || '' });
+  }
+  function entryOf(fileName) {
+    for (var i = 0; i < App.files.length; i++) {
+      if (App.files[i].fileName === fileName) return App.files[i];
+    }
+    return null;
+  }
+
+  function init() {
+    if (!state.supported) { refreshStatus(); return Promise.resolve(false); }
+    var prefs = Store.loadPrefs();
+    if (prefs) {
+      if (typeof prefs.dirName === 'string') state.dirName = prefs.dirName;
+      if (typeof prefs.enabled === 'boolean') state.enabled = prefs.enabled;
+    }
+    return FS.idbGet('dir').then(function (h) {
+      if (!h) { state.enabled = false; refreshStatus(); return false; }
+      state.handle = h;
+      state.dirName = (typeof h.name === 'string' && h.name) || state.dirName || '已选目录';
+      return FS.permission(h).then(function (p) {
+        if (p === 'granted') { state.needAuth = false; state.authFailed = false; }
+        else {
+          state.needAuth = true;
+          state.enabled = false;
+          if (p === 'denied') {
+            state.authFailed = true;
+            state.error = '目录写入授权已失效，自动写盘已停用；可重新授权或改用「导出」';
+          }
+        }
+        refreshStatus();
+        return true;
+      });
+    }).catch(function () {
+      state.enabled = false;
+      refreshStatus();
+      return false;
+    });
+  }
+
+  function associate() {
+    state.error = '';
+    return FS.pickDirectory().then(function (dir) {
+      state.handle = dir;
+      state.dirName = (typeof dir.name === 'string' && dir.name) || '已选目录';
+      return FS.permission(dir).then(function (p) {
+        if (p !== 'granted') {
+          state.enabled = false;
+          state.needAuth = true;
+          state.authFailed = true;
+          state.error = '目录写入授权被拒绝，自动写盘已停用；请重新授权或改用「导出」';
+          persistPrefs();
+          refreshStatus();
+          Router.render(true);
+          return false;
+        }
+        state.enabled = true;
+        state.needAuth = false;
+        state.authFailed = false;
+        persistPrefs();
+        refreshStatus();
+        return FS.idbSet('dir', dir).catch(function () { return null; }).then(function () {
+          Router.render(true);
+          toast('已关联目录「' + state.dirName + '」，自动写盘已开启');
+          return true;
+        });
+      });
+    }).catch(function (e) {
+      if (e && e.name === 'AbortError') { refreshStatus(); paint(); return false; }
+      state.error = '关联目录失败：' + FS.errorText(e);
+      state.authFailed = !!(e && (e.name === 'NotAllowedError' || e.name === 'SecurityError'));
+      refreshStatus();
+      Router.render(true);
+      return false;
+    });
+  }
+  function requestEnable() {
+    if (!state.handle) return associate();
+    state.error = '';
+    return FS.requestPermission(state.handle).then(function (p) {
+      if (p !== 'granted') {
+        state.needAuth = true;
+        state.enabled = false;
+        state.authFailed = true;
+        state.error = '目录写入授权被拒绝，自动写盘已停用；请重新授权或改用「导出」';
+        refreshStatus(); persistPrefs(); Router.render(true);
+        return false;
+      }
+      state.needAuth = false;
+      state.authFailed = false;
+      state.enabled = true;
+      state.error = '';
+      refreshStatus(); persistPrefs(); Router.render(true);
+      toast('自动写盘已开启');
+      return true;
+    }).catch(function (e) {
+      state.needAuth = true;
+      state.enabled = false;
+      state.authFailed = !!(e && (e.name === 'NotAllowedError' || e.name === 'SecurityError'));
+      state.error = '授权失败：' + FS.errorText(e);
+      refreshStatus(); Router.render(true);
+      return false;
+    });
+  }
+  function toggle() {
+    if (!state.supported) { toast('当前浏览器不支持自动写盘', 'error'); return; }
+    if (state.enabled) {
+      state.enabled = false;
+      state.error = '';
+      refreshStatus(); persistPrefs(); Router.render(true);
+      toast('已关闭自动写盘（勾选仍保存在本机）');
+      return;
+    }
+    if (!state.handle) { associate(); return; }
+    requestEnable();
+  }
+
+  /* 写回时只更新目标任务：done / doneAt / history */
+  function applyTask(raw, taskId, rec) {
+    var found = false;
+    function walk(list, cb) { U.arr(list).forEach(cb); }
+    walk(raw.months, function (m) {
+      walk(m && m.weeks, function (w) {
+        walk(w && w.days, function (d) {
+          walk(d && d.tasks, function (t) {
+            if (!U.isObj(t) || t.id == null || String(t.id) !== String(taskId)) return;
+            t.done = !!rec.done;
+            t.doneAt = rec.doneAt || null;
+            var hist = U.cleanHistory(rec.history);
+            if (hist.length) t.history = hist; else delete t.history;
+            found = true;
+          });
+        });
+      });
+    });
+    return found;
+  }
+  /* 若原文件自带 progress 段，也同步更新其中的记录（不改动其它键） */
+  function applyProgress(raw, fileName, ids, records) {
+    if (!U.isObj(raw.progress)) return;
+    ids.forEach(function (id) {
+      var rec = records[fileName + '::' + id];
+      if (!rec) return;
+      [String(id), fileName + '::' + String(id)].forEach(function (k) {
+        var p = raw.progress[k];
+        if (!U.isObj(p)) return;
+        p.done = !!rec.done;
+        if ('doneAt' in p) p.doneAt = rec.doneAt || null;
+        var hist = U.cleanHistory(rec.history);
+        if (hist.length) p.history = hist; else if ('history' in p) p.history = [];
+      });
+    });
+  }
+
+  function flush(fileName) {
+    var ids = Object.keys(pending[fileName] || {});
+    delete pending[fileName];
+    if (!state.enabled || !state.handle || !ids.length) return Promise.resolve(false);
+    var entry = entryOf(fileName);
+    if (!entry || !entry.group) {
+      fail('写回失败：找不到已载入的组「' + fileName + '」');
+      return Promise.resolve(false);
+    }
+    var fmt = entry.format || FS.defaultFormat();
+    return FS.permission(state.handle).then(function (p) {
+      if (p !== 'granted') {
+        state.needAuth = true;
+        state.enabled = false;
+        state.authFailed = true;
+        fail('目录写入授权已失效，自动写盘已停用；请点「重新授权」后重试');
+        return false;
+      }
+      return state.handle.getFileHandle(fileName).then(function (fh) {
+        return fh.getFile().then(function (file) {
+          return file.text().then(function (current) {
+            var baseline = entry.digest || null;
+            if (baseline && FS.digest(current) !== baseline) {
+              var ok = window.confirm('检测到「' + fileName + '」已被外部修改。\n是否用当前页面的记录覆盖它？\n点「取消」则不覆盖，可改用「导出」备份。');
+              if (!ok) {
+                fail('文件已变化，已跳过写回「' + fileName + '」（可改用导出）');
+                return false;
+              }
+            }
+            var clone = JSON.parse(JSON.stringify(entry.group.raw));
+            var records = Store.loadRecords();
+            var changed = [];
+            ids.forEach(function (id) {
+              var rec = records[fileName + '::' + id];
+              if (!rec) return;
+              if (applyTask(clone, id, rec)) changed.push(id);
+            });
+            applyProgress(clone, fileName, changed, records);
+            if (!changed.length) {
+              fail('写回失败：目标任务的 id 在原 JSON 中不存在');
+              return false;
+            }
+            var text = FS.serialize(clone, fmt);
+            return FS.writeText(fh, text).then(function () {
+              entry.group.raw = clone;
+              entry.raw = clone;
+              entry.text = text;
+              entry.digest = FS.digest(text);
+              state.lastAt = new Date().toISOString();
+              state.error = '';
+              refreshStatus();
+              paint();
+              if (typeof fh.getFile === 'function') {
+                Promise.resolve(fh.getFile()).then(function (f2) {
+                  entry.lastModified = f2.lastModified;
+                }).catch(function () { /* 忽略 */ });
+              }
+              toast('已静默写回「' + fileName + '」' + (changed.length > 1 ? '（' + changed.length + ' 项）' : ''));
+              return true;
+            });
+          });
+        });
+      });
+    }).catch(function (e) {
+      fail('写回失败：' + FS.errorText(e));
+      return false;
+    });
+  }
+
+  function schedule(fileName, taskId) {
+    if (!state.supported || !state.enabled || !state.handle || !fileName) return false;
+    if (!pending[fileName]) pending[fileName] = Object.create(null);
+    if (taskId != null) pending[fileName][String(taskId)] = true;
+    if (timers[fileName]) window.clearTimeout(timers[fileName]);
+    timers[fileName] = window.setTimeout(function () {
+      delete timers[fileName];
+      flush(fileName);
+    }, WRITE_DELAY);
+    return true;
+  }
+  function cancel(fileName) {
+    if (timers[fileName]) { window.clearTimeout(timers[fileName]); delete timers[fileName]; }
+    delete pending[fileName];
+  }
+  function cancelAll() {
+    Object.keys(timers).forEach(function (k) { window.clearTimeout(timers[k]); });
+    timers = Object.create(null);
+    pending = Object.create(null);
+  }
+  function view() { refreshStatus(); return state; }
+
+  return {
+    init: init,
+    state: view,
+    paint: paint,
+    toggle: toggle,
+    associate: associate,
+    enable: requestEnable,
+    schedule: schedule,
+    cancel: cancel,
+    cancelAll: cancelAll,
+    flushNow: flush
   };
 })();
 
@@ -985,11 +1552,45 @@ var Views = (function () {
     return ' · ' + group.warningCount + ' 条数据提示（' + first + (group.warningCount > 1 ? ' 等' : '') + '）';
   }
 
-  /* ---- 第 1 页：选择文件 ---- */
+  function autosaveBlock(ctx) {
+    var fs = (ctx && ctx.fs) || { supported: false, status: '未关联目录' };
+    var status = fs.status || '未关联目录';
+    var blocked = !fs.supported || !!fs.authFailed;
+    var btn = !fs.supported ? '自动写盘不可用'
+      : fs.authFailed ? '自动写盘不可用（需授权）'
+      : (fs.enabled ? '关闭自动写盘' : (fs.handle ? (fs.needAuth ? '授权并启用' : '启用自动写盘') : '关联目录'));
+    return '' +
+      '<div class="autosave card">' +
+        '<div class="autosave-main">' +
+          '<div><span class="autosave-title">自动写盘</span>' +
+            '<span class="autosave-status' + (fs.error ? ' is-error' : '') + '" id="autosaveStatus">' +
+              U.esc(status) + '</span></div>' +
+          '<div class="autosave-note">' + (fs.supported
+            ? '关联目录后，勾选/取消会防抖 1 秒静默写回该组 JSON；检测到外部改动会先询问，不会静默覆盖。'
+            : '当前浏览器不支持 File System Access API，自动写盘不可用；勾选仍保存在本机，可继续导出。') +
+          '</div>' +
+        '</div>' +
+        '<div class="autosave-actions">' +
+          (fs.needAuth ? '<button class="btn btn-small" type="button" data-act="autosave-auth">重新授权</button>' : '') +
+          '<button class="btn btn-small" type="button" data-act="autosave-toggle"' + (blocked ? ' disabled' : '') + '>' +
+            U.esc(btn) + '</button>' +
+        '</div>' +
+      '</div>';
+  }
+
   function page1(ctx) {
     var files = ctx.files;
     var valid = files.filter(function (f) { return f.group; }).length;
-    var rows = files.map(function (f) {
+    /* 已选择列表：按任务总数降序；同数按显示名（中文按拼音）排序，最后用文件名兜底保证稳定 */
+    var sortedFiles = files.slice().sort(function (a, b) {
+      var ca = a.group ? a.group.tasks.length : 0;
+      var cb = b.group ? b.group.tasks.length : 0;
+      if (ca !== cb) return cb - ca;
+      var byName = String(a.displayName || '').localeCompare(String(b.displayName || ''), 'zh-Hans-CN');
+      if (byName) return byName;
+      return a.fileName < b.fileName ? -1 : a.fileName > b.fileName ? 1 : 0;
+    });
+    var rows = sortedFiles.map(function (f) {
       return '' +
         '<div class="file-row' + (f.error ? ' is-error' : '') + '">' +
           '<div class="file-main">' +
@@ -1005,7 +1606,7 @@ var Views = (function () {
 
     return '' +
       '<section class="page page-1">' +
-        '<div class="page-head"><h1>选择题库</h1></div>' +
+        '<div class="page-head"><h1>选择任务 · 任务进度追踪</h1></div>' +
         '<p class="lead">选择任务 JSON（可多次追加）。组名优先读 <code>meta.groupName</code>，缺省时显示文件名 <code>_checkbox_use</code> 之前的部分；' +
           '完成状态保存在本机，刷新或重新载入同一批文件都能继续。</p>' +
         '<div class="drop card">' +
@@ -1019,6 +1620,7 @@ var Views = (function () {
           (files.length ? '<div class="file-list">' + rows + '</div>'
             : '<div class="empty-state">还没有选择文件。选择示例数据可先用 <code>demo/</code> 下的文件跑通四页。</div>') +
         '</div>' +
+        autosaveBlock(ctx) +
         '<div class="page-actions">' +
           '<button class="btn" type="button" data-act="clear-files"' + (files.length ? '' : ' disabled') + '>清空</button>' +
           '<button class="btn btn-primary" type="button" data-act="to-overview"' + (valid ? '' : ' disabled') + '>进入总览</button>' +
@@ -1027,6 +1629,101 @@ var Views = (function () {
   }
 
   /* ---- 第 2 页：总览 ---- */
+  /* ---- 第 2 页：年度贡献热力图 ---- */
+  function heatmap(ctx) {
+    var map = Model.completionByDay(ctx.groups);
+    var uniq = Model.uniqueTaskStats(ctx.groups);
+    var years = Object.create(null);
+    ctx.groups.forEach(function (g) {
+      g.tasks.forEach(function (t) {
+        if (t.dateObj && !isNaN(t.dateObj.getTime())) years[t.dateObj.getFullYear()] = true;
+        if (t.done && t.doneAt) {
+          var d = new Date(t.doneAt);
+          if (!isNaN(d.getTime())) years[d.getFullYear()] = true;
+        }
+      });
+    });
+    var yearList = Object.keys(years).map(Number).sort(function (a, b) { return a - b; });
+    var nowYear = new Date().getFullYear();
+    var selected = ctx.heatYear;
+    if (!selected || (yearList.length && yearList.indexOf(selected) < 0)) {
+      selected = yearList.indexOf(nowYear) >= 0 ? nowYear : (yearList[0] || nowYear);
+    }
+    var rangeYears = [];
+    if (yearList.length) {
+      for (var yy = yearList[0]; yy <= yearList[yearList.length - 1]; yy++) rangeYears.push(yy);
+    } else { rangeYears = [nowYear]; }
+
+    var totalDone = 0;
+    Object.keys(map).forEach(function (k) { totalDone += map[k]; });
+    var yearDone = 0;
+    Object.keys(map).forEach(function (k) { if (Number(k.slice(0, 4)) === selected) yearDone += map[k]; });
+
+    var first = new Date(selected, 0, 1);
+    var last = new Date(selected, 11, 31);
+    var lead = (first.getDay() + 6) % 7;
+    var start = addDays(first, -lead);
+    var tail = (last.getDay() + 6) % 7;
+    var end = addDays(last, 6 - tail);
+    var weekCount = Math.floor((end - start) / 86400000 / 7) + 1;
+
+    var monthsHtml = '', prevWeek = 0;
+    for (var mi = 1; mi <= 12; mi++) {
+      var mFirst = new Date(selected, mi - 1, 1);
+      var stWeek = Math.floor((addDays(mFirst, -((mFirst.getDay() + 6) % 7)) - start) / 86400000 / 7);
+      var mLast = new Date(selected, mi, 0);
+      var enWeek = Math.floor((addDays(mLast, -((mLast.getDay() + 6) % 7)) - start) / 86400000 / 7);
+      var span = Math.max(1, enWeek - stWeek + 1);
+      monthsHtml += '<span class="heat-month" style="width:' + (span * 15 - 3) + 'px">' + mi + '月</span>';
+      prevWeek = enWeek + 1;
+    }
+
+    var cellsHtml = '';
+    for (var w = 0; w < weekCount; w++) {
+      for (var di = 0; di < 7; di++) {
+        var day = addDays(start, w * 7 + di);
+        if (day.getFullYear() !== selected) {
+          cellsHtml += '<span class="heat-cell is-out"></span>';
+          continue;
+        }
+        var dotKey = day.getFullYear() + '-' + p2(day.getMonth() + 1) + '-' + p2(day.getDate());
+        var n = map[dotKey] || 0;
+        var lv = n === 0 ? '' : n <= 2 ? ' lv1' : n <= 5 ? ' lv2' : ' lv3';
+        var title = (day.getMonth() + 1) + '月' + day.getDate() + '日 · 完成 ' + n + ' 项';
+        cellsHtml += '<button type="button" class="heat-cell' + lv +
+          (ctx.heatTip === dotKey ? ' is-active' : '') + '" data-act="heat-day" data-date="' + dotKey +
+          '" title="' + U.esc(title) + '" aria-label="' + U.esc(title) + '"></button>';
+      }
+    }
+
+    var yearBtns = rangeYears.length > 1 ? '<div class="heat-years">' + rangeYears.map(function (y) {
+      return '<button type="button" class="heat-year' + (y === selected ? ' is-active' : '') +
+        '" data-act="heat-year" data-year="' + y + '">' + y + ' 年</button>';
+    }).join('') + '</div>' : '';
+
+    var tip = '';
+    if (ctx.heatTip) {
+      var parts = ctx.heatTip.split('-');
+      tip = '<span class="heat-tip">' + Number(parts[1]) + '月' + Number(parts[2]) + '日 · 完成 ' +
+        (map[ctx.heatTip] || 0) + ' 项</span>';
+    }
+    return '' +
+      '<div class="heat-card card">' +
+        '<div class="heat-head"><span class="heat-title">年度完成热力图</span>' + yearBtns + '</div>' +
+        '<div class="heat-scroll"><div class="heat-inner">' +
+          '<div class="heat-months">' + monthsHtml + '</div>' +
+          '<div class="heat-grid" data-year="' + selected + '">' + cellsHtml + '</div>' +
+        '</div></div>' +
+        '<div class="heat-foot">' +
+          '<span>本年完成 ' + yearDone + ' 项，累计 ' + uniq.total + ' 项任务，完成率 ' +
+            (uniq.total ? Math.round(uniq.done * 100 / uniq.total) : 0) + '%</span>' + tip +
+        '</div>' +
+        (totalDone ? '' : '<div class="heat-empty">暂无完成记录</div>') +
+      '</div>';
+  }
+  function addDays(d, n) { var x = new Date(d.getTime()); x.setDate(x.getDate() + n); return x; }
+  function p2(n) { return n < 10 ? '0' + n : '' + n; }
+
   function page2(ctx) {
     if (!ctx.groups.length) {
       return '<section class="page"><div class="empty-state">还没有可用的题库，请先返回选择文件。</div></section>';
@@ -1068,12 +1765,107 @@ var Views = (function () {
     return '' +
       '<section class="page page-2">' +
         '<div class="page-head"><h1>总览</h1><span class="muted small">' + ctx.groups.length + ' 组 · ' + totalTasks + ' 项任务</span></div>' +
-        '<p class="lead">点击组卡片进入月度安排。灰色文字是该组的「板块 月份」汇总。</p>' +
+        '<p class="lead">点击组横条进入月度安排。灰色文字是该组的「板块 月份」汇总。</p>' +
+        heatmap(ctx) +
         '<div class="group-grid">' + cards + '</div>' +
       '</section>';
   }
 
   function shortDate(d) { return (d.getMonth() + 1) + '月' + d.getDate() + '日'; }
+
+  /* ---- 第 3 页：当月日历 ---- */
+  function calChip(t) {
+    var cls = 'cal-task';
+    if (t.done) cls += ' is-done';
+    else if (t.kind === 'fitness') cls += ' cal-task--fitness';
+    else cls += ' cal-task--' + (t.priority || 'P2');
+    return '<span class="' + cls + '" title="' + U.esc(t.title) + '">' + U.esc(t.title) + '</span>';
+  }
+  function monthCalendar(ctx) {
+    var g = ctx.group, month = ctx.month;
+    if (!g || !month) return '';
+    var range = Model.monthRange(month);
+    if (!range) return '';
+    var y = range.start.getFullYear(), mo = range.start.getMonth();
+    var first = new Date(y, mo, 1);
+    var lead = (first.getDay() + 6) % 7;   // 周一起始：周一=0
+    var days = new Date(y, mo + 1, 0).getDate();
+    var slots = Math.ceil((lead + days) / 7) * 7;
+    var byDate = Object.create(null);
+    var monthTasks = [];
+    g.tasks.forEach(function (t) {
+      var d = t.dateObj;
+      if (!d || isNaN(d.getTime()) || d.getFullYear() !== y || d.getMonth() !== mo) return; // 跨月日期留白
+      if (!byDate[t.date]) byDate[t.date] = [];
+      byDate[t.date].push(t);
+      monthTasks.push(t);
+    });
+    var mst = Model.stats(monthTasks);
+    var cells = '';
+    for (var i = 0; i < slots; i++) {
+      var dayNum = i - lead + 1;
+      if (dayNum < 1 || dayNum > days) {
+        cells += '<div class="cal-cell is-empty" aria-hidden="true"></div>';
+        continue;
+      }
+      var key = y + '-' + p2(mo + 1) + '-' + p2(dayNum);
+      var tasks = Model.sortCalendar(byDate[key] || []);
+      var st = Model.stats(tasks);
+      cells += '<button type="button" class="cal-cell" data-act="open-day" data-date="' + key +
+        '" aria-label="查看 ' + key + ' 的任务">' +
+          '<span class="cal-day">' + dayNum + (tasks.length ? '<em>' + tasks.length + ' 项</em>' : '') + '</span>' +
+          tasks.map(calChip).join('') +
+          '<span class="cal-min">' + (st.minutes ? Model.fmtMinutes(st.minutes) : '') + '</span>' +
+        '</button>';
+    }
+    var weekday = ['一', '二', '三', '四', '五', '六', '日'].map(function (w) {
+      return '<div class="cal-weekday">' + w + '</div>';
+    }).join('');
+    return '' +
+      '<div class="month-cal card">' +
+        '<div class="cal-head"><span class="cal-title">' + (mo + 1) + '月日历</span>' +
+          '<span class="cal-note">本月 ' + mst.total + ' 项 · 已完成 ' + mst.done + ' 项</span></div>' +
+        '<div class="cal-scroll"><div class="calendar">' + weekday + cells + '</div></div>' +
+        '<div class="cal-note" style="margin-top:8px">格子按优先级着色，健身任务固定绿色；已完成任务灰字加删除线。点击日期查看当日全部任务。</div>' +
+      '</div>';
+  }
+
+  /* 当日任务弹层：不跳页，展示全部任务与当日总分钟数 */
+  function dayDetail(ctx) {
+    var g = ctx.group;
+    var key = ctx.dayDetail;
+    if (!g || !key) return '';
+    var d = Parser.parseISODate(key);
+    if (!d) return '';
+    var tasks = Model.sortCalendar(g.tasks.filter(function (t) { return t.date === key; }));
+    var st = Model.stats(tasks);
+    var rows = tasks.map(function (t) {
+      var was = t.done ? Model.doneText(t, ctx.now) : Model.lastDoneText(t, ctx.now);
+      return '<li class="cal-day-row' + (t.done ? ' is-done' : '') + '">' +
+        prioBadge(t.priority) +
+        '<span class="task-title">' + U.esc(t.title) + '</span>' +
+        '<span class="task-meta">' +
+          (t.kind === 'fitness' ? '<span class="tag tag--fitness">健身</span>' : '') +
+          '<span>' + Model.fmtMinutes(t.minutes) + '</span>' +
+          (t.slot ? '<span>' + U.esc(t.slot) + '</span>' : '') +
+          (was ? '<span class="task-was">' + U.esc(was) + '</span>' : '') +
+        '</span></li>';
+    }).join('');
+    return '' +
+      '<div class="cal-detail" role="dialog" aria-modal="true" aria-label="当日任务">' +
+        '<div class="cal-modal">' +
+          '<div class="cal-modal-head">' +
+            '<div><h3>' + (d.getMonth() + 1) + '月' + d.getDate() + '日 ' + Model.weekdayText(d) + '</h3>' +
+              '<div class="cal-modal-sub">共 ' + st.total + ' 项 · 已完成 ' + st.done + ' 项 · 总时长 ' +
+                (st.minutes ? Model.fmtMinutes(st.minutes) : '0 分钟') + '</div></div>' +
+            '<button class="btn btn-small" type="button" data-act="close-day">关闭</button>' +
+          '</div>' +
+          (tasks.length
+            ? '<ul class="cal-day-list">' + rows + '</ul>'
+            : '<div class="empty-state" style="margin-top:10px">当日暂无任务</div>') +
+        '</div>' +
+      '</div>';
+  }
 
   /* ---- 第 3 页：月度 ---- */
   function page3(ctx) {
@@ -1081,25 +1873,33 @@ var Views = (function () {
     if (!g) return '<section class="page"><div class="empty-state">该组数据已不可用，请返回总览重新选择。</div></section>';
     var months = Model.monthEntries(g);
     var month = ctx.month || months[0];
-    var monthStudy = month ? Model.tasksInMonth(g, month).filter(function (t) { return t.kind === 'study'; }) : [];
-    var monthFitness = Model.fitnessInMonth(ctx.groups, month);
-    var studyStats = Model.stats(monthStudy);
-    var fitStats = Model.stats(monthFitness);
+    var isFit = g.meta.kind === 'fitness';
+    var monthTasks = month ? Model.tasksInMonth(g, month) : [];
+    /* 顶部只统计当前任务组自身的类型：学习组只看学习，健身组只看健身 */
+    var ownMonth = monthTasks.filter(function (t) { return t.kind === g.meta.kind; });
+    var ownStats = Model.stats(ownMonth);
     var c = Model.groupColor(g.meta.groupName);
+    /* 月份排序：未完成月份保持时间顺序在前，全部完成的月份沉到最后 */
+    var openMonths = [], doneMonths = [];
+    months.forEach(function (m) {
+      (Model.allDone(Model.tasksInMonth(g, m)) ? doneMonths : openMonths).push(m);
+    });
+    var displayMonths = openMonths.concat(doneMonths);
 
-    var chips = months.map(function (m) {
+    var chips = displayMonths.map(function (m) {
       return '<button class="chip' + (month && m.id === month.id ? ' is-active' : '') + '" type="button" ' +
         'data-act="select-month" data-month="' + U.esc(m.id) + '">' + U.esc(m.label) + '</button>';
     }).join('');
 
-    var cards = months.map(function (m) {
-      var tasks = Model.sortByPriority(Model.tasksInMonth(g, m));
+    var cards = displayMonths.map(function (m) {
+      var tasks = Model.sortForDisplay(Model.tasksInMonth(g, m));
       var st = Model.stats(tasks);
+      var complete = Model.allDone(tasks);
       return '' +
-        '<article class="month-card card" role="button" tabindex="0" data-act="open-month" data-month="' + U.esc(m.id) + '">' +
+        '<article class="month-card card' + (complete ? ' is-complete' : '') + '" role="button" tabindex="0" data-act="open-month" data-month="' + U.esc(m.id) + '">' +
           '<div class="month-head">' +
             '<div>' +
-              '<h2>' + U.esc(m.label) + '</h2>' +
+              '<h2>' + U.esc(m.label) + (complete ? '<span class="month-done-tag">已完成</span>' : '') + '</h2>' +
               '<div class="muted small">' + st.total + ' 项 · 已完成 ' + st.done + ' 项 · 共 ' + Model.fmtMinutes(st.minutes) + '</div>' +
             '</div>' +
             '<span class="chev">进入周度 →</span>' +
@@ -1107,7 +1907,7 @@ var Views = (function () {
           (tasks.length
             ? '<ul class="task-list">' + tasks.map(function (t) {
                 var was = t.done ? Model.doneText(t, ctx.now) : Model.lastDoneText(t, ctx.now);
-                return '<li class="task-line">' + prioBadge(t.priority) +
+                return '<li class="task-line' + (t.done ? ' is-done' : '') + '">' + prioBadge(t.priority) +
                   '<span class="task-title">' + U.esc(t.title) + '</span>' +
                   '<span class="task-meta">' +
                     (t.kind === 'fitness' ? '<span class="tag tag--fitness">健身</span>' : '') +
@@ -1126,23 +1926,20 @@ var Views = (function () {
           '<button class="btn btn-small" type="button" data-act="back">← 返回总览</button>' +
           '<h1>' + U.esc(g.meta.groupName) + ' <span class="muted">· 月度</span></h1>' +
         '</div>' +
-        '<p class="lead">顶部两条进度统计当前选中月份；下方按月列出任务（P0 优先，同级按日期）。</p>' +
+        '<p class="lead">顶部只显示本组类型（' + (isFit ? '健身' : '学习') + '）的进度；下方按月列出任务，已完成任务沉到月内末尾。</p>' +
         '<div class="month-tabs">' + chips + '</div>' +
         '<div class="stat-panel card">' +
           '<div>' + progressBar({
-            label: '学习', stats: studyStats, color: c.strong,
-            emptyWord: '学习任务',
-            prediction: Model.predict(monthStudy, g.meta.planStart, ctx.now)
-          }) + '</div>' +
-          '<div>' + progressBar({
-            label: '健身', stats: fitStats, color: '#d9901f',
-            emptyWord: '健身任务（可载入健身组）',
-            prediction: Model.predict(monthFitness, g.meta.planStart, ctx.now)
+            label: isFit ? '健身' : '学习', stats: ownStats, color: isFit ? '#d9901f' : c.strong,
+            emptyWord: isFit ? '健身任务' : '学习任务',
+            prediction: Model.predict(ownMonth, g.meta.planStart, ctx.now)
           }) + '</div>' +
           '<div class="stat-scope">统计范围：' + U.esc(month ? month.label : '—') +
-            '（学习 = 本组该月任务，健身 = 已载入健身组该月任务）</div>' +
+            '（' + (isFit ? '健身' : '学习') + ' = 本组该月任务）</div>' +
         '</div>' +
+        monthCalendar(ctx) +
         '<div class="month-list">' + (cards || '<div class="empty-state">该组没有月份数据</div>') + '</div>' +
+        dayDetail(ctx) +
       '</section>';
   }
 
@@ -1196,10 +1993,11 @@ var Views = (function () {
     if (!activeWeek) activeWeek = weeks[0] || null;
     if (activeWeek) range = { start: activeWeek.startObj, end: activeWeek.endObj };
 
-    var studyStats = Model.stats(range ? Model.studyInRange(g, range.start, range.end) : []);
-    var fitStats = Model.stats(range ? Model.fitnessInRange(ctx.groups, range.start, range.end) : []);
-    var studyTasks = range ? Model.studyInRange(g, range.start, range.end) : [];
-    var fitTasks = range ? Model.fitnessInRange(ctx.groups, range.start, range.end) : [];
+    var isFit = g.meta.kind === 'fitness';
+    var ownTasks = range ? Model.tasksInRange(g.tasks, range.start, range.end).filter(function (t) {
+      return t.kind === g.meta.kind;
+    }) : [];
+    var ownStats = Model.stats(ownTasks);
 
     return '' +
       '<section class="page page-4">' +
@@ -1210,16 +2008,13 @@ var Views = (function () {
         '<p class="lead">点击周卡片原地展开或收起；勾选即完成并记录当时时间戳，取消勾选会记录一次撤销，最近完成时间仍保留。</p>' +
         '<div class="stat-panel card">' +
           '<div>' + progressBar({
-            label: '学习', stats: studyStats, color: c.strong, emptyWord: '学习任务',
-            prediction: Model.predict(studyTasks, g.meta.planStart, ctx.now)
-          }) + '</div>' +
-          '<div>' + progressBar({
-            label: '健身', stats: fitStats, color: '#d9901f', emptyWord: '健身任务（可载入健身组）',
-            prediction: Model.predict(fitTasks, g.meta.planStart, ctx.now)
+            label: isFit ? '健身' : '学习', stats: ownStats, color: isFit ? '#d9901f' : c.strong,
+            emptyWord: isFit ? '健身任务' : '学习任务',
+            prediction: Model.predict(ownTasks, g.meta.planStart, ctx.now)
           }) + '</div>' +
           '<div class="stat-scope">统计范围：' + (activeWeek
             ? U.esc(activeWeek.label + '，' + Model.fmtRange(activeWeek.startObj, activeWeek.endObj))
-            : '本周') + '（学习 = 本组任务，健身 = 已载入健身组在该周范围的任务）</div>' +
+            : '本周') + '（' + (isFit ? '健身' : '学习') + ' = 本组该周任务）</div>' +
         '</div>' +
         '<div class="week-list">' + (weekCards || '<div class="empty-state">该月没有周数据</div>') + '</div>' +
       '</section>';
@@ -1255,11 +2050,14 @@ var Views = (function () {
  * 路由用内部状态切换，不刷新页面；页面之间通过 route + 模型查询衔接
  * ========================================================================== */
 var App = {
-  files: [],            // {fileName, displayName, raw, group, error}
+  files: [],            // {fileName, displayName, raw, group, error, text, digest, format, lastModified}
   groups: [],           // 解析成功的组模型
   route: { page: 1, groupFile: null, monthId: null },
   expanded: Object.create(null),  // 周卡片展开状态
-  activeWeek: ''
+  activeWeek: '',
+  heatYear: null,       // 热力图选中的年份
+  heatTip: '',          // 热力图点选的日期
+  dayDetail: ''         // 月历展开的日期
 };
 
 function findGroup(fileName) {
@@ -1274,7 +2072,12 @@ function rebuildGroups() {
 }
 function persist() {
   var files = App.files.filter(function (f) { return f.raw; }).map(function (f) {
-    return { fileName: f.fileName, raw: f.raw };
+    return {
+      fileName: f.fileName,
+      raw: f.raw,
+      digest: f.digest || null,
+      format: f.format || null
+    };
   });
   if (!files.length) { Store.clearSession(); return; }
   Store.saveSession({
@@ -1307,6 +2110,10 @@ var Actions = {
         displayName: Parser.displayNameFromFileName(file.name)
       };
       return Store.readFileText(file).then(function (text) {
+        entry.text = text;
+        entry.digest = FS.digest(text);
+        entry.format = FS.detectFormat(text);
+        entry.lastModified = typeof file.lastModified === 'number' ? file.lastModified : null;
         var raw;
         try { raw = JSON.parse(text); }
         catch (e) {
@@ -1340,6 +2147,7 @@ var Actions = {
   },
 
   removeFile: function (fileName) {
+    AutoSave.cancel(fileName);
     App.files = App.files.filter(function (f) { return f.fileName !== fileName; });
     rebuildGroups();
     if (!App.groups.length) {
@@ -1356,10 +2164,13 @@ var Actions = {
   },
 
   clearFiles: function () {
+    AutoSave.cancelAll();
     App.files = [];
     App.groups = [];
     App.expanded = Object.create(null);
     App.activeWeek = '';
+    App.heatTip = '';
+    App.dayDetail = '';
     App.route = { page: 1, groupFile: null, monthId: null };
     Store.clearSession();
     Router.render();
@@ -1386,6 +2197,7 @@ var Actions = {
   selectMonth: function (monthId) {
     App.route.monthId = monthId;
     App.activeWeek = '';
+    App.dayDetail = '';
     persist();
     Router.render();
   },
@@ -1432,8 +2244,34 @@ var Actions = {
     var saved = Store.setRecord(fileName, taskId, {
       done: task.done, doneAt: task.doneAt, history: history
     });
+    AutoSave.schedule(fileName, taskId);
     Router.render(true);
     if (!saved) toast('本地存储写入失败，刷新后完成记录可能丢失', 'error');
+  },
+
+  heatYear: function (year) {
+    if (!year) return;
+    App.heatYear = year;
+    App.heatTip = '';
+    Router.render(true);
+  },
+
+  heatDay: function (date) {
+    if (!date) return;
+    App.heatTip = App.heatTip === date ? '' : date;
+    Router.render(true);
+  },
+
+  openDay: function (date) {
+    if (!date) return;
+    App.dayDetail = date;
+    Router.render(true);
+  },
+
+  closeDay: function () {
+    if (!App.dayDetail) return;
+    App.dayDetail = '';
+    Router.render(true);
   },
 
   back: function () {
@@ -1521,6 +2359,7 @@ var Router = (function () {
     var month = null;
     for (var i = 0; i < months.length; i++) if (months[i].id === App.route.monthId) { month = months[i]; break; }
     if (!month) month = months[0] || null;
+    if (App.route.page !== 3) App.dayDetail = '';
     return {
       files: App.files,
       groups: App.groups,
@@ -1528,30 +2367,34 @@ var Router = (function () {
       month: month,
       expanded: App.expanded,
       activeWeek: App.activeWeek,
-      now: new Date()
+      now: new Date(),
+      fs: AutoSave.state(),
+      heatYear: App.heatYear,
+      heatTip: App.heatTip,
+      dayDetail: App.dayDetail
     };
   }
 
   function crumbsHtml(ctx) {
     var page = App.route.page;
     var parts = [];
-    if (page === 1) parts.push('<span class="crumb-current">选择题库</span>');
+    if (page === 1) parts.push('<span class="crumb-current" aria-current="page">选择题库</span>');
     else parts.push('<button class="crumb" type="button" data-act="crumb" data-page="1">选择题库</button>');
     if (page >= 2) {
       parts.push('<span class="crumb-sep">/</span>');
       parts.push(page === 2
-        ? '<span class="crumb-current">总览</span>'
+        ? '<span class="crumb-current" aria-current="page">总览</span>'
         : '<button class="crumb" type="button" data-act="crumb" data-page="2">总览</button>');
     }
     if (page >= 3 && ctx.group) {
       parts.push('<span class="crumb-sep">/</span>');
       parts.push(page === 3
-        ? '<span class="crumb-current">' + U.esc(ctx.group.meta.groupName) + '</span>'
+        ? '<span class="crumb-current" aria-current="page">' + U.esc(ctx.group.meta.groupName) + '</span>'
         : '<button class="crumb" type="button" data-act="crumb" data-page="3">' + U.esc(ctx.group.meta.groupName) + '</button>');
     }
     if (page === 4 && ctx.month) {
       parts.push('<span class="crumb-sep">/</span>');
-      parts.push('<span class="crumb-current">' + U.esc(ctx.month.label) + '</span>');
+      parts.push('<span class="crumb-current" aria-current="page">' + U.esc(ctx.month.label) + '</span>');
     }
     return parts.join('');
   }
@@ -1570,11 +2413,15 @@ var Router = (function () {
     else window.scrollTo(0, 0);
     crumbsEl.innerHTML = crumbsHtml(ctx);
     document.title = (ctx.group ? ctx.group.meta.groupName + ' · ' : '') +
-      ['', '选择题库', '总览', '月度', '周度'][page] + ' · 考研任务进度追踪';
+      ['', '选择任务', '总览', '月度', '周度'][page] + ' · 任务进度追踪';
     lastPage = page;
   }
 
   function onClick(e) {
+    if (e.target && e.target.classList && e.target.classList.contains('cal-detail')) {
+      Actions.closeDay();
+      return;
+    }
     var el = e.target.closest ? e.target.closest('[data-act]') : null;
     if (!el || el.disabled) return;
     var act = el.getAttribute('data-act');
@@ -1587,6 +2434,12 @@ var Router = (function () {
     else if (act === 'toggle-week') Actions.toggleWeek(el.getAttribute('data-week'));
     else if (act === 'back') Actions.back();
     else if (act === 'crumb') Actions.crumb(+el.getAttribute('data-page'));
+    else if (act === 'heat-year') Actions.heatYear(+el.getAttribute('data-year'));
+    else if (act === 'heat-day') Actions.heatDay(el.getAttribute('data-date'));
+    else if (act === 'open-day') Actions.openDay(el.getAttribute('data-date'));
+    else if (act === 'close-day') Actions.closeDay();
+    else if (act === 'autosave-toggle') AutoSave.toggle();
+    else if (act === 'autosave-auth') AutoSave.enable();
   }
 
   function onKeydown(e) {
@@ -1615,6 +2468,9 @@ var Router = (function () {
     appEl.addEventListener('click', onClick);
     appEl.addEventListener('keydown', onKeydown);
     appEl.addEventListener('change', onChange);
+    // 面包屑在 #app 之外，需要单独挂同一套委托事件
+    crumbsEl.addEventListener('click', onClick);
+    crumbsEl.addEventListener('keydown', onKeydown);
 
     var fileInput = document.getElementById('fileInput');
     fileInput.addEventListener('change', function () {
@@ -1631,6 +2487,7 @@ var Router = (function () {
 
     restoreSession();
     render();
+    AutoSave.init().then(function () { AutoSave.paint(); });
     if (!Store.storageOK()) toast('浏览器禁用了本地存储，完成记录无法持久化', 'error');
   }
 
@@ -1641,6 +2498,8 @@ var Router = (function () {
     saved.files.forEach(function (item) {
       if (!U.isObj(item) || !item.fileName) return;
       var entry = { fileName: item.fileName, displayName: Parser.displayNameFromFileName(item.fileName) };
+      if (typeof item.digest === 'string' && item.digest) entry.digest = item.digest;
+      if (U.isObj(item.format)) entry.format = item.format;
       if (U.isObj(item.raw)) {
         var res = Parser.build(item.raw, item.fileName, entry.displayName);
         if (res.ok) { entry.raw = item.raw; entry.group = res.group; entry.displayName = res.group.displayName; }
