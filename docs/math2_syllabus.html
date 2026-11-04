@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>数二 · 考纲范围与优先级</title><style>
+:root{--bg:#f5f7fb;--card:#fff;--ink:#1b2333;--muted:#667085;--line:#e4e8f1}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.68 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}
+.wrap{max-width:1100px;margin:0 auto;padding:0 20px}
+.hero{background:linear-gradient(135deg,var(--accent) 0%,var(--accent2) 100%);color:#fff;padding:40px 0 32px}
+.hero .kicker{font-size:13px;letter-spacing:.14em;text-transform:uppercase;opacity:.85}
+.hero h1{margin:10px 0 6px;font-size:31px;line-height:1.25;font-weight:700}
+.hero .meta{opacity:.9;font-size:14px;margin:0}
+.hero .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:24px 0 20px}
+.hero .stat{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.24);border-radius:12px;padding:12px 14px}
+.hero .stat b{display:block;font-size:22px;line-height:1.3}
+.hero .stat span{font-size:12px;opacity:.85}
+.hero nav{display:flex;flex-wrap:wrap;gap:10px}
+.hero nav a{display:inline-block;padding:9px 16px;border-radius:10px;text-decoration:none;font-size:14px;font-weight:600;background:rgba(255,255,255,.16);color:#fff;border:1px solid rgba(255,255,255,.3)}
+.hero nav a.primary{background:#fff;color:var(--accent)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px 24px;margin:20px 0;box-shadow:0 1px 3px rgba(16,24,40,.05)}
+.card h2{margin:0 0 6px;font-size:20px}
+.card h2 .num{display:inline-block;min-width:26px;height:26px;line-height:26px;text-align:center;border-radius:8px;background:var(--accent);color:#fff;font-size:13px;margin-right:8px}
+.card .desc{color:var(--muted);font-size:14px;margin:0 0 14px}
+h3{font-size:16px;margin:18px 0 8px}
+.table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px}
+table{border-collapse:collapse;width:100%;font-size:14px;background:#fff}
+th,td{padding:9px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{background:#f8fafc;font-weight:600;white-space:nowrap}
+tr:last-child td{border-bottom:none}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.b-P0{display:inline-block;padding:1px 8px;border-radius:999px;background:#fee4e2;color:#b42318;font-size:12px;font-weight:700}
+.b-P1{display:inline-block;padding:1px 8px;border-radius:999px;background:#e0efff;color:#175cd3;font-size:12px;font-weight:700}
+.b-P2{display:inline-block;padding:1px 8px;border-radius:999px;background:#eef0f4;color:#475467;font-size:12px;font-weight:700}
+.pt{display:inline-block;margin:3px 6px 3px 0;padding:2px 8px;border:1px solid var(--line);border-radius:8px;background:#fbfcfe;font-size:12.5px;white-space:nowrap}
+.slot{display:inline-block;padding:1px 7px;border-radius:6px;background:#f2f4f7;color:#475467;font-size:12px}
+.tid{color:#98a2b3;font-size:11.5px;font-family:ui-monospace,Menlo,Consolas,monospace}
+.dnote{color:#7a4b00;font-size:11.5px;background:#fff7e6;border-radius:5px;padding:1px 6px;display:inline-block;margin-top:3px}
+ul.tight{margin:8px 0 0;padding-left:20px}
+ul.tight li{margin:3px 0}
+.note{background:#fff9ed;border:1px solid #ffe1b3;border-radius:12px;padding:12px 16px;font-size:14px;color:#7a4b00}
+.ok{background:#ecfdf3;border:1px solid #c7e9d5;border-radius:12px;padding:12px 16px;font-size:14px;color:#17663c}
+.warn{background:#fef2f2;border:1px solid #fecdca;border-radius:12px;padding:12px 16px;font-size:14px;color:#912018}
+.bar{height:9px;border-radius:999px;background:var(--accent);opacity:.75;min-width:2px}
+details.month{border:1px solid var(--line);border-radius:12px;background:#fff;margin:10px 0;overflow:hidden}
+details.month>summary{cursor:pointer;padding:12px 16px;font-weight:600;background:#f8fafc;list-style:none;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+details.month>summary::-webkit-details-marker{display:none}
+details.month>summary .r{color:var(--muted);font-weight:400;font-size:13px}
+details.month .inner{padding:0 0 4px}
+.toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:12px 0}
+.toolbar button,.toolbar select{padding:7px 12px;border-radius:9px;border:1px solid var(--line);background:#fff;font-size:13px;cursor:pointer;color:var(--ink)}
+.scope-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.scope-item{border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:#fbfcfe}
+.scope-item b{display:block;font-size:14px;margin-bottom:2px}
+.scope-item span{color:var(--muted);font-size:13px}
+.kv{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;margin:10px 0}
+.kv div{border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:#fbfcfe}
+.kv b{display:block;font-size:20px;line-height:1.3}
+.kv span{color:var(--muted);font-size:12.5px}
+@media(max-width:760px){.hero h1{font-size:24px}.card{padding:16px 14px}th,td{padding:8px 9px}table{font-size:13px}}
+footer{color:var(--muted);font-size:12.5px;padding:18px 0 40px;text-align:center}
+</style></head>
+<body style="--accent:#2563eb;--accent2:#1e40af">
+<header class="hero"><div class="wrap">
+  <div class="kicker">28 考研 · 复习总表（2027-12-19 笔试）</div>
+  <h1>数学二 · 考纲范围与优先级</h1>
+  <p class="meta">笔试日 2027-12-19 ｜ 计划窗口 2026-11-04 → 2027-12-19 ｜ 满分 150 分（高数约 78% / 线代约 22%）</p>
+  <div class="stats">
+    <div class="stat"><b>523.3 h</b><span>本科目计划学习时长</span></div>
+    <div class="stat"><b>320.5 h</b><span>其中 P0 必做需求</span></div>
+    <div class="stat"><b>43.5%</b><span>占总学习时长</span></div>
+    <div class="stat"><b>765</b><span>任务条目 / 411 个学习日</span></div>
+  </div>
+  <nav>
+    <a class="primary" href="math2_schedule.html">查看月度与逐日安排 →</a>
+    <a href="math2_checkbox_use.json">下载 JSON 数据</a>
+  </nav>
+</div></header>
+<main class="wrap">
+  <section class="card">
+    <h2><span class="num">1</span>考试范围清单</h2>
+    <p class="desc">依据公开考纲 + 共享文档整理；范围外内容不排任务。</p>
+    <div class="scope-grid"><div class="scope-item"><b>高等数学 · 约 78%（≈117 分）</b><span>函数、极限、连续；一元函数微分学；一元函数积分学；多元函数微分学；二重积分；常微分方程。</span></div><div class="scope-item"><b>线性代数 · 约 22%（≈33 分）</b><span>行列式；矩阵；向量；线性方程组；特征值与特征向量；二次型。</span></div></div>
+    <h3>明确不考 / 不计入</h3>
+    <ul class="tight"><li>概率论与数理统计（数二不考）</li><li>无穷级数（数二不考）</li><li>三重积分、曲线积分与曲面积分（数二不考）</li><li>向量代数与空间解析几何（数二不考）</li></ul>
+  </section>
+
+  <section class="card">
+    <h2><span class="num">2</span>知识板块与 P0 / P1 / P2</h2>
+    <p class="desc">P0 = 必做（基础且高频，不做会直接掉分）；P1 = 可选 / 非强制（时间够才做）；P2 = 可弃（本次全部未排）。优先级取自共享文档的考频结论，并按 13.5 个月的真实容量校正。</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>知识板块</th><th>覆盖内容</th><th>分值量级</th><th>优先级</th><th>依据 / 本次处理</th></tr></thead>
+      <tbody><tr><td><b>函数、极限与连续</b></td><td>极限计算、无穷小比较、连续与间断点分类</td><td>约 12-16 分</td><td><span class="b-P0">P0</span></td><td>已有基础到「求极限 / 间断点」，函数性质不重学；从间断点判定接着排。</td></tr><tr><td><b>一元函数微分学</b></td><td>导数定义与求导法则、中值定理、单调性极值、凹凸与渐近线</td><td>约 22-26 分</td><td><span class="b-P0">P0</span></td><td>中值定理是数二证明题主战场（共享文档列 P0）；凹凸/渐近线列为 P2，本次未单独排。</td></tr><tr><td><b>一元函数积分学</b></td><td>不定积分、定积分、变限积分、定积分应用、反常积分</td><td>约 26-30 分</td><td><span class="b-P0">P0</span></td><td>数二分值最高的板块；定积分应用在共享文档里是 P0，反常积分为 P1。</td></tr><tr><td><b>多元函数微分学</b></td><td>偏导、全微分、复合与隐函数求导、条件极值</td><td>约 10-14 分</td><td><span class="b-P0">P0</span></td><td>偏导为基础（P1），但二重积分依赖它，故在计划里按必做处理；条件极值 P2。</td></tr><tr><td><b>二重积分</b></td><td>直角坐标、交换次序、极坐标、对称性</td><td>约 8-12 分</td><td><span class="b-P0">P0</span></td><td>共享文档 P0；计算量大但套路固定，排在 2027-05~07 集中攻坚。</td></tr><tr><td><b>常微分方程</b></td><td>一阶方程、二阶常系数线性方程</td><td>约 8-12 分</td><td><span class="b-P1">P1</span></td><td>题型固定，在 2027-05~07 穿插排；时间不足时最先让步。</td></tr><tr><td><b>行列式</b></td><td>性质、展开、范德蒙德 / 爪型 / 递推</td><td>约 6-8 分</td><td><span class="b-P1">P1</span></td><td>共享文档列为 P2，但它是一轮线代的入口，计划中按 P1 排。</td></tr><tr><td><b>矩阵</b></td><td>运算、逆、伴随、初等变换与秩</td><td>约 8-10 分</td><td><span class="b-P1">P1</span></td><td>为方程组与特征值服务，排在 2027-01~04。</td></tr><tr><td><b>向量与线性方程组</b></td><td>相关性、极大无关组、解的结构与含参讨论</td><td>约 10-14 分</td><td><span class="b-P0">P0</span></td><td>共享文档 P0；含参讨论是线代大题主要区分点。</td></tr><tr><td><b>特征值与二次型</b></td><td>相似对角化、实对称矩阵、正定性</td><td>约 10-12 分</td><td><span class="b-P0">P0</span></td><td>共享文档 P0；与方程组一起构成线代大题的两条主线。</td></tr><tr><td><b>过关测试（每章 1 次）</b></td><td>从数二 2010-2017 真题按章节抽 15 题 / 45 分钟</td><td>贯穿全程</td><td><span class="b-P0">P0</span></td><td>共 11 次（9 个章节 + 2 次综合）。测试即刷题：时长已从「数二真题」单元中扣除，不重复计时；每次测试后 1 天另排 45 分钟「机动·重测/订正」，只花缓冲。</td></tr></tbody>
+    </table></div>
+    <h3>核心知识点两级优先级（章节 → 知识点）</h3><p class="desc">这是按 2027 版大纲逐条拆出来的颗粒度；排期任务按章节粒度落表，章节内 P0 知识点视为必做。</p><div class="table-wrap"><table><thead><tr><th>章节</th><th class="num">占分</th><th>核心知识点（按优先级排序）</th></tr></thead><tbody><tr><td><b>高数 · 函数、极限与连续</b></td><td class="num">12-16 分</td><td><span class="pt"><span class="b-P0">P0</span> 等价无穷小替换</span><span class="pt"><span class="b-P0">P0</span> 洛必达法则</span><span class="pt"><span class="b-P0">P0</span> 泰勒展开求极限</span><span class="pt"><span class="b-P0">P0</span> 连续与间断点分类</span><span class="pt"><span class="b-P1">P1</span> 函数性质、复合与反函数</span><span class="pt"><span class="b-P1">P1</span> 数列极限定义与性质</span><span class="pt"><span class="b-P1">P1</span> 夹逼与单调有界准则</span><span class="pt"><span class="b-P1">P1</span> 闭区间连续性质（零点/介值）</span></td></tr><tr><td><b>高数 · 一元函数微分学</b></td><td class="num">22-26 分</td><td><span class="pt"><span class="b-P0">P0</span> 复合/隐函数/参数/对数求导</span><span class="pt"><span class="b-P0">P0</span> 罗尔/拉格朗日/柯西中值定理</span><span class="pt"><span class="b-P0">P0</span> 泰勒公式与不等式证明</span><span class="pt"><span class="b-P0">P0</span> 单调性、极值与最值</span><span class="pt"><span class="b-P0">P0</span> 方程根的讨论</span><span class="pt"><span class="b-P1">P1</span> 导数定义与可导性判断</span><span class="pt"><span class="b-P1">P1</span> 高阶导数与微分</span><span class="pt"><span class="b-P2">P2</span> 凹凸性、拐点、渐近线</span></td></tr><tr><td><b>高数 · 一元函数积分学</b></td><td class="num">26-30 分</td><td><span class="pt"><span class="b-P0">P0</span> 不定积分基本公式与换元</span><span class="pt"><span class="b-P0">P0</span> 分部积分与有理函数积分</span><span class="pt"><span class="b-P0">P0</span> 定积分定义、性质与变上限积分</span><span class="pt"><span class="b-P0">P0</span> 定积分计算技巧（对称/周期/区间再现）</span><span class="pt"><span class="b-P0">P0</span> 定积分几何应用（面积/体积/弧长）</span><span class="pt"><span class="b-P1">P1</span> 定积分物理应用（做功/水压力/引力）</span><span class="pt"><span class="b-P1">P1</span> 反常积分敛散性</span></td></tr><tr><td><b>高数 · 多元函数微分学</b></td><td class="num">10-14 分</td><td><span class="pt"><span class="b-P0">P0</span> 偏导、全微分、复合与隐函数求导</span><span class="pt"><span class="b-P2">P2</span> 多元极值与条件极值（拉格朗日乘数法）</span></td></tr><tr><td><b>高数 · 二重积分</b></td><td class="num">8-12 分</td><td><span class="pt"><span class="b-P0">P0</span> 直角坐标与交换积分次序</span><span class="pt"><span class="b-P0">P0</span> 极坐标变换</span><span class="pt"><span class="b-P1">P1</span> 对称性简化</span></td></tr><tr><td><b>高数 · 常微分方程</b></td><td class="num">8-12 分</td><td><span class="pt"><span class="b-P1">P1</span> 一阶：可分离 / 齐次 / 线性</span><span class="pt"><span class="b-P1">P1</span> 二阶常系数线性方程</span></td></tr><tr><td><b>线代 · 行列式</b></td><td class="num">6-8 分</td><td><span class="pt"><span class="b-P1">P1</span> 性质与按行（列）展开</span><span class="pt"><span class="b-P2">P2</span> 范德蒙德 / 爪型 / 递推</span></td></tr><tr><td><b>线代 · 矩阵</b></td><td class="num">8-10 分</td><td><span class="pt"><span class="b-P0">P0</span> 初等变换与矩阵的秩</span><span class="pt"><span class="b-P1">P1</span> 运算、逆矩阵、伴随矩阵</span></td></tr><tr><td><b>线代 · 向量</b></td><td class="num">8-10 分</td><td><span class="pt"><span class="b-P0">P0</span> 线性相关性与线性表示</span><span class="pt"><span class="b-P0">P0</span> 极大无关组与向量组的秩</span></td></tr><tr><td><b>线代 · 线性方程组</b></td><td class="num">10-14 分</td><td><span class="pt"><span class="b-P0">P0</span> 齐次方程组解的结构</span><span class="pt"><span class="b-P0">P0</span> 非齐次解的结构与含参讨论</span></td></tr><tr><td><b>线代 · 特征值与二次型</b></td><td class="num">10-12 分</td><td><span class="pt"><span class="b-P0">P0</span> 特征值、特征向量与相似对角化</span><span class="pt"><span class="b-P0">P0</span> 实对称矩阵与正交对角化</span><span class="pt"><span class="b-P0">P0</span> 二次型标准化与正定性</span></td></tr></tbody></table></div>
+  </section>
+
+  <section class="card">
+    <h2><span class="num">3</span>取舍策略（本版怎么砍）</h2>
+    <p class="desc">时间不够时按「先砍 P1 → 再减真题套数 → 最后才动科目配比」的顺序处理。</p>
+    <ul class="tight"><li>起点按真实进度：函数与极限只补「间断点」之后的判定与题型，导数从定义开始；不回头重学函数性质。</li><li>每章一次过关测试：直接抽真题 15 题（45 分钟），正确率 <70% 不进下一章；测试与刷题合并，数二真题总时长相应下调 8.25 小时。</li><li>每次测试后 3 天内排 45 分钟「机动·重测/订正」（共 11 次 = 8.25 小时），只从缓冲时段支出，不挤占任何科目的 P0。</li><li>顺序：2026-11-04~12-31（间断点→导数→中值定理）→ 2027-01~04（一元积分＋行列式/矩阵）→ 2027-05~07（线代收尾＋多元/二重/微分方程）→ 2027-08~10-19（强化＋真题 2018-2022）→ 2027-10-20~12-19（真题 2023-2026）。</li><li>真题只做 2018-2026 共 9 套，不排全套历史；2016-2017 留 2 套作 P1 备选（本次容量不足，未排）。</li><li>P2（凹凸/渐近线、多元条件极值）与模拟卷本次未排：时间优先给过关测试与 408。</li></ul>
+    <li>本版新增约 90.0 h 的 P1（词汇移出后释放额度的 60%）：证明题专练、错题回炉、真题二刷、模拟卷；逐日追加在晚上与周末下午的缓冲时段。</li>
+    <div class="note">本次未排（被砍）合计：全科 P1 8.4 h、P2 0.0 h、P0 0.0 h。P0 已 100% 排入，P1 只排了 367.8 h。</div>
+  </section>
+
+  <section class="card">
+    <h2><span class="num">4</span>P0-only 可行性（本科目）</h2>
+    <p class="desc">只做 P0 任务需要的完整学习时长，与排期实际给到的时间对比。</p>
+    <div class="kv">
+      <div><b>320.5 h</b><span>P0 需求（单元完整时长）</span></div>
+      <div><b>320.5 h</b><span>实际排入的 P0</span></div>
+      <div><b>0.0 h</b><span>P0 缺口（应为 0 或负）</span></div>
+      <div><b>61%</b><span>P0 占本科目时长</span></div>
+    </div>
+    <div class="ok">全科口径：P0 需求 834.5 h（含 11 次真题抽题测试 8.2 h），可排布容量 1204.5 h（总容量 1355.5 h 含周末/节假日缓冲），余量约 370.0 h（扣掉 11 次机动 8.2 h 后净余量约 361.8 h）。词汇移出后释放的 149.7 h 已按 60/40 转入数二与 408 的 P1，仍保留约 11.3% 的日历余量（≥8%）。</div>
+  </section>
+
+  <section class="card">
+    <h2><span class="num">5</span>分阶段复习路线</h2>
+    <p class="desc">小时数由排期脚本按当日可用时长实算，与逐日表一致。</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>阶段</th><th>时间</th><th class="num">本科目时长</th><th>P0 主线（按排期顺序）</th></tr></thead>
+      <tbody><tr><td>① 2026-11-04 ~ 12-31</td><td>2026-11-04 → 2026-12-31</td><td class="num">82.9 h</td><td>连续性与间断点：分类、判定与题型；导数定义、可导性与分段点求导；求导法则：复合、隐函数、参数方程、对数求导……</td></tr><tr><td>② 2027-01-01 ~ 04-30</td><td>2027-01-01 → 2027-04-30</td><td class="num">161.7 h</td><td>泰勒公式与不等式证明；不定积分：基本公式与换元法；不定积分：分部积分与有理函数积分……</td></tr><tr><td>③ 2027-05-01 ~ 07-31</td><td>2027-05-01 → 2027-07-31</td><td class="num">118.2 h</td><td>线性方程组：解的结构与含参讨论；特征值与特征向量、相似对角化；实对称矩阵与二次型（标准化 / 正定性）……</td></tr><tr><td>④ 2027-08-01 ~ 10-19</td><td>2027-08-01 → 2027-10-19</td><td class="num">100.5 h</td><td>强化：中值定理与一元积分综合；强化：线代综合（方程组 + 特征值 + 二次型）；强化：选填题提速与陷阱题……</td></tr><tr><td>⑤ 2027-10-20 ~ 12-19</td><td>2027-10-20 → 2027-12-19</td><td class="num">60.0 h</td><td>数二真题 2023-2026：4 套按套限时 + 复盘（含章节抽题测试）；真题二刷：错题与题型归类；冲刺：公式手册、错题本与高频题型默写</td></tr></tbody>
+    </table></div>
+  </section>
+
+  <section class="card">
+    <h2><span class="num">6</span>时间规则（排期口径）</h2>
+    
+<ul class="tight">
+  <li><b>2026-11-04 ~ 2026-12-31</b>：周一至周五 早上 1.5 小时 + 晚上 1 小时；早上按“数 / 408 隔日轮换”（周一数学、周二 408、周三数学、周四 408、周五数学）。周六 上午数学 2h / 下午 408 3.25h；周日 上午数学 2h / 下午英语。</li>
+  <li><b>2026 年每周日（已确认）</b>：1 小时心理咨询 + 结束后 30 分钟缓冲，共 1.5 小时不排复习，已从当天可用时长中扣除（优先扣下午英语时段）；当日可用 255 分钟，实际排 240 分钟。2027 年不扣减。</li>
+  <li><b>2027-01-01 起</b>：早上仍 1.5 小时、数 / 408 隔日轮换。健身每 3 天一次（自 2027-01-01 起算），每次 1 小时：<b>健身日早上 1 小时健身 + 0.5 小时碎片任务（数学 / 408 碎片）</b>，晚上照常 1 小时；非健身日早上 1.5 小时学习。周末或节假日若正好是健身日，早上 2 小时里让出 1 小时给健身（数学 1 小时 + 健身 1 小时），当天学习总量同步减 1 小时。</li>
+  <li><b>晚上</b>：2027-08-19 之前为数学碎片 + 408 碎片；2027-08-19 起（进入考前 4 个月）改为政治为主（40 分钟）。健身日晚上为 30 分钟数学 + 30 分钟（8/19 后政治 / 之前 408）。</li>
+  <li><b>周末</b>：2027-06-30 之前 周六 上午数学 / 下午 408、周日 上午数学 / 下午英语；2027-07-01 起 周六 上午数学 / 下午英语、周日 上午 408 / 下午政治。</li>
+  <li><b>词汇不在计划内</b>：用户在工作日中午、周末晚上自行背单词，不占计划时段。原来每天 20-30 分钟的词汇任务（全期约 149.7 小时）已整块删除，<b>这 149.7 小时按数二 60% / 408 40% 全部转入 P1 内容</b>，逐日追加在晚上 / 周末下午的缓冲时段；日总量仍保留 ≥8% 余量，不排满。</li>
+  <li><b>过关测试与机动</b>：11 次章节过关测试直接从数二历年真题按章节抽 15 题（45 分钟），测试即刷题，其时长已从「数二真题」单元中扣除，全期数二真题共下调 8.25 小时；每次测试后 1 天再排 45 分钟「机动·重测/订正」，11 次共 8.25 小时，只从缓冲支出，不挤占其他科目的 P0。</li>
+  <li><b>节假日</b>：2026 年内无剩余法定假日；2027 年放假安排官方尚未公布，按“法定节日 + 常规连休”推定并在当日 note 字段标注（元旦、春节 2/5-2/12、清明 4/3-4/5、劳动 5/1-5/5、端午 6/9、中秋 9/15、国庆 10/1-10/7）。</li>
+  <li>每日任务分钟数均不超过当日可用时长；周末、健身日与节假日均有缓冲余量，机动任务只在这些余量里排。</li>
+  <li><b>已确认</b>：心理咨询只存在于 2026 年剩余区间，2027 年不再扣减；2027 年放假安排仍为推定值（届时以官方通知为准）。</li>
+</ul>
+
+  </section>
+
+  <section class="card">
+    <h2><span class="num">7</span>2027 版大纲核对与变动</h2>
+    <p class="desc">联网核对最新已发布的 2027 版考试大纲（2026-09 发布）与近两年调整；适用 2027-12 笔试的 2028 版尚未发布。</p>
+    <ul class="tight"><li>已检索 2027 版大纲（2026-09 发布）：试卷结构 10 选择×5 + 6 填空×5 + 6 解答 = 150 分，高数约 78%、线代约 22%，<b>无新增 / 删除考点</b>，属“零改动”。</li><li>唯一措辞变化：定积分应用由“几何量”扩为“几何量与物理量”，物理应用（做功、水压力、引力）权重上升 → 本表已把物理应用并入“定积分应用”单元（2027 春季，8 小时）。</li><li>泰勒公式与不等式证明被多篇解读点名“强化考查” → 本表把泰勒公式单列为 P0 单元（14 小时），并在强化轮再排一次。</li><li>重要前提：适用 2027-12 笔试的 <b>2028 版大纲尚未发布</b>（通常 2027-09 发布）。本表以最新可得的 2027 版为准，2027 年 9 月需按新版复核一次（预计变化幅度小）。</li></ul>
+  </section>
+
+  <section class="card">
+    <h2><span class="num">8</span>资料与来源</h2>
+    <ul class="tight">
+      <li>共享文档（数学二）：<a href="https://share.traecontent.cn/share/95KN3_0AT3-AU-?enter_from=pc" target="_blank" rel="noopener">https://share.traecontent.cn/share/95KN3_0AT3-AU-?enter_from=pc</a></li>
+      <li>抓取状态：正文与章节级考频可读（P0：定积分应用、二重积分、中值定理、特征值/二次型、线性方程组；P1：偏导、导数性态、反常积分、不定积分、微分方程、极限、变上限积分；P2：多元极值、导数定义、行列式）；折叠区块本次点击仍被拦截，未能逐条展开，章节名称与分值按正文＋公开考纲补全。</li>
+      <li>2027 版大纲公开解读：<a href="https://www.eol.cn/kaoshi/ky/zx/202610/t20261016_2783361.shtml" target="_blank" rel="noopener">教育在线 · 2027 考研大纲公共课变化一张表</a>、<a href="https://kaoyan.koolearn.com/20260904/1975038.html" target="_blank" rel="noopener">新东方在线 · 2027 数学二大纲</a>、<a href="https://kaoyan.xdf.cn/202610/15427047.html" target="_blank" rel="noopener">新东方 · 2027 408 新大纲变化解读</a>、<a href="http://www.eol.cn/kaoshi/ky/zx/202610/t20261020_2784365.shtml" target="_blank" rel="noopener">教育在线 · 408 四门分值对照</a>、<a href="https://m.hqwx.com/mem-kaoshi/ziliaolm/1463917.html" target="_blank" rel="noopener">环球青藤 · 2027 英语二大纲对比</a>、<a href="https://jixun.iqihang.com/zixun/dagang/zzdg/2026806045.html" target="_blank" rel="noopener">启航考研 · 2027 政治大纲变动解析</a>。</li>
+      <li>2027 年节假日安排官方尚未公布，本表按“法定节日 + 常规连休”推定，并在 JSON 的 day.note 字段标注。</li>
+    </ul>
+  </section>
+</main>
+<footer>生成于 2026-11-04 ｜ 数二 复习总表（2027-12-19 版）｜ 与 math2_checkbox_use.json 同源</footer>
+</body></html>

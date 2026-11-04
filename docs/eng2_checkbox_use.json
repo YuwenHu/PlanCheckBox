@@ -1,0 +1,2344 @@
+{
+  "meta": {
+    "groupName": "英二",
+    "subject": "英语二",
+    "kind": "study",
+    "examDate": "2027-12-19",
+    "planStart": "2026-11-04",
+    "generatedAt": "2026-11-04T16:00:00+08:00",
+    "version": 1
+  },
+  "months": [
+    {
+      "id": "2026-11",
+      "label": "2026年11月",
+      "weeks": [
+        {
+          "id": "2026-11-02",
+          "index": 1,
+          "label": "第1周",
+          "start": "2026-11-02",
+          "end": "2026-11-08",
+          "days": [
+            {
+              "date": "2026-11-04",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20261104-01",
+                  "title": "阅读二刷：英语二 2018（4 篇精读 + 错因归类）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-11-06",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20261106-01",
+                  "title": "阅读二刷：英语二 2018（4 篇精读 + 错因归类）（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-11-08",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20261108-01",
+                  "title": "阅读二刷：英语二 2018（4 篇精读 + 错因归类）（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 100,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ],
+              "note": "心理咨询 60 分钟 + 缓冲 30 分钟，已从当日可用时长扣除"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-09",
+          "index": 2,
+          "label": "第2周",
+          "start": "2026-11-09",
+          "end": "2026-11-15",
+          "days": [
+            {
+              "date": "2026-11-09",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20261109-01",
+                  "title": "阅读二刷：英语二 2018（4 篇精读 + 错因归类）（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-11-11",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20261111-01",
+                  "title": "阅读二刷：英语二 2018（4 篇精读 + 错因归类）（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-11-13",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20261113-01",
+                  "title": "阅读二刷：英语二 2018（4 篇精读 + 错因归类）（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-11-15",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20261115-01",
+                  "title": "阅读二刷：英语二 2018（4 篇精读 + 错因归类）（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 100,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ],
+              "note": "心理咨询 60 分钟 + 缓冲 30 分钟，已从当日可用时长扣除"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-16",
+          "index": 3,
+          "label": "第3周",
+          "start": "2026-11-16",
+          "end": "2026-11-22",
+          "days": [
+            {
+              "date": "2026-11-16",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20261116-01",
+                  "title": "阅读二刷：英语二 2018（4 篇精读 + 错因归类）（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-11-18",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20261118-01",
+                  "title": "阅读二刷：英语二 2018（4 篇精读 + 错因归类）（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-11-20",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20261120-01",
+                  "title": "阅读二刷：英语二 2018（4 篇精读 + 错因归类）（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-11-22",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20261122-01",
+                  "title": "阅读二刷：英语二 2018（4 篇精读 + 错因归类）（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 80,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "EN-20261122-02",
+                  "title": "阅读二刷：英语二 2019",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 20,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ],
+              "note": "心理咨询 60 分钟 + 缓冲 30 分钟，已从当日可用时长扣除"
+            }
+          ]
+        },
+        {
+          "id": "2026-11-23",
+          "index": 4,
+          "label": "第4周",
+          "start": "2026-11-23",
+          "end": "2026-11-29",
+          "days": [
+            {
+              "date": "2026-11-23",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20261123-01",
+                  "title": "阅读二刷：英语二 2019（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-11-25",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20261125-01",
+                  "title": "阅读二刷：英语二 2019（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-11-27",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20261127-01",
+                  "title": "阅读二刷：英语二 2019（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-11-29",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20261129-01",
+                  "title": "阅读二刷：英语二 2019（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 100,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ],
+              "note": "心理咨询 60 分钟 + 缓冲 30 分钟，已从当日可用时长扣除"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2026-12",
+      "label": "2026年12月",
+      "weeks": [
+        {
+          "id": "2026-11-30",
+          "index": 5,
+          "label": "第5周",
+          "start": "2026-11-30",
+          "end": "2026-12-06",
+          "days": [
+            {
+              "date": "2026-11-30",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20261130-01",
+                  "title": "阅读二刷：英语二 2019（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-02",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20261202-01",
+                  "title": "阅读二刷：英语二 2019（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-04",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20261204-01",
+                  "title": "阅读二刷：英语二 2019（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-06",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20261206-01",
+                  "title": "阅读二刷：英语二 2019（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 100,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ],
+              "note": "心理咨询 60 分钟 + 缓冲 30 分钟，已从当日可用时长扣除"
+            }
+          ]
+        },
+        {
+          "id": "2026-12-07",
+          "index": 6,
+          "label": "第6周",
+          "start": "2026-12-07",
+          "end": "2026-12-13",
+          "days": [
+            {
+              "date": "2026-12-07",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20261207-01",
+                  "title": "阅读二刷：英语二 2019（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-09",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20261209-01",
+                  "title": "阅读二刷：英语二 2019（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-11",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20261211-01",
+                  "title": "阅读二刷：英语二 2019（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-13",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20261213-01",
+                  "title": "阅读二刷：英语二 2019（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 20,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "EN-20261213-02",
+                  "title": "阅读二刷：英语二 2020",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 80,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ],
+              "note": "心理咨询 60 分钟 + 缓冲 30 分钟，已从当日可用时长扣除"
+            }
+          ]
+        },
+        {
+          "id": "2026-12-14",
+          "index": 7,
+          "label": "第7周",
+          "start": "2026-12-14",
+          "end": "2026-12-20",
+          "days": [
+            {
+              "date": "2026-12-14",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20261214-01",
+                  "title": "阅读二刷：英语二 2020（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-16",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20261216-01",
+                  "title": "阅读二刷：英语二 2020（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-18",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20261218-01",
+                  "title": "阅读二刷：英语二 2020（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-20",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20261220-01",
+                  "title": "阅读二刷：英语二 2020（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 100,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ],
+              "note": "心理咨询 60 分钟 + 缓冲 30 分钟，已从当日可用时长扣除"
+            }
+          ]
+        },
+        {
+          "id": "2026-12-21",
+          "index": 8,
+          "label": "第8周",
+          "start": "2026-12-21",
+          "end": "2026-12-27",
+          "days": [
+            {
+              "date": "2026-12-21",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20261221-01",
+                  "title": "阅读二刷：英语二 2020（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-23",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20261223-01",
+                  "title": "阅读二刷：英语二 2020（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-25",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20261225-01",
+                  "title": "阅读二刷：英语二 2020（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-27",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20261227-01",
+                  "title": "阅读二刷：英语二 2020（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 100,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ],
+              "note": "心理咨询 60 分钟 + 缓冲 30 分钟，已从当日可用时长扣除"
+            }
+          ]
+        },
+        {
+          "id": "2026-12-28",
+          "index": 9,
+          "label": "第9周",
+          "start": "2026-12-28",
+          "end": "2027-01-03",
+          "days": [
+            {
+              "date": "2026-12-28",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20261228-01",
+                  "title": "阅读二刷：英语二 2020（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-30",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20261230-01",
+                  "title": "阅读二刷：英语二 2020（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-01-01",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270101-01",
+                  "title": "阅读二刷：英语二 2021",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 60,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ],
+              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+            },
+            {
+              "date": "2027-01-03",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270103-01",
+                  "title": "阅读二刷：英语二 2021（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2027-01",
+      "label": "2027年1月",
+      "weeks": [
+        {
+          "id": "2027-01-04",
+          "index": 10,
+          "label": "第10周",
+          "start": "2027-01-04",
+          "end": "2027-01-10",
+          "days": [
+            {
+              "date": "2027-01-10",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270110-01",
+                  "title": "阅读二刷：英语二 2021（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-01-11",
+          "index": 11,
+          "label": "第11周",
+          "start": "2027-01-11",
+          "end": "2027-01-17",
+          "days": [
+            {
+              "date": "2027-01-17",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270117-01",
+                  "title": "阅读二刷：英语二 2021（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-01-18",
+          "index": 12,
+          "label": "第12周",
+          "start": "2027-01-18",
+          "end": "2027-01-24",
+          "days": [
+            {
+              "date": "2027-01-24",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270124-01",
+                  "title": "阅读二刷：英语二 2021（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-01-25",
+          "index": 13,
+          "label": "第13周",
+          "start": "2027-01-25",
+          "end": "2027-01-31",
+          "days": [
+            {
+              "date": "2027-01-31",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270131-01",
+                  "title": "阅读二刷：英语二 2022",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2027-02",
+      "label": "2027年2月",
+      "weeks": [
+        {
+          "id": "2027-02-01",
+          "index": 14,
+          "label": "第14周",
+          "start": "2027-02-01",
+          "end": "2027-02-07",
+          "days": [
+            {
+              "date": "2027-02-05",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270205-01",
+                  "title": "阅读二刷：英语二 2022（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 60,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ],
+              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+            },
+            {
+              "date": "2027-02-06",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270206-01",
+                  "title": "阅读二刷：英语二 2022（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 60,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ],
+              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+            },
+            {
+              "date": "2027-02-07",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270207-01",
+                  "title": "阅读二刷：英语二 2022（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 60,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ],
+              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+            }
+          ]
+        },
+        {
+          "id": "2027-02-08",
+          "index": 15,
+          "label": "第15周",
+          "start": "2027-02-08",
+          "end": "2027-02-14",
+          "days": [
+            {
+              "date": "2027-02-08",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270208-01",
+                  "title": "阅读二刷：英语二 2022（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 60,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ],
+              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+            },
+            {
+              "date": "2027-02-09",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270209-01",
+                  "title": "阅读二刷：英语二 2022（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 60,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ],
+              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+            },
+            {
+              "date": "2027-02-10",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270210-01",
+                  "title": "阅读二刷：英语二 2022（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 60,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ],
+              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+            },
+            {
+              "date": "2027-02-11",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270211-01",
+                  "title": "阅读二刷：英语二 2022（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 60,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ],
+              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+            },
+            {
+              "date": "2027-02-12",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270212-01",
+                  "title": "阅读二刷：英语二 2023",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 60,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ],
+              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+            },
+            {
+              "date": "2027-02-14",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270214-01",
+                  "title": "阅读二刷：英语二 2023（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-02-15",
+          "index": 16,
+          "label": "第16周",
+          "start": "2027-02-15",
+          "end": "2027-02-21",
+          "days": [
+            {
+              "date": "2027-02-21",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270221-01",
+                  "title": "阅读二刷：英语二 2023（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-02-22",
+          "index": 17,
+          "label": "第17周",
+          "start": "2027-02-22",
+          "end": "2027-02-28",
+          "days": [
+            {
+              "date": "2027-02-28",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270228-01",
+                  "title": "阅读二刷：英语二 2023（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2027-03",
+      "label": "2027年3月",
+      "weeks": [
+        {
+          "id": "2027-03-01",
+          "index": 18,
+          "label": "第18周",
+          "start": "2027-03-01",
+          "end": "2027-03-07",
+          "days": [
+            {
+              "date": "2027-03-07",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270307-01",
+                  "title": "阅读二刷：英语二 2023（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-03-08",
+          "index": 19,
+          "label": "第19周",
+          "start": "2027-03-08",
+          "end": "2027-03-14",
+          "days": [
+            {
+              "date": "2027-03-14",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270314-01",
+                  "title": "新题型专项：多项对应 / 小标题对应",
+                  "topic": "新题型",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-03-15",
+          "index": 20,
+          "label": "第20周",
+          "start": "2027-03-15",
+          "end": "2027-03-21",
+          "days": [
+            {
+              "date": "2027-03-21",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270321-01",
+                  "title": "新题型专项：多项对应 / 小标题对应（续）",
+                  "topic": "新题型",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-03-22",
+          "index": 21,
+          "label": "第21周",
+          "start": "2027-03-22",
+          "end": "2027-03-28",
+          "days": [
+            {
+              "date": "2027-03-28",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270328-01",
+                  "title": "新题型专项：多项对应 / 小标题对应（续）",
+                  "topic": "新题型",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2027-04",
+      "label": "2027年4月",
+      "weeks": [
+        {
+          "id": "2027-03-29",
+          "index": 22,
+          "label": "第22周",
+          "start": "2027-03-29",
+          "end": "2027-04-04",
+          "days": [
+            {
+              "date": "2027-04-03",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270403-01",
+                  "title": "新题型专项：多项对应 / 小标题对应（续）",
+                  "topic": "新题型",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 60,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ],
+              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+            },
+            {
+              "date": "2027-04-04",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270404-01",
+                  "title": "翻译基础：语序调整、被动转主动、词性转换",
+                  "topic": "翻译",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ],
+              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+            }
+          ]
+        },
+        {
+          "id": "2027-04-05",
+          "index": 23,
+          "label": "第23周",
+          "start": "2027-04-05",
+          "end": "2027-04-11",
+          "days": [
+            {
+              "date": "2027-04-05",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270405-01",
+                  "title": "翻译基础：语序调整、被动转主动、词性转换（续）",
+                  "topic": "翻译",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ],
+              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+            },
+            {
+              "date": "2027-04-11",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270411-01",
+                  "title": "翻译基础：语序调整、被动转主动、词性转换（续）",
+                  "topic": "翻译",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-04-12",
+          "index": 24,
+          "label": "第24周",
+          "start": "2027-04-12",
+          "end": "2027-04-18",
+          "days": [
+            {
+              "date": "2027-04-18",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270418-01",
+                  "title": "翻译基础：语序调整、被动转主动、词性转换（续）",
+                  "topic": "翻译",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-04-19",
+          "index": 25,
+          "label": "第25周",
+          "start": "2027-04-19",
+          "end": "2027-04-25",
+          "days": [
+            {
+              "date": "2027-04-25",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270425-01",
+                  "title": "翻译基础：语序调整、被动转主动、词性转换（续）",
+                  "topic": "翻译",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-04-26",
+          "index": 26,
+          "label": "第26周",
+          "start": "2027-04-26",
+          "end": "2027-05-02",
+          "days": [
+            {
+              "date": "2027-05-01",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270501-01",
+                  "title": "阅读二刷：英语二 2024",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 60,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ],
+              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+            },
+            {
+              "date": "2027-05-02",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270502-01",
+                  "title": "阅读二刷：英语二 2024（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 60,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ],
+              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2027-05",
+      "label": "2027年5月",
+      "weeks": [
+        {
+          "id": "2027-05-03",
+          "index": 27,
+          "label": "第27周",
+          "start": "2027-05-03",
+          "end": "2027-05-09",
+          "days": [
+            {
+              "date": "2027-05-03",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270503-01",
+                  "title": "阅读二刷：英语二 2024（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 60,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ],
+              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+            },
+            {
+              "date": "2027-05-04",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270504-01",
+                  "title": "阅读二刷：英语二 2024（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 60,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ],
+              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+            },
+            {
+              "date": "2027-05-05",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270505-01",
+                  "title": "阅读二刷：英语二 2024（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 60,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ],
+              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+            },
+            {
+              "date": "2027-05-09",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270509-01",
+                  "title": "阅读二刷：英语二 2024（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-05-10",
+          "index": 28,
+          "label": "第28周",
+          "start": "2027-05-10",
+          "end": "2027-05-16",
+          "days": [
+            {
+              "date": "2027-05-16",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270516-01",
+                  "title": "阅读二刷：英语二 2024（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-05-17",
+          "index": 29,
+          "label": "第29周",
+          "start": "2027-05-17",
+          "end": "2027-05-23",
+          "days": [
+            {
+              "date": "2027-05-23",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270523-01",
+                  "title": "阅读二刷：英语二 2025",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-05-24",
+          "index": 30,
+          "label": "第30周",
+          "start": "2027-05-24",
+          "end": "2027-05-30",
+          "days": [
+            {
+              "date": "2027-05-30",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270530-01",
+                  "title": "阅读二刷：英语二 2025（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2027-06",
+      "label": "2027年6月",
+      "weeks": [
+        {
+          "id": "2027-05-31",
+          "index": 31,
+          "label": "第31周",
+          "start": "2027-05-31",
+          "end": "2027-06-06",
+          "days": [
+            {
+              "date": "2027-06-06",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270606-01",
+                  "title": "阅读二刷：英语二 2025（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-06-07",
+          "index": 32,
+          "label": "第32周",
+          "start": "2027-06-07",
+          "end": "2027-06-13",
+          "days": [
+            {
+              "date": "2027-06-09",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270609-01",
+                  "title": "阅读二刷：英语二 2025（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 60,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ],
+              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+            },
+            {
+              "date": "2027-06-13",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270613-01",
+                  "title": "阅读二刷：英语二 2025（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-06-14",
+          "index": 33,
+          "label": "第33周",
+          "start": "2027-06-14",
+          "end": "2027-06-20",
+          "days": [
+            {
+              "date": "2027-06-20",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270620-01",
+                  "title": "阅读二刷：英语二 2026",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-06-21",
+          "index": 34,
+          "label": "第34周",
+          "start": "2027-06-21",
+          "end": "2027-06-27",
+          "days": [
+            {
+              "date": "2027-06-27",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270627-01",
+                  "title": "阅读二刷：英语二 2026（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2027-07",
+      "label": "2027年7月",
+      "weeks": [
+        {
+          "id": "2027-06-28",
+          "index": 35,
+          "label": "第35周",
+          "start": "2027-06-28",
+          "end": "2027-07-04",
+          "days": [
+            {
+              "date": "2027-07-03",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270703-01",
+                  "title": "阅读二刷：英语二 2026（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-07-05",
+          "index": 36,
+          "label": "第36周",
+          "start": "2027-07-05",
+          "end": "2027-07-11",
+          "days": [
+            {
+              "date": "2027-07-10",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270710-01",
+                  "title": "阅读二刷：英语二 2026（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-07-12",
+          "index": 37,
+          "label": "第37周",
+          "start": "2027-07-12",
+          "end": "2027-07-18",
+          "days": [
+            {
+              "date": "2027-07-17",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270717-01",
+                  "title": "阅读二刷：英语二 2026（续）",
+                  "topic": "阅读A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 60,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "EN-20270717-02",
+                  "title": "写作 A：书信 / 通知 / 摘要模板",
+                  "topic": "写作A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 60,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-07-19",
+          "index": 38,
+          "label": "第38周",
+          "start": "2027-07-19",
+          "end": "2027-07-25",
+          "days": [
+            {
+              "date": "2027-07-24",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270724-01",
+                  "title": "写作 A：书信 / 通知 / 摘要模板（续）",
+                  "topic": "写作A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-07-26",
+          "index": 39,
+          "label": "第39周",
+          "start": "2027-07-26",
+          "end": "2027-08-01",
+          "days": [
+            {
+              "date": "2027-07-31",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270731-01",
+                  "title": "写作 A：书信 / 通知 / 摘要模板（续）",
+                  "topic": "写作A",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2027-08",
+      "label": "2027年8月",
+      "weeks": [
+        {
+          "id": "2027-08-02",
+          "index": 40,
+          "label": "第40周",
+          "start": "2027-08-02",
+          "end": "2027-08-08",
+          "days": [
+            {
+              "date": "2027-08-07",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270807-01",
+                  "title": "写作 B：图表作文结构与常用句式",
+                  "topic": "写作B",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-08-09",
+          "index": 41,
+          "label": "第41周",
+          "start": "2027-08-09",
+          "end": "2027-08-15",
+          "days": [
+            {
+              "date": "2027-08-14",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270814-01",
+                  "title": "写作 B：图表作文结构与常用句式（续）",
+                  "topic": "写作B",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-08-16",
+          "index": 42,
+          "label": "第42周",
+          "start": "2027-08-16",
+          "end": "2027-08-22",
+          "days": [
+            {
+              "date": "2027-08-21",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270821-01",
+                  "title": "写作 B：图表作文结构与常用句式（续）",
+                  "topic": "写作B",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-08-23",
+          "index": 43,
+          "label": "第43周",
+          "start": "2027-08-23",
+          "end": "2027-08-29",
+          "days": [
+            {
+              "date": "2027-08-28",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270828-01",
+                  "title": "写作 B：图表作文结构与常用句式（续）",
+                  "topic": "写作B",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2027-09",
+      "label": "2027年9月",
+      "weeks": [
+        {
+          "id": "2027-08-30",
+          "index": 44,
+          "label": "第44周",
+          "start": "2027-08-30",
+          "end": "2027-09-05",
+          "days": [
+            {
+              "date": "2027-09-04",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270904-01",
+                  "title": "写作 B：图表作文结构与常用句式（续）",
+                  "topic": "写作B",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-09-06",
+          "index": 45,
+          "label": "第45周",
+          "start": "2027-09-06",
+          "end": "2027-09-12",
+          "days": [
+            {
+              "date": "2027-09-11",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270911-01",
+                  "title": "真题套卷 2021-2022：整套限时",
+                  "topic": "真题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-09-13",
+          "index": 46,
+          "label": "第46周",
+          "start": "2027-09-13",
+          "end": "2027-09-19",
+          "days": [
+            {
+              "date": "2027-09-18",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270918-01",
+                  "title": "真题套卷 2021-2022：整套限时（续）",
+                  "topic": "真题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-09-20",
+          "index": 47,
+          "label": "第47周",
+          "start": "2027-09-20",
+          "end": "2027-09-26",
+          "days": [
+            {
+              "date": "2027-09-25",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20270925-01",
+                  "title": "真题套卷 2021-2022：整套限时（续）",
+                  "topic": "真题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2027-10",
+      "label": "2027年10月",
+      "weeks": [
+        {
+          "id": "2027-10-04",
+          "index": 48,
+          "label": "第48周",
+          "start": "2027-10-04",
+          "end": "2027-10-10",
+          "days": [
+            {
+              "date": "2027-10-09",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20271009-01",
+                  "title": "真题套卷 2021-2022：整套限时（续）",
+                  "topic": "真题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-10-11",
+          "index": 49,
+          "label": "第49周",
+          "start": "2027-10-11",
+          "end": "2027-10-17",
+          "days": [
+            {
+              "date": "2027-10-16",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20271016-01",
+                  "title": "真题套卷 2021-2022：整套限时（续）",
+                  "topic": "真题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-10-18",
+          "index": 50,
+          "label": "第50周",
+          "start": "2027-10-18",
+          "end": "2027-10-24",
+          "days": [
+            {
+              "date": "2027-10-23",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20271023-01",
+                  "title": "真题套卷 2024-2026：整套限时",
+                  "topic": "真题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-10-25",
+          "index": 51,
+          "label": "第51周",
+          "start": "2027-10-25",
+          "end": "2027-10-31",
+          "days": [
+            {
+              "date": "2027-10-30",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20271030-01",
+                  "title": "真题套卷 2024-2026：整套限时（续）",
+                  "topic": "真题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2027-11",
+      "label": "2027年11月",
+      "weeks": [
+        {
+          "id": "2027-11-01",
+          "index": 52,
+          "label": "第52周",
+          "start": "2027-11-01",
+          "end": "2027-11-07",
+          "days": [
+            {
+              "date": "2027-11-06",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20271106-01",
+                  "title": "真题套卷 2024-2026：整套限时（续）",
+                  "topic": "真题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-11-08",
+          "index": 53,
+          "label": "第53周",
+          "start": "2027-11-08",
+          "end": "2027-11-14",
+          "days": [
+            {
+              "date": "2027-11-13",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20271113-01",
+                  "title": "真题套卷 2024-2026：整套限时（续）",
+                  "topic": "真题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-11-15",
+          "index": 54,
+          "label": "第54周",
+          "start": "2027-11-15",
+          "end": "2027-11-21",
+          "days": [
+            {
+              "date": "2027-11-20",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20271120-01",
+                  "title": "真题套卷 2024-2026：整套限时（续）",
+                  "topic": "真题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-11-22",
+          "index": 55,
+          "label": "第55周",
+          "start": "2027-11-22",
+          "end": "2027-11-28",
+          "days": [
+            {
+              "date": "2027-11-27",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20271127-01",
+                  "title": "真题套卷 2024-2026：整套限时（续）",
+                  "topic": "真题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2027-12",
+      "label": "2027年12月",
+      "weeks": [
+        {
+          "id": "2027-11-29",
+          "index": 56,
+          "label": "第56周",
+          "start": "2027-11-29",
+          "end": "2027-12-05",
+          "days": [
+            {
+              "date": "2027-12-04",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20271204-01",
+                  "title": "作文定稿、默写与批改",
+                  "topic": "写作B",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-12-06",
+          "index": 57,
+          "label": "第57周",
+          "start": "2027-12-06",
+          "end": "2027-12-12",
+          "days": [
+            {
+              "date": "2027-12-11",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20271211-01",
+                  "title": "作文定稿、默写与批改（续）",
+                  "topic": "写作B",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-12-13",
+          "index": 58,
+          "label": "第58周",
+          "start": "2027-12-13",
+          "end": "2027-12-19",
+          "days": [
+            {
+              "date": "2027-12-18",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "EN-20271218-01",
+                  "title": "作文定稿、默写与批改（续）",
+                  "topic": "写作B",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 120,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

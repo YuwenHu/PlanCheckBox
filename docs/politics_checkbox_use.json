@@ -1,0 +1,2318 @@
+{
+  "meta": {
+    "groupName": "政治",
+    "subject": "政治",
+    "kind": "study",
+    "examDate": "2027-12-19",
+    "planStart": "2026-11-04",
+    "generatedAt": "2026-11-04T16:00:00+08:00",
+    "version": 1
+  },
+  "months": [
+    {
+      "id": "2027-07",
+      "label": "2027年7月",
+      "weeks": [
+        {
+          "id": "2027-06-28",
+          "index": 1,
+          "label": "第1周",
+          "start": "2027-06-28",
+          "end": "2027-07-04",
+          "days": [
+            {
+              "date": "2027-07-04",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270704-01",
+                  "title": "马原：唯物论与辩证法（对立统一 / 质量互变）",
+                  "topic": "马原",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 150,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-07-05",
+          "index": 2,
+          "label": "第2周",
+          "start": "2027-07-05",
+          "end": "2027-07-11",
+          "days": [
+            {
+              "date": "2027-07-11",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270711-01",
+                  "title": "马原：唯物论与辩证法（对立统一 / 质量互变）（续）",
+                  "topic": "马原",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 150,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-07-12",
+          "index": 3,
+          "label": "第3周",
+          "start": "2027-07-12",
+          "end": "2027-07-18",
+          "days": [
+            {
+              "date": "2027-07-18",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270718-01",
+                  "title": "马原：认识论与唯物史观",
+                  "topic": "马原",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 150,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-07-19",
+          "index": 4,
+          "label": "第4周",
+          "start": "2027-07-19",
+          "end": "2027-07-25",
+          "days": [
+            {
+              "date": "2027-07-25",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270725-01",
+                  "title": "马原：认识论与唯物史观（续）",
+                  "topic": "马原",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 150,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-07-26",
+          "index": 5,
+          "label": "第5周",
+          "start": "2027-07-26",
+          "end": "2027-08-01",
+          "days": [
+            {
+              "date": "2027-08-01",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270801-01",
+                  "title": "史纲：近代史时间线与重大事件",
+                  "topic": "史纲",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 150,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2027-08",
+      "label": "2027年8月",
+      "weeks": [
+        {
+          "id": "2027-08-02",
+          "index": 6,
+          "label": "第6周",
+          "start": "2027-08-02",
+          "end": "2027-08-08",
+          "days": [
+            {
+              "date": "2027-08-08",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270808-01",
+                  "title": "史纲：近代史时间线与重大事件（续）",
+                  "topic": "史纲",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 150,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-08-09",
+          "index": 7,
+          "label": "第7周",
+          "start": "2027-08-09",
+          "end": "2027-08-15",
+          "days": [
+            {
+              "date": "2027-08-15",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270815-01",
+                  "title": "史纲：近代史时间线与重大事件（续）",
+                  "topic": "史纲",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 150,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-08-16",
+          "index": 8,
+          "label": "第8周",
+          "start": "2027-08-16",
+          "end": "2027-08-22",
+          "days": [
+            {
+              "date": "2027-08-19",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270819-01",
+                  "title": "史纲：近代史时间线与重大事件（续）",
+                  "topic": "史纲",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-08-20",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270820-01",
+                  "title": "史纲：近代史时间线与重大事件（续）",
+                  "topic": "史纲",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 30,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-08-22",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270822-01",
+                  "title": "史纲：近代史时间线与重大事件（续）",
+                  "topic": "史纲",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 80,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "POL-20270822-02",
+                  "title": "新思想：中国式现代化、高质量发展与新质生产力",
+                  "topic": "新思想",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 70,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-08-23",
+          "index": 9,
+          "label": "第9周",
+          "start": "2027-08-23",
+          "end": "2027-08-29",
+          "days": [
+            {
+              "date": "2027-08-23",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270823-01",
+                  "title": "新思想：中国式现代化、高质量发展与新质生产力（续）",
+                  "topic": "新思想",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 30,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-08-24",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270824-01",
+                  "title": "新思想：中国式现代化、高质量发展与新质生产力（续）",
+                  "topic": "新思想",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-08-25",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270825-01",
+                  "title": "新思想：中国式现代化、高质量发展与新质生产力（续）",
+                  "topic": "新思想",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-08-26",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270826-01",
+                  "title": "新思想：中国式现代化、高质量发展与新质生产力（续）",
+                  "topic": "新思想",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 30,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-08-27",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270827-01",
+                  "title": "新思想：中国式现代化、高质量发展与新质生产力（续）",
+                  "topic": "新思想",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-08-29",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270829-01",
+                  "title": "新思想：中国式现代化、高质量发展与新质生产力（续）",
+                  "topic": "新思想",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 150,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2027-09",
+      "label": "2027年9月",
+      "weeks": [
+        {
+          "id": "2027-08-30",
+          "index": 10,
+          "label": "第10周",
+          "start": "2027-08-30",
+          "end": "2027-09-05",
+          "days": [
+            {
+              "date": "2027-08-30",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270830-01",
+                  "title": "新思想：中国式现代化、高质量发展与新质生产力（续）",
+                  "topic": "新思想",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-08-31",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270831-01",
+                  "title": "新思想：中国式现代化、高质量发展与新质生产力（续）",
+                  "topic": "新思想",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-09-01",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270901-01",
+                  "title": "新思想：中国式现代化、高质量发展与新质生产力（续）",
+                  "topic": "新思想",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 30,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-09-02",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270902-01",
+                  "title": "新思想：中国式现代化、高质量发展与新质生产力（续）",
+                  "topic": "新思想",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-09-03",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270903-01",
+                  "title": "新思想：中国式现代化、高质量发展与新质生产力（续）",
+                  "topic": "新思想",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-09-05",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270905-01",
+                  "title": "新思想：中国式现代化、高质量发展与新质生产力（续）",
+                  "topic": "新思想",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 10,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "POL-20270905-02",
+                  "title": "新思想：改革、共同富裕、国家安全与党建",
+                  "topic": "新思想",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 140,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-09-06",
+          "index": 11,
+          "label": "第11周",
+          "start": "2027-09-06",
+          "end": "2027-09-12",
+          "days": [
+            {
+              "date": "2027-09-06",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270906-01",
+                  "title": "新思想：改革、共同富裕、国家安全与党建（续）",
+                  "topic": "新思想",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-09-07",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270907-01",
+                  "title": "新思想：改革、共同富裕、国家安全与党建（续）",
+                  "topic": "新思想",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 30,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-09-08",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270908-01",
+                  "title": "新思想：改革、共同富裕、国家安全与党建（续）",
+                  "topic": "新思想",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-09-09",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270909-01",
+                  "title": "新思想：改革、共同富裕、国家安全与党建（续）",
+                  "topic": "新思想",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-09-10",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270910-01",
+                  "title": "新思想：改革、共同富裕、国家安全与党建（续）",
+                  "topic": "新思想",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 30,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-09-12",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270912-01",
+                  "title": "新思想：改革、共同富裕、国家安全与党建（续）",
+                  "topic": "新思想",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 150,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-09-13",
+          "index": 12,
+          "label": "第12周",
+          "start": "2027-09-13",
+          "end": "2027-09-19",
+          "days": [
+            {
+              "date": "2027-09-13",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270913-01",
+                  "title": "新思想：改革、共同富裕、国家安全与党建（续）",
+                  "topic": "新思想",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 10,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "POL-20270913-02",
+                  "title": "思修法基：思想道德与法治",
+                  "topic": "思修法基",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 20,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-09-14",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270914-01",
+                  "title": "思修法基：思想道德与法治（续）",
+                  "topic": "思修法基",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-09-15",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270915-01",
+                  "title": "思修法基：思想道德与法治（续）",
+                  "topic": "思修法基",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 165,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ],
+              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+            },
+            {
+              "date": "2027-09-16",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270916-01",
+                  "title": "思修法基：思想道德与法治（续）",
+                  "topic": "思修法基",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 30,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-09-17",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270917-01",
+                  "title": "思修法基：思想道德与法治（续）",
+                  "topic": "思修法基",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-09-19",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270919-01",
+                  "title": "思修法基：思想道德与法治（续）",
+                  "topic": "思修法基",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 150,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-09-20",
+          "index": 13,
+          "label": "第13周",
+          "start": "2027-09-20",
+          "end": "2027-09-26",
+          "days": [
+            {
+              "date": "2027-09-20",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270920-01",
+                  "title": "思修法基：思想道德与法治（续）",
+                  "topic": "思修法基",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 35,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "POL-20270920-02",
+                  "title": "选择题刷题：马原 + 史纲",
+                  "topic": "刷题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-09-21",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270921-01",
+                  "title": "选择题刷题：马原 + 史纲（续）",
+                  "topic": "刷题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-09-22",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270922-01",
+                  "title": "选择题刷题：马原 + 史纲（续）",
+                  "topic": "刷题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 30,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-09-23",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270923-01",
+                  "title": "选择题刷题：马原 + 史纲（续）",
+                  "topic": "刷题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-09-24",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270924-01",
+                  "title": "选择题刷题：马原 + 史纲（续）",
+                  "topic": "刷题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-09-26",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270926-01",
+                  "title": "选择题刷题：马原 + 史纲（续）",
+                  "topic": "刷题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 150,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-09-27",
+          "index": 14,
+          "label": "第14周",
+          "start": "2027-09-27",
+          "end": "2027-10-03",
+          "days": [
+            {
+              "date": "2027-09-27",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270927-01",
+                  "title": "选择题刷题：马原 + 史纲（续）",
+                  "topic": "刷题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-09-28",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270928-01",
+                  "title": "选择题刷题：马原 + 史纲（续）",
+                  "topic": "刷题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 30,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-09-29",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270929-01",
+                  "title": "选择题刷题：马原 + 史纲（续）",
+                  "topic": "刷题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-09-30",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20270930-01",
+                  "title": "选择题刷题：马原 + 史纲（续）",
+                  "topic": "刷题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-10-01",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271001-01",
+                  "title": "选择题刷题：马原 + 史纲（续）",
+                  "topic": "刷题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 165,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ],
+              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+            },
+            {
+              "date": "2027-10-02",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271002-01",
+                  "title": "选择题刷题：马原 + 史纲（续）",
+                  "topic": "刷题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 100,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "POL-20271002-02",
+                  "title": "马原：政治经济学与科学社会主义",
+                  "topic": "马原",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 65,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ],
+              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+            },
+            {
+              "date": "2027-10-03",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271003-01",
+                  "title": "马原：政治经济学与科学社会主义（续）",
+                  "topic": "马原",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 165,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ],
+              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2027-10",
+      "label": "2027年10月",
+      "weeks": [
+        {
+          "id": "2027-10-04",
+          "index": 15,
+          "label": "第15周",
+          "start": "2027-10-04",
+          "end": "2027-10-10",
+          "days": [
+            {
+              "date": "2027-10-04",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271004-01",
+                  "title": "马原：政治经济学与科学社会主义（续）",
+                  "topic": "马原",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 130,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "POL-20271004-02",
+                  "title": "毛中特：新民主主义革命、改造与改革",
+                  "topic": "毛中特",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 35,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ],
+              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+            },
+            {
+              "date": "2027-10-05",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271005-01",
+                  "title": "毛中特：新民主主义革命、改造与改革（续）",
+                  "topic": "毛中特",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 165,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ],
+              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+            },
+            {
+              "date": "2027-10-06",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271006-01",
+                  "title": "毛中特：新民主主义革命、改造与改革（续）",
+                  "topic": "毛中特",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 165,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ],
+              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+            },
+            {
+              "date": "2027-10-07",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271007-01",
+                  "title": "毛中特：新民主主义革命、改造与改革（续）",
+                  "topic": "毛中特",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 115,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "POL-20271007-02",
+                  "title": "选择题刷题：新思想 + 毛中特",
+                  "topic": "刷题",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 50,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ],
+              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+            },
+            {
+              "date": "2027-10-08",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271008-01",
+                  "title": "选择题刷题：新思想 + 毛中特（续）",
+                  "topic": "刷题",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-10-10",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271010-01",
+                  "title": "选择题刷题：新思想 + 毛中特（续）",
+                  "topic": "刷题",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 150,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-10-11",
+          "index": 16,
+          "label": "第16周",
+          "start": "2027-10-11",
+          "end": "2027-10-17",
+          "days": [
+            {
+              "date": "2027-10-11",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271011-01",
+                  "title": "选择题刷题：新思想 + 毛中特（续）",
+                  "topic": "刷题",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-10-12",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271012-01",
+                  "title": "选择题刷题：新思想 + 毛中特（续）",
+                  "topic": "刷题",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-10-13",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271013-01",
+                  "title": "选择题刷题：新思想 + 毛中特（续）",
+                  "topic": "刷题",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 30,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-10-14",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271014-01",
+                  "title": "选择题刷题：新思想 + 毛中特（续）",
+                  "topic": "刷题",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-10-15",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271015-01",
+                  "title": "选择题刷题：新思想 + 毛中特（续）",
+                  "topic": "刷题",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-10-17",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271017-01",
+                  "title": "选择题刷题：新思想 + 毛中特（续）",
+                  "topic": "刷题",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 150,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-10-18",
+          "index": 17,
+          "label": "第17周",
+          "start": "2027-10-18",
+          "end": "2027-10-24",
+          "days": [
+            {
+              "date": "2027-10-18",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271018-01",
+                  "title": "选择题刷题：新思想 + 毛中特（续）",
+                  "topic": "刷题",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 20,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-10-20",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271020-01",
+                  "title": "分析题框架与背诵：马原",
+                  "topic": "分析题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-10-21",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271021-01",
+                  "title": "分析题框架与背诵：马原（续）",
+                  "topic": "分析题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-10-22",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271022-01",
+                  "title": "分析题框架与背诵：马原（续）",
+                  "topic": "分析题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 30,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-10-24",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271024-01",
+                  "title": "分析题框架与背诵：马原（续）",
+                  "topic": "分析题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 150,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-10-25",
+          "index": 18,
+          "label": "第18周",
+          "start": "2027-10-25",
+          "end": "2027-10-31",
+          "days": [
+            {
+              "date": "2027-10-25",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271025-01",
+                  "title": "分析题框架与背诵：马原（续）",
+                  "topic": "分析题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 30,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-10-26",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271026-01",
+                  "title": "分析题框架与背诵：马原（续）",
+                  "topic": "分析题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-10-27",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271027-01",
+                  "title": "分析题框架与背诵：马原（续）",
+                  "topic": "分析题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-10-28",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271028-01",
+                  "title": "分析题框架与背诵：马原（续）",
+                  "topic": "分析题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 30,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-10-29",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271029-01",
+                  "title": "分析题框架与背诵：马原（续）",
+                  "topic": "分析题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-10-31",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271031-01",
+                  "title": "分析题框架与背诵：马原（续）",
+                  "topic": "分析题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 150,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2027-11",
+      "label": "2027年11月",
+      "weeks": [
+        {
+          "id": "2027-11-01",
+          "index": 19,
+          "label": "第19周",
+          "start": "2027-11-01",
+          "end": "2027-11-07",
+          "days": [
+            {
+              "date": "2027-11-01",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271101-01",
+                  "title": "分析题框架与背诵：马原（续）",
+                  "topic": "分析题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 10,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "POL-20271101-02",
+                  "title": "分析题框架与背诵：新思想",
+                  "topic": "分析题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 30,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-11-02",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271102-01",
+                  "title": "分析题框架与背诵：新思想（续）",
+                  "topic": "分析题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-11-03",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271103-01",
+                  "title": "分析题框架与背诵：新思想（续）",
+                  "topic": "分析题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 30,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-11-04",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271104-01",
+                  "title": "分析题框架与背诵：新思想（续）",
+                  "topic": "分析题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-11-05",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271105-01",
+                  "title": "分析题框架与背诵：新思想（续）",
+                  "topic": "分析题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-11-07",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271107-01",
+                  "title": "分析题框架与背诵：新思想（续）",
+                  "topic": "分析题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 150,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-11-08",
+          "index": 20,
+          "label": "第20周",
+          "start": "2027-11-08",
+          "end": "2027-11-14",
+          "days": [
+            {
+              "date": "2027-11-08",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271108-01",
+                  "title": "分析题框架与背诵：新思想（续）",
+                  "topic": "分析题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-11-09",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271109-01",
+                  "title": "分析题框架与背诵：新思想（续）",
+                  "topic": "分析题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 30,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-11-10",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271110-01",
+                  "title": "分析题框架与背诵：新思想（续）",
+                  "topic": "分析题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-11-11",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271111-01",
+                  "title": "分析题框架与背诵：新思想（续）",
+                  "topic": "分析题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-11-12",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271112-01",
+                  "title": "分析题框架与背诵：新思想（续）",
+                  "topic": "分析题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 30,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-11-14",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271114-01",
+                  "title": "分析题框架与背诵：新思想（续）",
+                  "topic": "分析题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 90,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "POL-20271114-02",
+                  "title": "分析题背诵：史纲 + 思修",
+                  "topic": "分析题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 60,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-11-15",
+          "index": 21,
+          "label": "第21周",
+          "start": "2027-11-15",
+          "end": "2027-11-21",
+          "days": [
+            {
+              "date": "2027-11-15",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271115-01",
+                  "title": "分析题背诵：史纲 + 思修（续）",
+                  "topic": "分析题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 30,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-11-16",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271116-01",
+                  "title": "分析题背诵：史纲 + 思修（续）",
+                  "topic": "分析题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-11-17",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271117-01",
+                  "title": "分析题背诵：史纲 + 思修（续）",
+                  "topic": "分析题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-11-18",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271118-01",
+                  "title": "分析题背诵：史纲 + 思修（续）",
+                  "topic": "分析题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 30,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-11-19",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271119-01",
+                  "title": "分析题背诵：史纲 + 思修（续）",
+                  "topic": "分析题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-11-21",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271121-01",
+                  "title": "分析题背诵：史纲 + 思修（续）",
+                  "topic": "分析题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 150,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-11-22",
+          "index": 22,
+          "label": "第22周",
+          "start": "2027-11-22",
+          "end": "2027-11-28",
+          "days": [
+            {
+              "date": "2027-11-22",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271122-01",
+                  "title": "分析题背诵：史纲 + 思修（续）",
+                  "topic": "分析题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-11-23",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271123-01",
+                  "title": "分析题背诵：史纲 + 思修（续）",
+                  "topic": "分析题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-11-24",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271124-01",
+                  "title": "分析题背诵：史纲 + 思修（续）",
+                  "topic": "分析题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 30,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-11-25",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271125-01",
+                  "title": "分析题背诵：史纲 + 思修（续）",
+                  "topic": "分析题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-11-26",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271126-01",
+                  "title": "分析题背诵：史纲 + 思修（续）",
+                  "topic": "分析题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-11-28",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271128-01",
+                  "title": "分析题背诵：史纲 + 思修（续）",
+                  "topic": "分析题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 20,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "POL-20271128-02",
+                  "title": "押题卷选择题 6 套",
+                  "topic": "刷题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 130,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2027-12",
+      "label": "2027年12月",
+      "weeks": [
+        {
+          "id": "2027-11-29",
+          "index": 23,
+          "label": "第23周",
+          "start": "2027-11-29",
+          "end": "2027-12-05",
+          "days": [
+            {
+              "date": "2027-11-29",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271129-01",
+                  "title": "押题卷选择题 6 套（续）",
+                  "topic": "刷题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-11-30",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271130-01",
+                  "title": "押题卷选择题 6 套（续）",
+                  "topic": "刷题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 30,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-12-01",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271201-01",
+                  "title": "押题卷选择题 6 套（续）",
+                  "topic": "刷题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-12-02",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271202-01",
+                  "title": "押题卷选择题 6 套（续）",
+                  "topic": "刷题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-12-03",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271203-01",
+                  "title": "押题卷选择题 6 套（续）",
+                  "topic": "刷题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 30,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-12-05",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271205-01",
+                  "title": "押题卷选择题 6 套（续）",
+                  "topic": "刷题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 150,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-12-06",
+          "index": 24,
+          "label": "第24周",
+          "start": "2027-12-06",
+          "end": "2027-12-12",
+          "days": [
+            {
+              "date": "2027-12-06",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271206-01",
+                  "title": "押题卷选择题 6 套（续）",
+                  "topic": "刷题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 20,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "POL-20271206-02",
+                  "title": "时政：年度大事与重要会议",
+                  "topic": "时政",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 10,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-12-07",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271207-01",
+                  "title": "时政：年度大事与重要会议（续）",
+                  "topic": "时政",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-12-08",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271208-01",
+                  "title": "时政：年度大事与重要会议（续）",
+                  "topic": "时政",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-12-09",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271209-01",
+                  "title": "时政：年度大事与重要会议（续）",
+                  "topic": "时政",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 30,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-12-10",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271210-01",
+                  "title": "时政：年度大事与重要会议（续）",
+                  "topic": "时政",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-12-12",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271212-01",
+                  "title": "时政：年度大事与重要会议（续）",
+                  "topic": "时政",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 150,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-12-13",
+          "index": 25,
+          "label": "第25周",
+          "start": "2027-12-13",
+          "end": "2027-12-19",
+          "days": [
+            {
+              "date": "2027-12-13",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271213-01",
+                  "title": "时政：年度大事与重要会议（续）",
+                  "topic": "时政",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-12-14",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271214-01",
+                  "title": "时政：年度大事与重要会议（续）",
+                  "topic": "时政",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 10,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "POL-20271214-02",
+                  "title": "卷面书写与答题规范",
+                  "topic": "分析题",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 30,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-12-15",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271215-01",
+                  "title": "卷面书写与答题规范（续）",
+                  "topic": "分析题",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 30,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-12-16",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271216-01",
+                  "title": "卷面书写与答题规范（续）",
+                  "topic": "分析题",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-12-17",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271217-01",
+                  "title": "卷面书写与答题规范（续）",
+                  "topic": "分析题",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-12-19",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271219-01",
+                  "title": "卷面书写与答题规范（续）",
+                  "topic": "分析题",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 100,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

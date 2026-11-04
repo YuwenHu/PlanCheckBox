@@ -1,0 +1,1673 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>考研任务进度追踪</title>
+<style>
+/* ===== 基础 ===== */
+*{box-sizing:border-box}
+html,body{margin:0}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  background:#f4f5f9;color:#1a1d24;font-size:14px;line-height:1.55;-webkit-font-smoothing:antialiased;
+}
+button{font:inherit;color:inherit}
+code{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;background:#eef0f6;padding:1px 5px;border-radius:5px;font-size:12px}
+.muted{color:#7c8494}
+.small{font-size:12px}
+h1{font-size:26px;line-height:1.25;margin:0}
+h2{font-size:17px;margin:0}
+/* ===== 顶栏 ===== */
+.topbar{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.93);backdrop-filter:blur(10px);border-bottom:1px solid #e8eaf1}
+.topbar-inner{max-width:1160px;margin:0 auto;padding:12px 24px;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:9px;font-weight:700;font-size:15px;letter-spacing:.2px}
+.brand::before{content:"";width:10px;height:10px;border-radius:3px;background:linear-gradient(135deg,#5b7cfa,#9b5bfa)}
+.crumbs{display:flex;align-items:center;gap:4px;flex:1;font-size:12.5px;flex-wrap:wrap}
+.crumb{background:none;border:0;padding:2px 5px;color:#7c8494;cursor:pointer;border-radius:6px}
+.crumb:hover{color:#3d4bff;background:#f2f3fb}
+.crumb-sep{color:#c6cbd8}
+.crumb-current{color:#1a1d24;font-weight:600;padding:2px 5px}
+.top-actions{display:flex;gap:8px;flex-wrap:wrap}
+/* ===== 按钮 ===== */
+.btn{
+  appearance:none;border:1px solid #dde1ea;background:#fff;color:#293040;padding:7px 13px;border-radius:9px;
+  cursor:pointer;font-size:13px;transition:.15s;display:inline-flex;align-items:center;gap:6px;text-decoration:none;
+}
+.btn:hover{border-color:#c7cde0;box-shadow:0 2px 10px rgba(30,40,80,.06)}
+.btn:active{transform:translateY(1px)}
+.btn:disabled{opacity:.45;cursor:not-allowed;box-shadow:none}
+.btn-primary{background:#3d4bff;border-color:#3d4bff;color:#fff}
+.btn-primary:hover{background:#3240e8;border-color:#3240e8}
+.btn-small{padding:4px 10px;font-size:12px;border-radius:7px}
+.link-btn{background:none;border:0;padding:2px 4px;color:#5b6478;cursor:pointer;border-radius:6px;font-size:13px}
+.link-btn:hover{color:#3d4bff;background:#f2f3fb}
+/* ===== 页面容器 ===== */
+.app{max-width:1160px;margin:0 auto;padding:28px 24px 64px}
+.page-head{display:flex;align-items:center;gap:12px;margin-bottom:4px;flex-wrap:wrap}
+.page-head h1 .muted{font-weight:500;font-size:16px}
+.lead{margin:6px 0 20px;color:#69718a;font-size:13.5px;max-width:760px}
+.card{background:#fff;border:1px solid #e9ebf2;border-radius:16px;box-shadow:0 1px 2px rgba(20,26,50,.04)}
+/* ===== 第 1 页 ===== */
+.drop{padding:26px 22px;display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center;
+  border-style:dashed;border-color:#d8dcea;background:linear-gradient(180deg,#fbfcff,#fff)}
+.drop-badge{font-size:12px;letter-spacing:2px;font-weight:700;color:#8b93a6;border:1px solid #e2e6f0;border-radius:8px;padding:4px 10px}
+.file-section{margin-top:26px}
+.section-head{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin-bottom:10px}
+.file-list{display:flex;flex-direction:column;gap:8px}
+.file-row{display:flex;align-items:center;gap:12px;background:#fff;border:1px solid #e9ebf2;border-radius:12px;padding:11px 14px}
+.file-row.is-error{border-color:#f3d0d1;background:#fff8f8}
+.file-main{flex:1;min-width:0}
+.file-name{font-weight:700;font-size:15px;display:block}
+.file-sub{display:block;font-size:12.5px;color:#7c8494;margin-top:1px;word-break:break-word}
+.file-row.is-error .file-sub{color:#c93b3f}
+.page-actions{display:flex;justify-content:flex-end;gap:10px;margin-top:22px}
+.empty-state{padding:22px;text-align:center;color:#8b93a6;border:1px dashed #e2e6f2;border-radius:12px;background:#fafbfe}
+/* ===== 第 2 页 组卡片 ===== */
+.group-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(272px,1fr));gap:16px}
+.group-card{
+  position:relative;background:#fff;border:1px solid #e9ebf2;border-left:4px solid var(--gc);
+  border-radius:16px;padding:18px 18px 16px;cursor:pointer;transition:.18s;
+  box-shadow:0 1px 2px rgba(20,26,50,.04);display:flex;flex-direction:column;min-height:214px;
+}
+.group-card::after{content:"";position:absolute;inset:0;border-radius:15px;background:radial-gradient(120% 80% at 0% 0%,var(--gc-soft),transparent 62%);opacity:.75;pointer-events:none}
+.group-card>*{position:relative;z-index:1}
+.group-card:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(20,26,50,.1)}
+.group-card:focus-visible{outline:2px solid var(--gc);outline-offset:2px}
+.group-head{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.group-name{font-size:30px;font-weight:800;letter-spacing:.5px;color:var(--gc);line-height:1.12}
+.kind-tag{font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;white-space:nowrap}
+.kind-study{background:#eef1ff;color:#3d4bff}
+.kind-fitness{background:#fff2dd;color:#b9700d}
+.group-sub{font-size:12px;color:#8b93a6;margin-top:2px}
+.topic-list{margin:12px 0 14px;display:flex;flex-wrap:wrap;gap:6px 7px;flex:1;align-content:flex-start}
+.topic-item{font-size:12.5px;color:#8a91a1;background:#f6f7fb;border-radius:7px;padding:3px 8px;max-width:100%;display:inline-flex;flex-wrap:wrap;align-items:baseline;column-gap:4px;line-height:1.5}
+.topic-item .ym{white-space:nowrap}
+.topic-item b{color:#555e73;font-weight:600;margin-right:3px}
+.card-progress{margin-top:auto}
+.stat-head{display:flex;align-items:baseline;justify-content:space-between;gap:8px;font-size:12.5px;color:#69718a;margin-bottom:6px}
+.stat-label{font-weight:700;color:#293040;font-size:13px}
+.stat-nums{font-variant-numeric:tabular-nums;color:#69718a}
+.bar{height:8px;background:#edeff5;border-radius:999px;overflow:hidden}
+.bar-fill{height:100%;border-radius:999px;transition:width .25s ease}
+.bar--empty{background:#f2f3f7}
+.stat-foot{margin-top:7px;font-size:12.5px;color:#69718a;min-height:19px}
+.predict{color:#3f4a63}
+.predict::before{content:"◷ ";color:#9aa2b4}
+/* ===== 第 3 页 月度 ===== */
+.month-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:2px 0 18px}
+.chip{border:1px solid #e2e5ef;background:#fff;border-radius:999px;padding:6px 14px;font-size:13px;cursor:pointer;color:#5b6478}
+.chip:hover{border-color:#c7cde0}
+.chip.is-active{background:#1a1d24;border-color:#1a1d24;color:#fff;font-weight:600}
+.stat-panel{padding:16px 18px;display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-bottom:18px}
+.stat-scope{grid-column:1/-1;font-size:12.5px;color:#8b93a6;margin-top:-4px}
+.month-list{display:flex;flex-direction:column;gap:14px}
+.month-card{padding:16px 18px;cursor:pointer;transition:.16s}
+.month-card:hover{box-shadow:0 10px 26px rgba(20,26,50,.08);border-color:#dfe3ee}
+.month-card:focus-visible{outline:2px solid #3d4bff;outline-offset:2px}
+.month-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+.month-head h2{font-size:18px}
+.chev{color:#9aa2b4;font-size:12.5px;white-space:nowrap;margin-top:2px}
+.task-list{list-style:none;margin:12px 0 0;padding:0;display:flex;flex-direction:column;gap:1px}
+.task-line{display:flex;align-items:center;gap:10px;padding:7px 2px;border-top:1px dashed #eff1f6;font-size:13px}
+.task-line:first-child{border-top:1px solid #eff1f6}
+.task-line .task-title{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.task-meta{color:#8b93a6;font-size:12px;white-space:nowrap;display:flex;align-items:center;gap:7px}
+.prio{display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:.3px;padding:1px 6px;border-radius:5px;line-height:1.6}
+.prio--P0{background:#fdeaea;color:#c62828}
+.prio--P1{background:#fff3e0;color:#b06a00}
+.prio--P2{background:#eef0f6;color:#5c6577}
+.tag{font-size:11px;padding:1px 6px;border-radius:5px;white-space:nowrap}
+.tag--fitness{background:#fff1d9;color:#a8640a}
+.tag--study{background:#eef1ff;color:#4152c4}
+/* ===== 第 4 页 周度 ===== */
+.week-list{display:flex;flex-direction:column;gap:12px}
+.week-card{overflow:hidden}
+.week-head{
+  display:flex;align-items:center;gap:14px;width:100%;background:none;border:0;padding:15px 18px;
+  cursor:pointer;text-align:left;
+}
+.week-head:hover{background:#fbfcff}
+.week-head:focus-visible{outline:2px solid #3d4bff;outline-offset:-2px}
+.week-head-main{flex:1;min-width:0}
+.week-title{display:block;font-weight:700;font-size:15px}
+.week-sub{display:block;font-size:12.5px;margin-top:2px}
+.week-progress{font-variant-numeric:tabular-nums;font-size:13px;color:#69718a;white-space:nowrap}
+.week-progress b{color:#293040}
+.chev-arrow{color:#9aa2b4;transition:transform .18s;font-size:12px;width:14px;text-align:center}
+.week-card.is-open .chev-arrow{transform:rotate(180deg)}
+.week-body{border-top:1px solid #f0f2f7;padding:6px 18px 16px}
+.day-group{padding-top:10px}
+.day-head{display:flex;align-items:baseline;gap:10px;font-size:12.5px;font-weight:700;color:#5b6478;padding:6px 0 8px}
+.day-head .muted{font-weight:400}
+.task-row{
+  display:flex;align-items:flex-start;gap:11px;padding:9px 12px;border-radius:10px;cursor:pointer;
+  background:#fbfcff;border:1px solid #f0f2f7;border-left:3px solid #dbe2f0;margin-bottom:6px;
+}
+.task-row:hover{background:#f7f9ff}
+.task-row--fitness{border-left-color:#e29a2c;background:#fffcf6}
+.task-row--fitness:hover{background:#fff8ec}
+.task-row input[type="checkbox"]{width:16px;height:16px;margin:2px 0 0;accent-color:#3d4bff;cursor:pointer;flex:none}
+.task-row--fitness input[type="checkbox"]{accent-color:#d9901f}
+.task-body{flex:1;min-width:0}
+.task-row .task-title{display:block;font-size:13.5px;color:#232833;line-height:1.4}
+.task-row.is-done .task-title{color:#8b93a6;text-decoration:line-through;text-decoration-color:#c3cad9}
+.task-row .task-meta{margin-top:3px;flex-wrap:wrap}
+.task-time{font-size:11.5px;color:#8b93a6;white-space:nowrap;padding-top:2px}
+.task-time.is-done{color:#2f8f5b}
+.task-was{font-size:11px;color:#a0a7b8}
+/* ===== 提示条 ===== */
+.toast{
+  position:fixed;left:50%;bottom:28px;transform:translate(-50%,18px);opacity:0;pointer-events:none;
+  background:#1f2430;color:#fff;padding:9px 16px;border-radius:10px;font-size:13px;
+  box-shadow:0 10px 30px rgba(10,15,30,.25);transition:.2s;z-index:50;max-width:80vw;
+}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+.toast--error{background:#b3261e}
+@media (max-width:720px){
+  .app{padding:20px 16px 52px}
+  .topbar-inner{padding:10px 16px}
+  .stat-panel{grid-template-columns:1fr;gap:14px}
+  .group-name{font-size:26px}
+  .task-line{flex-wrap:wrap}
+  .task-line .task-title{white-space:normal}
+  .page-actions{flex-direction:column-reverse}
+}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">考研任务进度追踪</div>
+    <nav class="crumbs" id="crumbs" aria-label="面包屑导航"></nav>
+    <div class="top-actions">
+      <button class="btn" id="btnExport" type="button">导出</button>
+      <label class="btn" for="importInput">导入进度</label>
+      <button class="btn" id="btnReselect" type="button">重新选择</button>
+    </div>
+  </div>
+</header>
+<main class="app" id="app"></main>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<noscript><div style="padding:24px">本页面需要启用 JavaScript 才能使用。</div></noscript>
+<input id="fileInput" type="file" accept=".json,application/json" multiple hidden />
+<input id="importInput" type="file" accept=".json,application/json" hidden />
+<script>
+'use strict';
+/* =============================================================================
+ * 模块 1  文件解析  Parser
+ * 职责：把原始 JSON 变成「组模型」；负责字段校验、缺失容错、警告收集
+ * 不做：读写文件（Store）、进度计算（Model）、渲染（Views）
+ * ========================================================================== */
+var DAY = 86400000;
+
+var U = {
+  esc: function (v) {
+    return String(v == null ? '' : v).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  },
+  pad2: function (n) { return (n < 10 ? '0' : '') + n; },
+  isObj: function (v) { return !!v && typeof v === 'object' && !Array.isArray(v); },
+  arr: function (v) { return Array.isArray(v) ? v : []; },
+  text: function (v, fallback) {
+    if (typeof v === 'string' && v.trim()) return v.trim();
+    if (typeof v === 'number' && isFinite(v)) return String(v);
+    return fallback == null ? '' : fallback;
+  },
+  /* 勾选历史：只保留合法的 {action:'done'|'undone', at}，未知字段一律忽略 */
+  cleanHistory: function (list) {
+    var out = [];
+    if (!Array.isArray(list)) return out;
+    list.forEach(function (h) {
+      if (!h || typeof h !== 'object' || Array.isArray(h)) return;
+      var action = typeof h.action === 'string' ? h.action.trim().toLowerCase() : '';
+      if (action !== 'done' && action !== 'undone') return;
+      var at = typeof h.at === 'string' ? h.at.trim() : '';
+      if (!at) return;
+      var d = new Date(at);
+      if (isNaN(d.getTime())) return;
+      out.push({ action: action, at: at });
+    });
+    return out;
+  }
+};
+
+var Parser = (function () {
+  function parseISODate(value) {
+    if (typeof value !== 'string') return null;
+    var m = value.trim().match(/^(\d{4})-(\d{2})-(\d{2})$/);
+    if (!m) return null;
+    var y = +m[1], mo = +m[2], d = +m[3];
+    var dt = new Date(y, mo - 1, d);
+    if (dt.getFullYear() !== y || dt.getMonth() !== mo - 1 || dt.getDate() !== d) return null;
+    dt.setHours(12, 0, 0, 0);
+    return dt;
+  }
+
+  function isoDate(dt) {
+    return dt.getFullYear() + '-' + U.pad2(dt.getMonth() + 1) + '-' + U.pad2(dt.getDate());
+  }
+
+  /* 显示名优先 meta.groupName；缺失/空串/纯空白/非字符串时退回文件名前缀，如 math2_checkbox_use.json -> math2 */
+  function displayNameFromFileName(fileName) {
+    var base = String(fileName || '').replace(/\\/g, '/').split('/').pop();
+    var idx = base.indexOf('_checkbox_use');
+    base = idx >= 0 ? base.slice(0, idx) : base.replace(/\.json$/i, '');
+    return base.trim() || '未命名';
+  }
+
+  function normalizeKind(value, fallback) {
+    var v = typeof value === 'string' ? value.trim().toLowerCase() : '';
+    return (v === 'study' || v === 'fitness') ? v : fallback;
+  }
+
+  function normalizePriority(value) {
+    var v = typeof value === 'string' ? value.trim().toUpperCase() : '';
+    return (v === 'P0' || v === 'P1' || v === 'P2') ? v : 'P2';
+  }
+
+  function monthLabelFromId(id) {
+    var m = /^(\d{4})-(\d{2})$/.exec(String(id || ''));
+    return m ? (m[1] + '年' + (+m[2]) + '月') : String(id || '');
+  }
+
+  function build(raw, fileName, displayName) {
+    var warnings = [];
+    if (!U.isObj(raw)) return { ok: false, error: '文件内容的根节点不是 JSON 对象' };
+    if (!U.isObj(raw.meta)) return { ok: false, error: '缺少 meta 字段，无法识别科目信息' };
+    /* 显示名优先取 meta.groupName（原样展示）；空串/纯空白/非字符串才退回文件名前缀 */
+    var rawName = typeof raw.meta.groupName === 'string' ? raw.meta.groupName : '';
+    var groupName = rawName.trim() ? rawName : (displayName || '未命名');
+    if (!Array.isArray(raw.months)) return { ok: false, error: '缺少 months 数组' };
+    if (raw.months.length === 0) return { ok: false, error: 'months 为空，没有可排期的月份' };
+
+    var metaKind = normalizeKind(raw.meta.kind, 'study');
+    var planStart = parseISODate(raw.meta.planStart);
+    if (!planStart) warnings.push('meta.planStart 缺失或格式不正确，预计完成时间会退回整体平均速率');
+
+    var months = [];
+    var tasks = [];
+    var seenIds = Object.create(null);
+    var autoSeq = 0;
+    var monthSeq = 0;
+
+    raw.months.forEach(function (m, mi) {
+      if (!U.isObj(m)) { warnings.push('第 ' + (mi + 1) + ' 个月份结构异常，已跳过'); return; }
+      monthSeq += 1;
+      var monthId = U.text(m.id) ||
+        (U.isObj(U.arr(m.weeks)[0]) && typeof U.arr(m.weeks)[0].start === 'string' ? U.arr(m.weeks)[0].start.slice(0, 7) : '') ||
+        (planStart ? isoDate(planStart).slice(0, 7) : 'm' + monthSeq);
+      var label = U.text(m.label) || monthLabelFromId(monthId) || '第 ' + monthSeq + ' 个月';
+      if (!U.text(m.id)) warnings.push('月份 ' + label + ' 缺少 id，已按周期推算');
+      if (!Array.isArray(m.weeks)) warnings.push('月份 ' + label + ' 缺少 weeks 数组，已跳过');
+      else if (m.weeks.length === 0) warnings.push('月份 ' + label + ' 的 weeks 为空');
+
+      var weeks = [];
+      U.arr(m.weeks).forEach(function (w, wi) {
+        if (!U.isObj(w)) { warnings.push('月份 ' + label + ' 第 ' + (wi + 1) + ' 周结构异常，已跳过'); return; }
+        var start = parseISODate(w.start);
+        var endValid = parseISODate(w.end);
+        if (!start) { warnings.push('月份 ' + label + ' 第 ' + (wi + 1) + ' 周缺少合法的 start，已跳过'); return; }
+        var end = endValid || new Date(start.getTime() + 6 * DAY);
+        if (!endValid) warnings.push('周 ' + isoDate(start) + ' 的 end 缺失或非法，按 7 天补齐');
+        if (end.getTime() < start.getTime()) { warnings.push('周 ' + isoDate(start) + ' 的 end 早于 start，已跳过'); return; }
+        var index = Number(w.index) > 0 ? Math.floor(Number(w.index)) : (wi + 1);
+        var week = {
+          id: U.text(w.id) || isoDate(start),
+          index: index,
+          label: U.text(w.label) || ('第' + index + '周'),
+          start: isoDate(start),
+          end: isoDate(end),
+          startObj: start,
+          endObj: end,
+          days: []
+        };
+        weeks.push(week);
+
+        if (!Array.isArray(w.days)) warnings.push('周 ' + week.label + ' 缺少 days 数组');
+        U.arr(w.days).forEach(function (day) {
+          if (!U.isObj(day)) { warnings.push('周 ' + week.label + ' 存在结构异常的日子，已跳过'); return; }
+          var dateObj = parseISODate(day.date);
+          if (!dateObj) { warnings.push('周 ' + week.label + ' 存在非法日期，已跳过'); return; }
+          var dayType = U.text(day.type).toLowerCase();
+          var dayTasks = [];
+          U.arr(day.tasks).forEach(function (t) {
+            if (!U.isObj(t)) { warnings.push('日期 ' + day.date + ' 存在结构异常的任务，已跳过'); return; }
+            var title = U.text(t.title);
+            if (!title) { warnings.push('日期 ' + day.date + ' 有任务缺少 title，已跳过'); return; }
+            var id = U.text(t.id);
+            if (!id) {
+              autoSeq += 1;
+              id = fileName + '#' + day.date + '-' + autoSeq;
+              warnings.push('日期 ' + day.date + ' 有任务缺少 id，已自动生成 ' + id);
+            }
+            if (seenIds[id]) warnings.push('任务 id 重复：' + id + '（同组内会共用完成状态）');
+            seenIds[id] = true;
+            var minutes = Number(t.minutes);
+            minutes = isFinite(minutes) && minutes > 0 ? Math.round(minutes) : 0;
+            if (!minutes) warnings.push('任务 ' + id + ' 的 minutes 无效，按 0 分钟处理');
+            var taskKind = normalizeKind(t.kind, normalizeKind(dayType, metaKind));
+            var done = !!t.done;
+            var doneAt = typeof t.doneAt === 'string' && t.doneAt.trim() ? t.doneAt.trim() : null;
+            var history = U.cleanHistory(t.history);
+            if (!history.length && doneAt) history = [{ action: 'done', at: doneAt }];
+            var task = {
+              id: id,
+              title: title,
+              topic: U.text(t.topic, '未分类'),
+              kind: taskKind,
+              priority: normalizePriority(t.priority),
+              minutes: minutes,
+              slot: U.text(t.slot, ''),
+              initialDone: done,
+              initialDoneAt: doneAt,
+              initialHistory: history,
+              done: done,
+              doneAt: doneAt,
+              history: history.slice(),
+              date: day.date,
+              dateObj: dateObj,
+              monthId: monthId,
+              weekId: week.id,
+              groupFile: fileName,
+              groupName: groupName
+            };
+            dayTasks.push(task);
+            tasks.push(task);
+          });
+          week.days.push({ date: day.date, dateObj: dateObj, type: dayType, tasks: dayTasks });
+        });
+      });
+      months.push({ id: monthId, label: label, weeks: weeks });
+    });
+
+    if (tasks.length === 0) return { ok: false, error: '没有解析到任何任务，请检查 days / tasks 字段是否完整' };
+
+    return {
+      ok: true,
+      group: {
+        fileName: fileName,
+        displayName: groupName || displayName,
+        raw: raw,
+        meta: {
+          groupName: groupName,
+          subject: U.text(raw.meta.subject, groupName),
+          kind: metaKind,
+          examDate: U.text(raw.meta.examDate),
+          planStart: planStart ? isoDate(planStart) : '',
+          generatedAt: U.text(raw.meta.generatedAt),
+          version: raw.meta.version
+        },
+        months: months,
+        tasks: tasks,
+        warnings: warnings,
+        warningCount: warnings.length
+      }
+    };
+  }
+
+  return {
+    build: build,
+    displayNameFromFileName: displayNameFromFileName,
+    parseISODate: parseISODate,
+    isoDate: isoDate,
+    monthLabelFromId: monthLabelFromId
+  };
+})();
+
+/* =============================================================================
+ * 模块 2  数据模型与进度计算  Model
+ * 职责：日期工具、范围聚合、排序、进度统计、预计完成时间、稳定配色、导入导出数据
+ * 只处理内存中的模型，不读写磁盘、不碰 DOM
+ * ========================================================================== */
+var Model = (function () {
+  var PRIO = { P0: 0, P1: 1, P2: 2 };
+  var WEEK_CN = ['周日', '周一', '周二', '周三', '周四', '周五', '周六'];
+
+  function prioRank(t) { return PRIO[t.priority] != null ? PRIO[t.priority] : 2; }
+  function startOf(d) {
+    var x = new Date(d.getFullYear(), d.getMonth(), d.getDate());
+    x.setHours(0, 0, 0, 0);
+    return x;
+  }
+  function addDays(d, n) {
+    var x = startOf(d);
+    x.setDate(x.getDate() + n);
+    return x;
+  }
+  function fmtMD(d, now) {
+    now = now || new Date();
+    var year = d.getFullYear() !== now.getFullYear() ? d.getFullYear() + '年' : '';
+    return year + (d.getMonth() + 1) + '月' + d.getDate() + '日';
+  }
+  /* 跨月正常，跨年时补年份 */
+  function fmtRange(s, e) {
+    if (s.getFullYear() !== e.getFullYear()) {
+      return s.getFullYear() + '年' + (s.getMonth() + 1) + '月' + s.getDate() + '日 ~ ' +
+        e.getFullYear() + '年' + (e.getMonth() + 1) + '月' + e.getDate() + '日';
+    }
+    return (s.getMonth() + 1) + '月' + s.getDate() + '日 ~ ' + (e.getMonth() + 1) + '月' + e.getDate() + '日';
+  }
+  function weekdayText(d) { return WEEK_CN[d.getDay()] || ''; }
+  function fmtMinutes(m) {
+    if (!m) return '未填时长';
+    if (m < 60) return m + ' 分钟';
+    var h = Math.floor(m / 60), r = m % 60;
+    return r ? h + ' 小时 ' + r + ' 分' : h + ' 小时';
+  }
+  function clock(iso) {
+    var d = new Date(iso);
+    return isNaN(d.getTime()) ? '' : U.pad2(d.getHours()) + ':' + U.pad2(d.getMinutes());
+  }
+  /* 完成时间展示：同年前缀 11月3日 08:40，跨年补年份 */
+  function timeText(at, now) {
+    var d = new Date(at);
+    if (isNaN(d.getTime())) return '';
+    now = now || new Date();
+    return (d.getFullYear() === now.getFullYear() ? '' : d.getFullYear() + '年') +
+      (d.getMonth() + 1) + '月' + d.getDate() + '日 ' + clock(at);
+  }
+  function doneText(task, now) {
+    if (!task.done) return '';
+    if (!task.doneAt) return '已勾选 · 无时间记录';
+    var t = timeText(task.doneAt, now);
+    return t ? '已完成 ' + t : '已完成';
+  }
+  /* 最近一次“勾选完成”的时间：优先取历史里最新的 done，其次回退当前 doneAt */
+  function lastDoneAt(task) {
+    var latest = null, latestTs = -Infinity;
+    U.arr(task.history).forEach(function (h) {
+      if (!h || h.action !== 'done') return;
+      var ts = new Date(h.at).getTime();
+      if (isNaN(ts)) return;
+      if (ts > latestTs) { latestTs = ts; latest = h.at; }
+    });
+    if (latest) return latest;
+    return task.doneAt || null;
+  }
+  /* 未完成但有历史时也显示“曾完成 X”，让取消勾选不丢信息 */
+  function lastDoneText(task, now) {
+    if (task.done) return doneText(task, now);
+    var at = lastDoneAt(task);
+    if (!at) return '';
+    var t = timeText(at, now);
+    return t ? '曾完成 ' + t : '';
+  }
+
+  function tasksInRange(tasks, start, end) {
+    var s = startOf(start).getTime(), e = startOf(end).getTime();
+    return tasks.filter(function (t) {
+      var x = startOf(t.dateObj).getTime();
+      return x >= s && x <= e;
+    });
+  }
+  function studyInRange(group, start, end) {
+    return tasksInRange(group.tasks, start, end).filter(function (t) { return t.kind === 'study'; });
+  }
+  function fitnessInRange(groups, start, end) {
+    var out = [];
+    groups.forEach(function (g) {
+      tasksInRange(g.tasks, start, end).forEach(function (t) {
+        if (t.kind === 'fitness') out.push(t);
+      });
+    });
+    return out;
+  }
+  /* 周卡片：本组当周任务 + 其他健身组的当周健身任务（按 文件+id 去重） */
+  function weekTasks(group, groups, start, end) {
+    var out = [], seen = Object.create(null);
+    function push(t) {
+      var k = t.groupFile + '::' + t.id;
+      if (seen[k]) return;
+      seen[k] = 1;
+      out.push(t);
+    }
+    tasksInRange(group.tasks, start, end).forEach(push);
+    fitnessInRange(groups, start, end).forEach(push);
+    return out;
+  }
+  function stats(tasks) {
+    var total = tasks.length, done = 0, minutes = 0;
+    tasks.forEach(function (t) {
+      if (t.done) done += 1;
+      minutes += t.minutes || 0;
+    });
+    return { total: total, done: done, remaining: total - done, minutes: minutes, pct: total ? Math.round(done * 100 / total) : 0 };
+  }
+  function sortByPriority(tasks) {
+    return tasks.slice().sort(function (a, b) {
+      return prioRank(a) - prioRank(b) || a.dateObj - b.dateObj || (a.id < b.id ? -1 : a.id > b.id ? 1 : 0);
+    });
+  }
+  function sortByDate(tasks) {
+    return tasks.slice().sort(function (a, b) {
+      return a.dateObj - b.dateObj || prioRank(a) - prioRank(b);
+    });
+  }
+  function groupByDay(tasks) {
+    var map = Object.create(null), out = [];
+    sortByDate(tasks).forEach(function (t) {
+      if (!map[t.date]) { map[t.date] = { date: t.date, dateObj: t.dateObj, tasks: [] }; out.push(map[t.date]); }
+      map[t.date].tasks.push(t);
+    });
+    return out;
+  }
+  function monthRange(month) {
+    var m = /^(\d{4})-(\d{2})$/.exec(String(month.id || ''));
+    if (m) {
+      var y = +m[1], mo = +m[2];
+      if (mo >= 1 && mo <= 12) return { start: new Date(y, mo - 1, 1), end: new Date(y, mo, 0) };
+    }
+    var starts = month.weeks.map(function (w) { return w.startObj; });
+    if (!starts.length) return null;
+    var min = Math.min.apply(null, starts), max = Math.max.apply(null, month.weeks.map(function (w) { return w.endObj; }));
+    return { start: new Date(min), end: new Date(max) };
+  }
+  /* 月度作用域：按任务所属月份（结构归属）统计，跨月周落在下月的日期不会被漏掉 */
+  function tasksInMonth(group, month) {
+    if (!month) return [];
+    return group.tasks.filter(function (t) { return t.monthId === month.id; });
+  }
+  function fitnessInMonth(groups, month) {
+    if (!month) return [];
+    var out = [], seen = Object.create(null), r = monthRange(month);
+    groups.forEach(function (g) {
+      var owned = g.months.some(function (m) { return m.id === month.id; });
+      var picked = owned
+        ? g.tasks.filter(function (t) { return t.kind === 'fitness' && t.monthId === month.id; })
+        : (r ? tasksInRange(g.tasks, r.start, r.end).filter(function (t) { return t.kind === 'fitness'; }) : []);
+      picked.forEach(function (t) {
+        var k = t.groupFile + '::' + t.id;
+        if (seen[k]) return;
+        seen[k] = 1;
+        out.push(t);
+      });
+    });
+    return out;
+  }
+  function monthEntries(group) {
+    var seen = Object.create(null), out = [];
+    group.months.forEach(function (m) {
+      if (!seen[m.id]) { seen[m.id] = true; out.push(m); }
+    });
+    return out.sort(function (a, b) { return a.id < b.id ? -1 : a.id > b.id ? 1 : 0; });
+  }
+  /* 「板块 → 月份」：按任务 topic 聚合出现过的月份，保持首次出现顺序。
+     单年内少量月份直接并列（如 2月 3月）；跨年或月份很多时按年份压缩成区间，避免一整面数字 */
+  function compressMonths(months) {
+    var out = [], start = null, prev = null;
+    months.forEach(function (m) {
+      if (start === null) { start = prev = m; return; }
+      if (m === prev + 1) { prev = m; return; }
+      out.push([start, prev]);
+      start = prev = m;
+    });
+    if (start !== null) out.push([start, prev]);
+    return out;
+  }
+  function topicSummaries(group) {
+    var order = [], map = Object.create(null);
+    group.tasks.forEach(function (t) {
+      var topic = t.topic || '未分类';
+      if (!map[topic]) { map[topic] = { ids: Object.create(null) }; order.push(topic); }
+      map[topic].ids[t.monthId] = true;
+    });
+    return order.map(function (topic) {
+      var ids = Object.keys(map[topic].ids).sort();
+      var byYear = [], years = Object.create(null);
+      ids.forEach(function (id) {
+        var y = id.slice(0, 4), m = +id.slice(5, 7);
+        years[y] = true;
+        if (!byYear.length || byYear[byYear.length - 1].year !== y) byYear.push({ year: y, months: [] });
+        byYear[byYear.length - 1].months.push(m);
+      });
+      var multiYear = Object.keys(years).length > 1;
+      var texts;
+      if (!multiYear && ids.length <= 4) {
+        texts = [ids.map(function (id) { return (+id.slice(5, 7)) + '月'; }).join(' ')];
+      } else {
+        texts = byYear.map(function (b) {
+          var ranges = compressMonths(b.months).map(function (r) {
+            return r[0] === r[1] ? (r[0] + '月') : (r[0] + '月–' + r[1] + '月');
+          });
+          return b.year + '年' + ranges.join('、');
+        });
+      }
+      return { topic: topic, texts: texts };
+    });
+  }
+  /* 组名确定性哈希配色：同一组名永远同一色，刷新不会闪 */
+  function hashString(s) {
+    var h = 0;
+    for (var i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) % 1000000007;
+    return h;
+  }
+  function groupColor(name) {
+    var h = hashString(String(name || '')) % 360;
+    return {
+      hue: h,
+      strong: 'hsl(' + h + ', 62%, 42%)',
+      soft: 'hsl(' + h + ', 80%, 96%)',
+      light: 'hsl(' + h + ', 70%, 90%)'
+    };
+  }
+
+  /* 预计完成时间：近 14 天加权（近 7 天权重 2）→ 退回整体平均；速率过低返回「数据不足」 */
+  function predict(tasks, planStartISO, now) {
+    now = now || new Date();
+    var total = tasks.length;
+    if (total === 0) return { ok: false, label: '数据不足', detail: '该范围暂无任务' };
+    var doneTasks = tasks.filter(function (t) { return t.done; });
+    var remaining = total - doneTasks.length;
+    if (remaining === 0) {
+      return { ok: true, completed: true, remaining: 0, rate: 0, label: '已全部完成', detail: '该范围任务已全部完成' };
+    }
+    var today = startOf(now);
+    var recent = 0, prev = 0;
+    doneTasks.forEach(function (t) {
+      if (!t.doneAt) return;
+      var d = new Date(t.doneAt);
+      if (isNaN(d.getTime())) return;
+      var diff = Math.round((today.getTime() - startOf(d).getTime()) / DAY);
+      if (diff >= 0 && diff <= 6) recent += 1;
+      else if (diff >= 7 && diff <= 13) prev += 1;
+    });
+    var rate = (2 * (recent / 7) + 1 * (prev / 7)) / 3;
+    var basis = '近14天加权';
+    var detail = '近7天完成 ' + recent + ' 项，前7天 ' + prev + ' 项；加权速率 ' + rate.toFixed(2) +
+      ' 项/天，剩余 ' + remaining + ' 项';
+    if (rate <= 0) {
+      var start = planStartISO ? Parser.parseISODate(planStartISO) : null;
+      if (!start) start = today;
+      var days = Math.max(1, Math.round((today.getTime() - startOf(start).getTime()) / DAY) + 1);
+      rate = doneTasks.length / days;
+      basis = '整体平均';
+      detail = '无近期完成时间可用，按整体平均：已完成 ' + doneTasks.length + ' 项 / ' + days +
+        ' 天 = ' + rate.toFixed(2) + ' 项/天，剩余 ' + remaining + ' 项';
+    }
+    if (!(rate > 0) || rate < 0.02) {
+      return { ok: false, label: '数据不足', basis: basis, rate: rate, detail: detail + '；速率过低，暂不给出预计日期' };
+    }
+    var need = Math.ceil(remaining / rate);
+    if (need > 1825) {
+      return { ok: false, label: '数据不足', basis: basis, rate: rate, detail: detail + '；据此推算超过 5 年' };
+    }
+    var date = addDays(today, need);
+    return {
+      ok: true, completed: false, remaining: remaining, rate: rate, needDays: need, date: date, basis: basis,
+      label: '预计 ' + fmtMD(date, now) + '完成所有任务',
+      detail: detail + '；预计还需 ' + need + ' 天（' + basis + '）'
+    };
+  }
+
+  /* 本地记录覆盖 JSON 初始值；没有本地记录时回到 JSON 的 done/doneAt/history */
+  function applyProgress(groups, records) {
+    groups.forEach(function (g) {
+      g.tasks.forEach(function (t) {
+        var rec = records ? records[g.fileName + '::' + t.id] : null;
+        if (rec && typeof rec.done === 'boolean') {
+          t.done = rec.done;
+          t.doneAt = rec.doneAt || null;
+          t.history = U.cleanHistory(rec.history);
+          if (!t.history.length && t.done && t.doneAt) t.history = [{ action: 'done', at: t.doneAt }];
+        } else {
+          t.done = t.initialDone;
+          t.doneAt = t.initialDoneAt;
+          t.history = (t.initialHistory || []).slice();
+        }
+      });
+    });
+  }
+
+  /* 导出：把所有组的完成时间与勾选历史写回各自的 JSON，并附一份记录表 */
+  function buildExport(groups, records) {
+    var progress = {};
+    Object.keys(records || {}).forEach(function (k) {
+      var rec = records[k];
+      progress[k] = {
+        done: !!rec.done,
+        doneAt: rec.doneAt || null,
+        history: U.cleanHistory(rec.history)
+      };
+    });
+    var outGroups = groups.map(function (g) {
+      var clone = null;
+      try { clone = JSON.parse(JSON.stringify(g.raw)); } catch (e) { clone = null; }
+      if (clone) {
+        var byId = Object.create(null);
+        g.tasks.forEach(function (t) { byId[t.id] = t; });
+        U.arr(clone.months).forEach(function (m) {
+          U.arr(m.weeks).forEach(function (w) {
+            U.arr(w.days).forEach(function (d) {
+              U.arr(d.tasks).forEach(function (t) {
+                var model = U.isObj(t) && t.id != null ? byId[t.id] : null;
+                if (model) {
+                  t.done = !!model.done;
+                  t.doneAt = model.doneAt || null;
+                  var hist = U.cleanHistory(model.history);
+                  if (hist.length) t.history = hist;
+                  else delete t.history;
+                }
+              });
+            });
+          });
+        });
+      }
+      return { fileName: g.fileName, groupName: g.meta.groupName, data: clone };
+    });
+    return {
+      type: 'kyn-progress-export',
+      version: 1,
+      exportedAt: new Date().toISOString(),
+      note: '由「考研任务进度追踪」导出，可用「导入进度」恢复',
+      progress: progress,
+      groups: outGroups
+    };
+  }
+
+  /* 解析导入文件：支持本程序的导出包、单组 JSON、或纯记录表；返回写入条数 */
+  function collectImportRecords(data, fileName, target) {
+    var count = 0;
+    function take(f, id, done, doneAt, history) {
+      if (!f || id == null || String(id) === '') return;
+      target[String(f) + '::' + String(id)] = {
+        done: !!done,
+        doneAt: (typeof doneAt === 'string' && doneAt) ? doneAt : null,
+        history: U.cleanHistory(history)
+      };
+      count += 1;
+    }
+    function fromGroupJson(obj, fname) {
+      if (!U.isObj(obj) || !Array.isArray(obj.months)) return;
+      obj.months.forEach(function (m) {
+        U.arr(m.weeks).forEach(function (w) {
+          U.arr(w.days).forEach(function (d) {
+            U.arr(d.tasks).forEach(function (t) {
+              if (U.isObj(t) && t.id != null) take(fname, t.id, t.done, t.doneAt, t.history);
+            });
+          });
+        });
+      });
+    }
+    if (Array.isArray(data.groups)) {
+      data.groups.forEach(function (item) {
+        if (U.isObj(item) && U.isObj(item.data)) fromGroupJson(item.data, U.text(item.fileName));
+      });
+    } else if (U.isObj(data.meta) && Array.isArray(data.months)) {
+      fromGroupJson(data, fileName);
+    }
+    /* progress 表最后写入，优先级最高；没有 history 的旧文件照常兼容 */
+    if (U.isObj(data.progress)) {
+      Object.keys(data.progress).forEach(function (k) {
+        var rec = data.progress[k];
+        if (!U.isObj(rec) || k.indexOf('::') < 0 || typeof rec.done !== 'boolean') return;
+        target[k] = {
+          done: rec.done,
+          doneAt: rec.doneAt || null,
+          history: U.cleanHistory(rec.history)
+        };
+        count += 1;
+      });
+    }
+    return count;
+  }
+
+  return {
+    prioRank: prioRank, startOf: startOf, addDays: addDays, fmtMD: fmtMD, fmtRange: fmtRange,
+    weekdayText: weekdayText, fmtMinutes: fmtMinutes, doneText: doneText,
+    timeText: timeText, lastDoneAt: lastDoneAt, lastDoneText: lastDoneText,
+    tasksInRange: tasksInRange, studyInRange: studyInRange, fitnessInRange: fitnessInRange,
+    tasksInMonth: tasksInMonth, fitnessInMonth: fitnessInMonth,
+    weekTasks: weekTasks, stats: stats, sortByPriority: sortByPriority, sortByDate: sortByDate,
+    groupByDay: groupByDay, monthRange: monthRange, monthEntries: monthEntries,
+    topicSummaries: topicSummaries, groupColor: groupColor, predict: predict,
+    applyProgress: applyProgress, buildExport: buildExport, collectImportRecords: collectImportRecords
+  };
+})();
+
+/* =============================================================================
+ * 模块 3  状态与持久化  Store
+ * 职责：唯一负责「读本地文件 / 写下载文件 / localStorage」的模块
+ * 其余模块不得直接使用 FileReader 或 localStorage
+ * ========================================================================== */
+var Store = (function () {
+  var K_PROGRESS = 'kyn.progress.v1';
+  var K_SESSION = 'kyn.session.v1';
+  var records = null;
+  var session = null;
+  var storageOK = true;
+
+  function safeGet(key) {
+    try { return window.localStorage.getItem(key); } catch (e) { storageOK = false; return null; }
+  }
+  function safeSet(key, value) {
+    try { window.localStorage.setItem(key, value); return true; }
+    catch (e) { storageOK = false; return false; }
+  }
+
+  function loadRecords() {
+    if (records) return records;
+    var raw = safeGet(K_PROGRESS);
+    records = {};
+    if (!raw) return records;
+    try {
+      var data = JSON.parse(raw);
+      var body = U.isObj(data) && U.isObj(data.records) ? data.records : data;
+      if (U.isObj(body)) {
+        Object.keys(body).forEach(function (k) {
+          var rec = body[k];
+          if (U.isObj(rec) && typeof rec.done === 'boolean') {
+            records[k] = {
+              done: rec.done,
+              doneAt: rec.doneAt || null,
+              history: U.cleanHistory(rec.history)
+            };
+          }
+        });
+      }
+    } catch (e) { records = {}; }
+    return records;
+  }
+  function saveRecords() {
+    return safeSet(K_PROGRESS, JSON.stringify({
+      version: 1,
+      updatedAt: new Date().toISOString(),
+      records: loadRecords()
+    }));
+  }
+  function keyFor(fileName, taskId) { return String(fileName) + '::' + String(taskId); }
+  function setRecord(fileName, taskId, rec) {
+    loadRecords()[keyFor(fileName, taskId)] = {
+      done: !!rec.done,
+      doneAt: rec.doneAt || null,
+      history: U.cleanHistory(rec.history)
+    };
+    return saveRecords();
+  }
+
+  /* 刷新后回到上次的文件与页面（文件内容缓存在 localStorage，只读一次盘） */
+  function loadSession() {
+    if (session !== null) return session;
+    var raw = safeGet(K_SESSION);
+    session = null;
+    if (!raw) return null;
+    try { session = JSON.parse(raw); } catch (e) { session = null; }
+    return U.isObj(session) ? session : null;
+  }
+  function saveSession(payload) {
+    session = payload;
+    return safeSet(K_SESSION, JSON.stringify(payload));
+  }
+
+  function readFileText(file) {
+    return new Promise(function (resolve, reject) {
+      if (!file) { reject(new Error('没有文件')); return; }
+      try {
+        var reader = new FileReader();
+        reader.onload = function () { resolve(String(reader.result == null ? '' : reader.result)); };
+        reader.onerror = function () { reject(new Error('读取失败')); };
+        reader.readAsText(file, 'utf-8');
+      } catch (e) { reject(e); }
+    });
+  }
+
+  function download(filename, text) {
+    var blob = new Blob([text], { type: 'application/json;charset=utf-8' });
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    a.style.display = 'none';
+    document.body.appendChild(a);
+    a.click();
+    window.setTimeout(function () {
+      URL.revokeObjectURL(url);
+      if (a.parentNode) a.parentNode.removeChild(a);
+    }, 0);
+  }
+
+  function clearSession() {
+    session = null;
+    try { window.localStorage.removeItem(K_SESSION); } catch (e) { /* 忽略 */ }
+  }
+
+  return {
+    loadRecords: loadRecords,
+    saveRecords: saveRecords,
+    setRecord: setRecord,
+    keyFor: keyFor,
+    loadSession: loadSession,
+    saveSession: saveSession,
+    clearSession: clearSession,
+    readFileText: readFileText,
+    download: download,
+    storageOK: function () { return storageOK; }
+  };
+})();
+
+/* =============================================================================
+ * 模块 4  各页渲染  Views
+ * 每个页面只读取 ctx（state + 模型 + actions），互不依赖对方内部数据
+ * ========================================================================== */
+var Views = (function () {
+  /* ---- 共用展示片段 ---- */
+  function progressBar(opts) {
+    var st = opts.stats;
+    var empty = st.total === 0;
+    return '' +
+      '<div class="stat-head">' +
+        '<span class="stat-label">' + U.esc(opts.label) + '</span>' +
+        '<span class="stat-nums">' + st.done + '/' + st.total + ' · ' + (empty ? 0 : st.pct) + '%</span>' +
+      '</div>' +
+      '<div class="bar' + (empty ? ' bar--empty' : '') + '">' +
+        '<div class="bar-fill" style="width:' + (empty ? 0 : st.pct) + '%;background:' + opts.color + '"></div>' +
+      '</div>' +
+      '<div class="stat-foot">' +
+        (empty ? '<span class="muted">该范围暂无' + U.esc(opts.emptyWord || '任务') + '</span>' : predictLine(opts.prediction)) +
+      '</div>';
+  }
+  function predictLine(p) {
+    if (!p) return '';
+    var cls = p.ok ? 'predict' : 'muted';
+    return '<span class="' + cls + '" title="' + U.esc(p.detail || '') + '">' + U.esc(p.label) + '</span>';
+  }
+  function prioBadge(p) {
+    return '<span class="prio prio--' + U.esc(p || 'P2') + '">' + U.esc(p || 'P2') + '</span>';
+  }
+  function groupStyle(g) {
+    var c = Model.groupColor(g.meta.groupName);
+    return '--gc:' + c.strong + ';--gc-soft:' + c.soft;
+  }
+  function warnLine(group) {
+    if (!group || !group.warningCount) return '';
+    var first = group.warnings[0];
+    return ' · ' + group.warningCount + ' 条数据提示（' + first + (group.warningCount > 1 ? ' 等' : '') + '）';
+  }
+
+  /* ---- 第 1 页：选择文件 ---- */
+  function page1(ctx) {
+    var files = ctx.files;
+    var valid = files.filter(function (f) { return f.group; }).length;
+    var rows = files.map(function (f) {
+      return '' +
+        '<div class="file-row' + (f.error ? ' is-error' : '') + '">' +
+          '<div class="file-main">' +
+            '<span class="file-name">' + U.esc(f.displayName) + '</span>' +
+            '<span class="file-sub">' + (f.error
+              ? U.esc(f.error)
+              : (f.group.tasks.length + ' 项任务 · ' + Model.monthEntries(f.group).length + ' 个月 · ' +
+                 f.group.meta.subject + warnLine(f.group))) + '</span>' +
+          '</div>' +
+          '<button class="btn btn-small" type="button" data-act="remove-file" data-file="' + U.esc(f.fileName) + '">移除</button>' +
+        '</div>';
+    }).join('');
+
+    return '' +
+      '<section class="page page-1">' +
+        '<div class="page-head"><h1>选择题库</h1></div>' +
+        '<p class="lead">选择任务 JSON（可多次追加）。组名优先读 <code>meta.groupName</code>，缺省时显示文件名 <code>_checkbox_use</code> 之前的部分；' +
+          '完成状态保存在本机，刷新或重新载入同一批文件都能继续。</p>' +
+        '<div class="drop card">' +
+          '<span class="drop-badge">JSON</span>' +
+          '<label class="btn btn-primary" for="fileInput">选择文件</label>' +
+          '<div class="muted small">支持多选，也可分多次追加；建议同时载入健身组，月度/周度页会汇总健身任务</div>' +
+        '</div>' +
+        '<div class="file-section">' +
+          '<div class="section-head"><h2>已选择</h2>' +
+            '<span class="muted small">' + files.length + ' 个文件 · ' + valid + ' 个可用</span></div>' +
+          (files.length ? '<div class="file-list">' + rows + '</div>'
+            : '<div class="empty-state">还没有选择文件。选择示例数据可先用 <code>demo/</code> 下的文件跑通四页。</div>') +
+        '</div>' +
+        '<div class="page-actions">' +
+          '<button class="btn" type="button" data-act="clear-files"' + (files.length ? '' : ' disabled') + '>清空</button>' +
+          '<button class="btn btn-primary" type="button" data-act="to-overview"' + (valid ? '' : ' disabled') + '>进入总览</button>' +
+        '</div>' +
+      '</section>';
+  }
+
+  /* ---- 第 2 页：总览 ---- */
+  function page2(ctx) {
+    if (!ctx.groups.length) {
+      return '<section class="page"><div class="empty-state">还没有可用的题库，请先返回选择文件。</div></section>';
+    }
+    var totalTasks = 0;
+    var cards = ctx.groups.map(function (g) {
+      totalTasks += g.tasks.length;
+      var c = Model.groupColor(g.meta.groupName);
+      var st = Model.stats(g.tasks);
+      var topics = Model.topicSummaries(g);
+      return '' +
+        '<article class="group-card" role="button" tabindex="0" data-act="open-group" data-file="' + U.esc(g.fileName) +
+          '" style="' + groupStyle(g) + '">' +
+          '<div class="group-head">' +
+            '<div>' +
+              '<div class="group-name">' + U.esc(g.meta.groupName) + '</div>' +
+              '<div class="group-sub">' + U.esc(g.meta.subject) + '</div>' +
+            '</div>' +
+            '<span class="kind-tag ' + (g.meta.kind === 'fitness' ? 'kind-fitness' : 'kind-study') + '">' +
+              (g.meta.kind === 'fitness' ? '健身' : '学习') + '</span>' +
+          '</div>' +
+          '<div class="topic-list">' +
+            topics.map(function (t) {
+              return '<span class="topic-item"><b>' + U.esc(t.topic) + '</b>' +
+                t.texts.map(function (x) { return '<span class="ym">' + U.esc(x) + '</span>'; }).join('') + '</span>';
+            }).join('') +
+          '</div>' +
+          '<div class="card-progress">' +
+            progressBar({
+              label: '任务完成',
+              stats: st,
+              color: c.strong,
+              prediction: Model.predict(g.tasks, g.meta.planStart, ctx.now)
+            }) +
+          '</div>' +
+        '</article>';
+    }).join('');
+
+    return '' +
+      '<section class="page page-2">' +
+        '<div class="page-head"><h1>总览</h1><span class="muted small">' + ctx.groups.length + ' 组 · ' + totalTasks + ' 项任务</span></div>' +
+        '<p class="lead">点击组卡片进入月度安排。灰色文字是该组的「板块 月份」汇总。</p>' +
+        '<div class="group-grid">' + cards + '</div>' +
+      '</section>';
+  }
+
+  function shortDate(d) { return (d.getMonth() + 1) + '月' + d.getDate() + '日'; }
+
+  /* ---- 第 3 页：月度 ---- */
+  function page3(ctx) {
+    var g = ctx.group;
+    if (!g) return '<section class="page"><div class="empty-state">该组数据已不可用，请返回总览重新选择。</div></section>';
+    var months = Model.monthEntries(g);
+    var month = ctx.month || months[0];
+    var monthStudy = month ? Model.tasksInMonth(g, month).filter(function (t) { return t.kind === 'study'; }) : [];
+    var monthFitness = Model.fitnessInMonth(ctx.groups, month);
+    var studyStats = Model.stats(monthStudy);
+    var fitStats = Model.stats(monthFitness);
+    var c = Model.groupColor(g.meta.groupName);
+
+    var chips = months.map(function (m) {
+      return '<button class="chip' + (month && m.id === month.id ? ' is-active' : '') + '" type="button" ' +
+        'data-act="select-month" data-month="' + U.esc(m.id) + '">' + U.esc(m.label) + '</button>';
+    }).join('');
+
+    var cards = months.map(function (m) {
+      var tasks = Model.sortByPriority(Model.tasksInMonth(g, m));
+      var st = Model.stats(tasks);
+      return '' +
+        '<article class="month-card card" role="button" tabindex="0" data-act="open-month" data-month="' + U.esc(m.id) + '">' +
+          '<div class="month-head">' +
+            '<div>' +
+              '<h2>' + U.esc(m.label) + '</h2>' +
+              '<div class="muted small">' + st.total + ' 项 · 已完成 ' + st.done + ' 项 · 共 ' + Model.fmtMinutes(st.minutes) + '</div>' +
+            '</div>' +
+            '<span class="chev">进入周度 →</span>' +
+          '</div>' +
+          (tasks.length
+            ? '<ul class="task-list">' + tasks.map(function (t) {
+                var was = t.done ? Model.doneText(t, ctx.now) : Model.lastDoneText(t, ctx.now);
+                return '<li class="task-line">' + prioBadge(t.priority) +
+                  '<span class="task-title">' + U.esc(t.title) + '</span>' +
+                  '<span class="task-meta">' +
+                    (t.kind === 'fitness' ? '<span class="tag tag--fitness">健身</span>' : '') +
+                    '<span>' + shortDate(t.dateObj) + '</span>' +
+                    '<span>' + Model.fmtMinutes(t.minutes) + '</span>' +
+                    (was ? '<span class="task-was">' + U.esc(was) + '</span>' : '') +
+                  '</span></li>';
+              }).join('') + '</ul>'
+            : '<div class="empty-state" style="margin-top:12px">该月暂无任务</div>') +
+        '</article>';
+    }).join('');
+
+    return '' +
+      '<section class="page page-3">' +
+        '<div class="page-head">' +
+          '<button class="btn btn-small" type="button" data-act="back">← 返回总览</button>' +
+          '<h1>' + U.esc(g.meta.groupName) + ' <span class="muted">· 月度</span></h1>' +
+        '</div>' +
+        '<p class="lead">顶部两条进度统计当前选中月份；下方按月列出任务（P0 优先，同级按日期）。</p>' +
+        '<div class="month-tabs">' + chips + '</div>' +
+        '<div class="stat-panel card">' +
+          '<div>' + progressBar({
+            label: '学习', stats: studyStats, color: c.strong,
+            emptyWord: '学习任务',
+            prediction: Model.predict(monthStudy, g.meta.planStart, ctx.now)
+          }) + '</div>' +
+          '<div>' + progressBar({
+            label: '健身', stats: fitStats, color: '#d9901f',
+            emptyWord: '健身任务（可载入健身组）',
+            prediction: Model.predict(monthFitness, g.meta.planStart, ctx.now)
+          }) + '</div>' +
+          '<div class="stat-scope">统计范围：' + U.esc(month ? month.label : '—') +
+            '（学习 = 本组该月任务，健身 = 已载入健身组该月任务）</div>' +
+        '</div>' +
+        '<div class="month-list">' + (cards || '<div class="empty-state">该组没有月份数据</div>') + '</div>' +
+      '</section>';
+  }
+
+  /* ---- 第 4 页：周度 ---- */
+  function page4(ctx) {
+    var g = ctx.group;
+    if (!g) return '<section class="page"><div class="empty-state">该组数据已不可用，请返回总览重新选择。</div></section>';
+    var months = Model.monthEntries(g);
+    var month = ctx.month || months[0];
+    var weeks = month ? month.weeks : [];
+    var active = ctx.activeWeek || (weeks[0] ? (g.fileName + '#' + month.id + '#' + weeks[0].id) : '');
+    var c = Model.groupColor(g.meta.groupName);
+
+    var weekCards = weeks.map(function (w) {
+      var key = g.fileName + '#' + month.id + '#' + w.id;
+      var tasks = Model.weekTasks(g, ctx.groups, w.startObj, w.endObj);
+      var st = Model.stats(tasks);
+      var open = !!ctx.expanded[key];
+      var body = '';
+      if (open) {
+        var days = Model.groupByDay(tasks);
+        body = '<div class="week-body">' + (days.length ? days.map(function (d) {
+          var dst = Model.stats(d.tasks);
+          return '<div class="day-group">' +
+            '<div class="day-head">' + shortDate(d.dateObj) + ' ' + Model.weekdayText(d.dateObj) +
+              '<span class="muted">' + dst.total + ' 项 · 约 ' + Model.fmtMinutes(dst.minutes) + '</span></div>' +
+            d.tasks.map(function (t) { return taskRow(t, g, ctx); }).join('') +
+          '</div>';
+        }).join('') : '<div class="empty-state" style="margin-top:10px">本周没有任务</div>') + '</div>';
+      }
+      return '' +
+        '<section class="week-card card' + (open ? ' is-open' : '') + '">' +
+          '<button class="week-head" type="button" data-act="toggle-week" data-week="' + U.esc(key) + '" ' +
+            'aria-expanded="' + (open ? 'true' : 'false') + '">' +
+            '<span class="week-head-main">' +
+              '<span class="week-title">' + U.esc(w.label + '，' + Model.fmtRange(w.startObj, w.endObj)) + '</span>' +
+              '<span class="week-sub muted">' + st.total + ' 项 · 已完成 ' + st.done + ' 项 · 约 ' + Model.fmtMinutes(st.minutes) + '</span>' +
+            '</span>' +
+            '<span class="week-progress"><b>' + st.pct + '%</b> ' + st.done + '/' + st.total + '</span>' +
+            '<span class="chev-arrow">▾</span>' +
+          '</button>' +
+          body +
+        '</section>';
+    }).join('');
+
+    var range = null, activeWeek = null;
+    for (var i = 0; i < weeks.length; i++) {
+      var k = g.fileName + '#' + month.id + '#' + weeks[i].id;
+      if (k === active) { activeWeek = weeks[i]; break; }
+    }
+    if (!activeWeek) activeWeek = weeks[0] || null;
+    if (activeWeek) range = { start: activeWeek.startObj, end: activeWeek.endObj };
+
+    var studyStats = Model.stats(range ? Model.studyInRange(g, range.start, range.end) : []);
+    var fitStats = Model.stats(range ? Model.fitnessInRange(ctx.groups, range.start, range.end) : []);
+    var studyTasks = range ? Model.studyInRange(g, range.start, range.end) : [];
+    var fitTasks = range ? Model.fitnessInRange(ctx.groups, range.start, range.end) : [];
+
+    return '' +
+      '<section class="page page-4">' +
+        '<div class="page-head">' +
+          '<button class="btn btn-small" type="button" data-act="back">← 返回月度</button>' +
+          '<h1>' + U.esc(g.meta.groupName) + ' <span class="muted">· ' + U.esc(month ? month.label : '') + ' · 周度</span></h1>' +
+        '</div>' +
+        '<p class="lead">点击周卡片原地展开或收起；勾选即完成并记录当时时间戳，取消勾选会记录一次撤销，最近完成时间仍保留。</p>' +
+        '<div class="stat-panel card">' +
+          '<div>' + progressBar({
+            label: '学习', stats: studyStats, color: c.strong, emptyWord: '学习任务',
+            prediction: Model.predict(studyTasks, g.meta.planStart, ctx.now)
+          }) + '</div>' +
+          '<div>' + progressBar({
+            label: '健身', stats: fitStats, color: '#d9901f', emptyWord: '健身任务（可载入健身组）',
+            prediction: Model.predict(fitTasks, g.meta.planStart, ctx.now)
+          }) + '</div>' +
+          '<div class="stat-scope">统计范围：' + (activeWeek
+            ? U.esc(activeWeek.label + '，' + Model.fmtRange(activeWeek.startObj, activeWeek.endObj))
+            : '本周') + '（学习 = 本组任务，健身 = 已载入健身组在该周范围的任务）</div>' +
+        '</div>' +
+        '<div class="week-list">' + (weekCards || '<div class="empty-state">该月没有周数据</div>') + '</div>' +
+      '</section>';
+  }
+
+  /* 周度任务行：学习/健身用左边框色 + 标签区分 */
+  function taskRow(t, group, ctx) {
+    var isFit = t.kind === 'fitness';
+    return '' +
+      '<label class="task-row ' + (isFit ? 'task-row--fitness' : 'task-row--study') + (t.done ? ' is-done' : '') + '">' +
+        '<input type="checkbox" data-file="' + U.esc(t.groupFile) + '" data-task-id="' + U.esc(t.id) + '"' +
+          (t.done ? ' checked' : '') + ' />' +
+        '<span class="task-body">' +
+          '<span class="task-title">' + U.esc(t.title) + '</span>' +
+          '<span class="task-meta">' + prioBadge(t.priority) +
+            '<span>' + Model.fmtMinutes(t.minutes) + '</span>' +
+            (t.slot ? '<span>' + U.esc(t.slot) + '</span>' : '') +
+            (isFit ? '<span class="tag tag--fitness">健身</span>' : '') +
+          '</span>' +
+        '</span>' +
+        '<span class="task-time' + (t.done ? ' is-done' : '') + '">' + U.esc(Model.lastDoneText(t, ctx.now)) + '</span>' +
+      '</label>';
+  }
+
+  return {
+    page1: page1, page2: page2, page3: page3, page4: page4,
+    progressBar: progressBar, prioBadge: prioBadge, groupStyle: groupStyle
+  };
+})();
+
+/* =============================================================================
+ * 模块 5  状态、动作与路由  App / Actions / Router
+ * 路由用内部状态切换，不刷新页面；页面之间通过 route + 模型查询衔接
+ * ========================================================================== */
+var App = {
+  files: [],            // {fileName, displayName, raw, group, error}
+  groups: [],           // 解析成功的组模型
+  route: { page: 1, groupFile: null, monthId: null },
+  expanded: Object.create(null),  // 周卡片展开状态
+  activeWeek: ''
+};
+
+function findGroup(fileName) {
+  for (var i = 0; i < App.groups.length; i++) {
+    if (App.groups[i].fileName === fileName) return App.groups[i];
+  }
+  return null;
+}
+function rebuildGroups() {
+  App.groups = App.files.filter(function (f) { return f.group; }).map(function (f) { return f.group; });
+  Model.applyProgress(App.groups, Store.loadRecords());
+}
+function persist() {
+  var files = App.files.filter(function (f) { return f.raw; }).map(function (f) {
+    return { fileName: f.fileName, raw: f.raw };
+  });
+  if (!files.length) { Store.clearSession(); return; }
+  Store.saveSession({
+    version: 1,
+    savedAt: new Date().toISOString(),
+    files: files,
+    route: { page: App.route.page, groupFile: App.route.groupFile, monthId: App.route.monthId },
+    expanded: Object.keys(App.expanded).filter(function (k) { return App.expanded[k]; }),
+    activeWeek: App.activeWeek
+  });
+}
+
+var toastTimer = null;
+function toast(msg, kind) {
+  var el = document.getElementById('toast');
+  if (!el) return;
+  el.textContent = msg;
+  el.className = 'toast show' + (kind === 'error' ? ' toast--error' : '');
+  if (toastTimer) window.clearTimeout(toastTimer);
+  toastTimer = window.setTimeout(function () { el.className = 'toast'; }, 2600);
+}
+
+var Actions = {
+  addFiles: function (fileList) {
+    var incoming = Array.prototype.slice.call(fileList || []);
+    if (!incoming.length) return Promise.resolve();
+    return Promise.all(incoming.map(function (file) {
+      var entry = {
+        fileName: file.name,
+        displayName: Parser.displayNameFromFileName(file.name)
+      };
+      return Store.readFileText(file).then(function (text) {
+        var raw;
+        try { raw = JSON.parse(text); }
+        catch (e) {
+          entry.error = '不是合法的 JSON（文件内容无法解析，可能已损坏或被截断）';
+          return entry;
+        }
+        var res = Parser.build(raw, entry.fileName, entry.displayName);
+        if (res.ok) { entry.raw = raw; entry.group = res.group; entry.displayName = res.group.displayName; }
+        else entry.error = 'JSON 结构不完整：' + res.error;
+        return entry;
+      }).catch(function (e) {
+        entry.error = '文件读取失败：' + ((e && e.message) ? e.message : '未知错误');
+        return entry;
+      });
+    })).then(function (entries) {
+      entries.forEach(function (entry) {
+        var idx = -1;
+        for (var i = 0; i < App.files.length; i++) {
+          if (App.files[i].fileName === entry.fileName) { idx = i; break; }
+        }
+        if (idx >= 0) App.files[idx] = entry; else App.files.push(entry);
+      });
+      App.route.page = 1;
+      rebuildGroups();
+      persist();
+      Router.render();
+      var ok = entries.filter(function (e) { return e.group; }).length;
+      var bad = entries.length - ok;
+      toast('已载入 ' + ok + ' 个可用文件' + (bad ? '，' + bad + ' 个无法解析' : ''));
+    });
+  },
+
+  removeFile: function (fileName) {
+    App.files = App.files.filter(function (f) { return f.fileName !== fileName; });
+    rebuildGroups();
+    if (!App.groups.length) {
+      App.route = { page: 1, groupFile: null, monthId: null };
+      App.activeWeek = '';
+      Store.clearSession();
+    } else {
+      if (!findGroup(App.route.groupFile)) {
+        App.route = { page: Math.min(App.route.page, 2), groupFile: null, monthId: null };
+      }
+      persist();
+    }
+    Router.render();
+  },
+
+  clearFiles: function () {
+    App.files = [];
+    App.groups = [];
+    App.expanded = Object.create(null);
+    App.activeWeek = '';
+    App.route = { page: 1, groupFile: null, monthId: null };
+    Store.clearSession();
+    Router.render();
+    toast('已清空已选文件');
+  },
+
+  toOverview: function () {
+    if (!App.groups.length) { toast('请先选择至少一个可用文件', 'error'); return; }
+    App.route = { page: 2, groupFile: null, monthId: null };
+    persist();
+    Router.render();
+  },
+
+  openGroup: function (fileName) {
+    var g = findGroup(fileName);
+    if (!g) return;
+    var months = Model.monthEntries(g);
+    App.route = { page: 3, groupFile: fileName, monthId: months[0] ? months[0].id : null };
+    App.activeWeek = '';
+    persist();
+    Router.render();
+  },
+
+  selectMonth: function (monthId) {
+    App.route.monthId = monthId;
+    App.activeWeek = '';
+    persist();
+    Router.render();
+  },
+
+  openMonth: function (monthId) {
+    var g = findGroup(App.route.groupFile);
+    if (!g) return;
+    var months = Model.monthEntries(g);
+    var month = null;
+    for (var i = 0; i < months.length; i++) if (months[i].id === monthId) { month = months[i]; break; }
+    if (!month) month = months[0];
+    if (!month) return;
+    App.route = { page: 4, groupFile: g.fileName, monthId: month.id };
+    App.activeWeek = month.weeks.length ? (g.fileName + '#' + month.id + '#' + month.weeks[0].id) : '';
+    persist();
+    Router.render();
+  },
+
+  toggleWeek: function (key) {
+    if (!key) return;
+    if (App.expanded[key]) delete App.expanded[key];
+    else {
+      App.expanded[key] = true;
+      App.activeWeek = key;
+    }
+    persist();
+    Router.render(true);
+  },
+
+  toggleTask: function (fileName, taskId, checked) {
+    var g = findGroup(fileName);
+    if (!g) return;
+    var task = null;
+    for (var i = 0; i < g.tasks.length; i++) {
+      if (g.tasks[i].id === taskId) { task = g.tasks[i]; break; }
+    }
+    if (!task) return;
+    var now = new Date().toISOString();
+    var history = (task.history || []).slice();
+    history.push({ action: checked ? 'done' : 'undone', at: now });
+    task.history = history;
+    task.done = !!checked;
+    task.doneAt = checked ? now : (task.doneAt || Model.lastDoneAt(task));
+    var saved = Store.setRecord(fileName, taskId, {
+      done: task.done, doneAt: task.doneAt, history: history
+    });
+    Router.render(true);
+    if (!saved) toast('本地存储写入失败，刷新后完成记录可能丢失', 'error');
+  },
+
+  back: function () {
+    var p = App.route.page;
+    if (p === 4) App.route.page = 3;
+    else if (p === 3) App.route = { page: 2, groupFile: null, monthId: null };
+    else App.route = { page: 1, groupFile: null, monthId: null };
+    persist();
+    Router.render();
+  },
+
+  crumb: function (page) {
+    if (page === 1) Actions.reselect();
+    else if (page === 2) Actions.toOverview();
+    else if (page === 3 && App.route.groupFile) {
+      App.route.page = 3;
+      persist();
+      Router.render();
+    }
+  },
+
+  reselect: function () {
+    App.route = { page: 1, groupFile: null, monthId: null };
+    persist();
+    Router.render();
+  },
+
+  exportProgress: function () {
+    if (!App.groups.length) { toast('还没有载入题库，无法导出', 'error'); return; }
+    var bundle = Model.buildExport(App.groups, Store.loadRecords());
+    var d = new Date();
+    var stamp = d.getFullYear() + U.pad2(d.getMonth() + 1) + U.pad2(d.getDate()) + '-' +
+      U.pad2(d.getHours()) + U.pad2(d.getMinutes());
+    Store.download('kyn_progress_' + stamp + '.json', JSON.stringify(bundle, null, 2));
+    toast('已导出 ' + App.groups.length + ' 个组的完成记录');
+  },
+
+  importProgress: function (file) {
+    if (!file) return Promise.resolve();
+    return Store.readFileText(file).then(function (text) {
+      var data;
+      try { data = JSON.parse(text); }
+      catch (e) { toast('导入失败：不是合法的 JSON 文件', 'error'); return; }
+      var count = Model.collectImportRecords(data, file.name, Store.loadRecords());
+      if (!count) { toast('文件里没有可导入的完成记录', 'error'); return; }
+      Store.saveRecords();
+      rebuildGroups();
+      Router.render(true);
+      toast('已导入 ' + count + ' 条完成记录');
+    }).catch(function (e) {
+      toast('导入失败：' + ((e && e.message) ? e.message : '读取错误'), 'error');
+    });
+  }
+};
+
+var Router = (function () {
+  var appEl = null;
+  var crumbsEl = null;
+  var lastPage = 0;
+
+  function sanitize() {
+    if (!App.route || !App.route.page) App.route = { page: 1, groupFile: null, monthId: null };
+    if (App.route.page >= 2 && !App.groups.length) App.route.page = 1;
+    if (App.route.page >= 3) {
+      var g = findGroup(App.route.groupFile);
+      if (!g) {
+        App.route.page = 2;
+        App.route.groupFile = null;
+        App.route.monthId = null;
+      } else {
+        var months = Model.monthEntries(g);
+        var found = false;
+        for (var i = 0; i < months.length; i++) if (months[i].id === App.route.monthId) { found = true; break; }
+        if (!found) App.route.monthId = months[0] ? months[0].id : null;
+        if (App.route.page === 4 && !App.route.monthId) App.route.page = 3;
+      }
+    }
+    if (App.route.page < 1) App.route.page = 1;
+    if (App.route.page > 4) App.route.page = 4;
+  }
+
+  function buildCtx() {
+    var g = findGroup(App.route.groupFile);
+    var months = g ? Model.monthEntries(g) : [];
+    var month = null;
+    for (var i = 0; i < months.length; i++) if (months[i].id === App.route.monthId) { month = months[i]; break; }
+    if (!month) month = months[0] || null;
+    return {
+      files: App.files,
+      groups: App.groups,
+      group: g,
+      month: month,
+      expanded: App.expanded,
+      activeWeek: App.activeWeek,
+      now: new Date()
+    };
+  }
+
+  function crumbsHtml(ctx) {
+    var page = App.route.page;
+    var parts = [];
+    if (page === 1) parts.push('<span class="crumb-current">选择题库</span>');
+    else parts.push('<button class="crumb" type="button" data-act="crumb" data-page="1">选择题库</button>');
+    if (page >= 2) {
+      parts.push('<span class="crumb-sep">/</span>');
+      parts.push(page === 2
+        ? '<span class="crumb-current">总览</span>'
+        : '<button class="crumb" type="button" data-act="crumb" data-page="2">总览</button>');
+    }
+    if (page >= 3 && ctx.group) {
+      parts.push('<span class="crumb-sep">/</span>');
+      parts.push(page === 3
+        ? '<span class="crumb-current">' + U.esc(ctx.group.meta.groupName) + '</span>'
+        : '<button class="crumb" type="button" data-act="crumb" data-page="3">' + U.esc(ctx.group.meta.groupName) + '</button>');
+    }
+    if (page === 4 && ctx.month) {
+      parts.push('<span class="crumb-sep">/</span>');
+      parts.push('<span class="crumb-current">' + U.esc(ctx.month.label) + '</span>');
+    }
+    return parts.join('');
+  }
+
+  function render(keepScroll) {
+    sanitize();
+    var ctx = buildCtx();
+    var page = App.route.page;
+    var html = page === 1 ? Views.page1(ctx)
+      : page === 2 ? Views.page2(ctx)
+      : page === 3 ? Views.page3(ctx)
+      : Views.page4(ctx);
+    var y = window.scrollY || window.pageYOffset || 0;
+    appEl.innerHTML = html;
+    if (keepScroll && lastPage === page) window.scrollTo(0, y);
+    else window.scrollTo(0, 0);
+    crumbsEl.innerHTML = crumbsHtml(ctx);
+    document.title = (ctx.group ? ctx.group.meta.groupName + ' · ' : '') +
+      ['', '选择题库', '总览', '月度', '周度'][page] + ' · 考研任务进度追踪';
+    lastPage = page;
+  }
+
+  function onClick(e) {
+    var el = e.target.closest ? e.target.closest('[data-act]') : null;
+    if (!el || el.disabled) return;
+    var act = el.getAttribute('data-act');
+    if (act === 'remove-file') Actions.removeFile(el.getAttribute('data-file'));
+    else if (act === 'clear-files') Actions.clearFiles();
+    else if (act === 'to-overview') Actions.toOverview();
+    else if (act === 'open-group') Actions.openGroup(el.getAttribute('data-file'));
+    else if (act === 'select-month') Actions.selectMonth(el.getAttribute('data-month'));
+    else if (act === 'open-month') Actions.openMonth(el.getAttribute('data-month'));
+    else if (act === 'toggle-week') Actions.toggleWeek(el.getAttribute('data-week'));
+    else if (act === 'back') Actions.back();
+    else if (act === 'crumb') Actions.crumb(+el.getAttribute('data-page'));
+  }
+
+  function onKeydown(e) {
+    if (e.key !== 'Enter' && e.key !== ' ') return;
+    var el = e.target.closest ? e.target.closest('[data-act][role="button"]') : null;
+    if (!el) return;
+    e.preventDefault();
+    el.click();
+  }
+
+  function onChange(e) {
+    var cb = e.target;
+    if (!cb || cb.tagName !== 'INPUT' || cb.type !== 'checkbox') return;
+    var file = cb.getAttribute('data-file');
+    var id = cb.getAttribute('data-task-id');
+    if (!file || !id) return;
+    Actions.toggleTask(file, id, cb.checked);
+  }
+
+  var booted = false;
+  function boot() {
+    if (booted) return;
+    booted = true;
+    appEl = document.getElementById('app');
+    crumbsEl = document.getElementById('crumbs');
+    appEl.addEventListener('click', onClick);
+    appEl.addEventListener('keydown', onKeydown);
+    appEl.addEventListener('change', onChange);
+
+    var fileInput = document.getElementById('fileInput');
+    fileInput.addEventListener('change', function () {
+      var files = fileInput.files;
+      Actions.addFiles(files).then(function () { fileInput.value = ''; }, function () { fileInput.value = ''; });
+    });
+    var importInput = document.getElementById('importInput');
+    importInput.addEventListener('change', function () {
+      var file = importInput.files && importInput.files[0];
+      Actions.importProgress(file).then(function () { importInput.value = ''; }, function () { importInput.value = ''; });
+    });
+    document.getElementById('btnExport').addEventListener('click', Actions.exportProgress);
+    document.getElementById('btnReselect').addEventListener('click', Actions.reselect);
+
+    restoreSession();
+    render();
+    if (!Store.storageOK()) toast('浏览器禁用了本地存储，完成记录无法持久化', 'error');
+  }
+
+  function restoreSession() {
+    var saved = Store.loadSession();
+    if (!saved || !Array.isArray(saved.files) || !saved.files.length) return;
+    var map = Object.create(null);
+    saved.files.forEach(function (item) {
+      if (!U.isObj(item) || !item.fileName) return;
+      var entry = { fileName: item.fileName, displayName: Parser.displayNameFromFileName(item.fileName) };
+      if (U.isObj(item.raw)) {
+        var res = Parser.build(item.raw, item.fileName, entry.displayName);
+        if (res.ok) { entry.raw = item.raw; entry.group = res.group; entry.displayName = res.group.displayName; }
+        else entry.error = '上次载入的数据已失效：' + res.error;
+      }
+      map[item.fileName] = entry;
+    });
+    App.files = Object.keys(map).map(function (k) { return map[k]; });
+    if (U.isObj(saved.route)) {
+      App.route = {
+        page: +saved.route.page || 1,
+        groupFile: saved.route.groupFile || null,
+        monthId: saved.route.monthId || null
+      };
+    }
+    if (Array.isArray(saved.expanded)) {
+      saved.expanded.forEach(function (k) { if (typeof k === 'string') App.expanded[k] = true; });
+    }
+    App.activeWeek = typeof saved.activeWeek === 'string' ? saved.activeWeek : '';
+    rebuildGroups();
+  }
+
+  return { boot: boot, render: render };
+})();
+
+document.addEventListener('DOMContentLoaded', Router.boot);
+if (document.readyState === 'complete' || document.readyState === 'interactive') Router.boot();
+</script>
+</body>
+</html>

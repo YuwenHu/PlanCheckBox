@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>政治 · 考纲范围与优先级</title><style>
+:root{--bg:#f5f7fb;--card:#fff;--ink:#1b2333;--muted:#667085;--line:#e4e8f1}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.68 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}
+.wrap{max-width:1100px;margin:0 auto;padding:0 20px}
+.hero{background:linear-gradient(135deg,var(--accent) 0%,var(--accent2) 100%);color:#fff;padding:40px 0 32px}
+.hero .kicker{font-size:13px;letter-spacing:.14em;text-transform:uppercase;opacity:.85}
+.hero h1{margin:10px 0 6px;font-size:31px;line-height:1.25;font-weight:700}
+.hero .meta{opacity:.9;font-size:14px;margin:0}
+.hero .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:24px 0 20px}
+.hero .stat{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.24);border-radius:12px;padding:12px 14px}
+.hero .stat b{display:block;font-size:22px;line-height:1.3}
+.hero .stat span{font-size:12px;opacity:.85}
+.hero nav{display:flex;flex-wrap:wrap;gap:10px}
+.hero nav a{display:inline-block;padding:9px 16px;border-radius:10px;text-decoration:none;font-size:14px;font-weight:600;background:rgba(255,255,255,.16);color:#fff;border:1px solid rgba(255,255,255,.3)}
+.hero nav a.primary{background:#fff;color:var(--accent)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px 24px;margin:20px 0;box-shadow:0 1px 3px rgba(16,24,40,.05)}
+.card h2{margin:0 0 6px;font-size:20px}
+.card h2 .num{display:inline-block;min-width:26px;height:26px;line-height:26px;text-align:center;border-radius:8px;background:var(--accent);color:#fff;font-size:13px;margin-right:8px}
+.card .desc{color:var(--muted);font-size:14px;margin:0 0 14px}
+h3{font-size:16px;margin:18px 0 8px}
+.table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px}
+table{border-collapse:collapse;width:100%;font-size:14px;background:#fff}
+th,td{padding:9px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{background:#f8fafc;font-weight:600;white-space:nowrap}
+tr:last-child td{border-bottom:none}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.b-P0{display:inline-block;padding:1px 8px;border-radius:999px;background:#fee4e2;color:#b42318;font-size:12px;font-weight:700}
+.b-P1{display:inline-block;padding:1px 8px;border-radius:999px;background:#e0efff;color:#175cd3;font-size:12px;font-weight:700}
+.b-P2{display:inline-block;padding:1px 8px;border-radius:999px;background:#eef0f4;color:#475467;font-size:12px;font-weight:700}
+.pt{display:inline-block;margin:3px 6px 3px 0;padding:2px 8px;border:1px solid var(--line);border-radius:8px;background:#fbfcfe;font-size:12.5px;white-space:nowrap}
+.slot{display:inline-block;padding:1px 7px;border-radius:6px;background:#f2f4f7;color:#475467;font-size:12px}
+.tid{color:#98a2b3;font-size:11.5px;font-family:ui-monospace,Menlo,Consolas,monospace}
+.dnote{color:#7a4b00;font-size:11.5px;background:#fff7e6;border-radius:5px;padding:1px 6px;display:inline-block;margin-top:3px}
+ul.tight{margin:8px 0 0;padding-left:20px}
+ul.tight li{margin:3px 0}
+.note{background:#fff9ed;border:1px solid #ffe1b3;border-radius:12px;padding:12px 16px;font-size:14px;color:#7a4b00}
+.ok{background:#ecfdf3;border:1px solid #c7e9d5;border-radius:12px;padding:12px 16px;font-size:14px;color:#17663c}
+.warn{background:#fef2f2;border:1px solid #fecdca;border-radius:12px;padding:12px 16px;font-size:14px;color:#912018}
+.bar{height:9px;border-radius:999px;background:var(--accent);opacity:.75;min-width:2px}
+details.month{border:1px solid var(--line);border-radius:12px;background:#fff;margin:10px 0;overflow:hidden}
+details.month>summary{cursor:pointer;padding:12px 16px;font-weight:600;background:#f8fafc;list-style:none;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+details.month>summary::-webkit-details-marker{display:none}
+details.month>summary .r{color:var(--muted);font-weight:400;font-size:13px}
+details.month .inner{padding:0 0 4px}
+.toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:12px 0}
+.toolbar button,.toolbar select{padding:7px 12px;border-radius:9px;border:1px solid var(--line);background:#fff;font-size:13px;cursor:pointer;color:var(--ink)}
+.scope-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.scope-item{border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:#fbfcfe}
+.scope-item b{display:block;font-size:14px;margin-bottom:2px}
+.scope-item span{color:var(--muted);font-size:13px}
+.kv{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;margin:10px 0}
+.kv div{border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:#fbfcfe}
+.kv b{display:block;font-size:20px;line-height:1.3}
+.kv span{color:var(--muted);font-size:12.5px}
+@media(max-width:760px){.hero h1{font-size:24px}.card{padding:16px 14px}th,td{padding:8px 9px}table{font-size:13px}}
+footer{color:var(--muted);font-size:12.5px;padding:18px 0 40px;text-align:center}
+</style></head>
+<body style="--accent:#b45309;--accent2:#7c2d12">
+<header class="hero"><div class="wrap">
+  <div class="kicker">28 考研 · 复习总表（2027-12-19 笔试）</div>
+  <h1>政治 · 考纲范围与优先级</h1>
+  <p class="meta">笔试日 2027-12-19 ｜ 计划窗口 2026-11-04 → 2027-12-19 ｜ 满分 100 分（马原 22 + 新思想 22 + 史纲 15 + 思修 15 + 毛中特 13 + 时政 13）</p>
+  <div class="stats">
+    <div class="stat"><b>130.0 h</b><span>本科目计划学习时长</span></div>
+    <div class="stat"><b>96.0 h</b><span>其中 P0 必做需求</span></div>
+    <div class="stat"><b>10.8%</b><span>占总学习时长</span></div>
+    <div class="stat"><b>124</b><span>任务条目 / 112 个学习日</span></div>
+  </div>
+  <nav>
+    <a class="primary" href="politics_schedule.html">查看月度与逐日安排 →</a>
+    <a href="politics_checkbox_use.json">下载 JSON 数据</a>
+  </nav>
+</div></header>
+<main class="wrap">
+  <section class="card">
+    <h2><span class="num">1</span>考试范围清单</h2>
+    <p class="desc">依据公开考纲 + 共享文档整理；范围外内容不排任务。</p>
+    <div class="scope-grid"><div class="scope-item"><b>马原 · 22 分</b><span>唯物论、辩证法、认识论、唯物史观、政治经济学、科学社会主义。</span></div><div class="scope-item"><b>新思想 · 22 分</b><span>中国式现代化、高质量发展、改革、安全、党建。</span></div><div class="scope-item"><b>史纲 · 15 分</b><span>近代史时间线、党史、新中国史、改革开放史。</span></div><div class="scope-item"><b>思修法基 · 15 分</b><span>思想道德修养与法律基础。</span></div><div class="scope-item"><b>毛中特 · 13 分</b><span>新民主主义革命、社会主义改造、改革开放与理论体系演进。</span></div><div class="scope-item"><b>形势与政策 · 13 分</b><span>年度时政、重要会议与当代世界经济与政治。</span></div></div>
+    <h3>明确不考 / 不计入</h3>
+    <ul class="tight"><li>题型：单选 16×1 + 多选 17×2 + 分析题 5×10</li><li>时政范围以当年 1-12 月为主，冲刺期统一补</li></ul>
+  </section>
+
+  <section class="card">
+    <h2><span class="num">2</span>知识板块与 P0 / P1 / P2</h2>
+    <p class="desc">P0 = 必做（基础且高频，不做会直接掉分）；P1 = 可选 / 非强制（时间够才做）；P2 = 可弃（本次全部未排）。优先级取自共享文档的考频结论，并按 13.5 个月的真实容量校正。</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>知识板块</th><th>覆盖内容</th><th>分值量级</th><th>优先级</th><th>依据 / 本次处理</th></tr></thead>
+      <tbody><tr><td><b>马克思主义基本原理</b></td><td>唯物论、辩证法、认识论、唯物史观</td><td>22 分</td><td><span class="b-P0">P0</span></td><td>理解型、选择题占比高；2027-07 周日下午起步，8/19 后晚上主攻。</td></tr><tr><td><b>新思想</b></td><td>中国式现代化、高质量发展、改革、安全、党建</td><td>22 分</td><td><span class="b-P0">P0</span></td><td>分值最高且与时政绑定，放在 8-10 月与刷题合并。</td></tr><tr><td><b>史纲</b></td><td>近代史与党史时间线、重大事件</td><td>15 分</td><td><span class="b-P0">P0</span></td><td>投入产出比高，8 月建立时间线框架。</td></tr><tr><td><b>思修法基</b></td><td>思想道德与法治</td><td>15 分</td><td><span class="b-P0">P0</span></td><td>以刷题 + 背诵为主，9 月集中一次。</td></tr><tr><td><b>毛中特</b></td><td>新民主主义革命、改造、改革</td><td>13 分</td><td><span class="b-P1">P1</span></td><td>记忆量大、表述固定，本次只排 8 小时，可压缩。</td></tr><tr><td><b>形势与政策</b></td><td>年度时政与重要会议</td><td>13 分</td><td><span class="b-P1">P1</span></td><td>考前 4 周突击最有效，P1 可选。</td></tr><tr><td><b>当代世界经济与政治</b></td><td>全球治理、大国关系</td><td>时政内少量</td><td><span class="b-P2">P2</span></td><td>不单独排，随押题卷顺带。</td></tr></tbody>
+    </table></div>
+    <h3>核心知识点两级优先级（章节 → 知识点）</h3><p class="desc">这是按 2027 版大纲逐条拆出来的颗粒度；排期任务按章节粒度落表，章节内 P0 知识点视为必做。</p><div class="table-wrap"><table><thead><tr><th>章节</th><th class="num">占分</th><th>核心知识点（按优先级排序）</th></tr></thead><tbody><tr><td><b>马原</b></td><td class="num">22 分</td><td><span class="pt"><span class="b-P0">P0</span> 唯物论与辩证法</span><span class="pt"><span class="b-P0">P0</span> 认识论</span><span class="pt"><span class="b-P0">P0</span> 唯物史观</span><span class="pt"><span class="b-P1">P1</span> 政经与科社</span></td></tr><tr><td><b>新思想</b></td><td class="num">22 分</td><td><span class="pt"><span class="b-P0">P0</span> 中国式现代化</span><span class="pt"><span class="b-P0">P0</span> 高质量发展与新质生产力</span><span class="pt"><span class="b-P0">P0</span> 改革与共同富裕</span><span class="pt"><span class="b-P0">P0</span> 国家安全与党建</span></td></tr><tr><td><b>史纲</b></td><td class="num">15 分</td><td><span class="pt"><span class="b-P0">P0</span> 近代史时间线</span><span class="pt"><span class="b-P0">P0</span> 党史与新中国史专题</span></td></tr><tr><td><b>思修法基</b></td><td class="num">15 分</td><td><span class="pt"><span class="b-P0">P0</span> 思想道德</span><span class="pt"><span class="b-P1">P1</span> 法治</span></td></tr><tr><td><b>毛中特</b></td><td class="num">13 分</td><td><span class="pt"><span class="b-P1">P1</span> 新民主主义革命</span><span class="pt"><span class="b-P1">P1</span> 改造与改革开放</span></td></tr><tr><td><b>时政</b></td><td class="num">13 分</td><td><span class="pt"><span class="b-P1">P1</span> 年度会议与政策</span><span class="pt"><span class="b-P2">P2</span> 国际与全球治理</span></td></tr></tbody></table></div>
+  </section>
+
+  <section class="card">
+    <h2><span class="num">3</span>取舍策略（本版怎么砍）</h2>
+    <p class="desc">时间不够时按「先砍 P1 → 再减真题套数 → 最后才动科目配比」的顺序处理。</p>
+    <ul class="tight"><li>政治继续后置：2027-07 起用周日下午，2027-08-19 起晚上改为政治为主（40 分钟）；前期晚上为英语 + 数学碎片。</li><li>总 130 小时、占 10.5%：不追高分，目标 60-65 分，把选择题与分析题框架拿到。</li><li>顺序：马原（7-8 月）→ 史纲 / 新思想 / 思修（8-9 月）→ 刷题（9-10 月）→ 分析题背诵 + 押题卷（10/20 后）。</li><li>毛中特、时政为 P1：时间不足时先砍，不影响 60 分底线。</li></ul>
+    
+    <div class="note">本次未排（被砍）合计：全科 P1 8.4 h、P2 0.0 h、P0 0.0 h。P0 已 100% 排入，P1 只排了 367.8 h。</div>
+  </section>
+
+  <section class="card">
+    <h2><span class="num">4</span>P0-only 可行性（本科目）</h2>
+    <p class="desc">只做 P0 任务需要的完整学习时长，与排期实际给到的时间对比。</p>
+    <div class="kv">
+      <div><b>96.0 h</b><span>P0 需求（单元完整时长）</span></div>
+      <div><b>96.0 h</b><span>实际排入的 P0</span></div>
+      <div><b>0.0 h</b><span>P0 缺口（应为 0 或负）</span></div>
+      <div><b>74%</b><span>P0 占本科目时长</span></div>
+    </div>
+    <div class="ok">全科口径：P0 需求 834.5 h（含 11 次真题抽题测试 8.2 h），可排布容量 1204.5 h（总容量 1355.5 h 含周末/节假日缓冲），余量约 370.0 h（扣掉 11 次机动 8.2 h 后净余量约 361.8 h）。词汇移出后释放的 149.7 h 已按 60/40 转入数二与 408 的 P1，仍保留约 11.3% 的日历余量（≥8%）。</div>
+  </section>
+
+  <section class="card">
+    <h2><span class="num">5</span>分阶段复习路线</h2>
+    <p class="desc">小时数由排期脚本按当日可用时长实算，与逐日表一致。</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>阶段</th><th>时间</th><th class="num">本科目时长</th><th>P0 主线（按排期顺序）</th></tr></thead>
+      <tbody><tr><td>③ 2027-05-01 ~ 07-31</td><td>2027-05-01 → 2027-07-31</td><td class="num">10.0 h</td><td>马原：唯物论与辩证法（对立统一 / 质量互变）；马原：认识论与唯物史观</td></tr><tr><td>④ 2027-08-01 ~ 10-19</td><td>2027-08-01 → 2027-10-19</td><td class="num">72.0 h</td><td>史纲：近代史时间线与重大事件；新思想：中国式现代化、高质量发展与新质生产力；新思想：改革、共同富裕、国家安全与党建……</td></tr><tr><td>⑤ 2027-10-20 ~ 12-19</td><td>2027-10-20 → 2027-12-19</td><td class="num">48.0 h</td><td>分析题框架与背诵：马原；分析题框架与背诵：新思想；分析题背诵：史纲 + 思修……</td></tr></tbody>
+    </table></div>
+  </section>
+
+  <section class="card">
+    <h2><span class="num">6</span>时间规则（排期口径）</h2>
+    
+<ul class="tight">
+  <li><b>2026-11-04 ~ 2026-12-31</b>：周一至周五 早上 1.5 小时 + 晚上 1 小时；早上按“数 / 408 隔日轮换”（周一数学、周二 408、周三数学、周四 408、周五数学）。周六 上午数学 2h / 下午 408 3.25h；周日 上午数学 2h / 下午英语。</li>
+  <li><b>2026 年每周日（已确认）</b>：1 小时心理咨询 + 结束后 30 分钟缓冲，共 1.5 小时不排复习，已从当天可用时长中扣除（优先扣下午英语时段）；当日可用 255 分钟，实际排 240 分钟。2027 年不扣减。</li>
+  <li><b>2027-01-01 起</b>：早上仍 1.5 小时、数 / 408 隔日轮换。健身每 3 天一次（自 2027-01-01 起算），每次 1 小时：<b>健身日早上 1 小时健身 + 0.5 小时碎片任务（数学 / 408 碎片）</b>，晚上照常 1 小时；非健身日早上 1.5 小时学习。周末或节假日若正好是健身日，早上 2 小时里让出 1 小时给健身（数学 1 小时 + 健身 1 小时），当天学习总量同步减 1 小时。</li>
+  <li><b>晚上</b>：2027-08-19 之前为数学碎片 + 408 碎片；2027-08-19 起（进入考前 4 个月）改为政治为主（40 分钟）。健身日晚上为 30 分钟数学 + 30 分钟（8/19 后政治 / 之前 408）。</li>
+  <li><b>周末</b>：2027-06-30 之前 周六 上午数学 / 下午 408、周日 上午数学 / 下午英语；2027-07-01 起 周六 上午数学 / 下午英语、周日 上午 408 / 下午政治。</li>
+  <li><b>词汇不在计划内</b>：用户在工作日中午、周末晚上自行背单词，不占计划时段。原来每天 20-30 分钟的词汇任务（全期约 149.7 小时）已整块删除，<b>这 149.7 小时按数二 60% / 408 40% 全部转入 P1 内容</b>，逐日追加在晚上 / 周末下午的缓冲时段；日总量仍保留 ≥8% 余量，不排满。</li>
+  <li><b>过关测试与机动</b>：11 次章节过关测试直接从数二历年真题按章节抽 15 题（45 分钟），测试即刷题，其时长已从「数二真题」单元中扣除，全期数二真题共下调 8.25 小时；每次测试后 1 天再排 45 分钟「机动·重测/订正」，11 次共 8.25 小时，只从缓冲支出，不挤占其他科目的 P0。</li>
+  <li><b>节假日</b>：2026 年内无剩余法定假日；2027 年放假安排官方尚未公布，按“法定节日 + 常规连休”推定并在当日 note 字段标注（元旦、春节 2/5-2/12、清明 4/3-4/5、劳动 5/1-5/5、端午 6/9、中秋 9/15、国庆 10/1-10/7）。</li>
+  <li>每日任务分钟数均不超过当日可用时长；周末、健身日与节假日均有缓冲余量，机动任务只在这些余量里排。</li>
+  <li><b>已确认</b>：心理咨询只存在于 2026 年剩余区间，2027 年不再扣减；2027 年放假安排仍为推定值（届时以官方通知为准）。</li>
+</ul>
+
+  </section>
+
+  <section class="card">
+    <h2><span class="num">7</span>2027 版大纲核对与变动</h2>
+    <p class="desc">联网核对最新已发布的 2027 版考试大纲（2026-09 发布）与近两年调整；适用 2027-12 笔试的 2028 版尚未发布。</p>
+    <ul class="tight"><li>已检索 2027 版大纲：题型仍为单选 16×1 + 多选 17×2 + 分析题 5×10，分值结构不变。</li><li>变动集中在毛中特 / 新思想：新增中国式现代化、高质量发展、新质生产力、共同富裕等最新表述，并纳入重要会议精神；时政范围更新为 2026 年 1-12 月。</li><li>对本表的影响：新思想仍按 22 分 P0 排（2027 秋），毛中特维持在 P1；<b>你的考试是 2027-12</b>，时政应为 2027 年 1-12 月，2027-11 起必须换当年时政资料，故 10/20 后只留 6 小时通用时政 + 押题卷。</li><li>2028 版大纲未发布，2027-09 后需复核一次（政治通常是四科里变动最大的）。</li></ul>
+  </section>
+
+  <section class="card">
+    <h2><span class="num">8</span>资料与来源</h2>
+    <ul class="tight">
+      <li>共享文档（政治）：<a href="https://share.traecontent.cn/share/M2R-IFYA50E2ZP?enter_from=pc" target="_blank" rel="noopener">https://share.traecontent.cn/share/M2R-IFYA50E2ZP?enter_from=pc</a></li>
+      <li>抓取状态：成功读取：六大模块与分值（马原 22 / 新思想 22 / 史纲 15 / 思修 15 / 毛中特 13 / 时政 13）。</li>
+      <li>2027 版大纲公开解读：<a href="https://www.eol.cn/kaoshi/ky/zx/202610/t20261016_2783361.shtml" target="_blank" rel="noopener">教育在线 · 2027 考研大纲公共课变化一张表</a>、<a href="https://kaoyan.koolearn.com/20260904/1975038.html" target="_blank" rel="noopener">新东方在线 · 2027 数学二大纲</a>、<a href="https://kaoyan.xdf.cn/202610/15427047.html" target="_blank" rel="noopener">新东方 · 2027 408 新大纲变化解读</a>、<a href="http://www.eol.cn/kaoshi/ky/zx/202610/t20261020_2784365.shtml" target="_blank" rel="noopener">教育在线 · 408 四门分值对照</a>、<a href="https://m.hqwx.com/mem-kaoshi/ziliaolm/1463917.html" target="_blank" rel="noopener">环球青藤 · 2027 英语二大纲对比</a>、<a href="https://jixun.iqihang.com/zixun/dagang/zzdg/2026806045.html" target="_blank" rel="noopener">启航考研 · 2027 政治大纲变动解析</a>。</li>
+      <li>2027 年节假日安排官方尚未公布，本表按“法定节日 + 常规连休”推定，并在 JSON 的 day.note 字段标注。</li>
+    </ul>
+  </section>
+</main>
+<footer>生成于 2026-11-04 ｜ 政治 复习总表（2027-12-19 版）｜ 与 politics_checkbox_use.json 同源</footer>
+</body></html>
