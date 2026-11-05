@@ -1,0 +1,1465 @@
+{
+  "meta": {
+    "groupName": "408",
+    "subject": "计算机学科专业基础",
+    "kind": "study",
+    "examDate": "2027-12-19",
+    "planStart": "2026-10-26",
+    "generatedAt": "2026-11-03T10:00:00+08:00",
+    "version": 1
+  },
+  "months": [
+    {
+      "id": "2026-11",
+      "label": "2026年11月",
+      "weeks": [
+        {
+          "id": "2026-11-02",
+          "index": 1,
+          "label": "第一周",
+          "start": "2026-11-02",
+          "end": "2026-11-08",
+          "days": [
+            {
+              "date": "2026-11-02",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261102-01",
+                  "title": "操作系统：选择题 20 道（第1讲）",
+                  "topic": "操作系统",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 45,
+                  "slot": "午",
+                  "done": true,
+                  "doneAt": "2026-11-02T14:20:00+08:00"
+                },
+                {
+                  "id": "CS-20261102-02",
+                  "title": "计算机网络：真题大题 1 道（第1讲）",
+                  "topic": "计算机网络",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 90,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-11-03",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261103-01",
+                  "title": "计算机组成原理：真题大题 1 道（第1讲）",
+                  "topic": "计算机组成原理",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 30,
+                  "slot": "午",
+                  "done": true,
+                  "doneAt": "2026-11-03T08:40:00+08:00"
+                },
+                {
+                  "id": "CS-20261103-02",
+                  "title": "数据结构：知识点串讲（第2讲）",
+                  "topic": "数据结构",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "晚",
+                  "done": true,
+                  "doneAt": "2026-11-03T20:10:00+08:00"
+                }
+              ]
+            },
+            {
+              "date": "2026-11-04",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261104-01",
+                  "title": "操作系统：知识点串讲（第2讲）",
+                  "topic": "操作系统",
+                  "kind": "study",
+                  "priority": "P2",
+                  "minutes": 90,
+                  "slot": "午",
+                  "done": true,
+                  "doneAt": "2026-11-02T20:10:00+08:00"
+                },
+                {
+                  "id": "CS-20261104-02",
+                  "title": "计算机网络：算法手写 1 题（第2讲）",
+                  "topic": "计算机网络",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 60,
+                  "slot": "晚",
+                  "done": true,
+                  "doneAt": "2026-11-01T14:20:00+08:00"
+                }
+              ]
+            },
+            {
+              "date": "2026-11-05",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261105-01",
+                  "title": "计算机组成原理：算法手写 1 题（第3讲）",
+                  "topic": "计算机组成原理",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "午",
+                  "done": true,
+                  "doneAt": "2026-10-31T14:20:00+08:00"
+                }
+              ]
+            },
+            {
+              "date": "2026-11-06",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261106-01",
+                  "title": "数据结构：真题大题 1 道（第3讲）",
+                  "topic": "数据结构",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 90,
+                  "slot": "早",
+                  "done": true,
+                  "doneAt": "2026-11-03T20:10:00+08:00"
+                },
+                {
+                  "id": "CS-20261106-02",
+                  "title": "操作系统：知识点串讲（第3讲）",
+                  "topic": "操作系统",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "午",
+                  "done": true,
+                  "doneAt": "2026-11-02T14:20:00+08:00"
+                }
+              ]
+            },
+            {
+              "date": "2026-11-07",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261107-01",
+                  "title": "计算机网络：知识点串讲（第4讲）",
+                  "topic": "计算机网络",
+                  "kind": "study",
+                  "priority": "P2",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": true,
+                  "doneAt": "2026-11-01T14:20:00+08:00"
+                }
+              ]
+            },
+            {
+              "date": "2026-11-08",
+              "type": "rest",
+              "tasks": []
+            }
+          ]
+        },
+        {
+          "id": "2026-11-09",
+          "index": 2,
+          "label": "第二周",
+          "start": "2026-11-09",
+          "end": "2026-11-15",
+          "days": [
+            {
+              "date": "2026-11-09",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261109-01",
+                  "title": "计算机组成原理：选择题 20 道（第4讲）",
+                  "topic": "计算机组成原理",
+                  "kind": "study",
+                  "priority": "P2",
+                  "minutes": 45,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS-20261109-02",
+                  "title": "数据结构：真题大题 1 道（第4讲）",
+                  "topic": "数据结构",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 90,
+                  "slot": "早",
+                  "done": true,
+                  "doneAt": "2026-11-03T14:20:00+08:00"
+                }
+              ]
+            },
+            {
+              "date": "2026-11-10",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261110-01",
+                  "title": "操作系统：真题大题 1 道（第5讲）",
+                  "topic": "操作系统",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 30,
+                  "slot": "晚",
+                  "done": true,
+                  "doneAt": "2026-11-02T14:20:00+08:00"
+                },
+                {
+                  "id": "CS-20261110-02",
+                  "title": "计算机网络：知识点串讲（第5讲）",
+                  "topic": "计算机网络",
+                  "kind": "study",
+                  "priority": "P2",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": true,
+                  "doneAt": "2026-11-01T08:40:00+08:00"
+                }
+              ]
+            },
+            {
+              "date": "2026-11-11",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261111-01",
+                  "title": "计算机组成原理：知识点串讲（第5讲）",
+                  "topic": "计算机组成原理",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 90,
+                  "slot": "晚",
+                  "done": true,
+                  "doneAt": "2026-10-31T08:40:00+08:00"
+                },
+                {
+                  "id": "CS-20261111-02",
+                  "title": "数据结构：算法手写 1 题（第6讲）",
+                  "topic": "数据结构",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": true,
+                  "doneAt": "2026-11-03T20:10:00+08:00"
+                }
+              ]
+            },
+            {
+              "date": "2026-11-12",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261112-01",
+                  "title": "操作系统：算法手写 1 题（第6讲）",
+                  "topic": "操作系统",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 60,
+                  "slot": "晚",
+                  "done": true,
+                  "doneAt": "2026-11-02T20:10:00+08:00"
+                }
+              ]
+            },
+            {
+              "date": "2026-11-13",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261113-01",
+                  "title": "计算机网络：真题大题 1 道（第6讲）",
+                  "topic": "计算机网络",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 90,
+                  "slot": "午",
+                  "done": true,
+                  "doneAt": "2026-11-01T08:40:00+08:00"
+                },
+                {
+                  "id": "CS-20261113-02",
+                  "title": "计算机组成原理：知识点串讲（第7讲）",
+                  "topic": "计算机组成原理",
+                  "kind": "study",
+                  "priority": "P2",
+                  "minutes": 60,
+                  "slot": "晚",
+                  "done": true,
+                  "doneAt": "2026-10-31T20:10:00+08:00"
+                }
+              ]
+            },
+            {
+              "date": "2026-11-14",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261114-01",
+                  "title": "数据结构：知识点串讲（第7讲）",
+                  "topic": "数据结构",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "午",
+                  "done": true,
+                  "doneAt": "2026-11-03T20:10:00+08:00"
+                }
+              ]
+            },
+            {
+              "date": "2026-11-15",
+              "type": "rest",
+              "tasks": []
+            }
+          ]
+        },
+        {
+          "id": "2026-11-16",
+          "index": 3,
+          "label": "第三周",
+          "start": "2026-11-16",
+          "end": "2026-11-22",
+          "days": [
+            {
+              "date": "2026-11-16",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261116-01",
+                  "title": "操作系统：选择题 20 道（第7讲）",
+                  "topic": "操作系统",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 45,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS-20261116-02",
+                  "title": "计算机网络：真题大题 1 道（第8讲）",
+                  "topic": "计算机网络",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 90,
+                  "slot": "午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-11-17",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261117-01",
+                  "title": "计算机组成原理：真题大题 1 道（第8讲）",
+                  "topic": "计算机组成原理",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 30,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS-20261117-02",
+                  "title": "数据结构：知识点串讲（第8讲）",
+                  "topic": "数据结构",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-11-18",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261118-01",
+                  "title": "操作系统：知识点串讲（第9讲）",
+                  "topic": "操作系统",
+                  "kind": "study",
+                  "priority": "P2",
+                  "minutes": 90,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS-20261118-02",
+                  "title": "计算机网络：算法手写 1 题（第9讲）",
+                  "topic": "计算机网络",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 60,
+                  "slot": "午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-11-19",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261119-01",
+                  "title": "计算机组成原理：算法手写 1 题（第9讲）",
+                  "topic": "计算机组成原理",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-11-20",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261120-01",
+                  "title": "数据结构：真题大题 1 道（第10讲）",
+                  "topic": "数据结构",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 90,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS-20261120-02",
+                  "title": "操作系统：知识点串讲（第10讲）",
+                  "topic": "操作系统",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-11-21",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261121-01",
+                  "title": "计算机网络：知识点串讲（第10讲）",
+                  "topic": "计算机网络",
+                  "kind": "study",
+                  "priority": "P2",
+                  "minutes": 60,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-11-22",
+              "type": "rest",
+              "tasks": []
+            }
+          ]
+        },
+        {
+          "id": "2026-11-23",
+          "index": 4,
+          "label": "第四周",
+          "start": "2026-11-23",
+          "end": "2026-11-29",
+          "days": [
+            {
+              "date": "2026-11-23",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261123-01",
+                  "title": "计算机组成原理：选择题 20 道（第11讲）",
+                  "topic": "计算机组成原理",
+                  "kind": "study",
+                  "priority": "P2",
+                  "minutes": 45,
+                  "slot": "午",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS-20261123-02",
+                  "title": "数据结构：真题大题 1 道（第11讲）",
+                  "topic": "数据结构",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 90,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-11-24",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261124-01",
+                  "title": "操作系统：真题大题 1 道（第11讲）",
+                  "topic": "操作系统",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 30,
+                  "slot": "午",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS-20261124-02",
+                  "title": "计算机网络：知识点串讲（第12讲）",
+                  "topic": "计算机网络",
+                  "kind": "study",
+                  "priority": "P2",
+                  "minutes": 60,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-11-25",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261125-01",
+                  "title": "计算机组成原理：知识点串讲（第12讲）",
+                  "topic": "计算机组成原理",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 90,
+                  "slot": "午",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS-20261125-02",
+                  "title": "数据结构：算法手写 1 题（第12讲）",
+                  "topic": "数据结构",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-11-26",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261126-01",
+                  "title": "操作系统：算法手写 1 题（第13讲）",
+                  "topic": "操作系统",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 60,
+                  "slot": "午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-11-27",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261127-01",
+                  "title": "计算机网络：真题大题 1 道（第13讲）",
+                  "topic": "计算机网络",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 90,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS-20261127-02",
+                  "title": "计算机组成原理：知识点串讲（第13讲）",
+                  "topic": "计算机组成原理",
+                  "kind": "study",
+                  "priority": "P2",
+                  "minutes": 60,
+                  "slot": "午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-11-28",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261128-01",
+                  "title": "数据结构：知识点串讲（第14讲）",
+                  "topic": "数据结构",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-11-29",
+              "type": "rest",
+              "tasks": []
+            }
+          ]
+        },
+        {
+          "id": "2026-11-30",
+          "index": 5,
+          "label": "第五周",
+          "start": "2026-11-30",
+          "end": "2026-12-06",
+          "days": [
+            {
+              "date": "2026-11-30",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261130-01",
+                  "title": "操作系统：选择题 20 道（第14讲）",
+                  "topic": "操作系统",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 45,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS-20261130-02",
+                  "title": "计算机网络：真题大题 1 道（第14讲）",
+                  "topic": "计算机网络",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 90,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-01",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261201-01",
+                  "title": "计算机组成原理：真题大题 1 道（第15讲）",
+                  "topic": "计算机组成原理",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 30,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS-20261201-02",
+                  "title": "数据结构：知识点串讲（第15讲）",
+                  "topic": "数据结构",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-02",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261202-01",
+                  "title": "操作系统：知识点串讲（第15讲）",
+                  "topic": "操作系统",
+                  "kind": "study",
+                  "priority": "P2",
+                  "minutes": 90,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS-20261202-02",
+                  "title": "计算机网络：算法手写 1 题（第16讲）",
+                  "topic": "计算机网络",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-03",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261203-01",
+                  "title": "计算机组成原理：算法手写 1 题（第16讲）",
+                  "topic": "计算机组成原理",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-04",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261204-01",
+                  "title": "数据结构：真题大题 1 道（第16讲）",
+                  "topic": "数据结构",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 90,
+                  "slot": "午",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS-20261204-02",
+                  "title": "操作系统：知识点串讲（第17讲）",
+                  "topic": "操作系统",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-05",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261205-01",
+                  "title": "计算机网络：知识点串讲（第17讲）",
+                  "topic": "计算机网络",
+                  "kind": "study",
+                  "priority": "P2",
+                  "minutes": 60,
+                  "slot": "午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-06",
+              "type": "rest",
+              "tasks": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2026-12",
+      "label": "2026年12月",
+      "weeks": [
+        {
+          "id": "2026-12-07",
+          "index": 6,
+          "label": "第六周",
+          "start": "2026-12-07",
+          "end": "2026-12-13",
+          "days": [
+            {
+              "date": "2026-12-07",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261207-01",
+                  "title": "计算机组成原理：选择题 20 道（第17讲）",
+                  "topic": "计算机组成原理",
+                  "kind": "study",
+                  "priority": "P2",
+                  "minutes": 45,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS-20261207-02",
+                  "title": "数据结构：真题大题 1 道（第18讲）",
+                  "topic": "数据结构",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 90,
+                  "slot": "午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-08",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261208-01",
+                  "title": "操作系统：真题大题 1 道（第18讲）",
+                  "topic": "操作系统",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 30,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS-20261208-02",
+                  "title": "计算机网络：知识点串讲（第18讲）",
+                  "topic": "计算机网络",
+                  "kind": "study",
+                  "priority": "P2",
+                  "minutes": 60,
+                  "slot": "午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-09",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261209-01",
+                  "title": "计算机组成原理：知识点串讲（第19讲）",
+                  "topic": "计算机组成原理",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 90,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS-20261209-02",
+                  "title": "数据结构：算法手写 1 题（第19讲）",
+                  "topic": "数据结构",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-10",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261210-01",
+                  "title": "操作系统：算法手写 1 题（第19讲）",
+                  "topic": "操作系统",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-11",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261211-01",
+                  "title": "计算机网络：真题大题 1 道（第20讲）",
+                  "topic": "计算机网络",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 90,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS-20261211-02",
+                  "title": "计算机组成原理：知识点串讲（第20讲）",
+                  "topic": "计算机组成原理",
+                  "kind": "study",
+                  "priority": "P2",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-12",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261212-01",
+                  "title": "数据结构：知识点串讲（第20讲）",
+                  "topic": "数据结构",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-13",
+              "type": "rest",
+              "tasks": []
+            }
+          ]
+        },
+        {
+          "id": "2026-12-14",
+          "index": 7,
+          "label": "第七周",
+          "start": "2026-12-14",
+          "end": "2026-12-20",
+          "days": [
+            {
+              "date": "2026-12-14",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261214-01",
+                  "title": "操作系统：选择题 20 道（第21讲）",
+                  "topic": "操作系统",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 45,
+                  "slot": "午",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS-20261214-02",
+                  "title": "计算机网络：真题大题 1 道（第21讲）",
+                  "topic": "计算机网络",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 90,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-15",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261215-01",
+                  "title": "计算机组成原理：真题大题 1 道（第21讲）",
+                  "topic": "计算机组成原理",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 30,
+                  "slot": "午",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS-20261215-02",
+                  "title": "数据结构：知识点串讲（第22讲）",
+                  "topic": "数据结构",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-16",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261216-01",
+                  "title": "操作系统：知识点串讲（第22讲）",
+                  "topic": "操作系统",
+                  "kind": "study",
+                  "priority": "P2",
+                  "minutes": 90,
+                  "slot": "午",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS-20261216-02",
+                  "title": "计算机网络：算法手写 1 题（第22讲）",
+                  "topic": "计算机网络",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 60,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-17",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261217-01",
+                  "title": "计算机组成原理：算法手写 1 题（第23讲）",
+                  "topic": "计算机组成原理",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-18",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261218-01",
+                  "title": "数据结构：真题大题 1 道（第23讲）",
+                  "topic": "数据结构",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 90,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS-20261218-02",
+                  "title": "操作系统：知识点串讲（第23讲）",
+                  "topic": "操作系统",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-19",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261219-01",
+                  "title": "计算机网络：知识点串讲（第24讲）",
+                  "topic": "计算机网络",
+                  "kind": "study",
+                  "priority": "P2",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-20",
+              "type": "rest",
+              "tasks": []
+            }
+          ]
+        },
+        {
+          "id": "2026-12-21",
+          "index": 8,
+          "label": "第八周",
+          "start": "2026-12-21",
+          "end": "2026-12-27",
+          "days": [
+            {
+              "date": "2026-12-21",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261221-01",
+                  "title": "计算机组成原理：选择题 20 道（第24讲）",
+                  "topic": "计算机组成原理",
+                  "kind": "study",
+                  "priority": "P2",
+                  "minutes": 45,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS-20261221-02",
+                  "title": "数据结构：真题大题 1 道（第24讲）",
+                  "topic": "数据结构",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 90,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-22",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261222-01",
+                  "title": "操作系统：真题大题 1 道（第25讲）",
+                  "topic": "操作系统",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 30,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS-20261222-02",
+                  "title": "计算机网络：知识点串讲（第25讲）",
+                  "topic": "计算机网络",
+                  "kind": "study",
+                  "priority": "P2",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-23",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261223-01",
+                  "title": "计算机组成原理：知识点串讲（第25讲）",
+                  "topic": "计算机组成原理",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 90,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS-20261223-02",
+                  "title": "数据结构：算法手写 1 题（第26讲）",
+                  "topic": "数据结构",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-24",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261224-01",
+                  "title": "操作系统：算法手写 1 题（第26讲）",
+                  "topic": "操作系统",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 60,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-25",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261225-01",
+                  "title": "计算机网络：真题大题 1 道（第26讲）",
+                  "topic": "计算机网络",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 90,
+                  "slot": "午",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS-20261225-02",
+                  "title": "计算机组成原理：知识点串讲（第27讲）",
+                  "topic": "计算机组成原理",
+                  "kind": "study",
+                  "priority": "P2",
+                  "minutes": 60,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-26",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261226-01",
+                  "title": "数据结构：知识点串讲（第27讲）",
+                  "topic": "数据结构",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-27",
+              "type": "rest",
+              "tasks": []
+            }
+          ]
+        },
+        {
+          "id": "2026-12-28",
+          "index": 9,
+          "label": "第九周",
+          "start": "2026-12-28",
+          "end": "2027-01-03",
+          "days": [
+            {
+              "date": "2026-12-28",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261228-01",
+                  "title": "操作系统：选择题 20 道（第27讲）",
+                  "topic": "操作系统",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 45,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS-20261228-02",
+                  "title": "计算机网络：真题大题 1 道（第28讲）",
+                  "topic": "计算机网络",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 90,
+                  "slot": "午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-29",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261229-01",
+                  "title": "计算机组成原理：真题大题 1 道（第28讲）",
+                  "topic": "计算机组成原理",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 30,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS-20261229-02",
+                  "title": "数据结构：知识点串讲（第28讲）",
+                  "topic": "数据结构",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-30",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261230-01",
+                  "title": "操作系统：知识点串讲（第29讲）",
+                  "topic": "操作系统",
+                  "kind": "study",
+                  "priority": "P2",
+                  "minutes": 90,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS-20261230-02",
+                  "title": "计算机网络：算法手写 1 题（第29讲）",
+                  "topic": "计算机网络",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 60,
+                  "slot": "午",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-31",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20261231-01",
+                  "title": "计算机组成原理：算法手写 1 题（第29讲）",
+                  "topic": "计算机组成原理",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-01-01",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20270101-01",
+                  "title": "数据结构：真题大题 1 道（第30讲）",
+                  "topic": "数据结构",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 90,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS-20270101-02",
+                  "title": "操作系统：知识点串讲（第30讲）",
+                  "topic": "操作系统",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-01-02",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS-20270102-01",
+                  "title": "计算机网络：知识点串讲（第30讲）",
+                  "topic": "计算机网络",
+                  "kind": "study",
+                  "priority": "P2",
+                  "minutes": 60,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-01-03",
+              "type": "rest",
+              "tasks": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

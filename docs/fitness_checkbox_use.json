@@ -1,0 +1,2556 @@
+{
+  "meta": {
+    "groupName": "健身",
+    "subject": "健身",
+    "kind": "fitness",
+    "examDate": "2027-12-19",
+    "planStart": "2026-11-05",
+    "generatedAt": "2026-11-05T12:00:00+08:00",
+    "version": 1
+  },
+  "months": [
+    {
+      "id": "2026-12",
+      "label": "2026年12月",
+      "weeks": [
+        {
+          "id": "2026-12-28",
+          "index": 1,
+          "label": "第1周",
+          "start": "2026-12-28",
+          "end": "2027-01-03",
+          "days": [
+            {
+              "date": "2027-01-01",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270101-01",
+                  "title": "健身：力量训练 A（胸/肩/三头）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2027-01",
+      "label": "2027年1月",
+      "weeks": [
+        {
+          "id": "2027-01-04",
+          "index": 2,
+          "label": "第2周",
+          "start": "2027-01-04",
+          "end": "2027-01-10",
+          "days": [
+            {
+              "date": "2027-01-04",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270104-01",
+                  "title": "健身：有氧 + 核心训练",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-01-07",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270107-01",
+                  "title": "健身：力量训练 B（背/腿）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-01-10",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270110-01",
+                  "title": "健身：拉伸与恢复",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-01-11",
+          "index": 3,
+          "label": "第3周",
+          "start": "2027-01-11",
+          "end": "2027-01-17",
+          "days": [
+            {
+              "date": "2027-01-13",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270113-01",
+                  "title": "健身：力量训练 A（胸/肩/三头）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-01-16",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270116-01",
+                  "title": "健身：有氧 + 核心训练",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-01-18",
+          "index": 4,
+          "label": "第4周",
+          "start": "2027-01-18",
+          "end": "2027-01-24",
+          "days": [
+            {
+              "date": "2027-01-19",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270119-01",
+                  "title": "健身：力量训练 B（背/腿）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-01-22",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270122-01",
+                  "title": "健身：拉伸与恢复",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-01-25",
+          "index": 5,
+          "label": "第5周",
+          "start": "2027-01-25",
+          "end": "2027-01-31",
+          "days": [
+            {
+              "date": "2027-01-25",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270125-01",
+                  "title": "健身：力量训练 A（胸/肩/三头）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-01-28",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270128-01",
+                  "title": "健身：有氧 + 核心训练",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-01-31",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270131-01",
+                  "title": "健身：力量训练 B（背/腿）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2027-02",
+      "label": "2027年2月",
+      "weeks": [
+        {
+          "id": "2027-02-01",
+          "index": 6,
+          "label": "第6周",
+          "start": "2027-02-01",
+          "end": "2027-02-07",
+          "days": [
+            {
+              "date": "2027-02-03",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270203-01",
+                  "title": "健身：拉伸与恢复",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-02-06",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270206-01",
+                  "title": "健身：力量训练 A（胸/肩/三头）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-02-08",
+          "index": 7,
+          "label": "第7周",
+          "start": "2027-02-08",
+          "end": "2027-02-14",
+          "days": [
+            {
+              "date": "2027-02-09",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270209-01",
+                  "title": "健身：有氧 + 核心训练",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-02-12",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270212-01",
+                  "title": "健身：力量训练 B（背/腿）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-02-15",
+          "index": 8,
+          "label": "第8周",
+          "start": "2027-02-15",
+          "end": "2027-02-21",
+          "days": [
+            {
+              "date": "2027-02-15",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270215-01",
+                  "title": "健身：拉伸与恢复",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-02-18",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270218-01",
+                  "title": "健身：力量训练 A（胸/肩/三头）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-02-21",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270221-01",
+                  "title": "健身：有氧 + 核心训练",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-02-22",
+          "index": 9,
+          "label": "第9周",
+          "start": "2027-02-22",
+          "end": "2027-02-28",
+          "days": [
+            {
+              "date": "2027-02-24",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270224-01",
+                  "title": "健身：力量训练 B（背/腿）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-02-27",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270227-01",
+                  "title": "健身：拉伸与恢复",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2027-03",
+      "label": "2027年3月",
+      "weeks": [
+        {
+          "id": "2027-03-01",
+          "index": 10,
+          "label": "第10周",
+          "start": "2027-03-01",
+          "end": "2027-03-07",
+          "days": [
+            {
+              "date": "2027-03-02",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270302-01",
+                  "title": "健身：力量训练 A（胸/肩/三头）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-03-05",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270305-01",
+                  "title": "健身：有氧 + 核心训练",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-03-08",
+          "index": 11,
+          "label": "第11周",
+          "start": "2027-03-08",
+          "end": "2027-03-14",
+          "days": [
+            {
+              "date": "2027-03-08",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270308-01",
+                  "title": "健身：力量训练 B（背/腿）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-03-11",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270311-01",
+                  "title": "健身：拉伸与恢复",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-03-14",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270314-01",
+                  "title": "健身：力量训练 A（胸/肩/三头）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-03-15",
+          "index": 12,
+          "label": "第12周",
+          "start": "2027-03-15",
+          "end": "2027-03-21",
+          "days": [
+            {
+              "date": "2027-03-17",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270317-01",
+                  "title": "健身：有氧 + 核心训练",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-03-20",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270320-01",
+                  "title": "健身：力量训练 B（背/腿）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-03-22",
+          "index": 13,
+          "label": "第13周",
+          "start": "2027-03-22",
+          "end": "2027-03-28",
+          "days": [
+            {
+              "date": "2027-03-23",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270323-01",
+                  "title": "健身：拉伸与恢复",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-03-26",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270326-01",
+                  "title": "健身：力量训练 A（胸/肩/三头）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2027-04",
+      "label": "2027年4月",
+      "weeks": [
+        {
+          "id": "2027-03-29",
+          "index": 14,
+          "label": "第14周",
+          "start": "2027-03-29",
+          "end": "2027-04-04",
+          "days": [
+            {
+              "date": "2027-03-29",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270329-01",
+                  "title": "健身：有氧 + 核心训练",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-04-01",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270401-01",
+                  "title": "健身：力量训练 B（背/腿）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-04-04",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270404-01",
+                  "title": "健身：拉伸与恢复",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-04-05",
+          "index": 15,
+          "label": "第15周",
+          "start": "2027-04-05",
+          "end": "2027-04-11",
+          "days": [
+            {
+              "date": "2027-04-07",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270407-01",
+                  "title": "健身：力量训练 A（胸/肩/三头）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-04-10",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270410-01",
+                  "title": "健身：有氧 + 核心训练",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-04-12",
+          "index": 16,
+          "label": "第16周",
+          "start": "2027-04-12",
+          "end": "2027-04-18",
+          "days": [
+            {
+              "date": "2027-04-13",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270413-01",
+                  "title": "健身：力量训练 B（背/腿）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-04-16",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270416-01",
+                  "title": "健身：拉伸与恢复",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-04-19",
+          "index": 17,
+          "label": "第17周",
+          "start": "2027-04-19",
+          "end": "2027-04-25",
+          "days": [
+            {
+              "date": "2027-04-19",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270419-01",
+                  "title": "健身：力量训练 A（胸/肩/三头）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-04-22",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270422-01",
+                  "title": "健身：有氧 + 核心训练",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-04-25",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270425-01",
+                  "title": "健身：力量训练 B（背/腿）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-04-26",
+          "index": 18,
+          "label": "第18周",
+          "start": "2027-04-26",
+          "end": "2027-05-02",
+          "days": [
+            {
+              "date": "2027-04-28",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270428-01",
+                  "title": "健身：拉伸与恢复",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-05-01",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270501-01",
+                  "title": "健身：力量训练 A（胸/肩/三头）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2027-05",
+      "label": "2027年5月",
+      "weeks": [
+        {
+          "id": "2027-05-03",
+          "index": 19,
+          "label": "第19周",
+          "start": "2027-05-03",
+          "end": "2027-05-09",
+          "days": [
+            {
+              "date": "2027-05-04",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270504-01",
+                  "title": "健身：有氧 + 核心训练",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-05-07",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270507-01",
+                  "title": "健身：力量训练 B（背/腿）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-05-10",
+          "index": 20,
+          "label": "第20周",
+          "start": "2027-05-10",
+          "end": "2027-05-16",
+          "days": [
+            {
+              "date": "2027-05-10",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270510-01",
+                  "title": "健身：拉伸与恢复",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-05-13",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270513-01",
+                  "title": "健身：力量训练 A（胸/肩/三头）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-05-16",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270516-01",
+                  "title": "健身：有氧 + 核心训练",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-05-17",
+          "index": 21,
+          "label": "第21周",
+          "start": "2027-05-17",
+          "end": "2027-05-23",
+          "days": [
+            {
+              "date": "2027-05-19",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270519-01",
+                  "title": "健身：力量训练 B（背/腿）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-05-22",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270522-01",
+                  "title": "健身：拉伸与恢复",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-05-24",
+          "index": 22,
+          "label": "第22周",
+          "start": "2027-05-24",
+          "end": "2027-05-30",
+          "days": [
+            {
+              "date": "2027-05-25",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270525-01",
+                  "title": "健身：力量训练 A（胸/肩/三头）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-05-28",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270528-01",
+                  "title": "健身：有氧 + 核心训练",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2027-06",
+      "label": "2027年6月",
+      "weeks": [
+        {
+          "id": "2027-05-31",
+          "index": 23,
+          "label": "第23周",
+          "start": "2027-05-31",
+          "end": "2027-06-06",
+          "days": [
+            {
+              "date": "2027-05-31",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270531-01",
+                  "title": "健身：力量训练 B（背/腿）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-06-03",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270603-01",
+                  "title": "健身：拉伸与恢复",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-06-06",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270606-01",
+                  "title": "健身：力量训练 A（胸/肩/三头）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-06-07",
+          "index": 24,
+          "label": "第24周",
+          "start": "2027-06-07",
+          "end": "2027-06-13",
+          "days": [
+            {
+              "date": "2027-06-09",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270609-01",
+                  "title": "健身：有氧 + 核心训练",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-06-12",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270612-01",
+                  "title": "健身：力量训练 B（背/腿）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-06-14",
+          "index": 25,
+          "label": "第25周",
+          "start": "2027-06-14",
+          "end": "2027-06-20",
+          "days": [
+            {
+              "date": "2027-06-15",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270615-01",
+                  "title": "健身：拉伸与恢复",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-06-18",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270618-01",
+                  "title": "健身：力量训练 A（胸/肩/三头）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-06-21",
+          "index": 26,
+          "label": "第26周",
+          "start": "2027-06-21",
+          "end": "2027-06-27",
+          "days": [
+            {
+              "date": "2027-06-21",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270621-01",
+                  "title": "健身：有氧 + 核心训练",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-06-24",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270624-01",
+                  "title": "健身：力量训练 B（背/腿）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-06-27",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270627-01",
+                  "title": "健身：拉伸与恢复",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2027-07",
+      "label": "2027年7月",
+      "weeks": [
+        {
+          "id": "2027-06-28",
+          "index": 27,
+          "label": "第27周",
+          "start": "2027-06-28",
+          "end": "2027-07-04",
+          "days": [
+            {
+              "date": "2027-06-30",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270630-01",
+                  "title": "健身：力量训练 A（胸/肩/三头）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-07-03",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270703-01",
+                  "title": "健身：有氧 + 核心训练",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-07-05",
+          "index": 28,
+          "label": "第28周",
+          "start": "2027-07-05",
+          "end": "2027-07-11",
+          "days": [
+            {
+              "date": "2027-07-06",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270706-01",
+                  "title": "健身：力量训练 B（背/腿）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-07-09",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270709-01",
+                  "title": "健身：拉伸与恢复",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-07-12",
+          "index": 29,
+          "label": "第29周",
+          "start": "2027-07-12",
+          "end": "2027-07-18",
+          "days": [
+            {
+              "date": "2027-07-12",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270712-01",
+                  "title": "健身：力量训练 A（胸/肩/三头）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-07-15",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270715-01",
+                  "title": "健身：有氧 + 核心训练",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-07-18",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270718-01",
+                  "title": "健身：力量训练 B（背/腿）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-07-19",
+          "index": 30,
+          "label": "第30周",
+          "start": "2027-07-19",
+          "end": "2027-07-25",
+          "days": [
+            {
+              "date": "2027-07-21",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270721-01",
+                  "title": "健身：拉伸与恢复",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-07-24",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270724-01",
+                  "title": "健身：力量训练 A（胸/肩/三头）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-07-26",
+          "index": 31,
+          "label": "第31周",
+          "start": "2027-07-26",
+          "end": "2027-08-01",
+          "days": [
+            {
+              "date": "2027-07-27",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270727-01",
+                  "title": "健身：有氧 + 核心训练",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-07-30",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270730-01",
+                  "title": "健身：力量训练 B（背/腿）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2027-08",
+      "label": "2027年8月",
+      "weeks": [
+        {
+          "id": "2027-08-02",
+          "index": 32,
+          "label": "第32周",
+          "start": "2027-08-02",
+          "end": "2027-08-08",
+          "days": [
+            {
+              "date": "2027-08-02",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270802-01",
+                  "title": "健身：拉伸与恢复",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-08-05",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270805-01",
+                  "title": "健身：力量训练 A（胸/肩/三头）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-08-08",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270808-01",
+                  "title": "健身：有氧 + 核心训练",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-08-09",
+          "index": 33,
+          "label": "第33周",
+          "start": "2027-08-09",
+          "end": "2027-08-15",
+          "days": [
+            {
+              "date": "2027-08-11",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270811-01",
+                  "title": "健身：力量训练 B（背/腿）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-08-14",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270814-01",
+                  "title": "健身：拉伸与恢复",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-08-16",
+          "index": 34,
+          "label": "第34周",
+          "start": "2027-08-16",
+          "end": "2027-08-22",
+          "days": [
+            {
+              "date": "2027-08-17",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270817-01",
+                  "title": "健身：力量训练 A（胸/肩/三头）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-08-20",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270820-01",
+                  "title": "健身：有氧 + 核心训练",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-08-23",
+          "index": 35,
+          "label": "第35周",
+          "start": "2027-08-23",
+          "end": "2027-08-29",
+          "days": [
+            {
+              "date": "2027-08-23",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270823-01",
+                  "title": "健身：力量训练 B（背/腿）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-08-26",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270826-01",
+                  "title": "健身：拉伸与恢复",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-08-29",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270829-01",
+                  "title": "健身：力量训练 A（胸/肩/三头）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2027-09",
+      "label": "2027年9月",
+      "weeks": [
+        {
+          "id": "2027-08-30",
+          "index": 36,
+          "label": "第36周",
+          "start": "2027-08-30",
+          "end": "2027-09-05",
+          "days": [
+            {
+              "date": "2027-09-01",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270901-01",
+                  "title": "健身：有氧 + 核心训练",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-09-04",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270904-01",
+                  "title": "健身：力量训练 B（背/腿）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-09-06",
+          "index": 37,
+          "label": "第37周",
+          "start": "2027-09-06",
+          "end": "2027-09-12",
+          "days": [
+            {
+              "date": "2027-09-07",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270907-01",
+                  "title": "健身：拉伸与恢复",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-09-10",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270910-01",
+                  "title": "健身：力量训练 A（胸/肩/三头）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-09-13",
+          "index": 38,
+          "label": "第38周",
+          "start": "2027-09-13",
+          "end": "2027-09-19",
+          "days": [
+            {
+              "date": "2027-09-13",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270913-01",
+                  "title": "健身：有氧 + 核心训练",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-09-16",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270916-01",
+                  "title": "健身：力量训练 B（背/腿）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-09-19",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270919-01",
+                  "title": "健身：拉伸与恢复",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-09-20",
+          "index": 39,
+          "label": "第39周",
+          "start": "2027-09-20",
+          "end": "2027-09-26",
+          "days": [
+            {
+              "date": "2027-09-22",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270922-01",
+                  "title": "健身：力量训练 A（胸/肩/三头）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-09-25",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270925-01",
+                  "title": "健身：有氧 + 核心训练",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-09-27",
+          "index": 40,
+          "label": "第40周",
+          "start": "2027-09-27",
+          "end": "2027-10-03",
+          "days": [
+            {
+              "date": "2027-09-28",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270928-01",
+                  "title": "健身：力量训练 B（背/腿）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-10-01",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20271001-01",
+                  "title": "健身：拉伸与恢复",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2027-10",
+      "label": "2027年10月",
+      "weeks": [
+        {
+          "id": "2027-10-04",
+          "index": 41,
+          "label": "第41周",
+          "start": "2027-10-04",
+          "end": "2027-10-10",
+          "days": [
+            {
+              "date": "2027-10-04",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20271004-01",
+                  "title": "健身：力量训练 A（胸/肩/三头）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-10-07",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20271007-01",
+                  "title": "健身：有氧 + 核心训练",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-10-10",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20271010-01",
+                  "title": "健身：力量训练 B（背/腿）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-10-11",
+          "index": 42,
+          "label": "第42周",
+          "start": "2027-10-11",
+          "end": "2027-10-17",
+          "days": [
+            {
+              "date": "2027-10-13",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20271013-01",
+                  "title": "健身：拉伸与恢复",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-10-16",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20271016-01",
+                  "title": "健身：力量训练 A（胸/肩/三头）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-10-18",
+          "index": 43,
+          "label": "第43周",
+          "start": "2027-10-18",
+          "end": "2027-10-24",
+          "days": [
+            {
+              "date": "2027-10-19",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20271019-01",
+                  "title": "健身：有氧 + 核心训练",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-10-22",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20271022-01",
+                  "title": "健身：力量训练 B（背/腿）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-10-25",
+          "index": 44,
+          "label": "第44周",
+          "start": "2027-10-25",
+          "end": "2027-10-31",
+          "days": [
+            {
+              "date": "2027-10-25",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20271025-01",
+                  "title": "健身：拉伸与恢复",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-10-28",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20271028-01",
+                  "title": "健身：力量训练 A（胸/肩/三头）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-10-31",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20271031-01",
+                  "title": "健身：有氧 + 核心训练",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2027-11",
+      "label": "2027年11月",
+      "weeks": [
+        {
+          "id": "2027-11-01",
+          "index": 45,
+          "label": "第45周",
+          "start": "2027-11-01",
+          "end": "2027-11-07",
+          "days": [
+            {
+              "date": "2027-11-03",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20271103-01",
+                  "title": "健身：力量训练 B（背/腿）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-11-06",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20271106-01",
+                  "title": "健身：拉伸与恢复",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-11-08",
+          "index": 46,
+          "label": "第46周",
+          "start": "2027-11-08",
+          "end": "2027-11-14",
+          "days": [
+            {
+              "date": "2027-11-09",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20271109-01",
+                  "title": "健身：力量训练 A（胸/肩/三头）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-11-12",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20271112-01",
+                  "title": "健身：有氧 + 核心训练",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-11-15",
+          "index": 47,
+          "label": "第47周",
+          "start": "2027-11-15",
+          "end": "2027-11-21",
+          "days": [
+            {
+              "date": "2027-11-15",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20271115-01",
+                  "title": "健身：力量训练 B（背/腿）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-11-18",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20271118-01",
+                  "title": "健身：拉伸与恢复",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-11-21",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20271121-01",
+                  "title": "健身：力量训练 A（胸/肩/三头）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-11-22",
+          "index": 48,
+          "label": "第48周",
+          "start": "2027-11-22",
+          "end": "2027-11-28",
+          "days": [
+            {
+              "date": "2027-11-24",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20271124-01",
+                  "title": "健身：有氧 + 核心训练",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-11-27",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20271127-01",
+                  "title": "健身：力量训练 B（背/腿）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2027-12",
+      "label": "2027年12月",
+      "weeks": [
+        {
+          "id": "2027-11-29",
+          "index": 49,
+          "label": "第49周",
+          "start": "2027-11-29",
+          "end": "2027-12-05",
+          "days": [
+            {
+              "date": "2027-11-30",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20271130-01",
+                  "title": "健身：拉伸与恢复",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-12-03",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20271203-01",
+                  "title": "健身：力量训练 A（胸/肩/三头）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-12-06",
+          "index": 50,
+          "label": "第50周",
+          "start": "2027-12-06",
+          "end": "2027-12-12",
+          "days": [
+            {
+              "date": "2027-12-06",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20271206-01",
+                  "title": "健身：有氧 + 核心训练",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-12-09",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20271209-01",
+                  "title": "健身：力量训练 B（背/腿）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-12-12",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20271212-01",
+                  "title": "健身：拉伸与恢复",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2027-12-13",
+          "index": 51,
+          "label": "第51周",
+          "start": "2027-12-13",
+          "end": "2027-12-19",
+          "days": [
+            {
+              "date": "2027-12-15",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20271215-01",
+                  "title": "健身：力量训练 A（胸/肩/三头）",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-12-18",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20271218-01",
+                  "title": "健身：有氧 + 核心训练",
+                  "topic": "健身",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

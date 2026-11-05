@@ -1,0 +1,853 @@
+{
+  "meta": {
+    "groupName": "健身",
+    "subject": "体能与健身",
+    "kind": "fitness",
+    "examDate": "2027-12-19",
+    "planStart": "2026-10-26",
+    "generatedAt": "2026-11-03T10:00:00+08:00",
+    "version": 1
+  },
+  "months": [
+    {
+      "id": "2026-11",
+      "label": "2026年11月",
+      "weeks": [
+        {
+          "id": "2026-11-02",
+          "index": 1,
+          "label": "第一周",
+          "start": "2026-11-02",
+          "end": "2026-11-08",
+          "days": [
+            {
+              "date": "2026-11-02",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20261102-01",
+                  "title": "有氧：慢跑 5 公里（第1讲）",
+                  "topic": "有氧",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 50,
+                  "slot": "晚",
+                  "done": true,
+                  "doneAt": "2026-11-02T14:20:00+08:00"
+                }
+              ]
+            },
+            {
+              "date": "2026-11-03",
+              "type": "rest",
+              "tasks": []
+            },
+            {
+              "date": "2026-11-04",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20261104-01",
+                  "title": "拉伸：动态拉伸 15 分钟（第1讲）",
+                  "topic": "拉伸",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": true,
+                  "doneAt": "2026-11-01T20:10:00+08:00"
+                }
+              ]
+            },
+            {
+              "date": "2026-11-05",
+              "type": "rest",
+              "tasks": []
+            },
+            {
+              "date": "2026-11-06",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20261106-01",
+                  "title": "力量：核心训练（第1讲）",
+                  "topic": "力量",
+                  "kind": "fitness",
+                  "priority": "P2",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": true,
+                  "doneAt": "2026-10-31T08:40:00+08:00"
+                }
+              ]
+            },
+            {
+              "date": "2026-11-07",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20261107-01",
+                  "title": "有氧：低强度恢复（第2讲）",
+                  "topic": "有氧",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 50,
+                  "slot": "早",
+                  "done": true,
+                  "doneAt": "2026-11-03T14:20:00+08:00"
+                }
+              ]
+            },
+            {
+              "date": "2026-11-08",
+              "type": "rest",
+              "tasks": []
+            }
+          ]
+        },
+        {
+          "id": "2026-11-09",
+          "index": 2,
+          "label": "第二周",
+          "start": "2026-11-09",
+          "end": "2026-11-15",
+          "days": [
+            {
+              "date": "2026-11-09",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20261109-01",
+                  "title": "拉伸：全身力量循环（第2讲）",
+                  "topic": "拉伸",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-11-10",
+              "type": "rest",
+              "tasks": []
+            },
+            {
+              "date": "2026-11-11",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20261111-01",
+                  "title": "力量：慢跑 5 公里（第2讲）",
+                  "topic": "力量",
+                  "kind": "fitness",
+                  "priority": "P2",
+                  "minutes": 40,
+                  "slot": "早",
+                  "done": true,
+                  "doneAt": "2026-11-01T08:40:00+08:00"
+                }
+              ]
+            },
+            {
+              "date": "2026-11-12",
+              "type": "rest",
+              "tasks": []
+            },
+            {
+              "date": "2026-11-13",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20261113-01",
+                  "title": "有氧：动态拉伸 15 分钟（第3讲）",
+                  "topic": "有氧",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 50,
+                  "slot": "晚",
+                  "done": true,
+                  "doneAt": "2026-10-31T14:20:00+08:00"
+                }
+              ]
+            },
+            {
+              "date": "2026-11-14",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20261114-01",
+                  "title": "拉伸：核心训练（第3讲）",
+                  "topic": "拉伸",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": true,
+                  "doneAt": "2026-11-03T20:10:00+08:00"
+                }
+              ]
+            },
+            {
+              "date": "2026-11-15",
+              "type": "rest",
+              "tasks": []
+            }
+          ]
+        },
+        {
+          "id": "2026-11-16",
+          "index": 3,
+          "label": "第三周",
+          "start": "2026-11-16",
+          "end": "2026-11-22",
+          "days": [
+            {
+              "date": "2026-11-16",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20261116-01",
+                  "title": "力量：低强度恢复（第3讲）",
+                  "topic": "力量",
+                  "kind": "fitness",
+                  "priority": "P2",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-11-17",
+              "type": "rest",
+              "tasks": []
+            },
+            {
+              "date": "2026-11-18",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20261118-01",
+                  "title": "有氧：全身力量循环（第4讲）",
+                  "topic": "有氧",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 50,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-11-19",
+              "type": "rest",
+              "tasks": []
+            },
+            {
+              "date": "2026-11-20",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20261120-01",
+                  "title": "拉伸：慢跑 5 公里（第4讲）",
+                  "topic": "拉伸",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-11-21",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20261121-01",
+                  "title": "力量：动态拉伸 15 分钟（第4讲）",
+                  "topic": "力量",
+                  "kind": "fitness",
+                  "priority": "P2",
+                  "minutes": 40,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-11-22",
+              "type": "rest",
+              "tasks": []
+            }
+          ]
+        },
+        {
+          "id": "2026-11-23",
+          "index": 4,
+          "label": "第四周",
+          "start": "2026-11-23",
+          "end": "2026-11-29",
+          "days": [
+            {
+              "date": "2026-11-23",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20261123-01",
+                  "title": "有氧：核心训练（第5讲）",
+                  "topic": "有氧",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 50,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-11-24",
+              "type": "rest",
+              "tasks": []
+            },
+            {
+              "date": "2026-11-25",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20261125-01",
+                  "title": "拉伸：低强度恢复（第5讲）",
+                  "topic": "拉伸",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-11-26",
+              "type": "rest",
+              "tasks": []
+            },
+            {
+              "date": "2026-11-27",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20261127-01",
+                  "title": "力量：全身力量循环（第5讲）",
+                  "topic": "力量",
+                  "kind": "fitness",
+                  "priority": "P2",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-11-28",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20261128-01",
+                  "title": "有氧：慢跑 5 公里（第6讲）",
+                  "topic": "有氧",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 50,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-11-29",
+              "type": "rest",
+              "tasks": []
+            }
+          ]
+        },
+        {
+          "id": "2026-11-30",
+          "index": 5,
+          "label": "第五周",
+          "start": "2026-11-30",
+          "end": "2026-12-06",
+          "days": [
+            {
+              "date": "2026-11-30",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20261130-01",
+                  "title": "拉伸：动态拉伸 15 分钟（第6讲）",
+                  "topic": "拉伸",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-01",
+              "type": "rest",
+              "tasks": []
+            },
+            {
+              "date": "2026-12-02",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20261202-01",
+                  "title": "力量：核心训练（第6讲）",
+                  "topic": "力量",
+                  "kind": "fitness",
+                  "priority": "P2",
+                  "minutes": 40,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-03",
+              "type": "rest",
+              "tasks": []
+            },
+            {
+              "date": "2026-12-04",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20261204-01",
+                  "title": "有氧：低强度恢复（第7讲）",
+                  "topic": "有氧",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 50,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-05",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20261205-01",
+                  "title": "拉伸：全身力量循环（第7讲）",
+                  "topic": "拉伸",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-06",
+              "type": "rest",
+              "tasks": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2026-12",
+      "label": "2026年12月",
+      "weeks": [
+        {
+          "id": "2026-12-07",
+          "index": 6,
+          "label": "第六周",
+          "start": "2026-12-07",
+          "end": "2026-12-13",
+          "days": [
+            {
+              "date": "2026-12-07",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20261207-01",
+                  "title": "力量：慢跑 5 公里（第7讲）",
+                  "topic": "力量",
+                  "kind": "fitness",
+                  "priority": "P2",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-08",
+              "type": "rest",
+              "tasks": []
+            },
+            {
+              "date": "2026-12-09",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20261209-01",
+                  "title": "有氧：动态拉伸 15 分钟（第8讲）",
+                  "topic": "有氧",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 50,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-10",
+              "type": "rest",
+              "tasks": []
+            },
+            {
+              "date": "2026-12-11",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20261211-01",
+                  "title": "拉伸：核心训练（第8讲）",
+                  "topic": "拉伸",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-12",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20261212-01",
+                  "title": "力量：低强度恢复（第8讲）",
+                  "topic": "力量",
+                  "kind": "fitness",
+                  "priority": "P2",
+                  "minutes": 40,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-13",
+              "type": "rest",
+              "tasks": []
+            }
+          ]
+        },
+        {
+          "id": "2026-12-14",
+          "index": 7,
+          "label": "第七周",
+          "start": "2026-12-14",
+          "end": "2026-12-20",
+          "days": [
+            {
+              "date": "2026-12-14",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20261214-01",
+                  "title": "有氧：全身力量循环（第9讲）",
+                  "topic": "有氧",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 50,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-15",
+              "type": "rest",
+              "tasks": []
+            },
+            {
+              "date": "2026-12-16",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20261216-01",
+                  "title": "拉伸：慢跑 5 公里（第9讲）",
+                  "topic": "拉伸",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-17",
+              "type": "rest",
+              "tasks": []
+            },
+            {
+              "date": "2026-12-18",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20261218-01",
+                  "title": "力量：动态拉伸 15 分钟（第9讲）",
+                  "topic": "力量",
+                  "kind": "fitness",
+                  "priority": "P2",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-19",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20261219-01",
+                  "title": "有氧：核心训练（第10讲）",
+                  "topic": "有氧",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 50,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-20",
+              "type": "rest",
+              "tasks": []
+            }
+          ]
+        },
+        {
+          "id": "2026-12-21",
+          "index": 8,
+          "label": "第八周",
+          "start": "2026-12-21",
+          "end": "2026-12-27",
+          "days": [
+            {
+              "date": "2026-12-21",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20261221-01",
+                  "title": "拉伸：低强度恢复（第10讲）",
+                  "topic": "拉伸",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-22",
+              "type": "rest",
+              "tasks": []
+            },
+            {
+              "date": "2026-12-23",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20261223-01",
+                  "title": "力量：全身力量循环（第10讲）",
+                  "topic": "力量",
+                  "kind": "fitness",
+                  "priority": "P2",
+                  "minutes": 40,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-24",
+              "type": "rest",
+              "tasks": []
+            },
+            {
+              "date": "2026-12-25",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20261225-01",
+                  "title": "有氧：慢跑 5 公里（第11讲）",
+                  "topic": "有氧",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 50,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-26",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20261226-01",
+                  "title": "拉伸：动态拉伸 15 分钟（第11讲）",
+                  "topic": "拉伸",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-27",
+              "type": "rest",
+              "tasks": []
+            }
+          ]
+        },
+        {
+          "id": "2026-12-28",
+          "index": 9,
+          "label": "第九周",
+          "start": "2026-12-28",
+          "end": "2027-01-03",
+          "days": [
+            {
+              "date": "2026-12-28",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20261228-01",
+                  "title": "力量：核心训练（第11讲）",
+                  "topic": "力量",
+                  "kind": "fitness",
+                  "priority": "P2",
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-29",
+              "type": "rest",
+              "tasks": []
+            },
+            {
+              "date": "2026-12-30",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20261230-01",
+                  "title": "有氧：低强度恢复（第12讲）",
+                  "topic": "有氧",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 50,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2026-12-31",
+              "type": "rest",
+              "tasks": []
+            },
+            {
+              "date": "2027-01-01",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270101-01",
+                  "title": "拉伸：全身力量循环（第12讲）",
+                  "topic": "拉伸",
+                  "kind": "fitness",
+                  "priority": "P1",
+                  "minutes": 60,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-01-02",
+              "type": "fitness",
+              "tasks": [
+                {
+                  "id": "FIT-20270102-01",
+                  "title": "力量：慢跑 5 公里（第12讲）",
+                  "topic": "力量",
+                  "kind": "fitness",
+                  "priority": "P2",
+                  "minutes": 40,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-01-03",
+              "type": "rest",
+              "tasks": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

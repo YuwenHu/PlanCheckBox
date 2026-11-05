@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>英二 · 考纲范围与优先级</title><style>
+:root{--bg:#f5f7fb;--card:#fff;--ink:#1b2333;--muted:#667085;--line:#e4e8f1}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.68 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}
+.wrap{max-width:1100px;margin:0 auto;padding:0 20px}
+.hero{background:linear-gradient(135deg,var(--accent) 0%,var(--accent2) 100%);color:#fff;padding:40px 0 32px}
+.hero .kicker{font-size:13px;letter-spacing:.14em;text-transform:uppercase;opacity:.85}
+.hero h1{margin:10px 0 6px;font-size:31px;line-height:1.25;font-weight:700}
+.hero .meta{opacity:.9;font-size:14px;margin:0}
+.hero .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:24px 0 20px}
+.hero .stat{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.24);border-radius:12px;padding:12px 14px}
+.hero .stat b{display:block;font-size:22px;line-height:1.3}
+.hero .stat span{font-size:12px;opacity:.85}
+.hero nav{display:flex;flex-wrap:wrap;gap:10px}
+.hero nav a{display:inline-block;padding:9px 16px;border-radius:10px;text-decoration:none;font-size:14px;font-weight:600;background:rgba(255,255,255,.16);color:#fff;border:1px solid rgba(255,255,255,.3)}
+.hero nav a.primary{background:#fff;color:var(--accent)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px 24px;margin:20px 0;box-shadow:0 1px 3px rgba(16,24,40,.05)}
+.card h2{margin:0 0 6px;font-size:20px}
+.card h2 .num{display:inline-block;min-width:26px;height:26px;line-height:26px;text-align:center;border-radius:8px;background:var(--accent);color:#fff;font-size:13px;margin-right:8px}
+.card .desc{color:var(--muted);font-size:14px;margin:0 0 14px}
+h3{font-size:16px;margin:18px 0 8px}
+.table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px}
+table{border-collapse:collapse;width:100%;font-size:14px;background:#fff}
+th,td{padding:9px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{background:#f8fafc;font-weight:600;white-space:nowrap}
+tr:last-child td{border-bottom:none}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.b-P0{display:inline-block;padding:1px 8px;border-radius:999px;background:#fee4e2;color:#b42318;font-size:12px;font-weight:700}
+.b-P1{display:inline-block;padding:1px 8px;border-radius:999px;background:#e0efff;color:#175cd3;font-size:12px;font-weight:700}
+.b-P2{display:inline-block;padding:1px 8px;border-radius:999px;background:#eef0f4;color:#475467;font-size:12px;font-weight:700}
+.pt{display:inline-block;margin:3px 6px 3px 0;padding:2px 8px;border:1px solid var(--line);border-radius:8px;background:#fbfcfe;font-size:12.5px;white-space:nowrap}
+.slot{display:inline-block;padding:1px 7px;border-radius:6px;background:#f2f4f7;color:#475467;font-size:12px}
+.tid{color:#98a2b3;font-size:11.5px;font-family:ui-monospace,Menlo,Consolas,monospace}
+.dnote{color:#7a4b00;font-size:11.5px;background:#fff7e6;border-radius:5px;padding:1px 6px;display:inline-block;margin-top:3px}
+ul.tight{margin:8px 0 0;padding-left:20px}
+ul.tight li{margin:3px 0}
+.note{background:#fff9ed;border:1px solid #ffe1b3;border-radius:12px;padding:12px 16px;font-size:14px;color:#7a4b00}
+.ok{background:#ecfdf3;border:1px solid #c7e9d5;border-radius:12px;padding:12px 16px;font-size:14px;color:#17663c}
+.warn{background:#fef2f2;border:1px solid #fecdca;border-radius:12px;padding:12px 16px;font-size:14px;color:#912018}
+.bar{height:9px;border-radius:999px;background:var(--accent);opacity:.75;min-width:2px}
+details.month{border:1px solid var(--line);border-radius:12px;background:#fff;margin:10px 0;overflow:hidden}
+details.month>summary{cursor:pointer;padding:12px 16px;font-weight:600;background:#f8fafc;list-style:none;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+details.month>summary::-webkit-details-marker{display:none}
+details.month>summary .r{color:var(--muted);font-weight:400;font-size:13px}
+details.month .inner{padding:0 0 4px}
+.toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:12px 0}
+.toolbar button,.toolbar select{padding:7px 12px;border-radius:9px;border:1px solid var(--line);background:#fff;font-size:13px;cursor:pointer;color:var(--ink)}
+.scope-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.scope-item{border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:#fbfcfe}
+.scope-item b{display:block;font-size:14px;margin-bottom:2px}
+.scope-item span{color:var(--muted);font-size:13px}
+.kv{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;margin:10px 0}
+.kv div{border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:#fbfcfe}
+.kv b{display:block;font-size:20px;line-height:1.3}
+.kv span{color:var(--muted);font-size:12.5px}
+@media(max-width:760px){.hero h1{font-size:24px}.card{padding:16px 14px}th,td{padding:8px 9px}table{font-size:13px}}
+footer{color:var(--muted);font-size:12.5px;padding:18px 0 40px;text-align:center}
+</style></head>
+<body style="--accent:#0d9488;--accent2:#115e59">
+<header class="hero"><div class="wrap">
+  <div class="kicker">28 考研 · 复习总表（2027-12-19 笔试）</div>
+  <h1>英语二 · 考纲范围与优先级</h1>
+  <p class="meta">笔试日 2027-12-19 ｜ 计划窗口 2026-11-05 → 2027-12-19 ｜ 满分 100 分（阅读 40 + 写作 25 + 翻译 15 + 新题型 10 + 完形 10）</p>
+  <div class="stats">
+    <div class="stat"><b>139.0 h</b><span>本科目计划学习时长</span></div>
+    <div class="stat"><b>134.0 h</b><span>其中 P0 必做需求</span></div>
+    <div class="stat"><b>11.7%</b><span>占总学习时长</span></div>
+    <div class="stat"><b>101</b><span>任务条目 / 96 个学习日</span></div>
+  </div>
+  <nav>
+    <a class="primary" href="eng2_schedule.html">查看月度与逐日安排 →</a>
+    <a href="eng2_checkbox_use.json">下载 JSON 数据</a>
+  </nav>
+</div></header>
+<main class="wrap">
+  <section class="card">
+    <h2><span class="num">1</span>考试范围清单</h2>
+    <p class="desc">依据公开考纲 + 共享文档整理；范围外内容不排任务。</p>
+    <div class="scope-grid"><div class="scope-item"><b>阅读理解 A · 40 分</b><span>4 篇 × 5 题；本次直接从真题二刷（2018-2026）起步。</span></div><div class="scope-item"><b>写作 · 25 分</b><span>A 节应用文 10 分；B 节图表作文 15 分。</span></div><div class="scope-item"><b>翻译 · 15 分</b><span>英译汉 1 段，语序调整、被动转主动、长句拆分。</span></div><div class="scope-item"><b>新题型 · 10 分</b><span>多项对应 / 小标题对应，技巧性强。</span></div><div class="scope-item"><b>完形填空 · 10 分</b><span>20 题 × 0.5 分；本次不单独排课，随整卷顺带。</span></div></div>
+    <h3>明确不考 / 不计入</h3>
+    <ul class="tight"><li>不考听力与口语（初试仅笔试）</li><li>不考专业英语与二外</li><li>考试总时长 180 分钟</li></ul>
+  </section>
+
+  <section class="card">
+    <h2><span class="num">2</span>知识板块与 P0 / P1 / P2</h2>
+    <p class="desc">P0 = 必做（基础且高频，不做会直接掉分）；P1 = 可选 / 非强制（时间够才做）；P2 = 可弃（本次全部未排）。优先级取自共享文档的考频结论，并按 13.5 个月的真实容量校正。</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>知识板块</th><th>覆盖内容</th><th>分值量级</th><th>优先级</th><th>依据 / 本次处理</th></tr></thead>
+      <tbody><tr><td><b>阅读 A（二刷）</b></td><td>英语二真题 2018-2026，限时 + 错因归类</td><td>40 分</td><td><span class="b-P0">P0</span></td><td>简单阅读基本不错、中等错 1-2，基础可用：跳过精读教学，直接二刷，重点放在干扰项识别与错因归类。</td></tr><tr><td><b>写作 A</b></td><td>书信 / 通知 / 摘要模板</td><td>10 分</td><td><span class="b-P0">P0</span></td><td>提分最快，2027-05 启动，10 月后默写套用。</td></tr><tr><td><b>写作 B</b></td><td>图表作文结构与句式</td><td>15 分</td><td><span class="b-P0">P0</span></td><td>8 月起集中训练，考前定稿默写。</td></tr><tr><td><b>新题型</b></td><td>多项对应 / 小标题对应</td><td>10 分</td><td><span class="b-P0">P0</span></td><td>技巧性最强，2027 春季 7 小时专项即可吃透。</td></tr><tr><td><b>翻译</b></td><td>语序、被动、词性转换、长句拆分</td><td>15 分</td><td><span class="b-P1">P1</span></td><td>2027-01~04 打基础，真题逐句练习已排入。</td></tr><tr><td><b>完形</b></td><td>逻辑关系与固定搭配</td><td>10 分</td><td><span class="b-P2">P2</span></td><td>不单独排课：随整卷限时顺带，靠词汇与语感兜底。</td></tr><tr><td><b>词汇</b></td><td>核心词滚动复习（计划外：工作日中午 / 周末晚上自行背）</td><td>贯穿全程</td><td><span class="b-P1">P1</span></td><td>整块移出计划：原约 149.7 小时不占计划时段；释放的时间已转给数二 / 408 的 P1。</td></tr><tr><td><b>语法 / 基础课</b></td><td>长难句、语法专项</td><td>间接影响阅读</td><td><span class="b-P2">P2</span></td><td>按实际水平跳过：本次完全不排。</td></tr></tbody>
+    </table></div>
+    <h3>核心知识点两级优先级（章节 → 知识点）</h3><p class="desc">这是按 2027 版大纲逐条拆出来的颗粒度；排期任务按章节粒度落表，章节内 P0 知识点视为必做。</p><div class="table-wrap"><table><thead><tr><th>章节</th><th class="num">占分</th><th>核心知识点（按优先级排序）</th></tr></thead><tbody><tr><td><b>阅读 A</b></td><td class="num">40 分</td><td><span class="pt"><span class="b-P0">P0</span> 细节题与同义替换定位</span><span class="pt"><span class="b-P0">P0</span> 主旨、态度与篇章结构</span><span class="pt"><span class="b-P0">P0</span> 干扰项识别</span></td></tr><tr><td><b>新题型</b></td><td class="num">10 分</td><td><span class="pt"><span class="b-P0">P0</span> 多项对应</span><span class="pt"><span class="b-P0">P0</span> 小标题对应</span></td></tr><tr><td><b>翻译</b></td><td class="num">15 分</td><td><span class="pt"><span class="b-P1">P1</span> 长句拆分与语序调整</span><span class="pt"><span class="b-P1">P1</span> 词性转换与被动处理</span></td></tr><tr><td><b>写作 A</b></td><td class="num">10 分</td><td><span class="pt"><span class="b-P0">P0</span> 书信模板</span><span class="pt"><span class="b-P1">P1</span> 通知 / 摘要</span></td></tr><tr><td><b>写作 B</b></td><td class="num">15 分</td><td><span class="pt"><span class="b-P0">P0</span> 图表描述句式</span><span class="pt"><span class="b-P0">P0</span> 逻辑框架与论证</span></td></tr><tr><td><b>完形</b></td><td class="num">10 分</td><td><span class="pt"><span class="b-P1">P1</span> 逻辑关系</span><span class="pt"><span class="b-P1">P1</span> 固定搭配</span></td></tr><tr><td><b>词汇</b></td><td class="num">贯穿</td><td><span class="pt"><span class="b-P1">P1</span> 核心 1500 词</span><span class="pt"><span class="b-P1">P1</span> 熟词僻义</span></td></tr></tbody></table></div>
+  </section>
+
+  <section class="card">
+    <h2><span class="num">3</span>取舍策略（本版怎么砍）</h2>
+    <p class="desc">时间不够时按「先砍 P1 → 再减真题套数 → 最后才动科目配比」的顺序处理。</p>
+    <ul class="tight"><li>英语计划时长从 291.7 小时降到 142.0 小时：词汇 149.7 小时整块移出计划（工作日晚 / 周末自行背词，不占计划时段）。</li><li>跳过基础与语法类内容；阅读从二刷 2018 起步，一年一卷，不从头精读。</li><li>释放的 149.7 小时按 P1 缺口转给两科（数二 82.2 h / 408 63.5 h，约 56% / 44%）：证明题专练、错题回炉、真题二刷；408 的死锁 / 文件系统 / 路由应用等，不掺入英语。</li><li>真题套卷只做 2021-2022、2024-2026（2023 未排）；不做三刷。</li><li>完形不单独排课，写作与翻译靠模板 + 真题句式，目标是把 40 分阅读和 25 分写作拿稳。</li></ul>
+    <li>词汇已整块移出计划：原约 149.7 h 不占计划时段，且未回填英语；本页 139.0 h 全部是阅读 / 写作 / 新题型 / 翻译 / 完形。释放的小时按 P1 缺口转给数二（86.3 h）与 408（63.0 h）。</li>
+    <div class="note">本次未排（被砍）合计：全科 P1 19.3 h、P2 0.0 h、P0 0.0 h。P0 已 100% 排入，P1 只排了 353.9 h。</div>
+  </section>
+
+  <section class="card">
+    <h2><span class="num">4</span>P0-only 可行性（本科目）</h2>
+    <p class="desc">只做 P0 任务需要的完整学习时长，与排期实际给到的时间对比。</p>
+    <div class="kv">
+      <div><b>134.0 h</b><span>P0 需求（单元完整时长）</span></div>
+      <div><b>134.0 h</b><span>实际排入的 P0</span></div>
+      <div><b>0.0 h</b><span>P0 缺口（应为 0 或负）</span></div>
+      <div><b>96%</b><span>P0 占本科目时长</span></div>
+    </div>
+    <div class="ok">全科口径：P0 需求 834.5 h（含 11 次真题抽题测试 8.2 h），P0 已全部排入（缺口 0）。全期已排 1188.4 h，相对可排布总容量 1332.8 h 的日历余量约 144.3 h（10.8%，≥8%）。词汇移出释放的 149.7 h 中 149.3 h 已按 P1 缺口转入数二（82.2 h）与 408（63.5 h），剩余约 4.0 h 不硬塞、留作缓冲。</div>
+  </section>
+
+  <section class="card">
+    <h2><span class="num">5</span>分阶段复习路线</h2>
+    <p class="desc">小时数由排期脚本按当日可用时长实算，与逐日表一致。</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>阶段</th><th>时间</th><th class="num">本科目时长</th><th>P0 主线（按排期顺序）</th></tr></thead>
+      <tbody><tr><td>① 2026-11-05 ~ 12-31</td><td>2026-11-05 → 2026-12-31</td><td class="num">30.0 h</td><td>阅读二刷：英语二 2018（4 篇精读 + 错因归类）；阅读二刷：英语二 2019；阅读二刷：英语二 2020</td></tr><tr><td>② 2027-01-01 ~ 04-30</td><td>2027-01-01 → 2027-04-30</td><td class="num">39.0 h</td><td>阅读二刷：英语二 2021；阅读二刷：英语二 2022；阅读二刷：英语二 2023……</td></tr><tr><td>③ 2027-05-01 ~ 07-31</td><td>2027-05-01 → 2027-07-31</td><td class="num">32.0 h</td><td>阅读二刷：英语二 2024；阅读二刷：英语二 2025；阅读二刷：英语二 2026……</td></tr><tr><td>④ 2027-08-01 ~ 10-19</td><td>2027-08-01 → 2027-10-19</td><td class="num">20.0 h</td><td>写作 B：图表作文结构与常用句式；真题套卷 2021-2022：整套限时</td></tr><tr><td>⑤ 2027-10-20 ~ 12-19</td><td>2027-10-20 → 2027-12-19</td><td class="num">18.0 h</td><td>真题套卷 2024-2026：整套限时；作文定稿、默写与批改</td></tr></tbody>
+    </table></div>
+  </section>
+
+  <section class="card">
+    <h2><span class="num">6</span>时间规则（排期口径）</h2>
+    
+<ul class="tight">
+  <li><b>2026-11-05 ~ 2026-12-31</b>：周一至周五 早上 1.5 小时 + 晚上 1 小时；早上按“数 / 408 隔日轮换”（周一数学、周二 408、周三数学、周四 408、周五数学）。周六 上午数学 2h / 下午 408 3.25h；周日 上午数学 2h / 下午英语。2026-11-04 不排任何任务（起点顺延到 11-05）。</li>
+  <li><b>2026 年每周日（已确认）</b>：1 小时心理咨询 + 结束后 30 分钟缓冲，共 1.5 小时不排复习，已从当天可用时长中扣除（优先扣下午英语时段）；当日可用 255 分钟，实际排 225 分钟。2027 年不扣减。</li>
+  <li><b>2027-01-01 起</b>：早上仍 1.5 小时、数 / 408 隔日轮换。健身每 3 天一次（自 2027-01-01 起算），每次 1 小时：<b>健身日早上 1 小时健身 + 0.5 小时碎片任务（数学 / 408 碎片）</b>，晚上照常 1 小时；非健身日早上 1.5 小时学习。周末或节假日若正好是健身日，早上 2 小时里让出 1 小时给健身（数学 1 小时 + 健身 1 小时），当天学习总量同步减 1 小时。</li>
+  <li><b>晚上</b>：2027-08-19 之前为数学碎片 + 408 碎片；2027-08-19 起（进入考前 4 个月）改为政治为主（40 分钟）。健身日晚上为 30 分钟数学 + 30 分钟（8/19 后政治 / 之前 408）。</li>
+  <li><b>周末</b>：2027-06-30 之前 周六 上午数学 / 下午 408、周日 上午数学 / 下午英语；2027-07-01 起 周六 上午数学 / 下午英语、周日 上午 408 / 下午政治。</li>
+  <li><b>词汇不在计划内</b>：用户在工作日中午、周末晚上自行背单词，不占计划时段。原来每天 20-30 分钟的词汇任务（全期约 149.7 小时）已整块删除，<b>按 P1 缺口分给数二（约 82.2 小时）与 408（约 63.5 小时）</b>（合计 145.7 小时，接近 60% / 40%；剩余约 4 小时无处安放，不硬塞），逐日追加在晚上 / 周末下午的缓冲时段；日总量仍保留 ≥8% 余量，不排满。</li>
+  <li><b>过关测试与机动</b>：11 次章节过关测试直接从数二历年真题按章节抽 15 题（45 分钟），测试即刷题，其时长已从「数二真题」单元中扣除，全期数二真题共下调 8.25 小时；每次测试后 1 天再排 45 分钟「机动·重测/订正」，11 次共 8.25 小时，只从缓冲支出，不挤占其他科目的 P0。</li>
+  <li><b>节假日（官方已定）</b>：2026 年内无剩余法定假日；2027 年按《国务院办公厅关于 2027 年部分节假日安排的通知》（国办发明电〔2026〕10 号，2026-11-05 发布）：元旦 1/1-1/3、春节 2/5-2/13、清明 4/3-4/5、劳动 5/1-5/5、端午 6/9、中秋 9/15、国庆 10/1-10/7，当日可用 285 分钟，并在 note 字段标注来源。</li>
+  <li><b>调休上班日（官方已定）</b>：1/31（周日）、2/14（周日）、5/8（周六）、9/26（周日）、10/9（周六）按工作日排课，可用时长 150 分钟（若恰为健身日则 90 分钟），不再按周末 345 分钟排。</li>
+  <li>每日任务分钟数均不超过当日可用时长；周末、健身日与节假日均有缓冲余量，机动任务只在这些余量里排。</li>
+  <li><b>已确认</b>：心理咨询只存在于 2026 年剩余区间，2027 年不再扣减；2027 年放假安排已由官方发布，按上表执行，不再使用推定值。</li>
+</ul>
+
+  </section>
+
+  <section class="card">
+    <h2><span class="num">7</span>2027 版大纲核对与变动</h2>
+    <p class="desc">联网核对最新已发布的 2027 版考试大纲（2026-09 发布）与近两年调整；适用 2027-12 笔试的 2028 版尚未发布。</p>
+    <ul class="tight"><li>已检索 2027 版大纲：48 题、满分 100 分，考查目标、题型与分值全部不变；词汇表 5529 词，无增删，仅 “humorous”“counterexample” 两处拼写格式调整。</li><li>个别媒体称“大作文上调至 200 词、写作全面升级”，<b>未获大纲文本证实</b>，本表不据此增加写作时长，但 2027 秋会预留 6 小时用于字数/结构变化的应急调整。</li><li>结论：无实质变动 → 维持“基础跳过、阅读二刷起步”的策略；词汇改为计划外自背（不占计划时段）。</li></ul>
+  </section>
+
+  <section class="card">
+    <h2><span class="num">8</span>资料与来源</h2>
+    <ul class="tight">
+      <li>共享文档（英语二）：<a href="https://share.traecontent.cn/share/7BFIOPA8IIX7RD?enter_from=pc" target="_blank" rel="noopener">https://share.traecontent.cn/share/7BFIOPA8IIX7RD?enter_from=pc</a></li>
+      <li>抓取状态：成功读取：阅读 A / 写作 / 新题型为 P0，翻译 / 完形 / 词汇为 P1，并给出阶段与真题节奏。</li>
+      <li>2027 版大纲公开解读：<a href="https://www.eol.cn/kaoshi/ky/zx/202610/t20261016_2783361.shtml" target="_blank" rel="noopener">教育在线 · 2027 考研大纲公共课变化一张表</a>、<a href="https://kaoyan.koolearn.com/20260904/1975038.html" target="_blank" rel="noopener">新东方在线 · 2027 数学二大纲</a>、<a href="https://kaoyan.xdf.cn/202610/15427047.html" target="_blank" rel="noopener">新东方 · 2027 408 新大纲变化解读</a>、<a href="http://www.eol.cn/kaoshi/ky/zx/202610/t20261020_2784365.shtml" target="_blank" rel="noopener">教育在线 · 408 四门分值对照</a>、<a href="https://m.hqwx.com/mem-kaoshi/ziliaolm/1463917.html" target="_blank" rel="noopener">环球青藤 · 2027 英语二大纲对比</a>、<a href="https://jixun.iqihang.com/zixun/dagang/zzdg/2026806045.html" target="_blank" rel="noopener">启航考研 · 2027 政治大纲变动解析</a>。</li>
+      <li>2027 年节假日按国办发明电〔2026〕10 号（2026-11-05 发布）排定，调休上班日（1/31、2/14、5/8、9/26、10/9）按工作日算，均在 JSON 的 day.note 字段标注。</li>
+    </ul>
+  </section>
+</main>
+<footer>生成于 2026-11-05 ｜ 英二 复习总表（2027-12-19 版）｜ 与 eng2_checkbox_use.json 同源</footer>
+</body></html>
