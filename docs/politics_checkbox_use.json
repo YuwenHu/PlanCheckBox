@@ -4,8 +4,8 @@
     "subject": "政治",
     "kind": "study",
     "examDate": "2027-12-19",
-    "planStart": "2026-11-04",
-    "generatedAt": "2026-11-04T16:00:00+08:00",
+    "planStart": "2026-11-05",
+    "generatedAt": "2026-11-05T12:00:00+08:00",
     "version": 1
   },
   "months": [
@@ -690,7 +690,7 @@
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-09-16",
@@ -858,12 +858,13 @@
                   "topic": "刷题",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 150,
-                  "slot": "下午",
+                  "minutes": 40,
+                  "slot": "晚",
                   "done": false,
                   "doneAt": null
                 }
-              ]
+              ],
+              "note": "调休上班日（按 2027 年放假安排，按工作日排课：早 1.5 h + 晚 1 h）"
             }
           ]
         },
@@ -958,7 +959,7 @@
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-10-02",
@@ -970,24 +971,13 @@
                   "topic": "刷题",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 100,
-                  "slot": "下午",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "POL-20271002-02",
-                  "title": "马原：政治经济学与科学社会主义",
-                  "topic": "马原",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 65,
+                  "minutes": 165,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-10-03",
@@ -995,17 +985,28 @@
               "tasks": [
                 {
                   "id": "POL-20271003-01",
-                  "title": "马原：政治经济学与科学社会主义（续）",
+                  "title": "选择题刷题：马原 + 史纲（续）",
+                  "topic": "刷题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 45,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "POL-20271003-02",
+                  "title": "马原：政治经济学与科学社会主义",
                   "topic": "马原",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 165,
+                  "minutes": 120,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             }
           ]
         }
@@ -1032,24 +1033,13 @@
                   "topic": "马原",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 130,
-                  "slot": "下午",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "POL-20271004-02",
-                  "title": "毛中特：新民主主义革命、改造与改革",
-                  "topic": "毛中特",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 35,
+                  "minutes": 165,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-10-05",
@@ -1057,17 +1047,28 @@
               "tasks": [
                 {
                   "id": "POL-20271005-01",
-                  "title": "毛中特：新民主主义革命、改造与改革（续）",
+                  "title": "马原：政治经济学与科学社会主义（续）",
+                  "topic": "马原",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 75,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "POL-20271005-02",
+                  "title": "毛中特：新民主主义革命、改造与改革",
                   "topic": "毛中特",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 165,
+                  "minutes": 90,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-10-06",
@@ -1085,7 +1086,7 @@
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-10-07",
@@ -1097,24 +1098,13 @@
                   "topic": "毛中特",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 115,
-                  "slot": "下午",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "POL-20271007-02",
-                  "title": "选择题刷题：新思想 + 毛中特",
-                  "topic": "刷题",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 50,
+                  "minutes": 165,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-10-08",
@@ -1122,8 +1112,8 @@
               "tasks": [
                 {
                   "id": "POL-20271008-01",
-                  "title": "选择题刷题：新思想 + 毛中特（续）",
-                  "topic": "刷题",
+                  "title": "毛中特：新民主主义革命、改造与改革（续）",
+                  "topic": "毛中特",
                   "kind": "study",
                   "priority": "P1",
                   "minutes": 40,
@@ -1132,6 +1122,35 @@
                   "doneAt": null
                 }
               ]
+            },
+            {
+              "date": "2027-10-09",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271009-01",
+                  "title": "毛中特：新民主主义革命、改造与改革（续）",
+                  "topic": "毛中特",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 20,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "POL-20271009-02",
+                  "title": "选择题刷题：新思想 + 毛中特",
+                  "topic": "刷题",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 20,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ],
+              "note": "调休上班日（按 2027 年放假安排，按工作日排课：早 1.5 h + 晚 1 h）"
             },
             {
               "date": "2027-10-10",
@@ -1280,7 +1299,24 @@
                   "topic": "刷题",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 20,
+                  "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-10-19",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "POL-20271019-01",
+                  "title": "选择题刷题：新思想 + 毛中特（续）",
+                  "topic": "刷题",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 30,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -1349,7 +1385,7 @@
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 150,
-                  "slot": "下午",
+                  "slot": "早",
                   "done": false,
                   "doneAt": null
                 }
@@ -1460,7 +1496,7 @@
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 150,
-                  "slot": "下午",
+                  "slot": "早",
                   "done": false,
                   "doneAt": null
                 }
@@ -1588,7 +1624,7 @@
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 150,
-                  "slot": "下午",
+                  "slot": "早",
                   "done": false,
                   "doneAt": null
                 }
@@ -1699,7 +1735,7 @@
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 90,
-                  "slot": "下午",
+                  "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
@@ -1710,7 +1746,7 @@
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 60,
-                  "slot": "下午",
+                  "slot": "早",
                   "done": false,
                   "doneAt": null
                 }
@@ -1821,7 +1857,7 @@
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 150,
-                  "slot": "下午",
+                  "slot": "早",
                   "done": false,
                   "doneAt": null
                 }
@@ -1932,7 +1968,7 @@
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 20,
-                  "slot": "下午",
+                  "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
@@ -1943,7 +1979,7 @@
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 130,
-                  "slot": "下午",
+                  "slot": "早",
                   "done": false,
                   "doneAt": null
                 }
@@ -2060,7 +2096,7 @@
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 150,
-                  "slot": "下午",
+                  "slot": "早",
                   "done": false,
                   "doneAt": null
                 }
@@ -2182,7 +2218,7 @@
                   "kind": "study",
                   "priority": "P1",
                   "minutes": 150,
-                  "slot": "下午",
+                  "slot": "早",
                   "done": false,
                   "doneAt": null
                 }

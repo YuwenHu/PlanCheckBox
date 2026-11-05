@@ -4,8 +4,8 @@
     "subject": "数学二",
     "kind": "study",
     "examDate": "2027-12-19",
-    "planStart": "2026-11-04",
-    "generatedAt": "2026-11-04T16:00:00+08:00",
+    "planStart": "2026-11-05",
+    "generatedAt": "2026-11-05T12:00:00+08:00",
     "version": 1
   },
   "months": [
@@ -21,40 +21,12 @@
           "end": "2026-11-08",
           "days": [
             {
-              "date": "2026-11-04",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "M2-20261104-01",
-                  "title": "连续性与间断点：分类、判定与题型",
-                  "topic": "函数与极限",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 90,
-                  "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20261104-02",
-                  "title": "连续性与间断点：分类、判定与题型（续）",
-                  "topic": "函数与极限",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
               "date": "2026-11-05",
               "type": "study",
               "tasks": [
                 {
                   "id": "M2-20261105-01",
-                  "title": "连续性与间断点：分类、判定与题型（续）",
+                  "title": "连续性与间断点：分类、判定与题型",
                   "topic": "函数与极限",
                   "kind": "study",
                   "priority": "P0",
@@ -149,11 +121,11 @@
                 },
                 {
                   "id": "M2-20261108-02",
-                  "title": "导数定义、可导性与分段点求导",
-                  "topic": "一元微分学",
+                  "title": "连续性与间断点：分类、判定与题型（续）",
+                  "topic": "函数与极限",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 5,
+                  "minutes": 10,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -176,17 +148,28 @@
               "tasks": [
                 {
                   "id": "M2-20261109-01",
-                  "title": "导数定义、可导性与分段点求导（续）",
-                  "topic": "一元微分学",
+                  "title": "连续性与间断点：分类、判定与题型（续）",
+                  "topic": "函数与极限",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 90,
+                  "minutes": 85,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "M2-20261109-02",
+                  "title": "导数定义、可导性与分段点求导",
+                  "topic": "一元微分学",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20261109-03",
                   "title": "导数定义、可导性与分段点求导（续）",
                   "topic": "一元微分学",
                   "kind": "study",
@@ -320,25 +303,14 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 100,
+                  "minutes": 120,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "M2-20261114-02",
-                  "title": "求导法则：复合、隐函数、参数方程、对数求导",
-                  "topic": "一元微分学",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 20,
-                  "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20261114-03",
-                  "title": "求导法则：复合、隐函数、参数方程、对数求导（续）",
+                  "title": "导数定义、可导性与分段点求导（续）",
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P0",
@@ -355,22 +327,33 @@
               "tasks": [
                 {
                   "id": "M2-20261115-01",
-                  "title": "求导法则：复合、隐函数、参数方程、对数求导（续）",
+                  "title": "导数定义、可导性与分段点求导（续）",
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 120,
+                  "minutes": 65,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "M2-20261115-02",
+                  "title": "求导法则：复合、隐函数、参数方程、对数求导",
+                  "topic": "一元微分学",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 55,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20261115-03",
                   "title": "求导法则：复合、隐函数、参数方程、对数求导（续）",
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 5,
+                  "minutes": 10,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -457,6 +440,17 @@
                   "slot": "早",
                   "done": false,
                   "doneAt": null
+                },
+                {
+                  "id": "M2-20261118-02",
+                  "title": "求导法则：复合、隐函数、参数方程、对数求导（续）",
+                  "topic": "一元微分学",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
                 }
               ]
             },
@@ -471,6 +465,17 @@
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20261119-02",
+                  "title": "求导法则：复合、隐函数、参数方程、对数求导（续）",
+                  "topic": "一元微分学",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -489,6 +494,17 @@
                   "priority": "P0",
                   "minutes": 90,
                   "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20261120-02",
+                  "title": "求导法则：复合、隐函数、参数方程、对数求导（续）",
+                  "topic": "一元微分学",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
+                  "slot": "晚",
                   "done": false,
                   "doneAt": null
                 }
@@ -543,7 +559,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 5,
+                  "minutes": 10,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -570,19 +586,19 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 80,
+                  "minutes": 90,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "M2-20261123-02",
-                  "title": "中值定理：罗尔 / 拉格朗日 / 柯西与辅助函数",
+                  "title": "求导法则：复合、隐函数、参数方程、对数求导（续）",
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 10,
-                  "slot": "早",
+                  "minutes": 5,
+                  "slot": "晚",
                   "done": false,
                   "doneAt": null
                 }
@@ -594,11 +610,22 @@
               "tasks": [
                 {
                   "id": "M2-20261124-01",
-                  "title": "中值定理：罗尔 / 拉格朗日 / 柯西与辅助函数（续）",
+                  "title": "求导法则：复合、隐函数、参数方程、对数求导（续）",
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20261124-02",
+                  "title": "求导法则：复合、隐函数、参数方程、对数求导（续）",
+                  "topic": "一元微分学",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -611,12 +638,34 @@
               "tasks": [
                 {
                   "id": "M2-20261125-01",
+                  "title": "求导法则：复合、隐函数、参数方程、对数求导（续）",
+                  "topic": "一元微分学",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20261125-02",
+                  "title": "中值定理：罗尔 / 拉格朗日 / 柯西与辅助函数",
+                  "topic": "一元微分学",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 85,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20261125-03",
                   "title": "中值定理：罗尔 / 拉格朗日 / 柯西与辅助函数（续）",
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 90,
-                  "slot": "早",
+                  "minutes": 5,
+                  "slot": "晚",
                   "done": false,
                   "doneAt": null
                 }
@@ -636,6 +685,17 @@
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
+                },
+                {
+                  "id": "M2-20261126-02",
+                  "title": "中值定理：罗尔 / 拉格朗日 / 柯西与辅助函数（续）",
+                  "topic": "一元微分学",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
                 }
               ]
             },
@@ -651,6 +711,17 @@
                   "priority": "P0",
                   "minutes": 90,
                   "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20261127-02",
+                  "title": "中值定理：罗尔 / 拉格朗日 / 柯西与辅助函数（续）",
+                  "topic": "一元微分学",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
+                  "slot": "晚",
                   "done": false,
                   "doneAt": null
                 }
@@ -727,7 +798,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 5,
+                  "minutes": 10,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -764,6 +835,17 @@
                   "slot": "早",
                   "done": false,
                   "doneAt": null
+                },
+                {
+                  "id": "M2-20261130-02",
+                  "title": "中值定理：罗尔 / 拉格朗日 / 柯西与辅助函数（续）",
+                  "topic": "一元微分学",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
                 }
               ]
             },
@@ -778,6 +860,17 @@
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 40,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20261201-02",
+                  "title": "中值定理：罗尔 / 拉格朗日 / 柯西与辅助函数（续）",
+                  "topic": "一元微分学",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -845,7 +938,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 60,
+                  "minutes": 85,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -856,7 +949,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 60,
+                  "minutes": 35,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -895,7 +988,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 5,
+                  "minutes": 10,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -1007,7 +1100,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 60,
+                  "minutes": 80,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -1018,7 +1111,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 60,
+                  "minutes": 40,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -1057,7 +1150,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 5,
+                  "minutes": 10,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -1197,7 +1290,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 55,
+                  "minutes": 70,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -1208,7 +1301,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 65,
+                  "minutes": 50,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -1219,7 +1312,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 5,
+                  "minutes": 10,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -1314,7 +1407,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 30,
+                  "minutes": 40,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -1325,7 +1418,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 60,
+                  "minutes": 50,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -1403,7 +1496,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 5,
+                  "minutes": 10,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -1509,13 +1602,13 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 20,
+                  "minutes": 25,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-01-02",
@@ -1527,7 +1620,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 120,
+                  "minutes": 90,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -1538,12 +1631,13 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 20,
+                  "minutes": 10,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
-              ]
+              ],
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-01-03",
@@ -1555,7 +1649,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 120,
+                  "minutes": 90,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -1566,12 +1660,13 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 25,
+                  "minutes": 10,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
-              ]
+              ],
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             }
           ]
         }
@@ -1630,6 +1725,17 @@
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
+                },
+                {
+                  "id": "M2-20270105-02",
+                  "title": "泰勒公式与不等式证明（续）",
+                  "topic": "一元微分学",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
                 }
               ]
             },
@@ -1655,6 +1761,17 @@
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 20,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270106-03",
+                  "title": "泰勒公式与不等式证明（续）",
+                  "topic": "一元微分学",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -1714,6 +1831,17 @@
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
+                },
+                {
+                  "id": "M2-20270108-03",
+                  "title": "泰勒公式与不等式证明（续）",
+                  "topic": "一元微分学",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
                 }
               ]
             },
@@ -1755,29 +1883,18 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 45,
+                  "minutes": 60,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "M2-20270110-02",
-                  "title": "不定积分：基本公式与换元法",
-                  "topic": "一元积分学",
+                  "title": "泰勒公式与不等式证明（续）",
+                  "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 15,
-                  "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20270110-03",
-                  "title": "不定积分：基本公式与换元法（续）",
-                  "topic": "一元积分学",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 40,
+                  "minutes": 45,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -1799,22 +1916,44 @@
               "tasks": [
                 {
                   "id": "M2-20270111-01",
-                  "title": "不定积分：基本公式与换元法（续）",
-                  "topic": "一元积分学",
+                  "title": "泰勒公式与不等式证明（续）",
+                  "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 90,
+                  "minutes": 5,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "M2-20270111-02",
+                  "title": "不定积分：基本公式与换元法",
+                  "topic": "一元积分学",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 85,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270111-03",
                   "title": "不定积分：基本公式与换元法（续）",
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 20,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270111-04",
+                  "title": "不定积分：基本公式与换元法（续）",
+                  "topic": "一元积分学",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -1832,6 +1971,17 @@
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 20,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270112-02",
+                  "title": "不定积分：基本公式与换元法（续）",
+                  "topic": "一元积分学",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -1880,6 +2030,17 @@
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
+                },
+                {
+                  "id": "M2-20270114-02",
+                  "title": "不定积分：基本公式与换元法（续）",
+                  "topic": "一元积分学",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
                 }
               ]
             },
@@ -1908,6 +2069,17 @@
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
+                },
+                {
+                  "id": "M2-20270115-03",
+                  "title": "不定积分：基本公式与换元法（续）",
+                  "topic": "一元积分学",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
                 }
               ]
             },
@@ -1932,7 +2104,7 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 30,
+                  "minutes": 40,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -1960,7 +2132,7 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 25,
+                  "minutes": 30,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -1998,6 +2170,17 @@
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 20,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270118-03",
+                  "title": "不定积分：基本公式与换元法（续）",
+                  "topic": "一元积分学",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -2057,6 +2240,17 @@
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
+                },
+                {
+                  "id": "M2-20270120-03",
+                  "title": "不定积分：基本公式与换元法（续）",
+                  "topic": "一元积分学",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
                 }
               ]
             },
@@ -2071,6 +2265,17 @@
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 20,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270121-02",
+                  "title": "不定积分：基本公式与换元法（续）",
+                  "topic": "一元积分学",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -2115,7 +2320,7 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 50,
+                  "minutes": 60,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -2126,7 +2331,7 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 70,
+                  "minutes": 60,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -2165,7 +2370,7 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 25,
+                  "minutes": 30,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -2223,6 +2428,17 @@
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
+                },
+                {
+                  "id": "M2-20270126-02",
+                  "title": "不定积分：分部积分与有理函数积分（续）",
+                  "topic": "一元积分学",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
                 }
               ]
             },
@@ -2248,6 +2464,17 @@
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 20,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270127-03",
+                  "title": "不定积分：分部积分与有理函数积分（续）",
+                  "topic": "一元积分学",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -2307,6 +2534,17 @@
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
+                },
+                {
+                  "id": "M2-20270129-03",
+                  "title": "不定积分：分部积分与有理函数积分（续）",
+                  "topic": "一元积分学",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
                 }
               ]
             },
@@ -2359,8 +2597,8 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 60,
-                  "slot": "早",
+                  "minutes": 45,
+                  "slot": "晚",
                   "done": false,
                   "doneAt": null
                 },
@@ -2374,30 +2612,9 @@
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
-                },
-                {
-                  "id": "M2-20270131-03",
-                  "title": "不定积分：分部积分与有理函数积分（续）",
-                  "topic": "一元积分学",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 10,
-                  "slot": "下午",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20270131-04",
-                  "title": "定积分：定义、性质与变上限积分求导",
-                  "topic": "一元积分学",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 20,
-                  "slot": "下午",
-                  "done": false,
-                  "doneAt": null
                 }
-              ]
+              ],
+              "note": "调休上班日（官方已定）且为健身日：早健身 1 小时，学习 90 分钟"
             }
           ]
         }
@@ -2420,22 +2637,44 @@
               "tasks": [
                 {
                   "id": "M2-20270201-01",
-                  "title": "定积分：定义、性质与变上限积分求导（续）",
+                  "title": "不定积分：分部积分与有理函数积分（续）",
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 90,
+                  "minutes": 15,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "M2-20270201-02",
+                  "title": "定积分：定义、性质与变上限积分求导",
+                  "topic": "一元积分学",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 75,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270201-03",
                   "title": "定积分：定义、性质与变上限积分求导（续）",
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 20,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270201-04",
+                  "title": "定积分：定义、性质与变上限积分求导（续）",
+                  "topic": "一元积分学",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -2453,6 +2692,17 @@
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 20,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270202-02",
+                  "title": "定积分：定义、性质与变上限积分求导（续）",
+                  "topic": "一元积分学",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -2501,6 +2751,17 @@
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
+                },
+                {
+                  "id": "M2-20270204-02",
+                  "title": "定积分：定义、性质与变上限积分求导（续）",
+                  "topic": "一元积分学",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
                 }
               ]
             },
@@ -2531,7 +2792,7 @@
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-02-06",
@@ -2554,13 +2815,13 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 20,
+                  "minutes": 25,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-02-07",
@@ -2589,7 +2850,7 @@
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             }
           ]
         },
@@ -2627,7 +2888,7 @@
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-02-09",
@@ -2650,13 +2911,13 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 20,
+                  "minutes": 25,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-02-10",
@@ -2679,13 +2940,13 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 10,
+                  "minutes": 5,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-02-11",
@@ -2708,13 +2969,13 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 10,
+                  "minutes": 5,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-02-12",
@@ -2737,13 +2998,13 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 20,
+                  "minutes": 25,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-02-13",
@@ -2755,34 +3016,24 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 100,
+                  "minutes": 90,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "M2-20270213-02",
-                  "title": "定积分计算：对称性、周期性、区间再现",
+                  "title": "定积分：定义、性质与变上限积分求导（续）",
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 20,
-                  "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20270213-03",
-                  "title": "定积分计算：对称性、周期性、区间再现（续）",
-                  "topic": "一元积分学",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 20,
+                  "minutes": 5,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
-              ]
+              ],
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-02-14",
@@ -2790,27 +3041,28 @@
               "tasks": [
                 {
                   "id": "M2-20270214-01",
-                  "title": "定积分计算：对称性、周期性、区间再现（续）",
+                  "title": "定积分：定义、性质与变上限积分求导（续）",
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 120,
-                  "slot": "早",
+                  "minutes": 20,
+                  "slot": "晚",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "M2-20270214-02",
-                  "title": "定积分计算：对称性、周期性、区间再现（续）",
+                  "title": "定积分计算：对称性、周期性、区间再现",
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 25,
-                  "slot": "下午",
+                  "minutes": 5,
+                  "slot": "晚",
                   "done": false,
                   "doneAt": null
                 }
-              ]
+              ],
+              "note": "调休上班日（按 2027 年放假安排，按工作日排课：早 1.5 h + 晚 1 h）"
             }
           ]
         },
@@ -2842,7 +3094,7 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 10,
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -2860,6 +3112,17 @@
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 20,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270216-02",
+                  "title": "定积分计算：对称性、周期性、区间再现（续）",
+                  "topic": "一元积分学",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -2891,6 +3154,17 @@
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
+                },
+                {
+                  "id": "M2-20270217-03",
+                  "title": "定积分计算：对称性、周期性、区间再现（续）",
+                  "topic": "一元积分学",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
                 }
               ]
             },
@@ -2915,7 +3189,7 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 10,
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -2947,6 +3221,17 @@
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
+                },
+                {
+                  "id": "M2-20270219-03",
+                  "title": "定积分计算：对称性、周期性、区间再现（续）",
+                  "topic": "一元积分学",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
                 }
               ]
             },
@@ -2960,25 +3245,14 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 95,
+                  "minutes": 120,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "M2-20270220-02",
-                  "title": "定积分应用：面积、旋转体体积、弧长与物理量（做功/水压力）",
-                  "topic": "一元积分学",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 25,
-                  "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20270220-03",
-                  "title": "定积分应用：面积、旋转体体积、弧长与物理量（做功/水压力）（续）",
+                  "title": "定积分计算：对称性、周期性、区间再现（续）",
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
@@ -2995,7 +3269,7 @@
               "tasks": [
                 {
                   "id": "M2-20270221-01",
-                  "title": "定积分应用：面积、旋转体体积、弧长与物理量（做功/水压力）（续）",
+                  "title": "定积分计算：对称性、周期性、区间再现（续）",
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
@@ -3006,11 +3280,11 @@
                 },
                 {
                   "id": "M2-20270221-02",
-                  "title": "定积分应用：面积、旋转体体积、弧长与物理量（做功/水压力）（续）",
+                  "title": "定积分计算：对称性、周期性、区间再现（续）",
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 40,
+                  "minutes": 45,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -3032,22 +3306,44 @@
               "tasks": [
                 {
                   "id": "M2-20270222-01",
-                  "title": "定积分应用：面积、旋转体体积、弧长与物理量（做功/水压力）（续）",
+                  "title": "定积分计算：对称性、周期性、区间再现（续）",
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 90,
+                  "minutes": 25,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "M2-20270222-02",
+                  "title": "定积分应用：面积、旋转体体积、弧长与物理量（做功/水压力）",
+                  "topic": "一元积分学",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 65,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270222-03",
                   "title": "定积分应用：面积、旋转体体积、弧长与物理量（做功/水压力）（续）",
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 20,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270222-04",
+                  "title": "定积分应用：面积、旋转体体积、弧长与物理量（做功/水压力）（续）",
+                  "topic": "一元积分学",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -3065,6 +3361,17 @@
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 20,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270223-02",
+                  "title": "定积分应用：面积、旋转体体积、弧长与物理量（做功/水压力）（续）",
+                  "topic": "一元积分学",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -3092,7 +3399,7 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 10,
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -3110,6 +3417,17 @@
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 20,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270225-02",
+                  "title": "定积分应用：面积、旋转体体积、弧长与物理量（做功/水压力）（续）",
+                  "topic": "一元积分学",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -3141,6 +3459,17 @@
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
+                },
+                {
+                  "id": "M2-20270226-03",
+                  "title": "定积分应用：面积、旋转体体积、弧长与物理量（做功/水压力）（续）",
+                  "topic": "一元积分学",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
                 }
               ]
             },
@@ -3165,7 +3494,7 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 30,
+                  "minutes": 40,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -3193,7 +3522,7 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 25,
+                  "minutes": 30,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -3240,6 +3569,17 @@
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
+                },
+                {
+                  "id": "M2-20270301-03",
+                  "title": "定积分应用：面积、旋转体体积、弧长与物理量（做功/水压力）（续）",
+                  "topic": "一元积分学",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
                 }
               ]
             },
@@ -3264,7 +3604,7 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 10,
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -3281,29 +3621,29 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 10,
+                  "minutes": 90,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "M2-20270303-02",
-                  "title": "矩阵运算、逆矩阵、伴随矩阵与矩阵的秩",
-                  "topic": "矩阵",
+                  "title": "定积分应用：面积、旋转体体积、弧长与物理量（做功/水压力）（续）",
+                  "topic": "一元积分学",
                   "kind": "study",
-                  "priority": "P1",
-                  "minutes": 80,
-                  "slot": "早",
+                  "priority": "P0",
+                  "minutes": 20,
+                  "slot": "晚",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "M2-20270303-03",
-                  "title": "矩阵运算、逆矩阵、伴随矩阵与矩阵的秩（续）",
-                  "topic": "矩阵",
+                  "title": "定积分应用：面积、旋转体体积、弧长与物理量（做功/水压力）（续）",
+                  "topic": "一元积分学",
                   "kind": "study",
-                  "priority": "P1",
-                  "minutes": 20,
+                  "priority": "P0",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -3316,11 +3656,22 @@
               "tasks": [
                 {
                   "id": "M2-20270304-01",
-                  "title": "矩阵运算、逆矩阵、伴随矩阵与矩阵的秩（续）",
-                  "topic": "矩阵",
+                  "title": "定积分应用：面积、旋转体体积、弧长与物理量（做功/水压力）（续）",
+                  "topic": "一元积分学",
                   "kind": "study",
-                  "priority": "P1",
+                  "priority": "P0",
                   "minutes": 20,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270304-02",
+                  "title": "定积分应用：面积、旋转体体积、弧长与物理量（做功/水压力）（续）",
+                  "topic": "一元积分学",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -3333,22 +3684,33 @@
               "tasks": [
                 {
                   "id": "M2-20270305-01",
-                  "title": "矩阵运算、逆矩阵、伴随矩阵与矩阵的秩（续）",
-                  "topic": "矩阵",
+                  "title": "定积分应用：面积、旋转体体积、弧长与物理量（做功/水压力）（续）",
+                  "topic": "一元积分学",
                   "kind": "study",
-                  "priority": "P1",
-                  "minutes": 30,
+                  "priority": "P0",
+                  "minutes": 10,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "M2-20270305-02",
+                  "title": "矩阵运算、逆矩阵、伴随矩阵与矩阵的秩",
+                  "topic": "矩阵",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 20,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270305-03",
                   "title": "矩阵运算、逆矩阵、伴随矩阵与矩阵的秩（续）",
                   "topic": "矩阵",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 10,
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -3426,7 +3788,7 @@
                   "topic": "矩阵",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 15,
+                  "minutes": 20,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -3463,7 +3825,7 @@
                   "topic": "矩阵",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 10,
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -3481,6 +3843,17 @@
                   "kind": "study",
                   "priority": "P1",
                   "minutes": 20,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270309-02",
+                  "title": "矩阵运算、逆矩阵、伴随矩阵与矩阵的秩（续）",
+                  "topic": "矩阵",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -3512,6 +3885,17 @@
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
+                },
+                {
+                  "id": "M2-20270310-03",
+                  "title": "矩阵运算、逆矩阵、伴随矩阵与矩阵的秩（续）",
+                  "topic": "矩阵",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
                 }
               ]
             },
@@ -3536,7 +3920,7 @@
                   "topic": "矩阵",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 10,
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -3568,6 +3952,17 @@
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
+                },
+                {
+                  "id": "M2-20270312-03",
+                  "title": "矩阵运算、逆矩阵、伴随矩阵与矩阵的秩（续）",
+                  "topic": "矩阵",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
                 }
               ]
             },
@@ -3592,18 +3987,7 @@
                   "topic": "矩阵",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 10,
-                  "slot": "下午",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20270313-03",
-                  "title": "行列式：性质、展开与计算技巧",
-                  "topic": "行列式",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 10,
+                  "minutes": 20,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -3616,8 +4000,8 @@
               "tasks": [
                 {
                   "id": "M2-20270314-01",
-                  "title": "行列式：性质、展开与计算技巧（续）",
-                  "topic": "行列式",
+                  "title": "矩阵运算、逆矩阵、伴随矩阵与矩阵的秩（续）",
+                  "topic": "矩阵",
                   "kind": "study",
                   "priority": "P1",
                   "minutes": 60,
@@ -3627,11 +4011,11 @@
                 },
                 {
                   "id": "M2-20270314-02",
-                  "title": "行列式：性质、展开与计算技巧（续）",
-                  "topic": "行列式",
+                  "title": "矩阵运算、逆矩阵、伴随矩阵与矩阵的秩（续）",
+                  "topic": "矩阵",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 40,
+                  "minutes": 45,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -3653,22 +4037,44 @@
               "tasks": [
                 {
                   "id": "M2-20270315-01",
-                  "title": "行列式：性质、展开与计算技巧（续）",
-                  "topic": "行列式",
+                  "title": "矩阵运算、逆矩阵、伴随矩阵与矩阵的秩（续）",
+                  "topic": "矩阵",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 90,
+                  "minutes": 10,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "M2-20270315-02",
+                  "title": "行列式：性质、展开与计算技巧",
+                  "topic": "行列式",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 80,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270315-03",
                   "title": "行列式：性质、展开与计算技巧（续）",
                   "topic": "行列式",
                   "kind": "study",
                   "priority": "P1",
                   "minutes": 20,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270315-04",
+                  "title": "行列式：性质、展开与计算技巧（续）",
+                  "topic": "行列式",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -3686,6 +4092,17 @@
                   "kind": "study",
                   "priority": "P1",
                   "minutes": 20,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270316-02",
+                  "title": "行列式：性质、展开与计算技巧（续）",
+                  "topic": "行列式",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -3713,7 +4130,7 @@
                   "topic": "行列式",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 10,
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -3731,6 +4148,17 @@
                   "kind": "study",
                   "priority": "P1",
                   "minutes": 20,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270318-02",
+                  "title": "行列式：性质、展开与计算技巧（续）",
+                  "topic": "行列式",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -3762,6 +4190,17 @@
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
+                },
+                {
+                  "id": "M2-20270319-03",
+                  "title": "行列式：性质、展开与计算技巧（续）",
+                  "topic": "行列式",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
                 }
               ]
             },
@@ -3786,7 +4225,7 @@
                   "topic": "行列式",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 30,
+                  "minutes": 40,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -3803,29 +4242,18 @@
                   "topic": "行列式",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 100,
+                  "minutes": 120,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "M2-20270321-02",
-                  "title": "反常积分与敛散性",
-                  "topic": "一元积分学",
+                  "title": "行列式：性质、展开与计算技巧（续）",
+                  "topic": "行列式",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 20,
-                  "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20270321-03",
-                  "title": "反常积分与敛散性（续）",
-                  "topic": "一元积分学",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 25,
+                  "minutes": 30,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -3847,22 +4275,44 @@
               "tasks": [
                 {
                   "id": "M2-20270322-01",
-                  "title": "反常积分与敛散性（续）",
-                  "topic": "一元积分学",
+                  "title": "行列式：性质、展开与计算技巧（续）",
+                  "topic": "行列式",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 90,
+                  "minutes": 45,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "M2-20270322-02",
+                  "title": "反常积分与敛散性",
+                  "topic": "一元积分学",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 45,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270322-03",
                   "title": "反常积分与敛散性（续）",
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P1",
                   "minutes": 20,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270322-04",
+                  "title": "反常积分与敛散性（续）",
+                  "topic": "一元积分学",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -3890,7 +4340,7 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 10,
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -3922,6 +4372,17 @@
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
+                },
+                {
+                  "id": "M2-20270324-03",
+                  "title": "反常积分与敛散性（续）",
+                  "topic": "一元积分学",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
                 }
               ]
             },
@@ -3936,6 +4397,17 @@
                   "kind": "study",
                   "priority": "P1",
                   "minutes": 20,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270325-02",
+                  "title": "反常积分与敛散性（续）",
+                  "topic": "一元积分学",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -3967,17 +4439,6 @@
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
-                },
-                {
-                  "id": "M2-20270326-03",
-                  "title": "题型专练：中值定理证明",
-                  "topic": "一元微分学",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
                 }
               ]
             },
@@ -3998,8 +4459,8 @@
                 },
                 {
                   "id": "M2-20270327-02",
-                  "title": "题型专练：中值定理证明（续）",
-                  "topic": "一元微分学",
+                  "title": "反常积分与敛散性（续）",
+                  "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P1",
                   "minutes": 75,
@@ -4009,11 +4470,22 @@
                 },
                 {
                   "id": "M2-20270327-03",
-                  "title": "题型专练：中值定理证明（续）",
+                  "title": "反常积分与敛散性（续）",
+                  "topic": "一元积分学",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270327-04",
+                  "title": "题型专练：中值定理证明",
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 20,
+                  "minutes": 15,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -4052,7 +4524,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 15,
+                  "minutes": 20,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -4095,7 +4567,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 10,
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -4113,6 +4585,17 @@
                   "kind": "study",
                   "priority": "P1",
                   "minutes": 20,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270330-02",
+                  "title": "题型专练：中值定理证明（续）",
+                  "topic": "一元微分学",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -4144,6 +4627,17 @@
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
+                },
+                {
+                  "id": "M2-20270331-03",
+                  "title": "题型专练：中值定理证明（续）",
+                  "topic": "一元微分学",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
                 }
               ]
             },
@@ -4168,7 +4662,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 10,
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -4200,6 +4694,17 @@
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
+                },
+                {
+                  "id": "M2-20270402-03",
+                  "title": "题型专练：中值定理证明（续）",
+                  "topic": "一元微分学",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
                 }
               ]
             },
@@ -4224,13 +4729,13 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 10,
+                  "minutes": 5,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-04-04",
@@ -4253,13 +4758,13 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 20,
+                  "minutes": 25,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             }
           ]
         },
@@ -4280,7 +4785,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 15,
+                  "minutes": 90,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -4291,24 +4796,13 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 75,
-                  "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20270405-03",
-                  "title": "题型专练：积分计算（续）",
-                  "topic": "一元积分学",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 10,
+                  "minutes": 5,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-04-06",
@@ -4321,6 +4815,17 @@
                   "kind": "study",
                   "priority": "P1",
                   "minutes": 20,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270406-02",
+                  "title": "题型专练：积分计算（续）",
+                  "topic": "一元积分学",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -4348,7 +4853,7 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 10,
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -4366,6 +4871,17 @@
                   "kind": "study",
                   "priority": "P1",
                   "minutes": 20,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270408-02",
+                  "title": "题型专练：积分计算（续）",
+                  "topic": "一元积分学",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -4397,6 +4913,17 @@
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
+                },
+                {
+                  "id": "M2-20270409-03",
+                  "title": "题型专练：积分计算（续）",
+                  "topic": "一元积分学",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
                 }
               ]
             },
@@ -4421,7 +4948,7 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 30,
+                  "minutes": 40,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -4449,7 +4976,7 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 25,
+                  "minutes": 30,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -4490,6 +5017,17 @@
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
+                },
+                {
+                  "id": "M2-20270412-03",
+                  "title": "题型专练：积分计算（续）",
+                  "topic": "一元积分学",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
                 }
               ]
             },
@@ -4514,7 +5052,7 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 10,
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -4531,29 +5069,29 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 60,
+                  "minutes": 90,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "M2-20270414-02",
-                  "title": "高数（一元）阶段复盘：错题与框架",
-                  "topic": "综合复盘",
+                  "title": "题型专练：积分计算（续）",
+                  "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 30,
-                  "slot": "早",
+                  "minutes": 20,
+                  "slot": "晚",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "M2-20270414-03",
-                  "title": "高数（一元）阶段复盘：错题与框架（续）",
-                  "topic": "综合复盘",
+                  "title": "题型专练：积分计算（续）",
+                  "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 20,
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -4566,11 +5104,22 @@
               "tasks": [
                 {
                   "id": "M2-20270415-01",
-                  "title": "高数（一元）阶段复盘：错题与框架（续）",
+                  "title": "高数（一元）阶段复盘：错题与框架",
                   "topic": "综合复盘",
                   "kind": "study",
                   "priority": "P1",
                   "minutes": 20,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270415-02",
+                  "title": "高数（一元）阶段复盘：错题与框架（续）",
+                  "topic": "综合复盘",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -4598,7 +5147,7 @@
                   "topic": "综合复盘",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 10,
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -4654,7 +5203,7 @@
                   "topic": "综合复盘",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 25,
+                  "minutes": 30,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -4691,7 +5240,7 @@
                   "topic": "综合复盘",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 10,
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -4709,6 +5258,17 @@
                   "kind": "study",
                   "priority": "P1",
                   "minutes": 20,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270420-02",
+                  "title": "高数（一元）阶段复盘：错题与框架（续）",
+                  "topic": "综合复盘",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -4740,6 +5300,17 @@
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
+                },
+                {
+                  "id": "M2-20270421-03",
+                  "title": "高数（一元）阶段复盘：错题与框架（续）",
+                  "topic": "综合复盘",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
                 }
               ]
             },
@@ -4768,17 +5339,6 @@
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
-                },
-                {
-                  "id": "M2-20270422-03",
-                  "title": "题型专练：导数应用（单调/极值/根）",
-                  "topic": "一元微分学",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
                 }
               ]
             },
@@ -4788,22 +5348,44 @@
               "tasks": [
                 {
                   "id": "M2-20270423-01",
-                  "title": "题型专练：导数应用（单调/极值/根）（续）",
-                  "topic": "一元微分学",
+                  "title": "高数（一元）阶段复盘：错题与框架（续）",
+                  "topic": "综合复盘",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 90,
+                  "minutes": 40,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "M2-20270423-02",
+                  "title": "题型专练：导数应用（单调/极值/根）",
+                  "topic": "一元微分学",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 50,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270423-03",
                   "title": "题型专练：导数应用（单调/极值/根）（续）",
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P1",
                   "minutes": 20,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270423-04",
+                  "title": "题型专练：导数应用（单调/极值/根）（续）",
+                  "topic": "一元微分学",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -4881,7 +5463,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 30,
+                  "minutes": 35,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -4922,6 +5504,17 @@
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
+                },
+                {
+                  "id": "M2-20270426-03",
+                  "title": "题型专练：导数应用（单调/极值/根）（续）",
+                  "topic": "一元微分学",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
                 }
               ]
             },
@@ -4936,6 +5529,17 @@
                   "kind": "study",
                   "priority": "P1",
                   "minutes": 20,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270427-02",
+                  "title": "题型专练：导数应用（单调/极值/根）（续）",
+                  "topic": "一元微分学",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -4963,7 +5567,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 10,
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -4981,6 +5585,17 @@
                   "kind": "study",
                   "priority": "P1",
                   "minutes": 20,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270429-02",
+                  "title": "题型专练：导数应用（单调/极值/根）（续）",
+                  "topic": "一元微分学",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -5009,6 +5624,17 @@
                   "kind": "study",
                   "priority": "P1",
                   "minutes": 20,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270430-03",
+                  "title": "题型专练：导数应用（单调/极值/根）（续）",
+                  "topic": "一元微分学",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -5042,7 +5668,7 @@
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-05-02",
@@ -5071,7 +5697,7 @@
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             }
           ]
         }
@@ -5115,7 +5741,7 @@
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-05-04",
@@ -5144,7 +5770,7 @@
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-05-05",
@@ -5173,7 +5799,7 @@
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-05-06",
@@ -5241,7 +5867,7 @@
                   "topic": "向量与方程组",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 120,
+                  "minutes": 90,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -5253,11 +5879,23 @@
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 20,
-                  "slot": "下午",
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270508-03",
+                  "title": "线性方程组：解的结构与含参讨论（续）",
+                  "topic": "向量与方程组",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
+                  "slot": "晚",
                   "done": false,
                   "doneAt": null
                 }
-              ]
+              ],
+              "note": "调休上班日（按 2027 年放假安排，按工作日排课：早 1.5 h + 晚 1 h）"
             },
             {
               "date": "2027-05-09",
@@ -5408,8 +6046,8 @@
                 },
                 {
                   "id": "M2-20270513-02",
-                  "title": "特征值与特征向量、相似对角化",
-                  "topic": "特征值与二次型",
+                  "title": "线性方程组：解的结构与含参讨论（续）",
+                  "topic": "向量与方程组",
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 10,
@@ -5425,22 +6063,44 @@
               "tasks": [
                 {
                   "id": "M2-20270514-01",
-                  "title": "特征值与特征向量、相似对角化（续）",
-                  "topic": "特征值与二次型",
+                  "title": "线性方程组：解的结构与含参讨论（续）",
+                  "topic": "向量与方程组",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 90,
+                  "minutes": 15,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "M2-20270514-02",
+                  "title": "特征值与特征向量、相似对角化",
+                  "topic": "特征值与二次型",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 75,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270514-03",
                   "title": "特征值与特征向量、相似对角化（续）",
                   "topic": "特征值与二次型",
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 20,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270514-04",
+                  "title": "特征值与特征向量、相似对角化（续）",
+                  "topic": "特征值与二次型",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -5534,6 +6194,17 @@
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 20,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270517-03",
+                  "title": "特征值与特征向量、相似对角化（续）",
+                  "topic": "特征值与二次型",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -5705,7 +6376,7 @@
                   "topic": "特征值与二次型",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 65,
+                  "minutes": 80,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -5716,7 +6387,7 @@
                   "topic": "特征值与二次型",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 25,
+                  "minutes": 10,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -6067,7 +6738,7 @@
                   "topic": "特征值与二次型",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 35,
+                  "minutes": 50,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -6078,7 +6749,7 @@
                   "topic": "多元微分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 85,
+                  "minutes": 70,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -6205,7 +6876,7 @@
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-06-10",
@@ -6383,7 +7054,7 @@
                   "topic": "多元微分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 60,
+                  "minutes": 75,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -6394,7 +7065,7 @@
                   "topic": "二重积分",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 30,
+                  "minutes": 15,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -6754,7 +7425,7 @@
                   "topic": "二重积分",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 60,
+                  "minutes": 75,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -6765,7 +7436,7 @@
                   "topic": "向量与方程组",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 30,
+                  "minutes": 15,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -7066,7 +7737,7 @@
                   "topic": "向量与方程组",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 40,
+                  "minutes": 55,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -7077,7 +7748,7 @@
                   "topic": "微分方程",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 80,
+                  "minutes": 65,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -7271,7 +7942,7 @@
                   "topic": "微分方程",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 35,
+                  "minutes": 50,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -7282,7 +7953,7 @@
                   "topic": "微分方程",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 40,
+                  "minutes": 25,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -7493,18 +8164,7 @@
                   "topic": "微分方程",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 5,
-                  "slot": "下午",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20270725-02",
-                  "title": "线代一轮复盘：题型与易错点",
-                  "topic": "综合复盘",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 15,
+                  "minutes": 20,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -7526,7 +8186,7 @@
               "tasks": [
                 {
                   "id": "M2-20270726-01",
-                  "title": "线代一轮复盘：题型与易错点（续）",
+                  "title": "线代一轮复盘：题型与易错点",
                   "topic": "综合复盘",
                   "kind": "study",
                   "priority": "P1",
@@ -7687,7 +8347,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 40,
+                  "minutes": 45,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -7909,7 +8569,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 40,
+                  "minutes": 45,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -8065,28 +8725,17 @@
                 },
                 {
                   "id": "M2-20270813-02",
-                  "title": "强化：中值定理与一元积分综合（续）",
-                  "topic": "一元微分学",
+                  "title": "强化：线代综合（方程组 + 特征值 + 二次型）",
+                  "topic": "向量与方程组",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 10,
+                  "minutes": 20,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "M2-20270813-03",
-                  "title": "强化：线代综合（方程组 + 特征值 + 二次型）",
-                  "topic": "向量与方程组",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 10,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20270813-04",
                   "title": "强化：线代综合（方程组 + 特征值 + 二次型）（续）",
                   "topic": "向量与方程组",
                   "kind": "study",
@@ -8119,7 +8768,7 @@
                   "topic": "向量与方程组",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 85,
+                  "minutes": 90,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -8136,7 +8785,7 @@
                   "topic": "向量与方程组",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 40,
+                  "minutes": 45,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -8212,7 +8861,7 @@
                   "topic": "向量与方程组",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 15,
+                  "minutes": 20,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -8296,7 +8945,7 @@
                   "topic": "向量与方程组",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 15,
+                  "minutes": 20,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -8341,7 +8990,7 @@
                   "topic": "向量与方程组",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 40,
+                  "minutes": 45,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -8378,7 +9027,18 @@
                   "topic": "向量与方程组",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 15,
+                  "minutes": 10,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270823-03",
+                  "title": "强化：选填题提速与陷阱题",
+                  "topic": "综合复盘",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 10,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -8391,8 +9051,8 @@
               "tasks": [
                 {
                   "id": "M2-20270824-01",
-                  "title": "强化：线代综合（方程组 + 特征值 + 二次型）（续）",
-                  "topic": "向量与方程组",
+                  "title": "强化：选填题提速与陷阱题（续）",
+                  "topic": "综合复盘",
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 10,
@@ -8408,28 +9068,17 @@
               "tasks": [
                 {
                   "id": "M2-20270825-01",
-                  "title": "强化：线代综合（方程组 + 特征值 + 二次型）（续）",
-                  "topic": "向量与方程组",
+                  "title": "强化：选填题提速与陷阱题（续）",
+                  "topic": "综合复盘",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 20,
+                  "minutes": 90,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "M2-20270825-02",
-                  "title": "强化：选填题提速与陷阱题",
-                  "topic": "综合复盘",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 70,
-                  "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20270825-03",
                   "title": "强化：选填题提速与陷阱题（续）",
                   "topic": "综合复盘",
                   "kind": "study",
@@ -8462,7 +9111,7 @@
                   "topic": "综合复盘",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 15,
+                  "minutes": 20,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -8535,7 +9184,18 @@
                   "topic": "综合复盘",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 40,
+                  "minutes": 30,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270829-02",
+                  "title": "数二真题 2018-2022：5 套按套限时 + 复盘（含 2 次综合抽题测试）",
+                  "topic": "真题",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 15,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -8563,28 +9223,17 @@
               "tasks": [
                 {
                   "id": "M2-20270830-01",
-                  "title": "强化：选填题提速与陷阱题（续）",
-                  "topic": "综合复盘",
+                  "title": "数二真题 2018-2022：5 套按套限时 + 复盘（含 2 次综合抽题测试）（续）",
+                  "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 35,
+                  "minutes": 90,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "M2-20270830-02",
-                  "title": "数二真题 2018-2022：5 套按套限时 + 复盘（含 2 次综合抽题测试）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 55,
-                  "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20270830-03",
                   "title": "数二真题 2018-2022：5 套按套限时 + 复盘（含 2 次综合抽题测试）（续）",
                   "topic": "真题",
                   "kind": "study",
@@ -8634,7 +9283,7 @@
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 15,
+                  "minutes": 20,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -8707,7 +9356,7 @@
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 85,
+                  "minutes": 90,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -8724,7 +9373,7 @@
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 40,
+                  "minutes": 45,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -8789,7 +9438,7 @@
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 15,
+                  "minutes": 20,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -8862,7 +9511,7 @@
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 15,
+                  "minutes": 20,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -8929,7 +9578,7 @@
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 15,
+                  "minutes": 20,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -8966,7 +9615,7 @@
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 15,
+                  "minutes": 20,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -9000,24 +9649,35 @@
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 90,
+                  "minutes": 75,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "M2-20270915-02",
-                  "title": "数二真题 2018-2022：5 套按套限时 + 复盘（含 2 次综合抽题测试）（续）",
-                  "topic": "真题",
+                  "title": "强化：二重积分与多元微分综合",
+                  "topic": "二重积分",
                   "kind": "study",
-                  "priority": "P0",
+                  "priority": "P1",
                   "minutes": 15,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270915-03",
+                  "title": "强化：二重积分与多元微分综合（续）",
+                  "topic": "二重积分",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 20,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-09-16",
@@ -9025,10 +9685,10 @@
               "tasks": [
                 {
                   "id": "M2-20270916-01",
-                  "title": "数二真题 2018-2022：5 套按套限时 + 复盘（含 2 次综合抽题测试）（续）",
-                  "topic": "真题",
+                  "title": "强化：二重积分与多元微分综合（续）",
+                  "topic": "二重积分",
                   "kind": "study",
-                  "priority": "P0",
+                  "priority": "P1",
                   "minutes": 30,
                   "slot": "晚",
                   "done": false,
@@ -9036,11 +9696,11 @@
                 },
                 {
                   "id": "M2-20270916-02",
-                  "title": "数二真题 2018-2022：5 套按套限时 + 复盘（含 2 次综合抽题测试）（续）",
-                  "topic": "真题",
+                  "title": "强化：二重积分与多元微分综合（续）",
+                  "topic": "二重积分",
                   "kind": "study",
-                  "priority": "P0",
-                  "minutes": 15,
+                  "priority": "P1",
+                  "minutes": 20,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -9053,28 +9713,17 @@
               "tasks": [
                 {
                   "id": "M2-20270917-01",
-                  "title": "数二真题 2018-2022：5 套按套限时 + 复盘（含 2 次综合抽题测试）（续）",
-                  "topic": "真题",
+                  "title": "强化：二重积分与多元微分综合（续）",
+                  "topic": "二重积分",
                   "kind": "study",
-                  "priority": "P0",
-                  "minutes": 10,
+                  "priority": "P1",
+                  "minutes": 90,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "M2-20270917-02",
-                  "title": "强化：二重积分与多元微分综合",
-                  "topic": "二重积分",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 80,
-                  "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20270917-03",
                   "title": "强化：二重积分与多元微分综合（续）",
                   "topic": "二重积分",
                   "kind": "study",
@@ -9124,7 +9773,7 @@
                   "topic": "二重积分",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 40,
+                  "minutes": 45,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -9206,7 +9855,7 @@
                   "topic": "二重积分",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 15,
+                  "minutes": 20,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -9240,15 +9889,26 @@
                   "topic": "二重积分",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 90,
+                  "minutes": 20,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "M2-20270924-02",
-                  "title": "强化：二重积分与多元微分综合（续）",
-                  "topic": "二重积分",
+                  "title": "强化：反常积分与定积分不等式",
+                  "topic": "一元积分学",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 70,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20270924-03",
+                  "title": "强化：反常积分与定积分不等式（续）",
+                  "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P1",
                   "minutes": 10,
@@ -9264,33 +9924,22 @@
               "tasks": [
                 {
                   "id": "M2-20270925-01",
-                  "title": "强化：二重积分与多元微分综合（续）",
-                  "topic": "二重积分",
+                  "title": "强化：反常积分与定积分不等式（续）",
+                  "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 25,
+                  "minutes": 60,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "M2-20270925-02",
-                  "title": "强化：反常积分与定积分不等式",
-                  "topic": "一元积分学",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 35,
-                  "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20270925-03",
                   "title": "强化：反常积分与定积分不等式（续）",
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 85,
+                  "minutes": 60,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -9307,12 +9956,13 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 40,
-                  "slot": "下午",
+                  "minutes": 10,
+                  "slot": "晚",
                   "done": false,
                   "doneAt": null
                 }
-              ]
+              ],
+              "note": "调休上班日（按 2027 年放假安排，按工作日排课：早 1.5 h + 晚 1 h）"
             }
           ]
         },
@@ -9372,7 +10022,7 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 15,
+                  "minutes": 20,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -9445,13 +10095,13 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 50,
+                  "minutes": 55,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-10-02",
@@ -9463,15 +10113,26 @@
                   "topic": "一元积分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 90,
+                  "minutes": 45,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "M2-20271002-02",
-                  "title": "强化：反常积分与定积分不等式（续）",
-                  "topic": "一元积分学",
+                  "title": "高数错题回炉：题型归类",
+                  "topic": "综合复盘",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 45,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20271002-03",
+                  "title": "高数错题回炉：题型归类（续）",
+                  "topic": "综合复盘",
                   "kind": "study",
                   "priority": "P1",
                   "minutes": 15,
@@ -9480,7 +10141,7 @@
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-10-03",
@@ -9488,7 +10149,7 @@
               "tasks": [
                 {
                   "id": "M2-20271003-01",
-                  "title": "高数错题回炉：题型归类",
+                  "title": "高数错题回炉：题型归类（续）",
                   "topic": "综合复盘",
                   "kind": "study",
                   "priority": "P1",
@@ -9509,7 +10170,7 @@
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             }
           ]
         }
@@ -9547,13 +10208,13 @@
                   "topic": "综合复盘",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 50,
+                  "minutes": 55,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-10-05",
@@ -9582,7 +10243,7 @@
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-10-06",
@@ -9611,7 +10272,7 @@
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-10-07",
@@ -9634,13 +10295,13 @@
                   "topic": "综合复盘",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 50,
+                  "minutes": 55,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-10-08",
@@ -9652,15 +10313,26 @@
                   "topic": "综合复盘",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 90,
+                  "minutes": 55,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "M2-20271008-02",
-                  "title": "高数错题回炉：题型归类（续）",
-                  "topic": "综合复盘",
+                  "title": "证明题专练：中值定理与不等式（二轮）",
+                  "topic": "一元微分学",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 35,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "M2-20271008-03",
+                  "title": "证明题专练：中值定理与不等式（二轮）（续）",
+                  "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P1",
                   "minutes": 10,
@@ -9687,38 +10359,28 @@
                 },
                 {
                   "id": "M2-20271009-02",
-                  "title": "高数错题回炉：题型归类（续）",
-                  "topic": "综合复盘",
+                  "title": "证明题专练：中值定理与不等式（二轮）（续）",
+                  "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 25,
+                  "minutes": 45,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "M2-20271009-03",
-                  "title": "证明题专练：中值定理与不等式（二轮）",
-                  "topic": "一元微分学",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 50,
-                  "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20271009-04",
                   "title": "证明题专练：中值定理与不等式（二轮）（续）",
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 60,
-                  "slot": "下午",
+                  "minutes": 10,
+                  "slot": "晚",
                   "done": false,
                   "doneAt": null
                 }
-              ]
+              ],
+              "note": "调休上班日（按 2027 年放假安排，按工作日排课：早 1.5 h + 晚 1 h）"
             },
             {
               "date": "2027-10-10",
@@ -9896,7 +10558,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 85,
+                  "minutes": 60,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -9913,7 +10575,7 @@
                   "topic": "一元微分学",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 40,
+                  "minutes": 45,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -9991,40 +10653,12 @@
               "tasks": [
                 {
                   "id": "M2-20271020-01",
-                  "title": "数二真题 2023-2026：4 套按套限时 + 复盘（含章节抽题测试）",
+                  "title": "数二真题 2023-2026：复盘与错题归类",
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 90,
                   "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20271020-02",
-                  "title": "数二真题 2023-2026：4 套按套限时 + 复盘（含章节抽题测试）（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-10-21",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "M2-20271021-01",
-                  "title": "数二真题 2023-2026：4 套按套限时 + 复盘（含章节抽题测试）（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
                   "done": false,
                   "doneAt": null
                 }
@@ -10036,22 +10670,11 @@
               "tasks": [
                 {
                   "id": "M2-20271022-01",
-                  "title": "数二真题 2023-2026：4 套按套限时 + 复盘（含章节抽题测试）（续）",
+                  "title": "数二真题 2023-2026：复盘与错题归类（续）",
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 30,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20271022-02",
-                  "title": "数二真题 2023-2026：4 套按套限时 + 复盘（含章节抽题测试）（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -10064,40 +10687,12 @@
               "tasks": [
                 {
                   "id": "M2-20271023-01",
-                  "title": "数二真题 2023-2026：4 套按套限时 + 复盘（含章节抽题测试）（续）",
+                  "title": "数二真题 2023-2026：4 套按套限时",
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 120,
+                  "minutes": 180,
                   "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20271023-02",
-                  "title": "数二真题 2023-2026：4 套按套限时 + 复盘（含章节抽题测试）（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 30,
-                  "slot": "下午",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-10-24",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "M2-20271024-01",
-                  "title": "数二真题 2023-2026：4 套按套限时 + 复盘（含章节抽题测试）（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 25,
-                  "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
@@ -10118,39 +10713,22 @@
               "tasks": [
                 {
                   "id": "M2-20271025-01",
-                  "title": "数二真题 2023-2026：4 套按套限时 + 复盘（含章节抽题测试）（续）",
+                  "title": "数二真题 2023-2026：复盘与错题归类（续）",
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 30,
+                  "minutes": 15,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "M2-20271025-02",
-                  "title": "数二真题 2023-2026：4 套按套限时 + 复盘（含章节抽题测试）（续）",
+                  "title": "真题二刷：错题与题型归类",
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-10-26",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "M2-20271026-01",
-                  "title": "数二真题 2023-2026：4 套按套限时 + 复盘（含章节抽题测试）（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
+                  "minutes": 15,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -10163,23 +10741,12 @@
               "tasks": [
                 {
                   "id": "M2-20271027-01",
-                  "title": "数二真题 2023-2026：4 套按套限时 + 复盘（含章节抽题测试）（续）",
+                  "title": "真题二刷：错题与题型归类（续）",
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 90,
                   "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20271027-02",
-                  "title": "数二真题 2023-2026：4 套按套限时 + 复盘（含章节抽题测试）（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
                   "done": false,
                   "doneAt": null
                 }
@@ -10191,22 +10758,11 @@
               "tasks": [
                 {
                   "id": "M2-20271028-01",
-                  "title": "数二真题 2023-2026：4 套按套限时 + 复盘（含章节抽题测试）（续）",
+                  "title": "真题二刷：错题与题型归类（续）",
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 30,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20271028-02",
-                  "title": "数二真题 2023-2026：4 套按套限时 + 复盘（含章节抽题测试）（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -10219,23 +10775,12 @@
               "tasks": [
                 {
                   "id": "M2-20271029-01",
-                  "title": "数二真题 2023-2026：4 套按套限时 + 复盘（含章节抽题测试）（续）",
+                  "title": "真题二刷：错题与题型归类（续）",
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 90,
                   "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20271029-02",
-                  "title": "数二真题 2023-2026：4 套按套限时 + 复盘（含章节抽题测试）（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
                   "done": false,
                   "doneAt": null
                 }
@@ -10247,40 +10792,12 @@
               "tasks": [
                 {
                   "id": "M2-20271030-01",
-                  "title": "数二真题 2023-2026：4 套按套限时 + 复盘（含章节抽题测试）（续）",
+                  "title": "数二真题 2023-2026：4 套按套限时（续）",
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 120,
+                  "minutes": 180,
                   "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20271030-02",
-                  "title": "数二真题 2023-2026：4 套按套限时 + 复盘（含章节抽题测试）（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 30,
-                  "slot": "下午",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-10-31",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "M2-20271031-01",
-                  "title": "数二真题 2023-2026：4 套按套限时 + 复盘（含章节抽题测试）（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 25,
-                  "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
@@ -10307,40 +10824,12 @@
               "tasks": [
                 {
                   "id": "M2-20271101-01",
-                  "title": "数二真题 2023-2026：4 套按套限时 + 复盘（含章节抽题测试）（续）",
+                  "title": "真题二刷：错题与题型归类（续）",
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 90,
                   "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20271101-02",
-                  "title": "数二真题 2023-2026：4 套按套限时 + 复盘（含章节抽题测试）（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-11-02",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "M2-20271102-01",
-                  "title": "数二真题 2023-2026：4 套按套限时 + 复盘（含章节抽题测试）（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
                   "done": false,
                   "doneAt": null
                 }
@@ -10352,50 +10841,11 @@
               "tasks": [
                 {
                   "id": "M2-20271103-01",
-                  "title": "数二真题 2023-2026：4 套按套限时 + 复盘（含章节抽题测试）（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20271103-02",
-                  "title": "真题二刷：错题与题型归类",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 25,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20271103-03",
                   "title": "真题二刷：错题与题型归类（续）",
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-11-04",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "M2-20271104-01",
-                  "title": "真题二刷：错题与题型归类（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
+                  "minutes": 30,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -10416,17 +10866,6 @@
                   "slot": "早",
                   "done": false,
                   "doneAt": null
-                },
-                {
-                  "id": "M2-20271105-02",
-                  "title": "真题二刷：错题与题型归类（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
                 }
               ]
             },
@@ -10436,40 +10875,12 @@
               "tasks": [
                 {
                   "id": "M2-20271106-01",
-                  "title": "真题二刷：错题与题型归类（续）",
+                  "title": "数二真题 2023-2026：4 套按套限时（续）",
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 60,
+                  "minutes": 120,
                   "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20271106-02",
-                  "title": "真题二刷：错题与题型归类（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 50,
-                  "slot": "下午",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-11-07",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "M2-20271107-01",
-                  "title": "真题二刷：错题与题型归类（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 25,
-                  "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
@@ -10494,19 +10905,19 @@
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 90,
+                  "minutes": 45,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "M2-20271108-02",
-                  "title": "真题二刷：错题与题型归类（续）",
-                  "topic": "真题",
+                  "title": "冲刺：公式手册、错题本与高频题型默写",
+                  "topic": "冲刺",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
+                  "minutes": 45,
+                  "slot": "早",
                   "done": false,
                   "doneAt": null
                 }
@@ -10518,22 +10929,11 @@
               "tasks": [
                 {
                   "id": "M2-20271109-01",
-                  "title": "真题二刷：错题与题型归类（续）",
-                  "topic": "真题",
+                  "title": "冲刺：公式手册、错题本与高频题型默写（续）",
+                  "topic": "冲刺",
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 30,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20271109-02",
-                  "title": "真题二刷：错题与题型归类（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -10546,51 +10946,12 @@
               "tasks": [
                 {
                   "id": "M2-20271110-01",
-                  "title": "真题二刷：错题与题型归类（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 85,
-                  "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20271110-02",
-                  "title": "冲刺：公式手册、错题本与高频题型默写",
-                  "topic": "冲刺",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20271110-03",
                   "title": "冲刺：公式手册、错题本与高频题型默写（续）",
                   "topic": "冲刺",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-11-11",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "M2-20271111-01",
-                  "title": "冲刺：公式手册、错题本与高频题型默写（续）",
-                  "topic": "冲刺",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
+                  "minutes": 90,
+                  "slot": "早",
                   "done": false,
                   "doneAt": null
                 }
@@ -10610,17 +10971,6 @@
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
-                },
-                {
-                  "id": "M2-20271112-02",
-                  "title": "冲刺：公式手册、错题本与高频题型默写（续）",
-                  "topic": "冲刺",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
                 }
               ]
             },
@@ -10630,40 +10980,12 @@
               "tasks": [
                 {
                   "id": "M2-20271113-01",
-                  "title": "冲刺：公式手册、错题本与高频题型默写（续）",
-                  "topic": "冲刺",
+                  "title": "数二真题 2023-2026：4 套按套限时（续）",
+                  "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 120,
+                  "minutes": 180,
                   "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20271113-02",
-                  "title": "冲刺：公式手册、错题本与高频题型默写（续）",
-                  "topic": "冲刺",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 30,
-                  "slot": "下午",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-11-14",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "M2-20271114-01",
-                  "title": "冲刺：公式手册、错题本与高频题型默写（续）",
-                  "topic": "冲刺",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 25,
-                  "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
@@ -10692,34 +11014,6 @@
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
-                },
-                {
-                  "id": "M2-20271115-02",
-                  "title": "冲刺：公式手册、错题本与高频题型默写（续）",
-                  "topic": "冲刺",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-11-16",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "M2-20271116-01",
-                  "title": "冲刺：公式手册、错题本与高频题型默写（续）",
-                  "topic": "冲刺",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
                 }
               ]
             },
@@ -10735,17 +11029,6 @@
                   "priority": "P0",
                   "minutes": 90,
                   "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20271117-02",
-                  "title": "冲刺：公式手册、错题本与高频题型默写（续）",
-                  "topic": "冲刺",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
                   "done": false,
                   "doneAt": null
                 }
@@ -10765,17 +11048,6 @@
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
-                },
-                {
-                  "id": "M2-20271118-02",
-                  "title": "冲刺：公式手册、错题本与高频题型默写（续）",
-                  "topic": "冲刺",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
                 }
               ]
             },
@@ -10789,30 +11061,8 @@
                   "topic": "冲刺",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 85,
+                  "minutes": 90,
                   "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20271119-02",
-                  "title": "早年真题 2016-2017：选 2 套练手",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 5,
-                  "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20271119-03",
-                  "title": "早年真题 2016-2017：选 2 套练手（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 5,
-                  "slot": "晚",
                   "done": false,
                   "doneAt": null
                 }
@@ -10824,40 +11074,23 @@
               "tasks": [
                 {
                   "id": "M2-20271120-01",
-                  "title": "早年真题 2016-2017：选 2 套练手（续）",
+                  "title": "数二真题 2023-2026：4 套按套限时（续）",
                   "topic": "真题",
                   "kind": "study",
-                  "priority": "P1",
-                  "minutes": 120,
+                  "priority": "P0",
+                  "minutes": 60,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "M2-20271120-02",
-                  "title": "早年真题 2016-2017：选 2 套练手（续）",
-                  "topic": "真题",
+                  "title": "模拟卷 3 套：限时",
+                  "topic": "冲刺",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 30,
-                  "slot": "下午",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-11-21",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "M2-20271121-01",
-                  "title": "早年真题 2016-2017：选 2 套练手（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 25,
-                  "slot": "下午",
+                  "minutes": 120,
+                  "slot": "早",
                   "done": false,
                   "doneAt": null
                 }
@@ -10878,40 +11111,23 @@
               "tasks": [
                 {
                   "id": "M2-20271122-01",
-                  "title": "早年真题 2016-2017：选 2 套练手（续）",
-                  "topic": "真题",
+                  "title": "冲刺：公式手册、错题本与高频题型默写（续）",
+                  "topic": "冲刺",
                   "kind": "study",
-                  "priority": "P1",
-                  "minutes": 90,
+                  "priority": "P0",
+                  "minutes": 45,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "M2-20271122-02",
-                  "title": "早年真题 2016-2017：选 2 套练手（续）",
+                  "title": "早年真题 2016-2017：选 2 套练手",
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-11-23",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "M2-20271123-01",
-                  "title": "早年真题 2016-2017：选 2 套练手（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 5,
-                  "slot": "晚",
+                  "minutes": 45,
+                  "slot": "早",
                   "done": false,
                   "doneAt": null
                 }
@@ -10928,34 +11144,6 @@
                   "kind": "study",
                   "priority": "P1",
                   "minutes": 30,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20271124-02",
-                  "title": "早年真题 2016-2017：选 2 套练手（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-11-25",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "M2-20271125-01",
-                  "title": "早年真题 2016-2017：选 2 套练手（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -10976,17 +11164,6 @@
                   "slot": "早",
                   "done": false,
                   "doneAt": null
-                },
-                {
-                  "id": "M2-20271126-02",
-                  "title": "早年真题 2016-2017：选 2 套练手（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
                 }
               ]
             },
@@ -10996,40 +11173,12 @@
               "tasks": [
                 {
                   "id": "M2-20271127-01",
-                  "title": "早年真题 2016-2017：选 2 套练手（续）",
-                  "topic": "真题",
+                  "title": "模拟卷 3 套：限时（续）",
+                  "topic": "冲刺",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 60,
+                  "minutes": 120,
                   "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20271127-02",
-                  "title": "模拟卷 3 套（限时 + 复盘）",
-                  "topic": "冲刺",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 50,
-                  "slot": "下午",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-11-28",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "M2-20271128-01",
-                  "title": "模拟卷 3 套（限时 + 复盘）（续）",
-                  "topic": "冲刺",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 25,
-                  "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
@@ -11056,23 +11205,12 @@
               "tasks": [
                 {
                   "id": "M2-20271129-01",
-                  "title": "模拟卷 3 套（限时 + 复盘）（续）",
-                  "topic": "冲刺",
+                  "title": "早年真题 2016-2017：选 2 套练手（续）",
+                  "topic": "真题",
                   "kind": "study",
                   "priority": "P1",
                   "minutes": 90,
                   "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20271129-02",
-                  "title": "模拟卷 3 套（限时 + 复盘）（续）",
-                  "topic": "冲刺",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 5,
-                  "slot": "晚",
                   "done": false,
                   "doneAt": null
                 }
@@ -11084,22 +11222,11 @@
               "tasks": [
                 {
                   "id": "M2-20271130-01",
-                  "title": "模拟卷 3 套（限时 + 复盘）（续）",
-                  "topic": "冲刺",
+                  "title": "早年真题 2016-2017：选 2 套练手（续）",
+                  "topic": "真题",
                   "kind": "study",
                   "priority": "P1",
                   "minutes": 30,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20271130-02",
-                  "title": "模拟卷 3 套（限时 + 复盘）（续）",
-                  "topic": "冲刺",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -11112,40 +11239,12 @@
               "tasks": [
                 {
                   "id": "M2-20271201-01",
-                  "title": "模拟卷 3 套（限时 + 复盘）（续）",
-                  "topic": "冲刺",
+                  "title": "早年真题 2016-2017：选 2 套练手（续）",
+                  "topic": "真题",
                   "kind": "study",
                   "priority": "P1",
                   "minutes": 90,
                   "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20271201-02",
-                  "title": "模拟卷 3 套（限时 + 复盘）（续）",
-                  "topic": "冲刺",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-12-02",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "M2-20271202-01",
-                  "title": "模拟卷 3 套（限时 + 复盘）（续）",
-                  "topic": "冲刺",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 5,
-                  "slot": "晚",
                   "done": false,
                   "doneAt": null
                 }
@@ -11157,22 +11256,11 @@
               "tasks": [
                 {
                   "id": "M2-20271203-01",
-                  "title": "模拟卷 3 套（限时 + 复盘）（续）",
-                  "topic": "冲刺",
+                  "title": "早年真题 2016-2017：选 2 套练手（续）",
+                  "topic": "真题",
                   "kind": "study",
                   "priority": "P1",
                   "minutes": 30,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20271203-02",
-                  "title": "模拟卷 3 套（限时 + 复盘）（续）",
-                  "topic": "冲刺",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -11185,40 +11273,12 @@
               "tasks": [
                 {
                   "id": "M2-20271204-01",
-                  "title": "模拟卷 3 套（限时 + 复盘）（续）",
+                  "title": "模拟卷 3 套：限时（续）",
                   "topic": "冲刺",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 120,
+                  "minutes": 180,
                   "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20271204-02",
-                  "title": "模拟卷 3 套（限时 + 复盘）（续）",
-                  "topic": "冲刺",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 30,
-                  "slot": "下午",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-12-05",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "M2-20271205-01",
-                  "title": "模拟卷 3 套（限时 + 复盘）（续）",
-                  "topic": "冲刺",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 25,
-                  "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
@@ -11239,39 +11299,11 @@
               "tasks": [
                 {
                   "id": "M2-20271206-01",
-                  "title": "模拟卷 3 套（限时 + 复盘）（续）",
-                  "topic": "冲刺",
+                  "title": "早年真题 2016-2017：选 2 套练手（续）",
+                  "topic": "真题",
                   "kind": "study",
                   "priority": "P1",
                   "minutes": 30,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20271206-02",
-                  "title": "模拟卷 3 套（限时 + 复盘）（续）",
-                  "topic": "冲刺",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-12-07",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "M2-20271207-01",
-                  "title": "模拟卷 3 套（限时 + 复盘）（续）",
-                  "topic": "冲刺",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -11284,23 +11316,23 @@
               "tasks": [
                 {
                   "id": "M2-20271208-01",
-                  "title": "模拟卷 3 套（限时 + 复盘）（续）",
-                  "topic": "冲刺",
+                  "title": "早年真题 2016-2017：选 2 套练手（续）",
+                  "topic": "真题",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 90,
+                  "minutes": 45,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "M2-20271208-02",
-                  "title": "模拟卷 3 套（限时 + 复盘）（续）",
+                  "title": "模拟卷 3 套：复盘与错题归类",
                   "topic": "冲刺",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 5,
-                  "slot": "晚",
+                  "minutes": 45,
+                  "slot": "早",
                   "done": false,
                   "doneAt": null
                 }
@@ -11312,22 +11344,11 @@
               "tasks": [
                 {
                   "id": "M2-20271209-01",
-                  "title": "模拟卷 3 套（限时 + 复盘）（续）",
+                  "title": "模拟卷 3 套：复盘与错题归类（续）",
                   "topic": "冲刺",
                   "kind": "study",
                   "priority": "P1",
                   "minutes": 30,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20271209-02",
-                  "title": "模拟卷 3 套（限时 + 复盘）（续）",
-                  "topic": "冲刺",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -11340,34 +11361,12 @@
               "tasks": [
                 {
                   "id": "M2-20271210-01",
-                  "title": "模拟卷 3 套（限时 + 复盘）（续）",
+                  "title": "模拟卷 3 套：复盘与错题归类（续）",
                   "topic": "冲刺",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 35,
+                  "minutes": 90,
                   "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20271210-02",
-                  "title": "数二真题二刷：2018-2026 错题重做",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 55,
-                  "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20271210-03",
-                  "title": "数二真题二刷：2018-2026 错题重做（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 5,
-                  "slot": "晚",
                   "done": false,
                   "doneAt": null
                 }
@@ -11379,8 +11378,8 @@
               "tasks": [
                 {
                   "id": "M2-20271211-01",
-                  "title": "数二真题二刷：2018-2026 错题重做（续）",
-                  "topic": "真题",
+                  "title": "模拟卷 3 套：限时（续）",
+                  "topic": "冲刺",
                   "kind": "study",
                   "priority": "P1",
                   "minutes": 120,
@@ -11390,29 +11389,23 @@
                 },
                 {
                   "id": "M2-20271211-02",
-                  "title": "数二真题二刷：2018-2026 错题重做（续）",
-                  "topic": "真题",
+                  "title": "模拟卷 3 套：复盘与错题归类（续）",
+                  "topic": "冲刺",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 30,
-                  "slot": "下午",
+                  "minutes": 15,
+                  "slot": "早",
                   "done": false,
                   "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-12-12",
-              "type": "study",
-              "tasks": [
+                },
                 {
-                  "id": "M2-20271212-01",
-                  "title": "数二真题二刷：2018-2026 错题重做（续）",
+                  "id": "M2-20271211-03",
+                  "title": "数二真题二刷：2018-2026 错题重做",
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 25,
-                  "slot": "下午",
+                  "minutes": 45,
+                  "slot": "早",
                   "done": false,
                   "doneAt": null
                 }
@@ -11441,34 +11434,6 @@
                   "slot": "早",
                   "done": false,
                   "doneAt": null
-                },
-                {
-                  "id": "M2-20271213-02",
-                  "title": "数二真题二刷：2018-2026 错题重做（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-12-14",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "M2-20271214-01",
-                  "title": "数二真题二刷：2018-2026 错题重做（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
                 }
               ]
             },
@@ -11483,34 +11448,6 @@
                   "kind": "study",
                   "priority": "P1",
                   "minutes": 30,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20271215-02",
-                  "title": "数二真题二刷：2018-2026 错题重做（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-12-16",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "M2-20271216-01",
-                  "title": "数二真题二刷：2018-2026 错题重做（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -11531,17 +11468,6 @@
                   "slot": "早",
                   "done": false,
                   "doneAt": null
-                },
-                {
-                  "id": "M2-20271217-02",
-                  "title": "数二真题二刷：2018-2026 错题重做（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
                 }
               ]
             },
@@ -11555,19 +11481,8 @@
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 60,
+                  "minutes": 120,
                   "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "M2-20271218-02",
-                  "title": "数二真题二刷：2018-2026 错题重做（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 50,
-                  "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }

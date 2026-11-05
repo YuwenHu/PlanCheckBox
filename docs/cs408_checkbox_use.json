@@ -4,8 +4,8 @@
     "subject": "计算机学科专业基础（408）",
     "kind": "study",
     "examDate": "2027-12-19",
-    "planStart": "2026-11-04",
-    "generatedAt": "2026-11-04T16:00:00+08:00",
+    "planStart": "2026-11-05",
+    "generatedAt": "2026-11-05T12:00:00+08:00",
     "version": 1
   },
   "months": [
@@ -594,7 +594,7 @@
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-01-02",
@@ -606,7 +606,7 @@
                   "topic": "数据结构",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 150,
+                  "minutes": 105,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -617,12 +617,13 @@
                   "topic": "数据结构",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 10,
+                  "minutes": 5,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
-              ]
+              ],
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-01-03",
@@ -634,12 +635,24 @@
                   "topic": "数据结构",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 10,
+                  "minutes": 105,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS408-20270103-02",
+                  "title": "图：存储结构、DFS/BFS 遍历（续）",
+                  "topic": "数据结构",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
-              ]
+              ],
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             }
           ]
         }
@@ -718,7 +731,7 @@
               "tasks": [
                 {
                   "id": "CS408-20270106-01",
-                  "title": "图：存储结构、DFS/BFS 遍历（续）",
+                  "title": "图的应用：最短路径、最小生成树、拓扑排序",
                   "topic": "数据结构",
                   "kind": "study",
                   "priority": "P0",
@@ -735,7 +748,7 @@
               "tasks": [
                 {
                   "id": "CS408-20270107-01",
-                  "title": "图：存储结构、DFS/BFS 遍历（续）",
+                  "title": "图的应用：最短路径、最小生成树、拓扑排序（续）",
                   "topic": "数据结构",
                   "kind": "study",
                   "priority": "P0",
@@ -746,7 +759,7 @@
                 },
                 {
                   "id": "CS408-20270107-02",
-                  "title": "图的应用：最短路径、最小生成树、拓扑排序",
+                  "title": "图的应用：最短路径、最小生成树、拓扑排序（续）",
                   "topic": "数据结构",
                   "kind": "study",
                   "priority": "P0",
@@ -956,7 +969,7 @@
                   "topic": "数据结构",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 105,
+                  "minutes": 55,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -967,7 +980,7 @@
                   "topic": "数据结构",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 45,
+                  "minutes": 95,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -978,7 +991,7 @@
                   "topic": "数据结构",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 15,
+                  "minutes": 10,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -1294,7 +1307,18 @@
                   "topic": "数据结构",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 20,
+                  "minutes": 15,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS408-20270129-02",
+                  "title": "计组：数据表示、IEEE754 与校验码",
+                  "topic": "计算机组成原理",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -1307,50 +1331,22 @@
               "tasks": [
                 {
                   "id": "CS408-20270130-01",
-                  "title": "排序：插入、交换、选择（含堆排序）（续）",
-                  "topic": "数据结构",
+                  "title": "计组：数据表示、IEEE754 与校验码（续）",
+                  "topic": "计算机组成原理",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 40,
+                  "minutes": 150,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "CS408-20270130-02",
-                  "title": "计组：数据表示、IEEE754 与校验码",
-                  "topic": "计算机组成原理",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 110,
-                  "slot": "下午",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "CS408-20270130-03",
                   "title": "计组：数据表示、IEEE754 与校验码（续）",
                   "topic": "计算机组成原理",
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 10,
-                  "slot": "下午",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-01-31",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "CS408-20270131-01",
-                  "title": "计组：数据表示、IEEE754 与校验码（续）",
-                  "topic": "计算机组成原理",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 15,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -1487,20 +1483,9 @@
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
-                },
-                {
-                  "id": "CS408-20270205-02",
-                  "title": "计组：数据表示、IEEE754 与校验码（续）",
-                  "topic": "计算机组成原理",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "下午",
-                  "done": false,
-                  "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-02-06",
@@ -1512,7 +1497,7 @@
                   "topic": "计算机组成原理",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 80,
+                  "minutes": 55,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -1523,7 +1508,7 @@
                   "topic": "计算机组成原理",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 25,
+                  "minutes": 50,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -1540,7 +1525,7 @@
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-02-07",
@@ -1556,20 +1541,9 @@
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
-                },
-                {
-                  "id": "CS408-20270207-02",
-                  "title": "计组：存储系统与 Cache（映射 / 命中率）（续）",
-                  "topic": "计算机组成原理",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "下午",
-                  "done": false,
-                  "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             }
           ]
         },
@@ -1594,20 +1568,9 @@
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
-                },
-                {
-                  "id": "CS408-20270208-02",
-                  "title": "计组：存储系统与 Cache（映射 / 命中率）（续）",
-                  "topic": "计算机组成原理",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "下午",
-                  "done": false,
-                  "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-02-09",
@@ -1636,7 +1599,7 @@
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-02-10",
@@ -1652,20 +1615,9 @@
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
-                },
-                {
-                  "id": "CS408-20270210-02",
-                  "title": "计组：存储系统与 Cache（映射 / 命中率）（续）",
-                  "topic": "计算机组成原理",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "下午",
-                  "done": false,
-                  "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-02-11",
@@ -1681,20 +1633,9 @@
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
-                },
-                {
-                  "id": "CS408-20270211-02",
-                  "title": "计组：存储系统与 Cache（映射 / 命中率）（续）",
-                  "topic": "计算机组成原理",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "下午",
-                  "done": false,
-                  "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-02-12",
@@ -1723,7 +1664,7 @@
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-02-13",
@@ -1735,23 +1676,13 @@
                   "topic": "计算机组成原理",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 150,
-                  "slot": "下午",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "CS408-20270213-02",
-                  "title": "计组：存储系统与 Cache（映射 / 命中率）（续）",
-                  "topic": "计算机组成原理",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 10,
+                  "minutes": 105,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
-              ]
+              ],
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-02-14",
@@ -1763,12 +1694,24 @@
                   "topic": "计算机组成原理",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 10,
-                  "slot": "下午",
+                  "minutes": 90,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS408-20270214-02",
+                  "title": "计组：存储系统与 Cache（映射 / 命中率）（续）",
+                  "topic": "计算机组成原理",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 20,
+                  "slot": "晚",
                   "done": false,
                   "doneAt": null
                 }
-              ]
+              ],
+              "note": "调休上班日（按 2027 年放假安排，按工作日排课：早 1.5 h + 晚 1 h）"
             }
           ]
         },
@@ -1790,17 +1733,6 @@
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 30,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "CS408-20270215-02",
-                  "title": "计组：存储系统与 Cache（映射 / 命中率）（续）",
-                  "topic": "计算机组成原理",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -1845,7 +1777,18 @@
                   "topic": "计算机组成原理",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 20,
+                  "minutes": 15,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS408-20270217-02",
+                  "title": "计组：虚拟存储、页表与 TLB",
+                  "topic": "计算机组成原理",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -1858,22 +1801,11 @@
               "tasks": [
                 {
                   "id": "CS408-20270218-01",
-                  "title": "计组：存储系统与 Cache（映射 / 命中率）（续）",
+                  "title": "计组：虚拟存储、页表与 TLB（续）",
                   "topic": "计算机组成原理",
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 30,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "CS408-20270218-02",
-                  "title": "计组：存储系统与 Cache（映射 / 命中率）（续）",
-                  "topic": "计算机组成原理",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -1886,22 +1818,11 @@
               "tasks": [
                 {
                   "id": "CS408-20270219-01",
-                  "title": "计组：存储系统与 Cache（映射 / 命中率）（续）",
+                  "title": "计组：虚拟存储、页表与 TLB（续）",
                   "topic": "计算机组成原理",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "CS408-20270219-02",
-                  "title": "计组：虚拟存储、页表与 TLB",
-                  "topic": "计算机组成原理",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 15,
+                  "minutes": 20,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -2021,17 +1942,6 @@
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
-                },
-                {
-                  "id": "CS408-20270224-02",
-                  "title": "计组：虚拟存储、页表与 TLB（续）",
-                  "topic": "计算机组成原理",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
                 }
               ]
             },
@@ -2101,7 +2011,7 @@
                   "topic": "计算机组成原理",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 15,
+                  "minutes": 10,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -2167,18 +2077,18 @@
                   "topic": "计算机组成原理",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 30,
+                  "minutes": 10,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "CS408-20270302-02",
-                  "title": "计组：虚拟存储、页表与 TLB（续）",
+                  "title": "计组：指令系统与寻址方式",
                   "topic": "计算机组成原理",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 5,
+                  "minutes": 20,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -2191,22 +2101,11 @@
               "tasks": [
                 {
                   "id": "CS408-20270303-01",
-                  "title": "计组：虚拟存储、页表与 TLB（续）",
+                  "title": "计组：指令系统与寻址方式（续）",
                   "topic": "计算机组成原理",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "CS408-20270303-02",
-                  "title": "计组：指令系统与寻址方式",
-                  "topic": "计算机组成原理",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 15,
+                  "minutes": 20,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -2255,17 +2154,6 @@
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
-                },
-                {
-                  "id": "CS408-20270305-02",
-                  "title": "计组：指令系统与寻址方式（续）",
-                  "topic": "计算机组成原理",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
                 }
               ]
             },
@@ -2307,7 +2195,7 @@
                   "topic": "计算机组成原理",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 10,
+                  "minutes": 5,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -2334,17 +2222,6 @@
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 30,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "CS408-20270308-02",
-                  "title": "计组：指令系统与寻址方式（续）",
-                  "topic": "计算机组成原理",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -2440,7 +2317,7 @@
                   "topic": "计算机组成原理",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 55,
+                  "minutes": 45,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -2451,7 +2328,7 @@
                   "topic": "计算机组成原理",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 95,
+                  "minutes": 105,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -2623,7 +2500,7 @@
                   "topic": "计算机组成原理",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 15,
+                  "minutes": 10,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -2786,17 +2663,6 @@
               "tasks": [
                 {
                   "id": "CS408-20270328-01",
-                  "title": "计组：CPU 数据通路与指令流水线（续）",
-                  "topic": "计算机组成原理",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "下午",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "CS408-20270328-02",
                   "title": "排序：归并、基数与外部排序",
                   "topic": "数据结构",
                   "kind": "study",
@@ -2935,7 +2801,7 @@
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-04-04",
@@ -2964,7 +2830,7 @@
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             }
           ]
         },
@@ -3002,7 +2868,7 @@
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-04-06",
@@ -3115,7 +2981,7 @@
                   "topic": "计算机组成原理",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 15,
+                  "minutes": 10,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -3325,7 +3191,7 @@
                   "topic": "计算机组成原理",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 45,
+                  "minutes": 50,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -3336,7 +3202,7 @@
                   "topic": "综合复盘",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 45,
+                  "minutes": 40,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -3443,7 +3309,7 @@
                   "topic": "综合复盘",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 15,
+                  "minutes": 10,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -3593,7 +3459,7 @@
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-05-02",
@@ -3616,13 +3482,13 @@
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 10,
+                  "minutes": 15,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             }
           ]
         }
@@ -3660,13 +3526,13 @@
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 10,
+                  "minutes": 15,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-05-04",
@@ -3695,7 +3561,7 @@
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-05-05",
@@ -3718,13 +3584,13 @@
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 10,
+                  "minutes": 15,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-05-06",
@@ -3786,7 +3652,7 @@
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 10,
+                  "minutes": 15,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -3803,8 +3669,8 @@
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 150,
-                  "slot": "下午",
+                  "minutes": 20,
+                  "slot": "晚",
                   "done": false,
                   "doneAt": null
                 },
@@ -3814,12 +3680,13 @@
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 25,
-                  "slot": "下午",
+                  "minutes": 5,
+                  "slot": "晚",
                   "done": false,
                   "doneAt": null
                 }
-              ]
+              ],
+              "note": "调休上班日（按 2027 年放假安排，按工作日排课：早 1.5 h + 晚 1 h）"
             },
             {
               "date": "2027-05-09",
@@ -3831,18 +3698,7 @@
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 5,
-                  "slot": "下午",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "CS408-20270509-02",
-                  "title": "OS：同步互斥与 PV 操作",
-                  "topic": "操作系统",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 35,
+                  "minutes": 40,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -3864,7 +3720,7 @@
               "tasks": [
                 {
                   "id": "CS408-20270510-01",
-                  "title": "OS：同步互斥与 PV 操作（续）",
+                  "title": "OS：进程与线程、状态转换、调度算法（续）",
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P0",
@@ -3875,11 +3731,11 @@
                 },
                 {
                   "id": "CS408-20270510-02",
-                  "title": "OS：同步互斥与 PV 操作（续）",
+                  "title": "OS：进程与线程、状态转换、调度算法（续）",
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 10,
+                  "minutes": 15,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -3892,17 +3748,28 @@
               "tasks": [
                 {
                   "id": "CS408-20270511-01",
-                  "title": "OS：同步互斥与 PV 操作（续）",
+                  "title": "OS：进程与线程、状态转换、调度算法（续）",
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 90,
+                  "minutes": 50,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "CS408-20270511-02",
+                  "title": "OS：同步互斥与 PV 操作",
+                  "topic": "操作系统",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 40,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS408-20270511-03",
                   "title": "OS：同步互斥与 PV 操作（续）",
                   "topic": "操作系统",
                   "kind": "study",
@@ -3913,7 +3780,7 @@
                   "doneAt": null
                 },
                 {
-                  "id": "CS408-20270511-03",
+                  "id": "CS408-20270511-04",
                   "title": "OS：同步互斥与 PV 操作（续）",
                   "topic": "操作系统",
                   "kind": "study",
@@ -3974,7 +3841,7 @@
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 10,
+                  "minutes": 15,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -4030,7 +3897,7 @@
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 25,
+                  "minutes": 30,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -4047,7 +3914,7 @@
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 60,
+                  "minutes": 65,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -4151,7 +4018,7 @@
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 10,
+                  "minutes": 15,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -4289,25 +4156,14 @@
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 5,
+                  "minutes": 20,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "CS408-20270524-02",
-                  "title": "OS：内存管理、分页分段与页面置换",
-                  "topic": "操作系统",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 15,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "CS408-20270524-03",
-                  "title": "OS：内存管理、分页分段与页面置换（续）",
+                  "title": "OS：同步互斥与 PV 操作（续）",
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P0",
@@ -4324,7 +4180,7 @@
               "tasks": [
                 {
                   "id": "CS408-20270525-01",
-                  "title": "OS：内存管理、分页分段与页面置换（续）",
+                  "title": "OS：同步互斥与 PV 操作（续）",
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P0",
@@ -4335,11 +4191,11 @@
                 },
                 {
                   "id": "CS408-20270525-02",
-                  "title": "OS：内存管理、分页分段与页面置换（续）",
+                  "title": "OS：同步互斥与 PV 操作（续）",
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 10,
+                  "minutes": 15,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -4352,7 +4208,7 @@
               "tasks": [
                 {
                   "id": "CS408-20270526-01",
-                  "title": "OS：内存管理、分页分段与页面置换（续）",
+                  "title": "OS：同步互斥与 PV 操作（续）",
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P0",
@@ -4363,7 +4219,7 @@
                 },
                 {
                   "id": "CS408-20270526-02",
-                  "title": "OS：内存管理、分页分段与页面置换（续）",
+                  "title": "OS：同步互斥与 PV 操作（续）",
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P0",
@@ -4380,17 +4236,28 @@
               "tasks": [
                 {
                   "id": "CS408-20270527-01",
-                  "title": "OS：内存管理、分页分段与页面置换（续）",
+                  "title": "OS：同步互斥与 PV 操作（续）",
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 90,
+                  "minutes": 15,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "CS408-20270527-02",
+                  "title": "OS：内存管理、分页分段与页面置换",
+                  "topic": "操作系统",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 75,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS408-20270527-03",
                   "title": "OS：内存管理、分页分段与页面置换（续）",
                   "topic": "操作系统",
                   "kind": "study",
@@ -4401,7 +4268,7 @@
                   "doneAt": null
                 },
                 {
-                  "id": "CS408-20270527-03",
+                  "id": "CS408-20270527-04",
                   "title": "OS：内存管理、分页分段与页面置换（续）",
                   "topic": "操作系统",
                   "kind": "study",
@@ -4434,7 +4301,7 @@
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 10,
+                  "minutes": 15,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -4462,7 +4329,7 @@
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 25,
+                  "minutes": 30,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -4479,7 +4346,7 @@
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 20,
+                  "minutes": 25,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -4522,7 +4389,7 @@
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 10,
+                  "minutes": 15,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -4617,7 +4484,7 @@
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 10,
+                  "minutes": 15,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -4673,7 +4540,7 @@
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 25,
+                  "minutes": 30,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -4690,7 +4557,7 @@
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 60,
+                  "minutes": 65,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -4744,7 +4611,7 @@
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 20,
+                  "minutes": 85,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -4755,7 +4622,7 @@
                   "topic": "计算机网络",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 70,
+                  "minutes": 5,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -4811,7 +4678,7 @@
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-06-10",
@@ -4862,25 +4729,14 @@
                   "topic": "计算机网络",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 10,
+                  "minutes": 20,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "CS408-20270611-02",
-                  "title": "网络：IP、子网划分与 CIDR",
-                  "topic": "计算机网络",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 10,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "CS408-20270611-03",
-                  "title": "网络：IP、子网划分与 CIDR（续）",
+                  "title": "网络：数据链路层（CSMA/CD、以太网）（续）",
                   "topic": "计算机网络",
                   "kind": "study",
                   "priority": "P0",
@@ -4897,17 +4753,28 @@
               "tasks": [
                 {
                   "id": "CS408-20270612-01",
-                  "title": "网络：IP、子网划分与 CIDR（续）",
+                  "title": "网络：数据链路层（CSMA/CD、以太网）（续）",
                   "topic": "计算机网络",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 150,
+                  "minutes": 50,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "CS408-20270612-02",
+                  "title": "网络：IP、子网划分与 CIDR",
+                  "topic": "计算机网络",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 100,
+                  "slot": "下午",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS408-20270612-03",
                   "title": "网络：IP、子网划分与 CIDR（续）",
                   "topic": "计算机网络",
                   "kind": "study",
@@ -4994,7 +4861,7 @@
                   "topic": "计算机网络",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 10,
+                  "minutes": 15,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -5106,29 +4973,29 @@
                   "topic": "计算机网络",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 100,
+                  "minutes": 150,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "CS408-20270619-02",
-                  "title": "网络：TCP/UDP、握手与拥塞控制",
+                  "title": "网络：IP、子网划分与 CIDR（续）",
                   "topic": "计算机网络",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 50,
+                  "minutes": 10,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "CS408-20270619-03",
-                  "title": "网络：TCP/UDP、握手与拥塞控制（续）",
+                  "title": "网络：TCP/UDP、握手与拥塞控制",
                   "topic": "计算机网络",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 25,
+                  "minutes": 20,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -5333,7 +5200,7 @@
                   "topic": "计算机网络",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 25,
+                  "minutes": 30,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -5389,10 +5256,10 @@
                 },
                 {
                   "id": "CS408-20270628-02",
-                  "title": "OS：死锁与银行家算法",
-                  "topic": "操作系统",
+                  "title": "网络：TCP/UDP、握手与拥塞控制（续）",
+                  "topic": "计算机网络",
                   "kind": "study",
-                  "priority": "P1",
+                  "priority": "P0",
                   "minutes": 5,
                   "slot": "晚",
                   "done": false,
@@ -5406,17 +5273,28 @@
               "tasks": [
                 {
                   "id": "CS408-20270629-01",
-                  "title": "OS：死锁与银行家算法（续）",
-                  "topic": "操作系统",
+                  "title": "网络：TCP/UDP、握手与拥塞控制（续）",
+                  "topic": "计算机网络",
                   "kind": "study",
-                  "priority": "P1",
-                  "minutes": 90,
+                  "priority": "P0",
+                  "minutes": 45,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "CS408-20270629-02",
+                  "title": "OS：死锁与银行家算法",
+                  "topic": "操作系统",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 45,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS408-20270629-03",
                   "title": "OS：死锁与银行家算法（续）",
                   "topic": "操作系统",
                   "kind": "study",
@@ -5427,7 +5305,7 @@
                   "doneAt": null
                 },
                 {
-                  "id": "CS408-20270629-03",
+                  "id": "CS408-20270629-04",
                   "title": "OS：死锁与银行家算法（续）",
                   "topic": "操作系统",
                   "kind": "study",
@@ -5544,7 +5422,7 @@
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 60,
+                  "minutes": 65,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -5568,11 +5446,11 @@
                 },
                 {
                   "id": "CS408-20270704-02",
-                  "title": "OS：文件系统与磁盘调度",
+                  "title": "OS：死锁与银行家算法（续）",
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 25,
+                  "minutes": 30,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -5594,17 +5472,28 @@
               "tasks": [
                 {
                   "id": "CS408-20270705-01",
-                  "title": "OS：文件系统与磁盘调度（续）",
+                  "title": "OS：死锁与银行家算法（续）",
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 20,
+                  "minutes": 15,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "CS408-20270705-02",
+                  "title": "OS：文件系统与磁盘调度",
+                  "topic": "操作系统",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS408-20270705-03",
                   "title": "OS：文件系统与磁盘调度（续）",
                   "topic": "操作系统",
                   "kind": "study",
@@ -5777,7 +5666,7 @@
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 25,
+                  "minutes": 30,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -5803,26 +5692,15 @@
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 25,
+                  "minutes": 30,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "CS408-20270712-02",
-                  "title": "网络：体系结构与物理层",
-                  "topic": "计算机网络",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "CS408-20270712-03",
-                  "title": "网络：体系结构与物理层（续）",
-                  "topic": "计算机网络",
+                  "title": "OS：文件系统与磁盘调度（续）",
+                  "topic": "操作系统",
                   "kind": "study",
                   "priority": "P1",
                   "minutes": 10,
@@ -5838,17 +5716,28 @@
               "tasks": [
                 {
                   "id": "CS408-20270713-01",
-                  "title": "网络：体系结构与物理层（续）",
-                  "topic": "计算机网络",
+                  "title": "OS：文件系统与磁盘调度（续）",
+                  "topic": "操作系统",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 90,
+                  "minutes": 20,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "CS408-20270713-02",
+                  "title": "网络：体系结构与物理层",
+                  "topic": "计算机网络",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 70,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS408-20270713-03",
                   "title": "网络：体系结构与物理层（续）",
                   "topic": "计算机网络",
                   "kind": "study",
@@ -5859,7 +5748,7 @@
                   "doneAt": null
                 },
                 {
-                  "id": "CS408-20270713-03",
+                  "id": "CS408-20270713-04",
                   "title": "网络：体系结构与物理层（续）",
                   "topic": "计算机网络",
                   "kind": "study",
@@ -5965,18 +5854,7 @@
                   "topic": "计算机网络",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 20,
-                  "slot": "下午",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "CS408-20270717-02",
-                  "title": "网络：路由协议与应用层",
-                  "topic": "计算机网络",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 20,
+                  "minutes": 40,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -5989,17 +5867,28 @@
               "tasks": [
                 {
                   "id": "CS408-20270718-01",
-                  "title": "网络：路由协议与应用层（续）",
+                  "title": "网络：体系结构与物理层（续）",
                   "topic": "计算机网络",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 120,
+                  "minutes": 15,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "CS408-20270718-02",
+                  "title": "网络：路由协议与应用层",
+                  "topic": "计算机网络",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 105,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS408-20270718-03",
                   "title": "网络：路由协议与应用层（续）",
                   "topic": "计算机网络",
                   "kind": "study",
@@ -6192,7 +6081,7 @@
                   "topic": "计算机网络",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 10,
+                  "minutes": 45,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -6203,7 +6092,7 @@
                   "topic": "综合复盘",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 50,
+                  "minutes": 20,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -6231,7 +6120,7 @@
                   "topic": "综合复盘",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 25,
+                  "minutes": 30,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -6436,7 +6325,7 @@
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 20,
+                  "minutes": 25,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -6647,7 +6536,7 @@
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 20,
+                  "minutes": 25,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -6852,7 +6741,7 @@
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 40,
+                  "minutes": 30,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -6863,7 +6752,7 @@
                   "topic": "数据结构",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 80,
+                  "minutes": 90,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -6874,7 +6763,7 @@
                   "topic": "数据结构",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 20,
+                  "minutes": 25,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -7057,7 +6946,7 @@
                   "topic": "数据结构",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 20,
+                  "minutes": 25,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -7119,6 +7008,23 @@
               ]
             },
             {
+              "date": "2027-08-25",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS408-20270825-01",
+                  "title": "408 强化：数据结构大题专项（续）",
+                  "topic": "数据结构",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
               "date": "2027-08-26",
               "type": "study",
               "tasks": [
@@ -7128,7 +7034,35 @@
                   "topic": "数据结构",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 10,
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS408-20270826-02",
+                  "title": "408 强化：计组大题专项",
+                  "topic": "计算机组成原理",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-08-27",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS408-20270827-01",
+                  "title": "408 强化：计组大题专项（续）",
+                  "topic": "计算机组成原理",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -7141,22 +7075,11 @@
               "tasks": [
                 {
                   "id": "CS408-20270828-01",
-                  "title": "408 强化：数据结构大题专项（续）",
-                  "topic": "数据结构",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 20,
-                  "slot": "下午",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "CS408-20270828-02",
-                  "title": "408 强化：计组大题专项",
+                  "title": "408 强化：计组大题专项（续）",
                   "topic": "计算机组成原理",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 10,
+                  "minutes": 30,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -7184,7 +7107,7 @@
                   "topic": "计算机组成原理",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 20,
+                  "minutes": 25,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -7207,6 +7130,23 @@
           "end": "2027-09-05",
           "days": [
             {
+              "date": "2027-08-30",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS408-20270830-01",
+                  "title": "408 强化：计组大题专项（续）",
+                  "topic": "计算机组成原理",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
               "date": "2027-08-31",
               "type": "study",
               "tasks": [
@@ -7218,6 +7158,17 @@
                   "priority": "P0",
                   "minutes": 90,
                   "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS408-20270831-02",
+                  "title": "408 强化：计组大题专项（续）",
+                  "topic": "计算机组成原理",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
+                  "slot": "晚",
                   "done": false,
                   "doneAt": null
                 }
@@ -7252,6 +7203,34 @@
                   "priority": "P0",
                   "minutes": 90,
                   "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS408-20270902-02",
+                  "title": "408 强化：计组大题专项（续）",
+                  "topic": "计算机组成原理",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-09-03",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS408-20270903-01",
+                  "title": "408 强化：计组大题专项（续）",
+                  "topic": "计算机组成原理",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
+                  "slot": "晚",
                   "done": false,
                   "doneAt": null
                 }
@@ -7295,7 +7274,7 @@
                   "topic": "计算机组成原理",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 20,
+                  "minutes": 25,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -7312,6 +7291,23 @@
           "end": "2027-09-12",
           "days": [
             {
+              "date": "2027-09-06",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS408-20270906-01",
+                  "title": "408 强化：计组大题专项（续）",
+                  "topic": "计算机组成原理",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
               "date": "2027-09-07",
               "type": "study",
               "tasks": [
@@ -7321,7 +7317,24 @@
                   "topic": "计算机组成原理",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 10,
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-09-08",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS408-20270908-01",
+                  "title": "408 强化：计组大题专项（续）",
+                  "topic": "计算机组成原理",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -7334,23 +7347,23 @@
               "tasks": [
                 {
                   "id": "CS408-20270909-01",
-                  "title": "408 强化：计组大题专项（续）",
-                  "topic": "计算机组成原理",
+                  "title": "408 错题回炉与选择题限时",
+                  "topic": "综合复盘",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 65,
+                  "minutes": 90,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "CS408-20270909-02",
-                  "title": "408 错题回炉与选择题限时",
+                  "title": "408 错题回炉与选择题限时（续）",
                   "topic": "综合复盘",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 25,
-                  "slot": "早",
+                  "minutes": 5,
+                  "slot": "晚",
                   "done": false,
                   "doneAt": null
                 }
@@ -7366,7 +7379,7 @@
                   "topic": "综合复盘",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 10,
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -7411,7 +7424,7 @@
                   "topic": "综合复盘",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 10,
+                  "minutes": 5,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -7437,7 +7450,7 @@
                   "topic": "综合复盘",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 10,
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -7458,6 +7471,17 @@
                   "slot": "早",
                   "done": false,
                   "doneAt": null
+                },
+                {
+                  "id": "CS408-20270914-02",
+                  "title": "408 错题回炉与选择题限时（续）",
+                  "topic": "综合复盘",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
                 }
               ]
             },
@@ -7471,13 +7495,13 @@
                   "topic": "综合复盘",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 10,
+                  "minutes": 5,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-09-16",
@@ -7489,7 +7513,24 @@
                   "topic": "综合复盘",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 10,
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-09-17",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS408-20270917-01",
+                  "title": "408 错题回炉与选择题限时（续）",
+                  "topic": "综合复盘",
+                  "kind": "study",
+                  "priority": "P0",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -7523,29 +7564,29 @@
                   "topic": "综合复盘",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 120,
+                  "minutes": 80,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "CS408-20270919-02",
-                  "title": "408 错题回炉与选择题限时（续）",
-                  "topic": "综合复盘",
+                  "title": "408 强化：查找 / 外部排序补漏",
+                  "topic": "数据结构",
                   "kind": "study",
-                  "priority": "P0",
-                  "minutes": 15,
-                  "slot": "下午",
+                  "priority": "P1",
+                  "minutes": 40,
+                  "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "CS408-20270919-03",
-                  "title": "408 强化：查找 / 外部排序补漏",
+                  "title": "408 强化：查找 / 外部排序补漏（续）",
                   "topic": "数据结构",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 5,
+                  "minutes": 25,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -7562,6 +7603,23 @@
           "end": "2027-09-26",
           "days": [
             {
+              "date": "2027-09-20",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS408-20270920-01",
+                  "title": "408 强化：查找 / 外部排序补漏（续）",
+                  "topic": "数据结构",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
               "date": "2027-09-21",
               "type": "study",
               "tasks": [
@@ -7573,6 +7631,17 @@
                   "priority": "P1",
                   "minutes": 90,
                   "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS408-20270921-02",
+                  "title": "408 强化：查找 / 外部排序补漏（续）",
+                  "topic": "数据结构",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
+                  "slot": "晚",
                   "done": false,
                   "doneAt": null
                 }
@@ -7588,7 +7657,7 @@
                   "topic": "数据结构",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 10,
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -7609,6 +7678,34 @@
                   "slot": "早",
                   "done": false,
                   "doneAt": null
+                },
+                {
+                  "id": "CS408-20270923-02",
+                  "title": "408 强化：查找 / 外部排序补漏（续）",
+                  "topic": "数据结构",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-09-24",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS408-20270924-01",
+                  "title": "408 强化：查找 / 外部排序补漏（续）",
+                  "topic": "数据结构",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
                 }
               ]
             },
@@ -7622,7 +7719,7 @@
                   "topic": "数据结构",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 45,
+                  "minutes": 30,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -7639,7 +7736,7 @@
                   "topic": "数据结构",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 120,
+                  "minutes": 90,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
@@ -7650,12 +7747,13 @@
                   "topic": "数据结构",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 20,
-                  "slot": "下午",
+                  "minutes": 5,
+                  "slot": "晚",
                   "done": false,
                   "doneAt": null
                 }
-              ]
+              ],
+              "note": "调休上班日（按 2027 年放假安排，按工作日排课：早 1.5 h + 晚 1 h）"
             }
           ]
         },
@@ -7667,6 +7765,23 @@
           "end": "2027-10-03",
           "days": [
             {
+              "date": "2027-09-27",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS408-20270927-01",
+                  "title": "408 强化：查找 / 外部排序补漏（续）",
+                  "topic": "数据结构",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
               "date": "2027-09-28",
               "type": "study",
               "tasks": [
@@ -7676,7 +7791,24 @@
                   "topic": "数据结构",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 10,
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-09-29",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS408-20270929-01",
+                  "title": "408 强化：查找 / 外部排序补漏（续）",
+                  "topic": "数据结构",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -7693,8 +7825,30 @@
                   "topic": "数据结构",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 90,
+                  "minutes": 70,
                   "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS408-20270930-02",
+                  "title": "OS 大题专项（PV / 地址转换 / 置换）",
+                  "topic": "操作系统",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 20,
+                  "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS408-20270930-03",
+                  "title": "OS 大题专项（PV / 地址转换 / 置换）（续）",
+                  "topic": "操作系统",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
+                  "slot": "晚",
                   "done": false,
                   "doneAt": null
                 }
@@ -7706,7 +7860,7 @@
               "tasks": [
                 {
                   "id": "CS408-20271001-01",
-                  "title": "OS 大题专项（PV / 地址转换 / 置换）",
+                  "title": "OS 大题专项（PV / 地址转换 / 置换）（续）",
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P1",
@@ -7716,7 +7870,7 @@
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-10-02",
@@ -7728,13 +7882,13 @@
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 10,
+                  "minutes": 5,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-10-03",
@@ -7746,13 +7900,13 @@
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 10,
+                  "minutes": 5,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             }
           ]
         }
@@ -7785,7 +7939,7 @@
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-10-05",
@@ -7797,13 +7951,13 @@
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 10,
+                  "minutes": 5,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-10-06",
@@ -7815,13 +7969,13 @@
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 10,
+                  "minutes": 5,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
             },
             {
               "date": "2027-10-07",
@@ -7839,7 +7993,24 @@
                   "doneAt": null
                 }
               ],
-              "note": "节假日（2027 年放假安排为官方未公布，按推定值排）"
+              "note": "节假日（按国办发明电〔2026〕10 号 2027 年放假安排）"
+            },
+            {
+              "date": "2027-10-08",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS408-20271008-01",
+                  "title": "OS 大题专项（PV / 地址转换 / 置换）（续）",
+                  "topic": "操作系统",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
             },
             {
               "date": "2027-10-09",
@@ -7851,12 +8022,13 @@
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 30,
-                  "slot": "下午",
+                  "minutes": 5,
+                  "slot": "晚",
                   "done": false,
                   "doneAt": null
                 }
-              ]
+              ],
+              "note": "调休上班日（按 2027 年放假安排，按工作日排课：早 1.5 h + 晚 1 h）"
             },
             {
               "date": "2027-10-10",
@@ -7879,7 +8051,7 @@
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 10,
+                  "minutes": 5,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -7896,6 +8068,23 @@
           "end": "2027-10-17",
           "days": [
             {
+              "date": "2027-10-11",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS408-20271011-01",
+                  "title": "OS 大题专项（PV / 地址转换 / 置换）（续）",
+                  "topic": "操作系统",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
               "date": "2027-10-12",
               "type": "study",
               "tasks": [
@@ -7905,19 +8094,19 @@
                   "topic": "操作系统",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 85,
+                  "minutes": 90,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "CS408-20271012-02",
-                  "title": "网络计算题专项（子网 / 时延 / 窗口）",
-                  "topic": "计算机网络",
+                  "title": "OS 大题专项（PV / 地址转换 / 置换）（续）",
+                  "topic": "操作系统",
                   "kind": "study",
                   "priority": "P1",
                   "minutes": 5,
-                  "slot": "早",
+                  "slot": "晚",
                   "done": false,
                   "doneAt": null
                 }
@@ -7929,11 +8118,11 @@
               "tasks": [
                 {
                   "id": "CS408-20271013-01",
-                  "title": "网络计算题专项（子网 / 时延 / 窗口）（续）",
-                  "topic": "计算机网络",
+                  "title": "OS 大题专项（PV / 地址转换 / 置换）（续）",
+                  "topic": "操作系统",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 10,
+                  "minutes": 5,
                   "slot": "晚",
                   "done": false,
                   "doneAt": null
@@ -7946,12 +8135,40 @@
               "tasks": [
                 {
                   "id": "CS408-20271014-01",
-                  "title": "网络计算题专项（子网 / 时延 / 窗口）（续）",
+                  "title": "网络计算题专项（子网 / 时延 / 窗口）",
                   "topic": "计算机网络",
                   "kind": "study",
                   "priority": "P1",
                   "minutes": 90,
                   "slot": "早",
+                  "done": false,
+                  "doneAt": null
+                },
+                {
+                  "id": "CS408-20271014-02",
+                  "title": "网络计算题专项（子网 / 时延 / 窗口）（续）",
+                  "topic": "计算机网络",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
+              "date": "2027-10-15",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS408-20271015-01",
+                  "title": "网络计算题专项（子网 / 时延 / 窗口）（续）",
+                  "topic": "计算机网络",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
+                  "slot": "晚",
                   "done": false,
                   "doneAt": null
                 }
@@ -7967,7 +8184,7 @@
                   "topic": "计算机网络",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 45,
+                  "minutes": 30,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -7995,7 +8212,7 @@
                   "topic": "计算机网络",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 20,
+                  "minutes": 25,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -8012,6 +8229,23 @@
           "end": "2027-10-24",
           "days": [
             {
+              "date": "2027-10-18",
+              "type": "study",
+              "tasks": [
+                {
+                  "id": "CS408-20271018-01",
+                  "title": "网络计算题专项（子网 / 时延 / 窗口）（续）",
+                  "topic": "计算机网络",
+                  "kind": "study",
+                  "priority": "P1",
+                  "minutes": 5,
+                  "slot": "晚",
+                  "done": false,
+                  "doneAt": null
+                }
+              ]
+            },
+            {
               "date": "2027-10-19",
               "type": "study",
               "tasks": [
@@ -8021,23 +8255,6 @@
                   "topic": "计算机网络",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 10,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-10-20",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "CS408-20271020-01",
-                  "title": "408 真题 2020-2022：3 套按套限时 + 复盘",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
                   "minutes": 5,
                   "slot": "晚",
                   "done": false,
@@ -8051,57 +8268,12 @@
               "tasks": [
                 {
                   "id": "CS408-20271021-01",
-                  "title": "408 真题 2020-2022：3 套按套限时 + 复盘（续）",
+                  "title": "408 真题 2020-2022：复盘与错题归类",
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 90,
                   "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "CS408-20271021-02",
-                  "title": "408 真题 2020-2022：3 套按套限时 + 复盘（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-10-22",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "CS408-20271022-01",
-                  "title": "408 真题 2020-2022：3 套按套限时 + 复盘（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 10,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-10-23",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "CS408-20271023-01",
-                  "title": "408 真题 2020-2022：3 套按套限时 + 复盘（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 40,
-                  "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
@@ -8113,22 +8285,11 @@
               "tasks": [
                 {
                   "id": "CS408-20271024-01",
-                  "title": "408 真题 2020-2022：3 套按套限时 + 复盘（续）",
+                  "title": "408 真题 2020-2022：3 套按套限时",
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 120,
-                  "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "CS408-20271024-02",
-                  "title": "408 真题 2020-2022：3 套按套限时 + 复盘（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 30,
+                  "minutes": 180,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -8145,113 +8306,17 @@
           "end": "2027-10-31",
           "days": [
             {
-              "date": "2027-10-25",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "CS408-20271025-01",
-                  "title": "408 真题 2020-2022：3 套按套限时 + 复盘（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 10,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
               "date": "2027-10-26",
               "type": "study",
               "tasks": [
                 {
                   "id": "CS408-20271026-01",
-                  "title": "408 真题 2020-2022：3 套按套限时 + 复盘（续）",
+                  "title": "408 真题 2020-2022：复盘与错题归类（续）",
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 90,
                   "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "CS408-20271026-02",
-                  "title": "408 真题 2020-2022：3 套按套限时 + 复盘（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-10-27",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "CS408-20271027-01",
-                  "title": "408 真题 2020-2022：3 套按套限时 + 复盘（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-10-28",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "CS408-20271028-01",
-                  "title": "408 真题 2020-2022：3 套按套限时 + 复盘（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 10,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-10-29",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "CS408-20271029-01",
-                  "title": "408 真题 2020-2022：3 套按套限时 + 复盘（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-10-30",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "CS408-20271030-01",
-                  "title": "408 真题 2020-2022：3 套按套限时 + 复盘（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 40,
-                  "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
@@ -8263,22 +8328,11 @@
               "tasks": [
                 {
                   "id": "CS408-20271031-01",
-                  "title": "408 真题 2020-2022：3 套按套限时 + 复盘（续）",
+                  "title": "408 真题 2020-2022：3 套按套限时（续）",
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 120,
-                  "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "CS408-20271031-02",
-                  "title": "408 真题 2020-2022：3 套按套限时 + 复盘（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 30,
+                  "minutes": 180,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -8301,73 +8355,17 @@
           "end": "2027-11-07",
           "days": [
             {
-              "date": "2027-11-01",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "CS408-20271101-01",
-                  "title": "408 真题 2020-2022：3 套按套限时 + 复盘（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
               "date": "2027-11-02",
               "type": "study",
               "tasks": [
                 {
                   "id": "CS408-20271102-01",
-                  "title": "408 真题 2020-2022：3 套按套限时 + 复盘（续）",
+                  "title": "408 真题 2023-2026：复盘与错题归类",
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 90,
                   "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "CS408-20271102-02",
-                  "title": "408 真题 2020-2022：3 套按套限时 + 复盘（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-11-03",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "CS408-20271103-01",
-                  "title": "408 真题 2020-2022：3 套按套限时 + 复盘（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "CS408-20271103-02",
-                  "title": "408 真题 2023-2026：4 套按套限时 + 复盘",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
                   "done": false,
                   "doneAt": null
                 }
@@ -8379,57 +8377,12 @@
               "tasks": [
                 {
                   "id": "CS408-20271104-01",
-                  "title": "408 真题 2023-2026：4 套按套限时 + 复盘（续）",
+                  "title": "408 真题 2023-2026：复盘与错题归类（续）",
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 90,
                   "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "CS408-20271104-02",
-                  "title": "408 真题 2023-2026：4 套按套限时 + 复盘（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-11-05",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "CS408-20271105-01",
-                  "title": "408 真题 2023-2026：4 套按套限时 + 复盘（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-11-06",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "CS408-20271106-01",
-                  "title": "408 真题 2023-2026：4 套按套限时 + 复盘（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 60,
-                  "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
@@ -8441,22 +8394,11 @@
               "tasks": [
                 {
                   "id": "CS408-20271107-01",
-                  "title": "408 真题 2023-2026：4 套按套限时 + 复盘（续）",
+                  "title": "408 真题 2020-2022：3 套按套限时（续）",
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 120,
-                  "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "CS408-20271107-02",
-                  "title": "408 真题 2023-2026：4 套按套限时 + 复盘（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 30,
+                  "minutes": 180,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -8473,113 +8415,28 @@
           "end": "2027-11-14",
           "days": [
             {
-              "date": "2027-11-08",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "CS408-20271108-01",
-                  "title": "408 真题 2023-2026：4 套按套限时 + 复盘（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-11-09",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "CS408-20271109-01",
-                  "title": "408 真题 2023-2026：4 套按套限时 + 复盘（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 10,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-11-10",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "CS408-20271110-01",
-                  "title": "408 真题 2023-2026：4 套按套限时 + 复盘（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
               "date": "2027-11-11",
               "type": "study",
               "tasks": [
                 {
                   "id": "CS408-20271111-01",
-                  "title": "408 真题 2023-2026：4 套按套限时 + 复盘（续）",
+                  "title": "408 真题 2023-2026：复盘与错题归类（续）",
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 90,
+                  "minutes": 60,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "CS408-20271111-02",
-                  "title": "408 真题 2023-2026：4 套按套限时 + 复盘（续）",
-                  "topic": "真题",
+                  "title": "408 冲刺：高频考点默写与错题回炉",
+                  "topic": "冲刺",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-11-12",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "CS408-20271112-01",
-                  "title": "408 真题 2023-2026：4 套按套限时 + 复盘（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 10,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-11-13",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "CS408-20271113-01",
-                  "title": "408 真题 2023-2026：4 套按套限时 + 复盘（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 40,
-                  "slot": "下午",
+                  "minutes": 30,
+                  "slot": "早",
                   "done": false,
                   "doneAt": null
                 }
@@ -8591,22 +8448,11 @@
               "tasks": [
                 {
                   "id": "CS408-20271114-01",
-                  "title": "408 真题 2023-2026：4 套按套限时 + 复盘（续）",
+                  "title": "408 真题 2023-2026：4 套按套限时",
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 120,
-                  "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "CS408-20271114-02",
-                  "title": "408 真题 2023-2026：4 套按套限时 + 复盘（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 30,
+                  "minutes": 180,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -8623,113 +8469,17 @@
           "end": "2027-11-21",
           "days": [
             {
-              "date": "2027-11-15",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "CS408-20271115-01",
-                  "title": "408 真题 2023-2026：4 套按套限时 + 复盘（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 10,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
               "date": "2027-11-16",
               "type": "study",
               "tasks": [
                 {
                   "id": "CS408-20271116-01",
-                  "title": "408 真题 2023-2026：4 套按套限时 + 复盘（续）",
-                  "topic": "真题",
+                  "title": "408 冲刺：高频考点默写与错题回炉（续）",
+                  "topic": "冲刺",
                   "kind": "study",
                   "priority": "P0",
                   "minutes": 90,
                   "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "CS408-20271116-02",
-                  "title": "408 真题 2023-2026：4 套按套限时 + 复盘（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-11-17",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "CS408-20271117-01",
-                  "title": "408 真题 2023-2026：4 套按套限时 + 复盘（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-11-18",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "CS408-20271118-01",
-                  "title": "408 真题 2023-2026：4 套按套限时 + 复盘（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 10,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-11-19",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "CS408-20271119-01",
-                  "title": "408 真题 2023-2026：4 套按套限时 + 复盘（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-11-20",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "CS408-20271120-01",
-                  "title": "408 真题 2023-2026：4 套按套限时 + 复盘（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 40,
-                  "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
@@ -8741,22 +8491,11 @@
               "tasks": [
                 {
                   "id": "CS408-20271121-01",
-                  "title": "408 真题 2023-2026：4 套按套限时 + 复盘（续）",
+                  "title": "408 真题 2023-2026：4 套按套限时（续）",
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 120,
-                  "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "CS408-20271121-02",
-                  "title": "408 真题 2023-2026：4 套按套限时 + 复盘（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 30,
+                  "minutes": 180,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -8773,73 +8512,17 @@
           "end": "2027-11-28",
           "days": [
             {
-              "date": "2027-11-22",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "CS408-20271122-01",
-                  "title": "408 真题 2023-2026：4 套按套限时 + 复盘（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
               "date": "2027-11-23",
               "type": "study",
               "tasks": [
                 {
                   "id": "CS408-20271123-01",
-                  "title": "408 真题 2023-2026：4 套按套限时 + 复盘（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 10,
-                  "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "CS408-20271123-02",
-                  "title": "408 冲刺：高频考点默写与错题回炉",
-                  "topic": "冲刺",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 80,
-                  "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "CS408-20271123-03",
                   "title": "408 冲刺：高频考点默写与错题回炉（续）",
                   "topic": "冲刺",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-11-24",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "CS408-20271124-01",
-                  "title": "408 冲刺：高频考点默写与错题回炉（续）",
-                  "topic": "冲刺",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 10,
-                  "slot": "晚",
+                  "minutes": 90,
+                  "slot": "早",
                   "done": false,
                   "doneAt": null
                 }
@@ -8859,51 +8542,6 @@
                   "slot": "早",
                   "done": false,
                   "doneAt": null
-                },
-                {
-                  "id": "CS408-20271125-02",
-                  "title": "408 冲刺：高频考点默写与错题回炉（续）",
-                  "topic": "冲刺",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-11-26",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "CS408-20271126-01",
-                  "title": "408 冲刺：高频考点默写与错题回炉（续）",
-                  "topic": "冲刺",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-11-27",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "CS408-20271127-01",
-                  "title": "408 冲刺：高频考点默写与错题回炉（续）",
-                  "topic": "冲刺",
-                  "kind": "study",
-                  "priority": "P0",
-                  "minutes": 60,
-                  "slot": "下午",
-                  "done": false,
-                  "doneAt": null
                 }
               ]
             },
@@ -8913,33 +8551,11 @@
               "tasks": [
                 {
                   "id": "CS408-20271128-01",
-                  "title": "408 冲刺：高频考点默写与错题回炉（续）",
-                  "topic": "冲刺",
+                  "title": "408 真题 2023-2026：4 套按套限时（续）",
+                  "topic": "真题",
                   "kind": "study",
                   "priority": "P0",
-                  "minutes": 105,
-                  "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "CS408-20271128-02",
-                  "title": "早年真题 2014-2015：选 2 套练手",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 15,
-                  "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "CS408-20271128-03",
-                  "title": "早年真题 2014-2015：选 2 套练手（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 30,
+                  "minutes": 180,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -8962,113 +8578,28 @@
           "end": "2027-12-05",
           "days": [
             {
-              "date": "2027-11-29",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "CS408-20271129-01",
-                  "title": "早年真题 2014-2015：选 2 套练手（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-11-30",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "CS408-20271130-01",
-                  "title": "早年真题 2014-2015：选 2 套练手（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 10,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-12-01",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "CS408-20271201-01",
-                  "title": "早年真题 2014-2015：选 2 套练手（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
               "date": "2027-12-02",
               "type": "study",
               "tasks": [
                 {
                   "id": "CS408-20271202-01",
-                  "title": "早年真题 2014-2015：选 2 套练手（续）",
-                  "topic": "真题",
+                  "title": "408 冲刺：高频考点默写与错题回炉（续）",
+                  "topic": "冲刺",
                   "kind": "study",
-                  "priority": "P1",
-                  "minutes": 90,
+                  "priority": "P0",
+                  "minutes": 60,
                   "slot": "早",
                   "done": false,
                   "doneAt": null
                 },
                 {
                   "id": "CS408-20271202-02",
-                  "title": "早年真题 2014-2015：选 2 套练手（续）",
+                  "title": "早年真题 2014-2015：选 2 套练手",
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-12-03",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "CS408-20271203-01",
-                  "title": "早年真题 2014-2015：选 2 套练手（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 10,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-12-04",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "CS408-20271204-01",
-                  "title": "早年真题 2014-2015：选 2 套练手（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 40,
-                  "slot": "下午",
+                  "minutes": 30,
+                  "slot": "早",
                   "done": false,
                   "doneAt": null
                 }
@@ -9080,22 +8611,11 @@
               "tasks": [
                 {
                   "id": "CS408-20271205-01",
-                  "title": "早年真题 2014-2015：选 2 套练手（续）",
+                  "title": "408 真题 2023-2026：4 套按套限时（续）",
                   "topic": "真题",
                   "kind": "study",
-                  "priority": "P1",
-                  "minutes": 120,
-                  "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "CS408-20271205-02",
-                  "title": "早年真题 2014-2015：选 2 套练手（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 25,
+                  "priority": "P0",
+                  "minutes": 180,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -9112,23 +8632,6 @@
           "end": "2027-12-12",
           "days": [
             {
-              "date": "2027-12-06",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "CS408-20271206-01",
-                  "title": "早年真题 2014-2015：选 2 套练手（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 10,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
               "date": "2027-12-07",
               "type": "study",
               "tasks": [
@@ -9142,85 +8645,6 @@
                   "slot": "早",
                   "done": false,
                   "doneAt": null
-                },
-                {
-                  "id": "CS408-20271207-02",
-                  "title": "早年真题 2014-2015：选 2 套练手（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-12-08",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "CS408-20271208-01",
-                  "title": "早年真题 2014-2015：选 2 套练手（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-12-09",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "CS408-20271209-01",
-                  "title": "早年真题 2014-2015：选 2 套练手（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 10,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-12-10",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "CS408-20271210-01",
-                  "title": "早年真题 2014-2015：选 2 套练手（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-12-11",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "CS408-20271211-01",
-                  "title": "408 真题二刷：2016-2026 错题回炉",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 40,
-                  "slot": "下午",
-                  "done": false,
-                  "doneAt": null
                 }
               ]
             },
@@ -9230,22 +8654,11 @@
               "tasks": [
                 {
                   "id": "CS408-20271212-01",
-                  "title": "408 真题二刷：2016-2026 错题回炉（续）",
+                  "title": "早年真题 2014-2015：选 2 套练手（续）",
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P1",
-                  "minutes": 120,
-                  "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "CS408-20271212-02",
-                  "title": "408 真题二刷：2016-2026 错题回炉（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 25,
+                  "minutes": 180,
                   "slot": "下午",
                   "done": false,
                   "doneAt": null
@@ -9262,62 +8675,17 @@
           "end": "2027-12-19",
           "days": [
             {
-              "date": "2027-12-13",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "CS408-20271213-01",
-                  "title": "408 真题二刷：2016-2026 错题回炉（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
               "date": "2027-12-14",
               "type": "study",
               "tasks": [
                 {
                   "id": "CS408-20271214-01",
-                  "title": "408 真题二刷：2016-2026 错题回炉（续）",
+                  "title": "早年真题 2014-2015：选 2 套练手（续）",
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P1",
                   "minutes": 90,
                   "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "CS408-20271214-02",
-                  "title": "408 真题二刷：2016-2026 错题回炉（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-12-15",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "CS408-20271215-01",
-                  "title": "408 真题二刷：2016-2026 错题回炉（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 10,
-                  "slot": "晚",
                   "done": false,
                   "doneAt": null
                 }
@@ -9329,57 +8697,12 @@
               "tasks": [
                 {
                   "id": "CS408-20271216-01",
-                  "title": "408 真题二刷：2016-2026 错题回炉（续）",
+                  "title": "早年真题 2014-2015：选 2 套练手（续）",
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P1",
                   "minutes": 90,
                   "slot": "早",
-                  "done": false,
-                  "doneAt": null
-                },
-                {
-                  "id": "CS408-20271216-02",
-                  "title": "408 真题二刷：2016-2026 错题回炉（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-12-17",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "CS408-20271217-01",
-                  "title": "408 真题二刷：2016-2026 错题回炉（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 5,
-                  "slot": "晚",
-                  "done": false,
-                  "doneAt": null
-                }
-              ]
-            },
-            {
-              "date": "2027-12-18",
-              "type": "study",
-              "tasks": [
-                {
-                  "id": "CS408-20271218-01",
-                  "title": "408 真题二刷：2016-2026 错题回炉（续）",
-                  "topic": "真题",
-                  "kind": "study",
-                  "priority": "P1",
-                  "minutes": 60,
-                  "slot": "下午",
                   "done": false,
                   "doneAt": null
                 }
@@ -9391,7 +8714,7 @@
               "tasks": [
                 {
                   "id": "CS408-20271219-01",
-                  "title": "408 真题二刷：2016-2026 错题回炉（续）",
+                  "title": "408 真题二刷：2016-2026 错题回炉",
                   "topic": "真题",
                   "kind": "study",
                   "priority": "P1",
